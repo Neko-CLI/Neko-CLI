@@ -1,20 +1,20 @@
-<center>
-    <h1 align="center">Neko CLI 🐾</h1>
-    <img src="https://i.imgur.com/iE1Y9mT.png" align="center" alt="Neko-CLI" style="width: 200px; height: auto;">
+<div align="center">
+    <h1>Neko CLI 🐾</h1>
+    <img src="https://i.imgur.com/iE1Y9mT.png" alt="Neko-CLI" style="width: 200px; height: auto;">
     <br>
-    <a align="center" href="https://github.com/UnStackss/Neko-CLI/network/members" style="text-decoration: none;">
-        <img align="center" src="https://img.shields.io/github/forks/UnStackss/Neko-CLI?style=for-the-badge" alt="Forks" style="margin: 5px;">
+    <a href="https://github.com/UnStackss/Neko-CLI/network/members" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/forks/UnStackss/Neko-CLI?style=for-the-badge" alt="Forks" style="margin: 5px;">
     </a>
-    <a align="center" href="https://github.com/UnStackss/Neko-CLI/stargazers" style="text-decoration: none;">
+    <a href="https://github.com/UnStackss/Neko-CLI/stargazers" style="text-decoration: none;">
         <img src="https://img.shields.io/github/stars/UnStackss/Neko-CLI?style=for-the-badge" alt="Stars" style="margin: 5px;">
     </a>
-    <a align="center" href="https://github.com/UnStackss/Neko-CLI/issues" style="text-decoration: none;">
+    <a href="https://github.com/UnStackss/Neko-CLI/issues" style="text-decoration: none;">
         <img src="https://img.shields.io/github/issues/UnStackss/Neko-CLI?style=for-the-badge" alt="Issues" style="margin: 5px;">
     </a>
-    <a align="center" href="https://github.com/UnStackss/Neko-CLI/graphs/contributors" style="text-decoration: none;">
+    <a href="https://github.com/UnStackss/Neko-CLI/graphs/contributors" style="text-decoration: none;">
         <img src="https://img.shields.io/github/contributors/UnStackss/Neko-CLI?style=for-the-badge" alt="Contributors" style="margin: 5px;">
     </a>
-</center>
+</div>
 
 **Neko CLI** is a whimsical command-line utility that lets you manage your npm and yarn packages with ease and fun, embodying the charming essence of a cat ('neko' in Japanese). With Neko CLI, you can add or remove packages, initialize projects, and more, all through a delightful user interface.
 
