@@ -1,21 +1,19 @@
-# Neko CLI 🐾
+<h1 style="text-align: center;">Neko CLI 🐾</h1>
 
 <div style="text-align: center;">
     <img src="https://i.imgur.com/iE1Y9mT.png" alt="Neko-CLI" style="width: 200px; height: auto;">
     <br>
-    <a href="https://img.shields.io/github/forks/UnStackss/Neko-CLI?style=for-the-badge
-    ">
-        <img src="https://img.shields.io/github/forks/UnStackss/Neko-CLI?style=for-the-badge
-        " alt="Forks" style="margin: 5px;">
+    <a href="https://github.com/UnStackss/Neko-CLI/network/members" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/forks/UnStackss/Neko-CLI?style=for-the-badge" alt="Forks" style="margin: 5px;">
     </a>
-    <a href="https://github.com/your-repo/stargazers" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/stars/your-repo?style=flat&logo=github" alt="Stars" style="margin: 5px;">
+    <a href="https://github.com/UnStackss/Neko-CLI/stargazers" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/stars/UnStackss/Neko-CLI?style=for-the-badge" alt="Stars" style="margin: 5px;">
     </a>
-    <a href="https://github.com/your-repo/issues" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/issues/your-repo?style=flat&logo=github" alt="Issues" style="margin: 5px;">
+    <a href="https://github.com/UnStackss/Neko-CLI/issues" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/issues/UnStackss/Neko-CLI?style=for-the-badge" alt="Issues" style="margin: 5px;">
     </a>
-    <a href="https://github.com/your-repo/contributors" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/contributors/your-repo?style=flat&logo=github" alt="Contributors" style="margin: 5px;">
+    <a href="https://github.com/UnStackss/Neko-CLI/graphs/contributors" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/contributors/UnStackss/Neko-CLI?style=for-the-badge" alt="Contributors" style="margin: 5px;">
     </a>
 </div>
 
