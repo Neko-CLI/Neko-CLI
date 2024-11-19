@@ -35,18 +35,30 @@ async function runScript(scriptName) {
             spinner: 'dots',
             color: 'cyan',
         }).start();
+        
+        const command = `node -e "require('child_process').execSync('npm run ${scriptName} --silent', { stdio: 'inherit' })"`;
 
-        const { stdout, stderr } = await execAsync(`npm run ${scriptName} --silent`);
+        exec(command, (error, stdout, stderr) => {
+            if (error) {
+                spinner.fail(`${chalk.red(`Script "${scriptName}" failed to execute.`)}`);
+                console.error(`${formatTimestamp()} ${chalk.red('Error executing script:')}`);
+                console.error(`${chalk.red('Error Code:')} ${error.code}`);
+                console.error(`${chalk.red('Error Output:')} ${stderr}`);
+                return;
+            }
 
-        spinner.succeed(`${chalk.green(`Script "${scriptName}" executed successfully!`)}`);
-        console.log(`${formatTimestamp()} ${chalk.yellow('Output:')}\n${chalk.green(stdout)}`);
+            spinner.succeed(`${chalk.green(`Script "${scriptName}" executed successfully!`)}`);
+            console.log(`${formatTimestamp()} ${chalk.yellow('Output:')}\n${chalk.green(stdout)}`);
 
-        if (stderr) {
-            console.log(`${formatTimestamp()} ${chalk.red('Warnings or Errors:')}\n${chalk.red(stderr)}`);
-        }
+            if (stderr) {
+                console.log(`${formatTimestamp()} ${chalk.red('Warnings or Errors:')}\n${chalk.red(stderr)}`);
+            }
+        });
     } catch (error) {
         console.error(`${formatTimestamp()} ${chalk.red(`Error executing script "${scriptName}":`)}`);
-        console.error(chalk.red(error.message));
+        console.error(`${chalk.red('Error Code:')} ${error.code}`);
+        console.error(`${chalk.red('Error Output:')} ${error.stderr}`);
+        console.error(`${chalk.red('Full Stack Trace:')} ${error.stack}`);
     }
 }
 
@@ -129,8 +141,8 @@ async function installPackages() {
             if (err) {
                 console.error(chalk.red('Error during meow installation:', stderr));
             } else {
-                console.log(chalk.green('Packages installed successfully.'));
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
+                console.log(chalk.green('Packages installed successfully.'));
             }
         });
     } else if (fs.existsSync('yarn.lock')) {
@@ -141,8 +153,8 @@ async function installPackages() {
             if (err) {
                 console.error(chalk.red('Error during yarn installation:', stderr));
             } else {
-                console.log(chalk.green('Packages installed successfully.'));
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
+                console.log(chalk.green('Packages installed successfully.'));
             }
         });
     } else {
@@ -159,8 +171,8 @@ async function installAllPackages() {
             if (err) {
                 console.error(chalk.red('Error during meow installation:', stderr));
             } else {
-                console.log(chalk.green('All dependencies installed successfully using meow.'));
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
+                console.log(chalk.green('All dependencies installed successfully using meow.'));
             }
         });
     } else if (fs.existsSync('yarn.lock')) {
@@ -171,8 +183,8 @@ async function installAllPackages() {
             if (err) {
                 console.error(chalk.red('Error during yarn installation:', stderr));
             } else {
-                console.log(chalk.green('All dependencies installed successfully using yarn.'));
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
+                console.log(chalk.green('All dependencies installed successfully using yarn.'));
             }
         });
     } else {
@@ -309,6 +321,7 @@ async function main() {
 
                 const startTime = Date.now();
                 exec(`npm install ${packageName} --save --silent`, (err, stdout, stderr) => {
+                    displayImage('https://i.imgur.com/iE1Y9mT.png');
                     spinner.stop();
                     animationAdd.stop();
 
@@ -323,14 +336,7 @@ async function main() {
 
                     showProjectTree();
 
-                    const meowJson = readMeowRockJson();
-                    meowJson.dependencies = meowJson.dependencies || {};
-                    meowJson.dependencies[packageName] = stdout;
-                    writeMeowRockJson(meowJson);
-
                     console.log(chalk.green('Installation complete! 🎉'));
-
-                    displayImage('https://i.imgur.com/iE1Y9mT.png');
                 });
 
                 break;
@@ -345,6 +351,7 @@ async function main() {
                 const spinnerRemove = ora('Removing package...').start();
 
                 exec(`npm uninstall ${packageName} --save --silent`, (err, stdout, stderr) => {
+                    displayImage('https://i.imgur.com/iE1Y9mT.png');
                     spinnerRemove.stop();
                     animationRemove.stop();
 
@@ -355,8 +362,6 @@ async function main() {
 
                     console.log(chalk.green(`Package ${packageName} removed successfully.`));
                     showProjectTree();
-
-                    displayImage('https://i.imgur.com/iE1Y9mT.png');
                 });
 
                 break;
