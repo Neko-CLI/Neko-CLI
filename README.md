@@ -1,6 +1,5 @@
-<h1 style="text-align: center;">Neko CLI 🐾</h1>
-
-<div style="text-align: center;">
+<center>
+    <h1>Neko CLI 🐾</h1>
     <img src="https://i.imgur.com/iE1Y9mT.png" alt="Neko-CLI" style="width: 200px; height: auto;">
     <br>
     <a href="https://github.com/UnStackss/Neko-CLI/network/members" style="text-decoration: none;">
@@ -15,7 +14,7 @@
     <a href="https://github.com/UnStackss/Neko-CLI/graphs/contributors" style="text-decoration: none;">
         <img src="https://img.shields.io/github/contributors/UnStackss/Neko-CLI?style=for-the-badge" alt="Contributors" style="margin: 5px;">
     </a>
-</div>
+</center>
 
 **Neko CLI** is a whimsical command-line utility that lets you manage your npm and yarn packages with ease and fun, embodying the charming essence of a cat ('neko' in Japanese). With Neko CLI, you can add or remove packages, initialize projects, and more, all through a delightful user interface.
 
