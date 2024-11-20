@@ -18,6 +18,41 @@
 
 **Neko CLI** is a whimsical command-line utility that lets you manage your npm and yarn packages with ease and fun, embodying the charming essence of a cat ('neko' in Japanese). With Neko CLI, you can add or remove packages, initialize projects, and more, all through a delightful user interface.
 
+# **Performances of Neko-CLI**
+
+Neko-CLI is an incredibly **fast** and **powerful** tool, built with efficiency at its core. Whether you're working on a small project or a large-scale application, Neko-CLI is designed to **maximize your productivity** by ensuring lightning-fast execution and seamless operation.
+
+### 🚀 **Speed at Its Best**
+
+- Neko-CLI executes commands **at blazing speeds**, ensuring that your tasks are completed in the shortest possible time.
+- The tool utilizes optimized processes that leverage **advanced caching mechanisms** and **asynchronous operations**, ensuring that every action is as quick as possible.
+- Every aspect of Neko-CLI is meticulously designed to minimize latency, from reading files to processing data. It operates like a finely tuned machine that gets things done **faster than ever**.
+
+### ⚡ **Powerful Performance with Every Command**
+
+- Neko-CLI doesn't just stop at speed – it packs an **immense amount of power** under the hood. Whether you're managing a complex directory structure, automating tasks, or executing custom scripts, it handles it all effortlessly.
+- The tool is **lightweight** yet highly capable, providing a fast user experience without compromising on performance.
+
+### 📦 **Automatic Package Installation for Ultimate Performance**
+
+- Neko-CLI goes the extra mile to ensure that **every package is installed automatically**, optimizing your environment for **maximum performance**. You never have to worry about missing dependencies or outdated packages; Neko-CLI takes care of it all.
+- **Smart package management** is built in – whenever you run a command, Neko-CLI will ensure the necessary packages are installed, updated, and configured for optimal efficiency. It ensures that you're always working with the latest versions of the tools you need.
+- **Always up-to-date**, Neko-CLI automatically checks for updates to both its internal components and external packages, ensuring you're always working with the most efficient versions available.
+
+### 💨 **Faster Than You Can Imagine**
+
+- From initial setup to complex tasks, everything runs in **real-time** without any noticeable lag.
+- The tool is built for developers who **demand speed**, and it **delivers** on every level – **no delays, no waiting**.
+- Whether you're running scripts, managing projects, or organizing files, **Neko-CLI ensures that your workflow is as fast as possible**.
+
+### 🚀 **Unmatched Performance, Unbeatable Speed**
+
+In conclusion, **Neko-CLI** is not just a tool; it's a **performance powerhouse** that ensures your development process is faster, smoother, and more efficient than ever before. 
+With Neko-CLI, you're not just getting a tool – you're getting a **performance-optimized experience** that delivers **speed, power, and productivity** like never before.
+
+Start using Neko-CLI and experience the future of fast, efficient, and automated development!
+
+
 ## Features 🌟
 
 - **Add Packages**: Quickly install npm or yarn packages in your project.
@@ -51,6 +86,8 @@ Here are the commands you can use with Neko CLI:
 - **meow**: Install dependencies listed in `package.json` or `yarn.lock`.
 - **all**: Install all packages listed in `package.json` or `yarn.lock`.
 - **flush `<script>`**: Run a specified script from your project.
+- **dev**: Flush the dev script if exists.
+- **struct**: Predict the structure of the code and save it in a structure.yml.
 - **publish `<pkg>`**: Publish a package to the cloud (coming soon!).
 - **help**: Display a detailed help message.
 - **version**: Show the current version of the CLI.
