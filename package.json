@@ -1,6 +1,6 @@
 {
   "name": "neko-cli",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "main": "meow.js",
   "scripts": {},
   "bin": {
