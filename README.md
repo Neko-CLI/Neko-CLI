@@ -81,14 +81,14 @@ yarn global add neko-cli
 Here are the commands you can use with Neko CLI:
 
 - **init**: Initialize a new project.
-- **add `<pkg>`**: Add a specified package to the project.
-- **remove `<pkg>`**: Remove a specified package from the project.
+- **add `<pkg> [-g (global)]`**: Add a specified package to the project.
+- **remove `<pkg> [-g (global)]`**: Remove a specified package from the project.
 - **meow**: Install dependencies listed in `package.json` or `yarn.lock`.
 - **all**: Install all packages listed in `package.json` or `yarn.lock`.
 - **flush `<script>`**: Run a specified script from your project.
 - **dev**: Flush the dev script if exists.
 - **struct**: Predict the structure of the code and save it in a structure.yml.
-- **publish `<pkg>`**: Publish a package to the cloud (coming soon!).
+- **publish `<npm,yarn,meow>`**: Publish a package to the cloud.
 - **help**: Display a detailed help message.
 - **version**: Show the current version of the CLI.
 

@@ -1,6 +1,6 @@
 {
   "name": "neko-cli",
-  "version": "1.5.0",
+  "version": "1.6.1",
   "main": "meow.js",
   "scripts": {},
   "bin": {
@@ -21,22 +21,13 @@
   "license": "ISC",
   "description": "A fun, animated CLI for managing packages with a neko twist! Add, remove, and publish packages with cool animations and progress bars.",
   "dependencies": {
-    "axios": "^1.7.7",
     "chalk": "^5.3.0",
     "chalk-animation": "^2.0.3",
-    "cli-progress": "^3.12.0",
-    "directory-tree": "^3.5.2",
-    "figures": "^6.1.0",
-    "inquirer": "^12.1.0",
     "js-yaml": "^4.1.0",
     "node-fetch": "^3.3.2",
     "ora": "^8.1.1",
     "path": "^0.12.7",
-    "pretty-logger": "^0.1.2",
     "readline-sync": "^1.4.10",
-    "sharp": "^0.33.5",
-    "terminal-art": "^1.4.3",
-    "terminal-link": "^3.0.0",
     "util": "^0.12.5"
   },
   "type": "module"
