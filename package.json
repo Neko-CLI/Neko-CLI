@@ -1,6 +1,6 @@
 {
   "name": "neko-cli",
-  "version": "1.6.1",
+  "version": "1.6.3",
   "main": "meow.js",
   "scripts": {},
   "bin": {
@@ -13,13 +13,19 @@
     "install",
     "uninstall",
     "npm",
+    "yarn",
     "progress-bar",
     "animation",
-    "meow-cli"
+    "meow-cli",
+    "performance",
+    "dependencies",
+    "dev-tools",
+    "automation",
+    "cat-themed"
   ],
   "author": "UnStackss",
-  "license": "ISC",
-  "description": "A fun, animated CLI for managing packages with a neko twist! Add, remove, and publish packages with cool animations and progress bars.",
+  "license": "MIT",
+  "description": "Neko-CLI is a fast and powerful tool for managing packages with a fun, neko-themed twist! With sleek animations and progress bars, it allows you to easily add, remove, and publish packages. The CLI is designed to be quick, ensuring smooth performance every time. It intelligently handles package installations and dependencies, optimizing for the best performance. Whether you're a developer or just starting, Neko-CLI provides a user-friendly and efficient environment, making package management more enjoyable. It always strives to install the necessary packages for optimal performance, making your workflow more productive and less stressful!",
   "dependencies": {
     "chalk": "^5.3.0",
     "chalk-animation": "^2.0.3",
