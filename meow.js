@@ -22,6 +22,63 @@ const packageName = args.slice(1).join(' ');
 
 import { spawn } from 'child_process';
 
+import { promisify } from 'util';
+
+const execAsync = promisify(exec);
+
+export async function publishCommand(platform) {
+    if (!platform) {
+        console.log(chalk.yellow('❌ Please specify a platform: npm, yarn, or meow.'));
+        return;
+    }
+
+    switch (platform.toLowerCase()) {
+        case 'npm':
+            try {
+                console.log(chalk.cyan('🚀 Publishing to Npmjs...'));
+                const { stdout, stderr } = await execAsync('npm publish');
+                console.log(chalk.cyan('✔️ Successfully published to Npmjs!'));
+                if (stdout) console.log(chalk.cyan(stdout));
+                if (stderr) console.error(chalk.yellow(stderr));
+            } catch (error) {
+                console.error(chalk.yellow('❌ Failed to publish to Npmjs:'), chalk.yellow(error.message));
+            }
+            break;
+
+        case 'yarn':
+            try {
+                console.log(chalk.cyan('🚀 Publishing to YarnPkg...'));
+                await execAsync('yarn publish');
+                console.log(chalk.green('✔️ Successfully published to YarnPkg!'));
+            } catch (error) {
+                console.error(chalk.red('❌ Failed to publish to YarnPkg:'), chalk.yellow(error.message));
+
+                if (error.message.includes("'yarn' is not recognized")) {
+                    const installYarn = readlineSync.keyInYNStrict(chalk.cyan('Yarn is not installed. Would you like to install it globally?'));
+
+                    if (installYarn) {
+                        console.log(chalk.cyan('Installing Yarn globally...'));
+                        try {
+                            await execAsync('npm install -g yarn');
+                            console.log(chalk.green('✔️ Yarn installed successfully. Please run the command again.'));
+                        } catch (installError) {
+                            console.error(chalk.red('❌ Failed to install Yarn globally:'), chalk.yellow(installError.message));
+                        }
+                    } else {
+                        console.log(chalk.yellow('❌ Yarn was not installed as per your choice.'));
+                    }
+                }
+            }
+            break;
+
+        case 'meow':
+            console.log(chalk.yellow('⚠️ Meow platform is currently under development. Stay tuned!'));
+            break;
+
+        default:
+            console.log(chalk.yellow(`❌ Unknown platform: ${platform}. Please use npm, yarn, or meow.`));
+    }
+}
 
 export function structCommand() {
     const rootDir = path.join(process.cwd());
@@ -35,7 +92,7 @@ export function structCommand() {
     }
 
     fs.writeFileSync(ymlPath, yaml.dump(treeObject));
-    console.log(chalk.green('✔️ Structure saved to structure.yml'));
+    console.log(chalk.cyan('✔️ Structure saved to structure.yml'));
 }
 
 function convertToTreeObject(dirPath) {
@@ -44,6 +101,11 @@ function convertToTreeObject(dirPath) {
 
     files.forEach((file) => {
         if (file === 'node_modules') return;
+        if (file === '.git') return;
+        if (file === '.github') return;
+        if (file === '.idea') return;
+        if (file === '.fleet') return;
+        if (file === '.settings') return;
 
         const fullPath = path.join(dirPath, file);
         const stat = fs.statSync(fullPath);
@@ -66,14 +128,14 @@ function formatTimestamp() {
     const seconds = String(now.getSeconds()).padStart(2, '0');
     const milliseconds = String(now.getMilliseconds()).padStart(3, '0');
 
-    return `${chalk.gray('[')}${chalk.cyan.bold('⏰')}${chalk.gray(' ')}${chalk.green.bold(hours)}:${chalk.green.bold(minutes)}:${chalk.green.bold(seconds)}.${chalk.green(milliseconds)}${chalk.gray(']')}`;
+    return `${chalk.cyan('[')}${chalk.cyan.bold('⏰')}${chalk.cyan(' ')}${chalk.cyan(hours)}:${chalk.cyan(minutes)}:${chalk.cyan(seconds)}${chalk.cyan(']')}`;
 }
 
 async function runScript(scriptName) {
     console.log(`${formatTimestamp()} ${chalk.cyan(`Starting script: "${scriptName}"`)}`);
 
     const spinner = ora({
-        text: chalk.blue(`Preparing to execute "${scriptName}"...`),
+        text: chalk.cyan(`Preparing to execute "${scriptName}"...`),
         spinner: 'dots',
         color: 'cyan',
     }).start();
@@ -81,7 +143,7 @@ async function runScript(scriptName) {
     try {
         const child = spawn('npm', ['run', scriptName, '--silent'], { stdio: 'pipe', shell: true });
 
-        spinner.text = chalk.green(`Executing "${scriptName}"...`);
+        spinner.text = chalk.cyan(`Executing "${scriptName}"...`);
 
         child.stdout.on('data', (data) => {
             spinner.stop();
@@ -90,24 +152,24 @@ async function runScript(scriptName) {
 
         child.stderr.on('data', (data) => {
             spinner.stop();
-            process.stderr.write(chalk.red(data));
+            process.stderr.write(chalk.yellow(data));
         });
 
         child.on('close', (code) => {
             if (code === 0) {
-                console.log(chalk.green(`Script "${scriptName}" executed successfully!`));
+                console.log(chalk.cyan(`Script "${scriptName}" executed successfully!`));
             } else {
-                console.error(chalk.red(`Script "${scriptName}" exited with code ${code}.`));
+                console.error(chalk.yellow(`Script "${scriptName}" exited with code ${code}.`));
             }
         });
 
         child.on('error', (error) => {
-            spinner.fail(`${chalk.red(`Unexpected error occurred while running "${scriptName}":`)}`);
-            console.error(`${formatTimestamp()} ${chalk.red(error.stack)}`);
+            spinner.fail(`${chalk.yellow(`Unexpected error occurred while running "${scriptName}":`)}`);
+            console.error(`${formatTimestamp()} ${chalk.yellow(error.stack)}`);
         });
     } catch (error) {
-        spinner.fail(`${chalk.red(`Unexpected error occurred while running "${scriptName}":`)}`);
-        console.error(`${formatTimestamp()} ${chalk.red(error.stack)}`);
+        spinner.fail(`${chalk.yellow(`Unexpected error occurred while running "${scriptName}":`)}`);
+        console.error(`${formatTimestamp()} ${chalk.yellow(error.stack)}`);
     }
 }
 
@@ -120,7 +182,7 @@ function showProjectTree() {
     const formatTree = (node) => {
         let output = '';
         if (node.type === 'directory') {
-            output += `${figures.arrowRight} ${chalk.green(node.name)}\n`;
+            output += `${figures.arrowRight} ${chalk.cyan(node.name)}\n`;
             if (node.children && node.children.length > 0) {
                 node.children.forEach(child => {
                     output += '  ' + formatTree(child);
@@ -175,10 +237,10 @@ async function installPackages() {
         exec('npm install --silent', (err, stdout, stderr) => {
             spinner.stop();
             if (err) {
-                console.error(chalk.red('Error during meow installation:', stderr));
+                console.error(chalk.yellow('Error during meow installation:', stderr));
             } else {
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
-                console.log(chalk.green('Packages installed successfully.'));
+                console.log(chalk.cyan('Packages installed successfully.'));
             }
         });
     } else if (fs.existsSync('yarn.lock')) {
@@ -187,14 +249,14 @@ async function installPackages() {
         exec('yarn install --silent', (err, stdout, stderr) => {
             spinner.stop();
             if (err) {
-                console.error(chalk.red('Error during yarn installation:', stderr));
+                console.error(chalk.yellow('Error during yarn installation:', stderr));
             } else {
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
-                console.log(chalk.green('Packages installed successfully.'));
+                console.log(chalk.cyan('Packages installed successfully.'));
             }
         });
     } else {
-        console.log(chalk.red('Error: No package.json or yarn.lock found.'));
+        console.log(chalk.yellow('Error: No package.json or yarn.lock found.'));
     }
 }
 
@@ -205,10 +267,10 @@ async function installAllPackages() {
         exec('npm install --silent', (err, stdout, stderr) => {
             spinner.stop();
             if (err) {
-                console.error(chalk.red('Error during meow installation:', stderr));
+                console.error(chalk.yellow('Error during meow installation:', stderr));
             } else {
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
-                console.log(chalk.green('All dependencies installed successfully using meow.'));
+                console.log(chalk.cyan('All dependencies installed successfully using meow.'));
             }
         });
     } else if (fs.existsSync('yarn.lock')) {
@@ -217,14 +279,14 @@ async function installAllPackages() {
         exec('yarn install --silent', (err, stdout, stderr) => {
             spinner.stop();
             if (err) {
-                console.error(chalk.red('Error during yarn installation:', stderr));
+                console.error(chalk.yellow('Error during yarn installation:', stderr));
             } else {
                 displayImage('https://i.imgur.com/iE1Y9mT.png');
-                console.log(chalk.green('All dependencies installed successfully using yarn.'));
+                console.log(chalk.cyan('All dependencies installed successfully using yarn.'));
             }
         });
     } else {
-        console.log(chalk.red('Error: No package.json or yarn.lock found.'));
+        console.log(chalk.yellow('Error: No package.json or yarn.lock found.'));
     }
 }
 
@@ -251,7 +313,7 @@ async function getPackageVersion() {
         const data = await response.json();
         return data['dist-tags'].latest;
     } catch (err) {
-        console.error(chalk.red('Error fetching version from meow registry:', err));
+        console.error(chalk.yellow('Error fetching version from meow registry:', err));
         return 'unknown';
     }
 }
@@ -262,38 +324,39 @@ async function showVersion() {
 }
 
 async function initProject() {
-    const projectName = readlineSync.question(chalk.blue('Enter the project name: '));
+    const projectName = readlineSync.question(chalk.cyan('Enter the project name: '));
     const normalizedProjectName = projectName.toLowerCase();
-    const projectVersion = readlineSync.question(chalk.green('Enter the project version (default: 1.0.0): '), { defaultInput: '1.0.0' });
-    const author = readlineSync.question(chalk.yellow('Enter the author name: '));
-    const useNodemon = readlineSync.keyInYNStrict(chalk.magenta('Would you like to use nodemon for development?'));
+    const projectVersion = readlineSync.question(chalk.cyan('Enter the project version (default: 1.0.0): '), { defaultInput: '1.0.0' });
+    const author = readlineSync.question(chalk.cyan('Enter the author name: '));
+    const useNodemon = readlineSync.keyInYNStrict(chalk.cyan('Would you like to use nodemon for development?'));
+    const projectFolders = readlineSync.keyInYNStrict(chalk.cyan('Would you like create project folders?'));
 
     if (fs.existsSync('yarn.lock') && !isYarnInstalled()) {
-        console.log(chalk.red('Yarn.lock file found, but Yarn is not installed.'));
-        const installYarn = readlineSync.keyInYNStrict(chalk.blue('Would you like to install Yarn globally to continue?'));
+        console.log(chalk.yellow('Yarn.lock file found, but Yarn is not installed.'));
+        const installYarn = readlineSync.keyInYNStrict(chalk.cyan('Would you like to install Yarn globally to continue?'));
         if (!installYarn) {
-            console.log(chalk.red('Exiting the project initialization process.'));
+            console.log(chalk.yellow('Exiting the project initialization process.'));
             process.exit(1);
         }
-        console.log(chalk.red('Installing Yarn globally...'));
+        console.log(chalk.cyan('Installing Yarn globally...'));
         exec('npm install -g yarn', { stdio: 'ignore' });
     }
 
     const packageJson = {
         name: normalizedProjectName,
         version: projectVersion,
-        description: '',  
+        description: '',
         main: 'index.js',
         scripts: {
-            start: 'node index.js',  
-            test: 'echo "Error: no test specified" && exit 1',  
-            dev: useNodemon ? 'nodemon index.js' : 'node index.js',  
-            build: 'echo "Building project..."',  
+            start: 'node index.js',
+            test: 'echo "Error: no test specified" && exit 1',
+            dev: useNodemon ? 'nodemon index.js' : 'node index.js',
+            build: 'echo "Building project..."',
         },
         author: author,
         license: 'ISC',
         dependencies: {},
-        devDependencies: useNodemon ? { nodemon: '^2.0.7' } : {},  
+        devDependencies: useNodemon ? { nodemon: '^2.0.7' } : {},
         engines: {
             node: '>=14.0.0',
         },
@@ -315,11 +378,16 @@ async function initProject() {
     };
 
     fs.writeFileSync('package.json', JSON.stringify(packageJson, null, 2));
-    console.log(chalk.green(`🎉 Project ${normalizedProjectName} initialized successfully!`));
+    console.log(chalk.cyan(`🎉 Project ${normalizedProjectName} initialized successfully!`));
 
     createIndexJs();
     createGitIgnore();
-    createProjectFolders();
+
+    if (projectFolders) {
+        createProjectFolders();
+    } else {
+        console.log(chalk.yellow('❌ Project folders not created as per your choice.'));
+    }
 
     if (useNodemon) {
         const animationAdd = chalkAnimation.rainbow('=^._.^= Meow is adding the nodemon...');
@@ -332,7 +400,7 @@ async function initProject() {
 
         const endTime = Date.now();
         const installTime = ((endTime - startTime) / 1000).toFixed(2);
-        console.log(chalk.green(`🎉 Nodemon added successfully! Time taken: ${installTime}s`));
+        console.log(chalk.cyan(`🎉 Nodemon added successfully! Time taken: ${installTime}s`));
     } else {
         console.log(chalk.yellow('❌ Nodemon not installed as per your choice.'));
     }
@@ -357,7 +425,7 @@ console.log('Add your code below:');
 `;
 
     fs.writeFileSync('index.js', indexJsContent);
-    console.log(chalk.blue('📝 Created index.js with a cool ASCII cat!'));
+    console.log(chalk.cyan('📝 Created index.js!'));
 }
 
 function createGitIgnore() {
@@ -386,7 +454,7 @@ build/
 
     fs.writeFileSync('.gitignore', gitIgnoreContent.trim());
 
-    console.log(chalk.green('📝 Created .gitignore file successfully!'));
+    console.log(chalk.cyan('📝 Created .gitignore file successfully!'));
 }
 
 function createProjectFolders() {
@@ -394,10 +462,10 @@ function createProjectFolders() {
 
     folders.forEach(folder => {
         const folderPath = path.join(process.cwd(), folder);
-        
+
         if (!fs.existsSync(folderPath)) {
             fs.mkdirSync(folderPath);
-            console.log(chalk.green(`📁 Created folder: ${folder}`));
+            console.log(chalk.cyan(`📁 Created folder: ${folder}`));
         } else {
             console.log(chalk.yellow(`⚠️ Folder already exists: ${folder}`));
         }
@@ -407,6 +475,7 @@ function createProjectFolders() {
 
 async function main() {
     const scriptName = args[1];
+    const platform = args[1];
     if (command === 'meow') {
         await installPackages();
     } else {
@@ -417,7 +486,7 @@ async function main() {
 
             case 'add':
                 if (!packageName) {
-                    console.log(chalk.red('Error: You must specify the package name to add.'));
+                    console.log(chalk.yellow('Error: You must specify the package name to add.'));
                     break;
                 }
 
@@ -431,24 +500,24 @@ async function main() {
                     animationAdd.stop();
 
                     if (err) {
-                        console.error(chalk.red('Error during package installation:', stderr));
+                        console.error(chalk.yellow('Error during package installation:', stderr));
                         return;
                     }
 
                     const endTime = Date.now();
                     const installTime = ((endTime - startTime) / 1000).toFixed(2);
-                    console.log(chalk.green(`🎉 Package added successfully! Time taken: ${installTime}s`));
+                    console.log(chalk.cyan(`🎉 Package added successfully! Time taken: ${installTime}s`));
 
                     showProjectTree();
 
-                    console.log(chalk.green('Installation complete! 🎉'));
+                    console.log(chalk.cyan('Installation complete! 🎉'));
                 });
 
                 break;
 
             case 'remove':
                 if (!packageName) {
-                    console.log(chalk.red('Error: You must specify the package name to remove.'));
+                    console.log(chalk.yellow('Error: You must specify the package name to remove.'));
                     break;
                 }
 
@@ -461,11 +530,11 @@ async function main() {
                     animationRemove.stop();
 
                     if (err) {
-                        console.error(chalk.red('Error during package removal:', stderr));
+                        console.error(chalk.yellow('Error during package removal:', stderr));
                         return;
                     }
 
-                    console.log(chalk.green(`Package ${packageName} removed successfully.`));
+                    console.log(chalk.cyan(`Package ${packageName} removed successfully.`));
                     showProjectTree();
                 });
 
@@ -477,7 +546,7 @@ async function main() {
 
             case 'flush':
                 if (!scriptName) {
-                    console.log(`${formatTimestamp()} ${chalk.red('Error: You must specify the script name to run.')}`);
+                    console.log(`${formatTimestamp()} ${chalk.yellow('Error: You must specify the script name to run.')}`);
                     return;
                 }
                 await runScript(scriptName);
@@ -486,9 +555,13 @@ async function main() {
             case 'dev':
                 await runScript('dev');
                 break;
-            
+
             case 'struct':
                 structCommand();
+                break;
+
+            case 'publish':
+                publishCommand(platform);
                 break;
 
             case 'help':
@@ -500,12 +573,12 @@ async function main() {
                 break;
 
             default:
-                console.log(chalk.red('Invalid command. Use "help" for a list of commands.'));
+                console.log(chalk.yellow('Invalid command. Use "help" for a list of commands.'));
                 break;
         }
     }
 }
 
 main().catch((error) => {
-    console.error(chalk.red('An unexpected error occurred:', error));
+    console.error(chalk.yellow('An unexpected error occurred:', error));
 });
