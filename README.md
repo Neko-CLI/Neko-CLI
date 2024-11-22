@@ -81,14 +81,19 @@ yarn global add neko-cli
 Here are the commands you can use with Neko CLI:
 
 - **init**: Initialize a new project.
-- **add `<pkg> [-g (global)] [--dev (development)]`**: Add a specified package to the project.
-- **remove `<pkg> [-g (global)] [--dev (development)]`**: Remove a specified package from the project.
+- **add `<pkg>` [-g (global)] [--dev (development)]**: Add a specified package to the project.
+- **remove `<pkg>` [-g (global)] [--dev (development)]**: Remove a specified package from the project.
 - **meow**: Install dependencies listed in `package.json` or `yarn.lock`.
 - **all**: Install all packages listed in `package.json` or `yarn.lock`.
 - **flush `<script>`**: Run a specified script from your project.
-- **dev**: Flush the dev script if exists.
-- **struct**: Predict the structure of the code and save it in a structure.yml.
-- **publish `<npm,yarn,meow>`**: Publish a package to the cloud.
+- **dev**: Flush the dev script if it exists.
+- **struct**: Predict the structure of the code and save it in a `meow-structure.yml`.
+- **publish `<npm, yarn, meow>`**: Publish a package to the cloud.
+- **outdated**: Check and automatically update outdated packages.
+- **backup**: Create a `meow-project-backup.zip` (ignores `.git`, `node_modules`, `temp`, and `build`).
+- **analyze**: Analyze dependencies and generate a bundle size report.
+- **clean**: Clean the project by removing logs, backups, and other unused files.
+- **compatibility**: Check if dependencies are compatible with the current Node.js version.
 - **help**: Display a detailed help message.
 - **version**: Show the current version of the CLI.
 
