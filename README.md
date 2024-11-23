@@ -21,19 +21,13 @@
 
 If you manage to deobfuscate this puzzle, send me the content by email to receive the source of the code for free. It’s your chance to unlock the secrets of the code and see how it works behind the scenes.
 
-<div style="text-align:center;">
-  <a href="https://neko.full-stack.dev/p/cli/j9g16foyfc" target="_blank">
-    <button style="background-color:#3a4a6b;color:#f0f0f0;padding:12px 28px;text-align:center;font-size:16px;border-radius:30px;border:2px solid #3a4a6b;margin:10px;cursor:pointer;transition: all 0.3s ease;">
-      Neko-CLI Codebreaker: Unleash the Secrets!
-    </button>
-  </a>
+<div align="center">
+
+  [![Neko-CLI Codebreaker: Unleash the Secrets!](https://img.shields.io/badge/Codebreaker%20Challenge-Start%20Puzzle-3a4a6b?style=for-the-badge&logo=github&logoColor=white)](https://neko.full-stack.dev/p/cli/j9g16foyfc)
   
-  <a href="https://github.com/UnStackss/Neko-CLI" target="_blank">
-    <button style="background-color:#333;color:#f0f0f0;padding:12px 28px;text-align:center;font-size:16px;border-radius:30px;border:2px solid #333;margin:10px;cursor:pointer;transition: all 0.3s ease;">
-      Visit Neko-CLI GitHub
-    </button>
-  </a>
+  [![Visit Neko-CLI GitHub](https://img.shields.io/badge/Visit%20GitHub%20Repo-3a4a6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UnStackss/Neko-CLI)
 </div>
+
 
 
 **Neko CLI** is a whimsical command-line utility that lets you manage your npm and yarn packages with ease and fun, embodying the charming essence of a cat ('neko' in Japanese). With Neko CLI, you can add or remove packages, initialize projects, and more, all through a delightful user interface.
