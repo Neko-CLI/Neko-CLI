@@ -112,38 +112,12 @@ Here are the commands you can use with Neko CLI:
 - **help**: Display a detailed help message.
 - **version**: Show the current version of the CLI.
 
-## Example Commands 📋
+## Commands 📋
 
-### Initializing a New Project
-
-To start a new project:
+See help page:
 
 ```bash
-meow init
-```
-
-### Adding a Package
-
-To add a package:
-
-```bash
-meow add <package-name>
-```
-
-### Removing a Package
-
-To remove a package:
-
-```bash
-meow remove <package-name>
-```
-
-### Installing Dependencies
-
-To install your project's dependencies:
-
-```bash
-meow
+meow help
 ```
 
 ## Features in Detail 📖
