@@ -94,6 +94,7 @@ Here are the commands you can use with Neko CLI:
 - **analyze**: Analyze dependencies and generate a bundle size report.
 - **clean**: Clean the project by removing logs, backups, and other unused files.
 - **compatibility**: Check if dependencies are compatible with the current Node.js version.
+- **update** : Checks and updates neko-cli if a newer version exists.
 - **help**: Display a detailed help message.
 - **version**: Show the current version of the CLI.
 
