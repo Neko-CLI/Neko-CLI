@@ -112,14 +112,6 @@ Here are the commands you can use with Neko CLI:
 - **help**: Display a detailed help message.
 - **version**: Show the current version of the CLI.
 
-## Commands 📋
-
-See help page:
-
-```bash
-meow help
-```
-
 ## Features in Detail 📖
 
 ### Project Initialization
