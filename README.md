@@ -94,23 +94,32 @@ yarn global add neko-cli
 
 Here are the commands you can use with Neko CLI:
 
-- **init**: Initialize a new project.
-- **add `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Add a specified package to the project.
-- **remove `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Remove a specified package from the project.
-- **meow**: Install dependencies listed in `package.json` or `yarn.lock`.
-- **all**: Install all packages listed in `package.json` or `yarn.lock`.
-- **flush `<script>`**: Run a specified script from your project.
-- **dev**: Flush the dev script if it exists.
-- **struct**: Predict the structure of the code and save it in a `meow-structure.yml`.
-- **publish `<npm, yarn, meow>`**: Publish a package to the cloud.
-- **outdated**: Check and automatically update outdated packages.
-- **backup**: Create a `meow-project-backup.zip` (ignores `.git`, `node_modules`, `temp`, and `build`).
-- **analyze**: Analyze dependencies and generate a bundle size report.
-- **clean**: Clean the project by removing logs, backups, and other unused files.
-- **compatibility**: Check if dependencies are compatible with the current Node.js version.
-- **update** : Checks and updates neko-cli if a newer version exists.
-- **help**: Display a detailed help message.
-- **version**: Show the current version of the CLI.
+- **meow init**: Initialize a new project. 🌱
+- **meow add `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Add a specified package to the project. 📦
+- **meow remove `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Remove a specified package from the project. ❌
+- **meow meow**: Install dependencies listed in `package.json` or `yarn.lock`. 🐱
+- **meow all**: Install all packages listed in `package.json` or `yarn.lock`. ⚙️
+- **meow flush `<script>`**: Run a specified script from your project. 🔄
+- **meow dev**: Flush the dev script if it exists. 🔧
+- **meow struct**: Predict the structure of the code and save it in a `meow-structure.yml`. 🗂️
+- **meow publish `<npm, yarn, meow>`**: Publish a package to the cloud. ☁️
+- **meow outdated**: Check and automatically update outdated packages. 🔄
+- **meow backup**: Create a `meow-project-backup.zip` (ignores `.git`, `node_modules`, `temp`, and `build`). 💾
+- **meow analyze**: Analyze dependencies and generate a bundle size report. 📊
+- **meow audit**: Checks dependencies, identifies outdated versions, and suggests updates. 🔍
+- **meow seccheck**: Scans project dependencies for known security vulnerabilities and reports any outdated or insecure versions. 🔒
+- **meow prune**: Remove unnecessary dependencies and clean up unused packages. 🧹
+- **meow list**: List all installed dependencies for the current project. 📜
+- **meow doctor**: Check for common project issues. 🩺
+- **meow bin**: Get the path to installed binaries (node). 🔍
+- **meow info `<pkg>`**: Fetch detailed information about a package (e.g., name, version, etc..) 🔍
+- **meow licenses**: List all licenses for installed packages in the current project. ⚖️
+- **meow clean**: Clean the project by removing logs, backups, and other unused files. 🧹
+- **meow compatibility**: Check if dependencies are compatible with the current Node.js version. 🧑‍💻
+- **meow update**: Checks and updates neko-cli if a newer version exists. 📈
+- **meow help**: Display a detailed help message. ❓
+- **meow version**: Show the current version of the CLI. 🧬
+
 
 ## Features in Detail 📖
 

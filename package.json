@@ -1,7 +1,9 @@
 {
   "name": "neko-cli",
-  "version": "1.9.1",
+  "version": "1.9.3",
+  "description": "Neko-CLI is a fast and powerful tool for managing packages with a fun, neko-themed twist! With sleek animations and progress bars, it allows you to easily add, remove, and publish packages. The CLI is designed to be quick, ensuring smooth performance every time. It intelligently handles package installations and dependencies, optimizing for the best performance. Whether you're a developer or just starting, Neko-CLI provides a user-friendly and efficient environment, making package management more enjoyable. It always strives to install the necessary packages for optimal performance, making your workflow more productive and less stressful!",
   "main": "meow.js",
+  "type": "module",
   "scripts": {},
   "bin": {
     "meow": "./meow.js"
@@ -25,14 +27,28 @@
   ],
   "author": "UnStackss",
   "license": "MIT",
-  "description": "Neko-CLI is a fast and powerful tool for managing packages with a fun, neko-themed twist! With sleek animations and progress bars, it allows you to easily add, remove, and publish packages. The CLI is designed to be quick, ensuring smooth performance every time. It intelligently handles package installations and dependencies, optimizing for the best performance. Whether you're a developer or just starting, Neko-CLI provides a user-friendly and efficient environment, making package management more enjoyable. It always strives to install the necessary packages for optimal performance, making your workflow more productive and less stressful!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnStackss/Neko-CLI.git"
+  },
+  "homepage": "https://github.com/UnStackss/Neko-CLI#readme",
+  "bugs": {
+    "url": "https://github.com/UnStackss/Neko-CLI/issues",
+    "email": "support@unstackss.dev"
+  },
+  "funding": {
+    "type": "paypal",
+    "url": "https://paypal.me/UnStackss?country.x=IT&locale.x=en_US"
+  },
   "dependencies": {
     "archiver": "^7.0.1",
+    "axios": "^1.7.7",
     "chalk": "^5.3.0",
     "chalk-animation": "^2.0.3",
     "fs-extra": "^11.2.0",
     "glob": "^11.0.0",
     "js-yaml": "^4.1.0",
+    "moment-timezone": "^0.5.46",
     "node-fetch": "^3.3.2",
     "ora": "^8.1.1",
     "path": "^0.12.7",
@@ -42,14 +58,5 @@
     "semver": "^7.6.3",
     "util": "^0.12.5",
     "yarn-lockfile": "^1.1.1"
-  },
-  "type": "module",
-  "devDependencies": {
-    "@babel/core": "^7.26.0",
-    "@babel/preset-env": "^7.26.0",
-    "babel-loader": "^9.2.1",
-    "webpack": "^5.96.1",
-    "webpack-bundle-analyzer": "^4.10.2",
-    "webpack-cli": "^5.1.4"
   }
 }
