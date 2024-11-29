@@ -114,6 +114,7 @@ Here are the commands you can use with Neko CLI:
 - **meow bin**: Get the path to installed binaries (node). 🔍
 - **meow info `<pkg>`**: Fetch detailed information about a package (e.g., name, version, etc..) 🔍
 - **meow licenses**: List all licenses for installed packages in the current project. ⚖️
+- **meow languages**: Lists detected programming languages and files in a project. 📜
 - **meow clean**: Clean the project by removing logs, backups, and other unused files. 🧹
 - **meow compatibility**: Check if dependencies are compatible with the current Node.js version. 🧑‍💻
 - **meow update**: Checks and updates neko-cli if a newer version exists. 📈
