@@ -1,6 +1,6 @@
 {
   "name": "neko-cli",
-  "version": "1.9.9",
+  "version": "2.0.0",
   "description": "Neko-CLI is a fast and powerful tool for managing packages with a fun, neko-themed twist! With sleek animations and progress bars, it allows you to easily add, remove, and publish packages. The CLI is designed to be quick, ensuring smooth performance every time. It intelligently handles package installations and dependencies, optimizing for the best performance. Whether you're a developer or just starting, Neko-CLI provides a user-friendly and efficient environment, making package management more enjoyable. It always strives to install the necessary packages for optimal performance, making your workflow more productive and less stressful!",
   "main": "meow.js",
   "type": "module",
@@ -62,5 +62,12 @@
     "semver": "^7.6.3",
     "util": "^0.12.5",
     "yarn-lockfile": "^1.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.1",
+    "typescript": "^5.7.2"
   }
 }
