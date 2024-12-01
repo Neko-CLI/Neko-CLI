@@ -32,6 +32,17 @@ If you manage to deobfuscate this puzzle, send me the content by email to receiv
 
 **Neko CLI** is a whimsical command-line utility that lets you manage your npm and yarn packages with ease and fun, embodying the charming essence of a cat ('neko' in Japanese). With Neko CLI, you can add or remove packages, initialize projects, and more, all through a delightful user interface.
 
+
+🐾 **neko.rock** - The Native Package Manager of Neko CLI
+
+`neko.rock` is the beating heart of **Neko CLI**, a lock file that tracks packages and their versions for each project managed. It functions as a dedicated dependency manager, much like `package.json` in npm, but with a fun feline twist. Every package added via Neko CLI is recorded in `neko.rock`, allowing you to easily manage your project's dependencies.
+
+The `neko.rock` file contains detailed information about the packages, including version, integrity, and dependency type (runtime or dev), providing a more organized and enjoyable experience for managing packages. With `neko.rock`, you'll always have full control over your dependencies in a simple and intuitive way!
+
+---
+
+This addition should give your users a clear understanding of how `neko.rock` works within Neko CLI.
+
 # **Performances of Neko-CLI**
 
 Neko-CLI is an incredibly **fast** and **powerful** tool, built with efficiency at its core. Whether you're working on a small project or a large-scale application, Neko-CLI is designed to **maximize your productivity** by ensuring lightning-fast execution and seamless operation.
