@@ -108,8 +108,8 @@ Here are the commands you can use with Neko CLI:
 - **meow init [--skip (skip questions)] [-y (skip questions)]**: Initialize a new project. 🌱
 - **meow add `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Add a specified package to the project. 📦
 - **meow remove `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Remove a specified package from the project. ❌
-- **meow meow**: Install dependencies listed in `meow.rock` or `package.json` or `yarn.lock`. 🐱
-- **meow all**: Install all packages listed in `meow.rock` or `package.json` or `yarn.lock`. ⚙️
+- **meow meow**: Install dependencies listed in `meow.rock` or `package.json` or `yarn.lock` or `pnpm-lock.yaml`. 🐱
+- **meow all**: Install all packages listed in `meow.rock` or `package.json` or `yarn.lock` or `pnpm-lock.yaml`. ⚙️
 - **meow flush `<script>`**: Run a specified script from your project. 🔄
 - **meow dev**: Flush the dev script if it exists. 🔧
 - **meow struct**: Predict the structure of the code and save it in a `meow-structure.yml`. 🗂️
