@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Neko CLI 🐾</h1>
-    <img src="https://i.imgur.com/GymqMNf.png" alt="Neko-CLI" style="width: 200px; height: auto;">
+    <img src="https://i.imgur.com/64qWofg.png" alt="Neko-CLI" style="width: 200px; height: auto;">
     <br>
     <a href="https://github.com/UnStackss/Neko-CLI/network/members" style="text-decoration: none;">
         <img src="https://img.shields.io/github/forks/UnStackss/Neko-CLI?style=for-the-badge" alt="Forks" style="margin: 5px;">
