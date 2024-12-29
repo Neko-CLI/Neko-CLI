@@ -2,17 +2,17 @@
     <h1>Neko CLI 🐾</h1>
     <img src="https://i.imgur.com/64qWofg.png" alt="Neko-CLI" style="width: 200px; height: auto;">
     <br>
-    <a href="https://github.com/UnStackss/Neko-CLI/network/members" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/forks/UnStackss/Neko-CLI?style=for-the-badge" alt="Forks" style="margin: 5px;">
+    <a href="https://github.com/Neko-CLI/Neko-CLI/network/members" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/forks/Neko-CLI/Neko-CLI?style=for-the-badge" alt="Forks" style="margin: 5px;">
     </a>
-    <a href="https://github.com/UnStackss/Neko-CLI/stargazers" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/stars/UnStackss/Neko-CLI?style=for-the-badge" alt="Stars" style="margin: 5px;">
+    <a href="https://github.com/Neko-CLI/Neko-CLI/stargazers" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/stars/Neko-CLI/Neko-CLI?style=for-the-badge" alt="Stars" style="margin: 5px;">
     </a>
-    <a href="https://github.com/UnStackss/Neko-CLI/issues" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/issues/UnStackss/Neko-CLI?style=for-the-badge" alt="Issues" style="margin: 5px;">
+    <a href="https://github.com/Neko-CLI/Neko-CLI/issues" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/issues/Neko-CLI/Neko-CLI?style=for-the-badge" alt="Issues" style="margin: 5px;">
     </a>
-    <a href="https://github.com/UnStackss/Neko-CLI/graphs/contributors" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/contributors/UnStackss/Neko-CLI?style=for-the-badge" alt="Contributors" style="margin: 5px;">
+    <a href="https://github.com/Neko-CLI/Neko-CLI/graphs/contributors" style="text-decoration: none;">
+        <img src="https://img.shields.io/github/contributors/Neko-CLI/Neko-CLI?style=for-the-badge" alt="Contributors" style="margin: 5px;">
     </a>
 </div>
 
@@ -25,7 +25,7 @@ If you manage to deobfuscate this puzzle, send me the content by email to receiv
 
   [![Neko-CLI Codebreaker: Unleash the Secrets!](https://img.shields.io/badge/Codebreaker%20Challenge-Start%20Puzzle-3a4a6b?style=for-the-badge&logo=github&logoColor=white)](https://neko.full-stack.dev/p/cli/j9g16foyfc)
   
-  [![Visit Neko-CLI GitHub](https://img.shields.io/badge/Visit%20GitHub%20Repo-3a4a6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UnStackss/Neko-CLI)
+  [![Visit Neko-CLI GitHub](https://img.shields.io/badge/Visit%20GitHub%20Repo-3a4a6b?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Neko-CLI/Neko-CLI)
 </div>
 
 

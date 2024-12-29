@@ -1,6 +1,6 @@
 # ⚖️ **Neko-CLI License** ⚖️
 
-Copyright (c) 2024 Thomas Garau (UnStackss)
+Copyright (c) 2024 Neko-CLI
 
 🔒 **All rights reserved.**
 
@@ -17,6 +17,6 @@ By using or distributing this software, you agree to the following **terms**:
 5. **🚪 Termination**: If you violate any of the conditions outlined above, your rights to use, modify, or distribute the software will be immediately revoked.
 
 For commercial use or licensing inquiries, please contact the author at:  
-<a href="mailto:support@unstackss.dev">support@unstackss.dev</a>
+<a href="mailto:support@neko-cli.com">support@neko-cli.com</a>
 
 👩‍⚖️ By using this software, you hereby acknowledge and accept the terms of this license. Justice is served! ⚖️
