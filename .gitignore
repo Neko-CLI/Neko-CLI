@@ -18,3 +18,5 @@ build/
 # Ignore temporary files
 *.tmp
 *.log
+# Ignore UnStackss md file
+UnStackss.md
