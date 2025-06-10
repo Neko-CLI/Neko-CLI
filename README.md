@@ -129,6 +129,8 @@ Here are the commands you can use with Neko CLI:
 - **meow checkerrors**: Detect and list errors into the code. 👾
 - **meow clean**: Clean the project by removing logs, backups, and other unused files. 🧹
 - **meow compatibility**: Check if dependencies are compatible with the current Node.js version. 🧑‍💻
+* **meow stale**: Checks for unmaintained or inactive dependencies. ⏳
+* **meow sandbox `<command>`**: Runs a command in an isolated temporary environment. 📦
 - **meow update**: Checks and updates neko-cli if a newer version exists. 📈
 - **meow help**: Display a detailed help message. ❓
 - **meow version**: Show the current version of the CLI. 🧬
