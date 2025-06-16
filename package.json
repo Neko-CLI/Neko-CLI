@@ -5,7 +5,7 @@
   "main": "meow.js",
   "type": "module",
   "scripts": {
-    "test": "echo test"
+    "test": "echo neko test"
   },
   "bin": {
     "meow": "./meow.js"
