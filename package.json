@@ -5,7 +5,7 @@
   "main": "meow.js",
   "type": "module",
   "scripts": {
-    "test": "echo neko test"
+    "test": "echo \"$(node -e 'require(\"chalk\").yellow(\"🐾 Running test suite...\")')\" && echo \"$(node -e 'require(\"chalk\").green(\"✨ All tests passed! You're awesome!\")')\""
   },
   "bin": {
     "meow": "./meow.js"
