@@ -1,1 +1,86 @@
-(function(_0x4b8361,_0xdf2f0d){const _0x2b6da9=a0_0x1318,_0x2fe655=_0x4b8361();while(!![]){try{const _0x2cbb2d=-parseInt(_0x2b6da9(0x113))/0x1*(-parseInt(_0x2b6da9(0x11b))/0x2)+parseInt(_0x2b6da9(0xfd))/0x3+parseInt(_0x2b6da9(0xff))/0x4+parseInt(_0x2b6da9(0x125))/0x5+parseInt(_0x2b6da9(0x11a))/0x6+-parseInt(_0x2b6da9(0x127))/0x7*(-parseInt(_0x2b6da9(0x101))/0x8)+parseInt(_0x2b6da9(0x109))/0x9*(-parseInt(_0x2b6da9(0x10a))/0xa);if(_0x2cbb2d===_0xdf2f0d)break;else _0x2fe655['push'](_0x2fe655['shift']());}catch(_0xa3f6d0){_0x2fe655['push'](_0x2fe655['shift']());}}}(a0_0x3ddc,0x75db3));const a0_0x4437d9=(function(){let _0x3d65dd=!![];return function(_0x3200ce,_0x15d6b2){const _0x5601e3=_0x3d65dd?function(){const _0x184b7b=a0_0x1318;if(_0x15d6b2){const _0x4fadce=_0x15d6b2[_0x184b7b(0x11f)](_0x3200ce,arguments);return _0x15d6b2=null,_0x4fadce;}}:function(){};return _0x3d65dd=![],_0x5601e3;};}()),a0_0x1d6ba1=a0_0x4437d9(this,function(){const _0x44264f=a0_0x1318,_0x2a2b0c={'HRDkL':_0x44264f(0x11e)};return a0_0x1d6ba1[_0x44264f(0xfb)]()[_0x44264f(0x104)](_0x2a2b0c['HRDkL'])['toString']()['constructor'](a0_0x1d6ba1)['search'](_0x44264f(0x11e));});function a0_0x3ddc(){const _0x5b7040=['match','cyan','\x20(update\x20recommended)','jBYBx','dependencies','satisfies','6614DSctht','push',':\x20installed\x20','🔍\x20Analyzing\x20dependencies...\x20Please\x20wait...','utf-8','...\x0a','rsPYo','2473566hrswLl','194OhNPOm','readJson','forEach','(((.+)+)+)+$','apply','existsSync','rainbow','exit','JaQLL','❌\x20Error:\x20No\x20package.json\x20or\x20yarn.lock\x20file\x20found\x20in\x20the\x20current\x20directory.','2748315hkcWPH','log','7kWfsTJ','error','toString','yellow','2233131ibCcYY','./package.json','3167552tjJByk','(package.json)','2760112XXXNhx','(yarn.lock)','slice','search','assign','mbhIb','stop','CwJZg','4698IhLsyn','57510iyRXmH','MKKtL','devDependencies'];a0_0x3ddc=function(){return _0x5b7040;};return a0_0x3ddc();}a0_0x1d6ba1();function a0_0x1318(_0x2667c7,_0x1ecb49){const _0xd20a06=a0_0x3ddc();return a0_0x1318=function(_0x1d6ba1,_0x4437d9){_0x1d6ba1=_0x1d6ba1-0xfa;let _0x3ddc5f=_0xd20a06[_0x1d6ba1];return _0x3ddc5f;},a0_0x1318(_0x2667c7,_0x1ecb49);}import a0_0x5b68a6 from'chalk';import a0_0x1224b5 from'fs-extra';import a0_0x5d8259 from'chalk-animation';import a0_0x398ffd from'semver';export const handleAuditCommand=async()=>{const _0x1c11d0=a0_0x1318,_0x15843f={'gUCnT':'./yarn.lock','OabZe':_0x1c11d0(0x124),'wgEej':_0x1c11d0(0x100),'JaQLL':_0x1c11d0(0x102),'MKKtL':'🔍\x20Analyzing\x20dependencies\x20from\x20yarn.lock...','rsPYo':_0x1c11d0(0x116),'jBYBx':function(_0x337e1b,_0x2ee43f){return _0x337e1b(_0x2ee43f);},'CwJZg':function(_0x1d5991,_0x313c51){return _0x1d5991>_0x313c51;},'OWujl':'📋\x20Outdated\x20Dependencies\x20Report:','mbhIb':'🎉\x20All\x20dependencies\x20are\x20up\x20to\x20date!'},_0x9b0e27=_0x1c11d0(0xfe),_0x1d2696=_0x15843f['gUCnT'];!a0_0x1224b5[_0x1c11d0(0x120)](_0x9b0e27)&&!a0_0x1224b5[_0x1c11d0(0x120)](_0x1d2696)&&(console[_0x1c11d0(0xfa)](a0_0x5b68a6[_0x1c11d0(0xfc)](_0x15843f['OabZe'])),process[_0x1c11d0(0x122)](0x1));const _0x5f31e8={},_0x200e62={};let _0xf37244='';if(a0_0x1224b5[_0x1c11d0(0x120)](_0x9b0e27)){_0xf37244=_0x15843f['wgEej'];const _0x4211e5=await a0_0x1224b5[_0x1c11d0(0x11c)](_0x9b0e27);Object[_0x1c11d0(0x105)](_0x5f31e8,_0x4211e5[_0x1c11d0(0x111)]||{}),Object['assign'](_0x200e62,_0x4211e5[_0x1c11d0(0x10c)]||{});}else{if(a0_0x1224b5[_0x1c11d0(0x120)](_0x1d2696)){_0xf37244=_0x15843f[_0x1c11d0(0x123)],console['log'](a0_0x5b68a6[_0x1c11d0(0x10e)](_0x15843f[_0x1c11d0(0x10b)]));const _0x1a7951=a0_0x1224b5['readFileSync'](_0x1d2696,_0x1c11d0(0x117)),_0x11ad45=_0x1a7951[_0x1c11d0(0x10d)](/^(.*?)@.*?:\s*version\s*"(.*?)"/gm);_0x11ad45&&_0x11ad45[_0x1c11d0(0x11d)](_0x1e6ddb=>{const _0x31db40=_0x1c11d0,[_0x58e960,_0x30d3a4]=_0x1e6ddb[_0x31db40(0x10d)](/^(.*?)@.*?: version "(.*?)"/)[_0x31db40(0x103)](0x1);_0x5f31e8[_0x58e960]=_0x30d3a4;});}}const _0x322387={..._0x5f31e8,..._0x200e62},_0x33d1f2=[],_0x3d6d1f=a0_0x5d8259[_0x1c11d0(0x121)](_0x15843f[_0x1c11d0(0x119)]);setTimeout(()=>_0x3d6d1f[_0x1c11d0(0x107)](),0x7d0),console['log']('\x0a🔍\x20Analyzing\x20dependencies\x20from\x20'+a0_0x5b68a6[_0x1c11d0(0x10e)](_0xf37244)+_0x1c11d0(0x118));for(const [_0x9d9948,_0x2432f1]of Object['entries'](_0x322387)){try{const _0x47b0ed=await _0x15843f[_0x1c11d0(0x110)](fetch,'https://registry.npmjs.org/'+_0x9d9948),_0x13d1e4=await _0x47b0ed['json'](),_0x2096c5=_0x13d1e4['dist-tags']['latest'];!a0_0x398ffd[_0x1c11d0(0x112)](_0x2432f1,_0x2096c5)&&_0x33d1f2[_0x1c11d0(0x114)]({'name':_0x9d9948,'installed':_0x2432f1,'latest':_0x2096c5,'isOutdated':!![]});}catch(_0x599687){console[_0x1c11d0(0xfa)](a0_0x5b68a6[_0x1c11d0(0xfc)]('❌\x20Unable\x20to\x20check\x20dependency\x20'+_0x9d9948+':\x20'+_0x599687['message']));}}_0x15843f[_0x1c11d0(0x108)](_0x33d1f2['length'],0x0)?(console[_0x1c11d0(0x126)](a0_0x5b68a6[_0x1c11d0(0x10e)](_0x15843f['OWujl'])),_0x33d1f2[_0x1c11d0(0x11d)](({name:_0x24b88b,installed:_0x4441f4,latest:_0x5b61be})=>{const _0x34afd7=_0x1c11d0;console[_0x34afd7(0x126)]('-\x20'+a0_0x5b68a6['yellow'](_0x24b88b)+_0x34afd7(0x115)+a0_0x5b68a6[_0x34afd7(0xfc)](_0x4441f4)+',\x20latest\x20'+a0_0x5b68a6['cyan'](_0x5b61be)+_0x34afd7(0x10f));})):console[_0x1c11d0(0x126)](a0_0x5b68a6[_0x1c11d0(0x10e)](_0x15843f[_0x1c11d0(0x106)]));};
+import chalk from "chalk";
+import fsExtra from "fs-extra";
+import chalkAnimation from "chalk-animation";
+import semver from "semver";
+
+export const handleAuditCommand = async () => {
+    const packagePath = "./package.json";
+  const yarnLockPath = "./yarn.lock";
+
+  if (!fsExtra.existsSync(packagePath) && !fsExtra.existsSync(yarnLockPath)) {
+    console.error(
+      chalk.yellow(
+        "❌ Error: No package.json or yarn.lock file found in the current directory."
+      )
+    );
+    process.exit(1);
+  }
+
+  const dependencies = {};
+  const devDependencies = {};
+  let source = "";
+
+  if (fsExtra.existsSync(packagePath)) {
+    source = "(package.json)";
+    const packageData = await fsExtra.readJson(packagePath);
+    Object.assign(dependencies, packageData.dependencies || {});
+    Object.assign(devDependencies, packageData.devDependencies || {});
+  } else if (fsExtra.existsSync(yarnLockPath)) {
+    source = "(yarn.lock)";
+    console.log(chalk.cyan("🔍 Analyzing dependencies from yarn.lock..."));
+    const yarnLock = fsExtra.readFileSync(yarnLockPath, "utf-8");
+    const matches = yarnLock.match(/^(.*?)@.*?:\s*version\s*"(.*?)"/gm);
+    if (matches) {
+      matches.forEach((line) => {
+        const [name, version] = line
+          .match(/^(.*?)@.*?: version "(.*?)"/)
+          .slice(1);
+        dependencies[name] = version;
+      });
+    }
+  }
+
+  const allDependencies = { ...dependencies, ...devDependencies };
+  const results = [];
+
+  const animation = chalkAnimation.rainbow(
+    "🔍 Analyzing dependencies... Please wait..."
+  );
+  setTimeout(() => animation.stop(), 2000);
+
+  console.log(`\n🔍 Analyzing dependencies from ${chalk.cyan(source)}...\n`);
+
+  for (const [dep, installedVersion] of Object.entries(allDependencies)) {
+    try {
+      const response = await fetch(`https://registry.npmjs.org/${dep}`);
+      const data = await response.json();
+      const latestVersion = data["dist-tags"].latest;
+
+      if (!semver.satisfies(installedVersion, latestVersion)) {
+        results.push({
+          name: dep,
+          installed: installedVersion,
+          latest: latestVersion,
+          isOutdated: true,
+        });
+      }
+    } catch (error) {
+      console.error(
+        chalk.yellow(`❌ Unable to check dependency ${dep}: ${error.message}`)
+      );
+    }
+  }
+
+  if (results.length > 0) {
+    console.log(chalk.cyan("📋 Outdated Dependencies Report:"));
+    results.forEach(({ name, installed, latest }) => {
+      console.log(
+        `- ${chalk.yellow(name)}: installed ${chalk.yellow(
+          installed
+        )}, latest ${chalk.cyan(latest)} (update recommended)`
+      );
+    });
+  } else {
+    console.log(chalk.cyan("🎉 All dependencies are up to date!"));
+  }
+};

@@ -1,1 +1,201 @@
-(function(_0x56659d,_0x4017f2){const _0x5e9166=a0_0x3ec8,_0x55f79f=_0x56659d();while(!![]){try{const _0xeae227=parseInt(_0x5e9166(0xef))/0x1+parseInt(_0x5e9166(0xee))/0x2*(parseInt(_0x5e9166(0xf9))/0x3)+-parseInt(_0x5e9166(0xe6))/0x4*(-parseInt(_0x5e9166(0xe9))/0x5)+parseInt(_0x5e9166(0xec))/0x6*(parseInt(_0x5e9166(0x15b))/0x7)+parseInt(_0x5e9166(0x18b))/0x8+parseInt(_0x5e9166(0x163))/0x9*(-parseInt(_0x5e9166(0x162))/0xa)+-parseInt(_0x5e9166(0x115))/0xb;if(_0xeae227===_0x4017f2)break;else _0x55f79f['push'](_0x55f79f['shift']());}catch(_0x139298){_0x55f79f['push'](_0x55f79f['shift']());}}}(a0_0x67f4,0x2fe79));const a0_0x264571=(function(){let _0xf6dcce=!![];return function(_0x43854b,_0xbb47f6){const _0x26c804=_0xf6dcce?function(){const _0x1f5f2d=a0_0x3ec8;if(_0xbb47f6){const _0x3d258e=_0xbb47f6[_0x1f5f2d(0x135)](_0x43854b,arguments);return _0xbb47f6=null,_0x3d258e;}}:function(){};return _0xf6dcce=![],_0x26c804;};}()),a0_0x463796=a0_0x264571(this,function(){const _0x339435=a0_0x3ec8,_0x4298d8={'ebeMP':_0x339435(0x132)};return a0_0x463796[_0x339435(0x195)]()[_0x339435(0x106)](_0x339435(0x132))[_0x339435(0x195)]()['constructor'](a0_0x463796)[_0x339435(0x106)](_0x4298d8[_0x339435(0x16d)]);});a0_0x463796();function a0_0x3ec8(_0x593676,_0x34884e){const _0x2f5a64=a0_0x67f4();return a0_0x3ec8=function(_0x463796,_0x264571){_0x463796=_0x463796-0xe4;let _0x67f409=_0x2f5a64[_0x463796];return _0x67f409;},a0_0x3ec8(_0x593676,_0x34884e);}import a0_0x53006d from'chalk';import a0_0x4a22ef from'path';function a0_0x67f4(){const _0x2bf964=['.dart','DjCUz','package.json','LZvhy','File\x20Type:\x20','zDvZB','cnFow','VuQGk','afjFc','.lua','PHP\x20:\x20Programming\x20Language','node_modules','(((.+)+)+)+$','existsSync','HzrZF','apply','webpack.config.js','Dart\x20:\x20Programming\x20Language','SQL\x20:\x20Database\x20Query\x20Language','Batch\x20:\x20Scripting\x20Language','tNobc','lrRsE','.ps1','TypeScript\x20:\x20Programming\x20Language','JSON\x20:\x20Data\x20Format','isBgV','.sh','cyan','kKLth','Error\x20reading\x20package.json','Package\x20Manager:\x20yarn','SgKkl','add','myeHg','ypYYu','Vite\x20:\x20Next-Generation\x20Build\x20Tool','vWoQi','DskcK','ubdXJ','jYuLa','includes','.tex','sbuRA','.tsx','yellow','join','UrNgU','mcbFw','SWpIU','.cpp','vite.config.js','Sass\x20:\x20CSS\x20Preprocessor','.json','21uXjLCC','WYYwn','Kotlin\x20:\x20Programming\x20Language','AEMtd','.html','PLQMe','.rb','107390xjlxvY','18lvLIYo','.css','Clojure\x20:\x20Programming\x20Language','onOmh','Rollup\x20:\x20Module\x20Bundler','jPKEs','DTIvO','.py','MYjzs','mNfRv','ebeMP','yxMSo','.swift','.cs','UnwIT','unhCk','toLowerCase','exqWR','wMxQt','.less','AlFKK','dependencies','getType','ssiGs','pMWMR','Blxio','vite','readdir','qfIER','eKmPm','CHcfU','Java\x20:\x20Programming\x20Language','bAabh','map','C#\x20:\x20Programming\x20Language','vdKsP','Vfddq','bHIPi','ZYcWC','.bat','1288304YrjRuY','WEFWy','JavaScript\x20:\x20Programming\x20Language','Express\x20:\x20Node.js\x20Framework','promises','VWUtc','.jsx','Ruby\x20:\x20Programming\x20Language','.toml','angular','toString','PowerShell\x20:\x20Scripting\x20Language','react','C\x20Header\x20:\x20Programming\x20Language','HTML\x20:\x20Markup\x20Language','XuITM','gruntfile.js','.scss','YAML\x20:\x20Data\x20Format','4lTfcXG','YJMMQ','pdkrl','1536955bWyfFu','XCQcg','.clj','634812zqSlnQ','Emacs\x20Lisp\x20:\x20Programming\x20Language','740282vifHTp','72986kAdWZX','LHHlT','.el','gulpfile.js','GnYVJ','.xml','extname','hKrfB','Angular\x20:\x20JavaScript\x20Framework','FYnFJ','3gOtQNp','XDqQB','tlhHp','OnImC','.yml','qFlrA','.kt','pXOtm','mCVdC','TPadO','utf-8','wUULF','Go\x20:\x20Programming\x20Language','search','rYEBK','YYQjj','Lua\x20:\x20Programming\x20Language','EFTLK','qEfFa','AZfZc','.sql','YGkxF','log','React\x20:\x20JavaScript\x20Framework','LaTeX\x20:\x20Document\x20Preparation','XML\x20:\x20Markup\x20Language','Swift\x20:\x20Programming\x20Language','.md','11123937lOtRay','qmuAE','Markdown\x20:\x20Documentation\x20Format','.bash','czoOV','eBOOU','vIUpE','Gulp\x20:\x20Task\x20Automation','gulpfile.babel.js','C++\x20:\x20Programming\x20Language','yarn.lock','Grunt\x20:\x20JavaScript\x20Task\x20Runner','.go','fXvUZ','IBATG','gQlDe','VkEeM'];a0_0x67f4=function(){return _0x2bf964;};return a0_0x67f4();}import a0_0x41dceb from'fs';import a0_0x35e01a from'mime';export const handleLanguagesCommand=async()=>{const _0x4bff65=a0_0x3ec8,_0x11b2ec={'cnFow':_0x4bff65(0x131),'wfOOD':function(_0x4c205b,_0x5b70f9){return _0x4c205b(_0x5b70f9);},'Vfddq':_0x4bff65(0x103),'IBATG':function(_0x2114e3,_0x4563d6){return _0x2114e3===_0x4563d6;},'XDqQB':_0x4bff65(0x128),'gKJFT':'package-lock.json','HTixG':'Package\x20Manager:\x20npm','wMxQt':_0x4bff65(0x144),'DTIvO':'Vue\x20:\x20JavaScript\x20Framework','rYEBK':_0x4bff65(0xf7),'KuHDh':_0x4bff65(0x18e),'ZYcWC':'.js','wUULF':_0x4bff65(0x191),'unhCk':function(_0x10d569,_0x1909fb){return _0x10d569===_0x1909fb;},'pdkrl':'.ts','DskcK':_0x4bff65(0x151),'Blxio':function(_0x5d85bd,_0x3c32b6){return _0x5d85bd===_0x3c32b6;},'LZvhy':_0x4bff65(0x16a),'XuITM':_0x4bff65(0x161),'qFlrA':_0x4bff65(0x192),'XCQcg':'.java','OnImC':_0x4bff65(0x182),'sbuRA':_0x4bff65(0x121),'yxMSo':_0x4bff65(0x105),'bGjGi':'.php','HExaU':_0x4bff65(0x130),'CHcfU':function(_0x3c4bcd,_0x4f82bd){return _0x3c4bcd===_0x4f82bd;},'WEFWy':'C\x20:\x20Programming\x20Language','qmuAE':function(_0x38f232,_0x21b002){return _0x38f232===_0x21b002;},'zDvZB':_0x4bff65(0x157),'iHPot':_0x4bff65(0x11e),'hKrfB':function(_0xf8c84d,_0xe4915c){return _0xf8c84d===_0xe4915c;},'AEMtd':_0x4bff65(0x198),'oHOTp':function(_0x45a327,_0x5ce035){return _0x45a327===_0x5ce035;},'gQlDe':_0x4bff65(0x170),'kKLth':function(_0x44b9e1,_0x3db95b){return _0x44b9e1===_0x3db95b;},'vIUpE':_0x4bff65(0x16f),'afjFc':_0x4bff65(0xff),'tNobc':_0x4bff65(0x15d),'tsdlV':_0x4bff65(0x126),'ypYYu':_0x4bff65(0x137),'pXOtm':'R\x20:\x20Programming\x20Language','ubdXJ':_0x4bff65(0x12f),'AZfZc':_0x4bff65(0x109),'YJMMQ':function(_0x1c3e28,_0x4b32f2){return _0x1c3e28===_0x4b32f2;},'vdKsP':_0x4bff65(0xf1),'VWUtc':_0x4bff65(0xed),'eKmPm':function(_0x4b0f3d,_0x5b992d){return _0x4b0f3d===_0x5b992d;},'LZGlz':_0x4bff65(0xeb),'pMWMR':_0x4bff65(0x159),'AZUqs':function(_0x3886d1,_0x2633d3){return _0x3886d1===_0x2633d3;},'exqWR':_0x4bff65(0x176),'UnwIT':'Less\x20:\x20CSS\x20Preprocessor','mCVdC':function(_0x29764b,_0x3de51e){return _0x29764b===_0x3de51e;},'qEfFa':_0x4bff65(0x15f),'mcbFw':_0x4bff65(0x199),'HzrZF':function(_0x20306a,_0x4e0a52){return _0x20306a===_0x4e0a52;},'CwBWC':_0x4bff65(0x164),'YYQjj':'CSS\x20:\x20Styling\x20Language','qfIER':function(_0x228d82,_0x42c41c){return _0x228d82===_0x42c41c;},'aqQWd':'.yaml','jYuLa':function(_0x57202d,_0x4259a7){return _0x57202d===_0x4259a7;},'myeHg':function(_0x18315e,_0x8cfddb){return _0x18315e===_0x8cfddb;},'WYYwn':_0x4bff65(0x114),'VuQGk':_0x4bff65(0x14f),'lrRsE':_0x4bff65(0x111),'UrNgU':function(_0x425966,_0x1700d7){return _0x425966===_0x1700d7;},'PLQMe':_0x4bff65(0x10d),'FYnFJ':_0x4bff65(0x138),'GnYVJ':_0x4bff65(0xf4),'LHHlT':_0x4bff65(0x112),'onOmh':function(_0x374277,_0x140061){return _0x374277===_0x140061;},'SgKkl':_0x4bff65(0x118),'kOfem':_0x4bff65(0x140),'tlhHp':'Bash\x20:\x20Scripting\x20Language','ssiGs':_0x4bff65(0x139),'fXvUZ':_0x4bff65(0x196),'vWoQi':function(_0x1c2593,_0x3c0636){return _0x1c2593===_0x3c0636;},'TPadO':_0x4bff65(0x136),'zQzxg':'Webpack\x20:\x20Module\x20Bundler','SWpIU':function(_0x3a9401,_0x88b7c9){return _0x3a9401===_0x88b7c9;},'DkMiF':_0x4bff65(0x158),'VkEeM':_0x4bff65(0x17d),'EFTLK':function(_0x532868,_0x5e8798){return _0x532868===_0x5e8798;},'jPKEs':'babel.config.js','MYjzs':'rollup.config.js','czoOV':_0x4bff65(0x167),'isBgV':_0x4bff65(0x19b),'eBOOU':_0x4bff65(0x120),'AlFKK':function(_0x56c9b8,_0x2f98e0){return _0x56c9b8===_0x2f98e0;},'jGqOy':_0x4bff65(0xf2),'npbgJ':_0x4bff65(0x11c),'bAabh':function(_0x3725c8,_0x2f4c5a){return _0x3725c8===_0x2f4c5a;},'nDUVu':_0x4bff65(0x11d),'mNfRv':'Gulp\x20with\x20Babel\x20:\x20Task\x20Automation\x20with\x20Babel','YGkxF':'yarn.lock','DjCUz':'⚠️\x20No\x20initialized\x20project\x20found.','bHIPi':function(_0x430b57,_0x2d2d19){return _0x430b57(_0x2d2d19);}},_0x39370a=new Set(),_0x3410ec=process['cwd'](),_0x59c5c9=a0_0x41dceb[_0x4bff65(0x133)](a0_0x4a22ef[_0x4bff65(0x153)](_0x3410ec,_0x11b2ec[_0x4bff65(0xfa)])),_0x1fb20f=a0_0x41dceb[_0x4bff65(0x133)](a0_0x4a22ef[_0x4bff65(0x153)](_0x3410ec,_0x11b2ec[_0x4bff65(0x10e)]));if(!_0x59c5c9&&!_0x1fb20f){console[_0x4bff65(0x10f)](a0_0x53006d[_0x4bff65(0x152)](_0x11b2ec[_0x4bff65(0x127)]));return;}const _0x209ba2=async _0x49a5a7=>{const _0x1056b0=_0x4bff65,_0x5b5c9d=await a0_0x41dceb[_0x1056b0(0x18f)][_0x1056b0(0x17e)](_0x49a5a7);for(const _0x12ce8a of _0x5b5c9d){const _0x33809f=a0_0x4a22ef[_0x1056b0(0x153)](_0x49a5a7,_0x12ce8a);if(_0x33809f[_0x1056b0(0x14e)](_0x11b2ec[_0x1056b0(0x12c)]))continue;const _0x33acaa=await a0_0x41dceb[_0x1056b0(0x18f)]['stat'](_0x33809f);if(_0x33acaa['isDirectory']())await _0x209ba2(_0x33809f);else _0x33acaa['isFile']()&&await _0x11b2ec['wfOOD'](_0x334543,_0x33809f);}},_0x334543=async _0x1f6446=>{const _0x56453a=_0x4bff65,_0x29ef92=a0_0x4a22ef[_0x56453a(0xf5)](_0x1f6446)[_0x56453a(0x173)](),_0x3da502=await a0_0x41dceb[_0x56453a(0x18f)]['readFile'](_0x1f6446,_0x11b2ec[_0x56453a(0x187)]);if(_0x11b2ec[_0x56453a(0x123)](_0x1f6446,_0x11b2ec[_0x56453a(0xfa)]))try{const _0x7d8d0c=JSON['parse'](_0x3da502);if(a0_0x41dceb[_0x56453a(0x133)](a0_0x4a22ef[_0x56453a(0x153)](_0x3410ec,_0x11b2ec['gKJFT'])))_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec['HTixG']));else a0_0x41dceb[_0x56453a(0x133)](a0_0x4a22ef['join'](_0x3410ec,_0x56453a(0x11f)))&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x175)]));if(_0x7d8d0c[_0x56453a(0x178)]){if(_0x7d8d0c[_0x56453a(0x178)][_0x56453a(0x197)])_0x39370a['add'](a0_0x53006d['cyan'](_0x56453a(0x110)));if(_0x7d8d0c['dependencies']['vue'])_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x169)]));if(_0x7d8d0c[_0x56453a(0x178)][_0x56453a(0x194)])_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x107)]));if(_0x7d8d0c[_0x56453a(0x178)]['express'])_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec['KuHDh']));}}catch(_0x27d117){console['error'](_0x56453a(0x143),_0x27d117);}(_0x11b2ec[_0x56453a(0x123)](_0x29ef92,_0x11b2ec[_0x56453a(0x189)])||_0x11b2ec['IBATG'](_0x29ef92,_0x11b2ec[_0x56453a(0x104)]))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x18d)));(_0x11b2ec[_0x56453a(0x172)](_0x29ef92,_0x11b2ec[_0x56453a(0xe8)])||_0x29ef92===_0x11b2ec[_0x56453a(0x14b)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x13d)));_0x11b2ec[_0x56453a(0x17c)](_0x29ef92,_0x11b2ec[_0x56453a(0x129)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)]('Python\x20:\x20Programming\x20Language'));_0x11b2ec[_0x56453a(0x172)](_0x29ef92,_0x11b2ec[_0x56453a(0x19a)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0xfe)]));_0x11b2ec[_0x56453a(0x172)](_0x29ef92,_0x11b2ec[_0x56453a(0xea)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0xfc)]));_0x29ef92===_0x11b2ec[_0x56453a(0x150)]&&_0x39370a[_0x56453a(0x146)](a0_0x53006d['cyan'](_0x11b2ec[_0x56453a(0x16e)]));_0x11b2ec['IBATG'](_0x29ef92,_0x11b2ec['bGjGi'])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec['HExaU']));_0x11b2ec['CHcfU'](_0x29ef92,'.c')&&_0x39370a[_0x56453a(0x146)](a0_0x53006d['cyan'](_0x11b2ec[_0x56453a(0x18c)]));_0x11b2ec[_0x56453a(0x116)](_0x29ef92,_0x11b2ec[_0x56453a(0x12b)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec['iHPot']));_0x11b2ec[_0x56453a(0xf6)](_0x29ef92,'.h')&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x15e)]));_0x11b2ec['oHOTp'](_0x29ef92,_0x11b2ec[_0x56453a(0x124)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x185)));_0x11b2ec[_0x56453a(0x142)](_0x29ef92,_0x11b2ec[_0x56453a(0x11b)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x113)));_0x11b2ec['qmuAE'](_0x29ef92,_0x11b2ec[_0x56453a(0x12e)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x13a)]));_0x11b2ec[_0x56453a(0x172)](_0x29ef92,_0x11b2ec['tsdlV'])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x148)]));_0x11b2ec['unhCk'](_0x29ef92,'.r')&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x100)]));_0x11b2ec[_0x56453a(0x172)](_0x29ef92,_0x11b2ec[_0x56453a(0x14c)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x10c)]));_0x11b2ec[_0x56453a(0xe7)](_0x29ef92,_0x11b2ec[_0x56453a(0x186)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x190)]));_0x11b2ec[_0x56453a(0x180)](_0x29ef92,_0x11b2ec['LZGlz'])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x165)));_0x11b2ec[_0x56453a(0x142)](_0x29ef92,_0x56453a(0xe4))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d['cyan'](_0x11b2ec[_0x56453a(0x17b)]));_0x11b2ec['AZUqs'](_0x29ef92,_0x11b2ec[_0x56453a(0x174)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d['cyan'](_0x11b2ec[_0x56453a(0x171)]));_0x11b2ec[_0x56453a(0x101)](_0x29ef92,_0x11b2ec[_0x56453a(0x10b)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x155)]));_0x11b2ec['HzrZF'](_0x29ef92,_0x11b2ec['CwBWC'])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x108)]));_0x11b2ec[_0x56453a(0x134)](_0x29ef92,_0x56453a(0x15a))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x13e)));(_0x11b2ec[_0x56453a(0x17f)](_0x29ef92,_0x11b2ec['aqQWd'])||_0x11b2ec[_0x56453a(0x14d)](_0x29ef92,_0x56453a(0xfd)))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0xe5)));_0x11b2ec[_0x56453a(0x123)](_0x29ef92,_0x56453a(0x193))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)]('TOML\x20:\x20Data\x20Format'));_0x11b2ec[_0x56453a(0x147)](_0x29ef92,_0x11b2ec[_0x56453a(0x15c)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x117)));_0x11b2ec['kKLth'](_0x29ef92,_0x11b2ec[_0x56453a(0x12d)])&&_0x39370a['add'](a0_0x53006d['cyan'](_0x11b2ec[_0x56453a(0x13b)]));_0x11b2ec[_0x56453a(0x154)](_0x29ef92,_0x11b2ec[_0x56453a(0x160)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0xf8)]));_0x11b2ec[_0x56453a(0x134)](_0x29ef92,_0x11b2ec[_0x56453a(0xf3)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0xf0)]));(_0x11b2ec[_0x56453a(0x166)](_0x29ef92,_0x11b2ec[_0x56453a(0x145)])||_0x11b2ec[_0x56453a(0x181)](_0x29ef92,_0x11b2ec['kOfem']))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0xfb)]));_0x11b2ec[_0x56453a(0x101)](_0x29ef92,_0x56453a(0x18a))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x17a)]));_0x29ef92===_0x56453a(0x13c)&&_0x39370a[_0x56453a(0x146)](a0_0x53006d['cyan'](_0x11b2ec[_0x56453a(0x122)]));_0x11b2ec[_0x56453a(0x14a)](_0x1f6446,_0x11b2ec[_0x56453a(0x102)])&&_0x39370a['add'](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec['zQzxg']));(_0x11b2ec[_0x56453a(0x156)](_0x1f6446,_0x11b2ec['DkMiF'])||_0x3da502[_0x56453a(0x14e)](_0x11b2ec[_0x56453a(0x125)]))&&_0x39370a[_0x56453a(0x146)](a0_0x53006d['cyan'](_0x56453a(0x149)));_0x11b2ec[_0x56453a(0x10a)](_0x1f6446,_0x11b2ec[_0x56453a(0x168)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)]('Babel\x20:\x20JavaScript\x20Compiler'));_0x11b2ec[_0x56453a(0x123)](_0x1f6446,_0x11b2ec[_0x56453a(0x16b)])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x119)]));_0x1f6446===_0x11b2ec[_0x56453a(0x13f)]&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x11a)]));_0x11b2ec[_0x56453a(0x177)](_0x1f6446,_0x11b2ec['jGqOy'])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d['cyan'](_0x11b2ec['npbgJ']));_0x11b2ec[_0x56453a(0x183)](_0x1f6446,_0x11b2ec['nDUVu'])&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x11b2ec[_0x56453a(0x16c)]));const _0x266869=a0_0x35e01a[_0x56453a(0x179)](_0x1f6446);_0x266869&&_0x39370a[_0x56453a(0x146)](a0_0x53006d[_0x56453a(0x141)](_0x56453a(0x12a)+_0x266869));};await _0x11b2ec[_0x4bff65(0x188)](_0x209ba2,_0x3410ec);const _0x33b8c7=Array['from'](_0x39370a)[_0x4bff65(0x184)](_0x5d63d9=>'-\x20'+_0x5d63d9)[_0x4bff65(0x153)]('\x0a');console[_0x4bff65(0x10f)](a0_0x53006d[_0x4bff65(0x141)]('📜\x20This\x20project\x20uses:')),console[_0x4bff65(0x10f)](_0x33b8c7);};
+import chalk from "chalk";
+import path from "path";
+import fs from "fs";
+import mime from "mime";
+
+export const handleLanguagesCommand = async () => {
+  const foundTechnologies = new Set();
+  const directory = process.cwd();
+
+  const hasPackageJson = fs.existsSync(path.join(directory, "package.json"));
+  const hasYarnLock = fs.existsSync(path.join(directory, "yarn.lock"));
+
+  if (!hasPackageJson && !hasYarnLock) {
+    console.log(chalk.yellow("⚠️ No initialized project found."));
+    return;
+  }
+
+  const exploreDirectory = async (dir) => {
+    const files = await fs.promises.readdir(dir);
+
+    for (const file of files) {
+      const fullPath = path.join(dir, file);
+
+      if (fullPath.includes("node_modules")) {
+        continue;
+      }
+
+      const stat = await fs.promises.stat(fullPath);
+
+      if (stat.isDirectory()) {
+        await exploreDirectory(fullPath);
+      } else if (stat.isFile()) {
+        await analyzeFile(fullPath);
+      }
+    }
+  };
+
+  const analyzeFile = async (filePath) => {
+    const ext = path.extname(filePath).toLowerCase();
+    const content = await fs.promises.readFile(filePath, "utf-8");
+
+    if (filePath === "package.json") {
+      try {
+        const pkgContent = JSON.parse(content);
+        if (fs.existsSync(path.join(directory, "package-lock.json"))) {
+          foundTechnologies.add(chalk.cyan("Package Manager: npm"));
+        } else if (fs.existsSync(path.join(directory, "yarn.lock"))) {
+          foundTechnologies.add(chalk.cyan("Package Manager: yarn"));
+        }
+
+        if (pkgContent.dependencies) {
+          if (pkgContent.dependencies.react)
+            foundTechnologies.add(chalk.cyan("React : JavaScript Framework"));
+          if (pkgContent.dependencies.vue)
+            foundTechnologies.add(chalk.cyan("Vue : JavaScript Framework"));
+          if (pkgContent.dependencies.angular)
+            foundTechnologies.add(chalk.cyan("Angular : JavaScript Framework"));
+          if (pkgContent.dependencies.express)
+            foundTechnologies.add(chalk.cyan("Express : Node.js Framework"));
+        }
+      } catch (error) {
+        console.error("Error reading package.json", error);
+      }
+    }
+
+    if (ext === ".js" || ext === ".jsx") {
+      foundTechnologies.add(chalk.cyan("JavaScript : Programming Language"));
+    }
+    if (ext === ".ts" || ext === ".tsx") {
+      foundTechnologies.add(chalk.cyan("TypeScript : Programming Language"));
+    }
+    if (ext === ".py") {
+      foundTechnologies.add(chalk.cyan("Python : Programming Language"));
+    }
+    if (ext === ".rb") {
+      foundTechnologies.add(chalk.cyan("Ruby : Programming Language"));
+    }
+    if (ext === ".java") {
+      foundTechnologies.add(chalk.cyan("Java : Programming Language"));
+    }
+    if (ext === ".go") {
+      foundTechnologies.add(chalk.cyan("Go : Programming Language"));
+    }
+    if (ext === ".php") {
+      foundTechnologies.add(chalk.cyan("PHP : Programming Language"));
+    }
+    if (ext === ".c") {
+      foundTechnologies.add(chalk.cyan("C : Programming Language"));
+    }
+    if (ext === ".cpp") {
+      foundTechnologies.add(chalk.cyan("C++ : Programming Language"));
+    }
+    if (ext === ".h") {
+      foundTechnologies.add(chalk.cyan("C Header : Programming Language"));
+    }
+    if (ext === ".cs") {
+      foundTechnologies.add(chalk.cyan("C# : Programming Language"));
+    }
+    if (ext === ".swift") {
+      foundTechnologies.add(chalk.cyan("Swift : Programming Language"));
+    }
+    if (ext === ".kt") {
+      foundTechnologies.add(chalk.cyan("Kotlin : Programming Language"));
+    }
+    if (ext === ".dart") {
+      foundTechnologies.add(chalk.cyan("Dart : Programming Language"));
+    }
+    if (ext === ".r") {
+      foundTechnologies.add(chalk.cyan("R : Programming Language"));
+    }
+    if (ext === ".lua") {
+      foundTechnologies.add(chalk.cyan("Lua : Programming Language"));
+    }
+    if (ext === ".el") {
+      foundTechnologies.add(chalk.cyan("Emacs Lisp : Programming Language"));
+    }
+    if (ext === ".clj") {
+      foundTechnologies.add(chalk.cyan("Clojure : Programming Language"));
+    }
+    if (ext === ".scss") {
+      foundTechnologies.add(chalk.cyan("Sass : CSS Preprocessor"));
+    }
+    if (ext === ".less") {
+      foundTechnologies.add(chalk.cyan("Less : CSS Preprocessor"));
+    }
+    if (ext === ".html") {
+      foundTechnologies.add(chalk.cyan("HTML : Markup Language"));
+    }
+    if (ext === ".css") {
+      foundTechnologies.add(chalk.cyan("CSS : Styling Language"));
+    }
+    if (ext === ".json") {
+      foundTechnologies.add(chalk.cyan("JSON : Data Format"));
+    }
+    if (ext === ".yaml" || ext === ".yml") {
+      foundTechnologies.add(chalk.cyan("YAML : Data Format"));
+    }
+    if (ext === ".toml") {
+      foundTechnologies.add(chalk.cyan("TOML : Data Format"));
+    }
+    if (ext === ".md") {
+      foundTechnologies.add(chalk.cyan("Markdown : Documentation Format"));
+    }
+    if (ext === ".tex") {
+      foundTechnologies.add(chalk.cyan("LaTeX : Document Preparation"));
+    }
+    if (ext === ".sql") {
+      foundTechnologies.add(chalk.cyan("SQL : Database Query Language"));
+    }
+    if (ext === ".xml") {
+      foundTechnologies.add(chalk.cyan("XML : Markup Language"));
+    }
+    if (ext === ".bash" || ext === ".sh") {
+      foundTechnologies.add(chalk.cyan("Bash : Scripting Language"));
+    }
+    if (ext === ".bat") {
+      foundTechnologies.add(chalk.cyan("Batch : Scripting Language"));
+    }
+    if (ext === ".ps1") {
+      foundTechnologies.add(chalk.cyan("PowerShell : Scripting Language"));
+    }
+
+    if (filePath === "webpack.config.js") {
+      foundTechnologies.add(chalk.cyan("Webpack : Module Bundler"));
+    }
+    if (filePath === "vite.config.js" || content.includes("vite")) {
+      foundTechnologies.add(chalk.cyan("Vite : Next-Generation Build Tool"));
+    }
+    if (filePath === "babel.config.js") {
+      foundTechnologies.add(chalk.cyan("Babel : JavaScript Compiler"));
+    }
+    if (filePath === "rollup.config.js") {
+      foundTechnologies.add(chalk.cyan("Rollup : Module Bundler"));
+    }
+    if (filePath === "gruntfile.js") {
+      foundTechnologies.add(chalk.cyan("Grunt : JavaScript Task Runner"));
+    }
+    if (filePath === "gulpfile.js") {
+      foundTechnologies.add(chalk.cyan("Gulp : Task Automation"));
+    }
+    if (filePath === "gulpfile.babel.js") {
+      foundTechnologies.add(
+        chalk.cyan("Gulp with Babel : Task Automation with Babel")
+      );
+    }
+
+    const mimeType = mime.getType(filePath);
+    if (mimeType) {
+      foundTechnologies.add(chalk.cyan(`File Type: ${mimeType}`));
+    }
+  };
+
+  await exploreDirectory(directory);
+
+  const formattedTechnologies = Array.from(foundTechnologies)
+    .map((tech) => `- ${tech}`)
+    .join("\n");
+
+  console.log(chalk.cyan("📜 This project uses:"));
+  console.log(formattedTechnologies);
+};

@@ -1,1 +1,371 @@
-const a0_0x4c7b9e=a0_0x5222;(function(_0x599d3c,_0x2e4e5f){const _0x4e5e28=a0_0x5222,_0x551e59=_0x599d3c();while(!![]){try{const _0x2a5e11=-parseInt(_0x4e5e28(0x20c))/0x1+-parseInt(_0x4e5e28(0x217))/0x2*(-parseInt(_0x4e5e28(0x1ed))/0x3)+-parseInt(_0x4e5e28(0x153))/0x4*(-parseInt(_0x4e5e28(0x1f8))/0x5)+-parseInt(_0x4e5e28(0x1c4))/0x6+parseInt(_0x4e5e28(0x19f))/0x7+parseInt(_0x4e5e28(0x208))/0x8+-parseInt(_0x4e5e28(0x20f))/0x9;if(_0x2a5e11===_0x2e4e5f)break;else _0x551e59['push'](_0x551e59['shift']());}catch(_0x7e57a8){_0x551e59['push'](_0x551e59['shift']());}}}(a0_0x2190,0xec889));const a0_0x426938=(function(){let _0x48f5e9=!![];return function(_0x47eeda,_0x33bdac){const _0x1b4ef9=_0x48f5e9?function(){const _0x41801e=a0_0x5222;if(_0x33bdac){const _0x2c9c1b=_0x33bdac[_0x41801e(0x1bb)](_0x47eeda,arguments);return _0x33bdac=null,_0x2c9c1b;}}:function(){};return _0x48f5e9=![],_0x1b4ef9;};}()),a0_0x3527a1=a0_0x426938(this,function(){const _0x3f68a3=a0_0x5222,_0x31dcef={'YtzdB':_0x3f68a3(0x20d)};return a0_0x3527a1[_0x3f68a3(0x1dd)]()[_0x3f68a3(0x1be)](_0x31dcef['YtzdB'])[_0x3f68a3(0x1dd)]()[_0x3f68a3(0x214)](a0_0x3527a1)[_0x3f68a3(0x1be)](_0x31dcef[_0x3f68a3(0x1b2)]);});a0_0x3527a1();import a0_0x5a2746 from'chalk';import a0_0x5dfcbc from'ora';import a0_0x48cf8f from'fs';import a0_0x4dd71e from'path';import a0_0x1bce16 from'os';import a0_0x1983d2 from'fs-extra';import{promisify}from'util';import{exec,spawn}from'child_process';import a0_0x4edb81 from'readline';import a0_0x226fbf from'open';const execAsync=promisify(exec),SANDBOX_STATE_FILE=a0_0x4dd71e['join'](a0_0x1bce16[a0_0x4c7b9e(0x186)](),a0_0x4c7b9e(0x1f1));function createTempDir(){const _0x3cb8a4=a0_0x4c7b9e,_0x17b1b8=a0_0x4dd71e[_0x3cb8a4(0x1d9)](a0_0x1bce16['tmpdir'](),'neko-sandbox-'+Date[_0x3cb8a4(0x1c5)]()+'-'+Math[_0x3cb8a4(0x17e)]()[_0x3cb8a4(0x1dd)](0x24)[_0x3cb8a4(0x160)](0x2,0x8));return a0_0x1983d2['mkdirSync'](_0x17b1b8),_0x17b1b8;}function a0_0x5222(_0x3c16ca,_0x1d6b84){const _0x31589b=a0_0x2190();return a0_0x5222=function(_0x3527a1,_0x426938){_0x3527a1=_0x3527a1-0x152;let _0x219059=_0x31589b[_0x3527a1];return _0x219059;},a0_0x5222(_0x3c16ca,_0x1d6b84);}function detectPackageManager(_0x1c830d){const _0x3408d0=a0_0x4c7b9e,_0x5231ca={'bSSTF':_0x3408d0(0x1e1),'HourF':_0x3408d0(0x1d4)};if(a0_0x48cf8f[_0x3408d0(0x20a)](a0_0x4dd71e['join'](_0x1c830d,_0x5231ca[_0x3408d0(0x213)])))return'yarn';return _0x5231ca[_0x3408d0(0x178)];}async function destroySandbox(_0x3d1c6e,_0x2989d5,_0x7873bb=![]){const _0x2d6321=a0_0x4c7b9e,_0x2f5bfb={'SkrPI':_0x2d6321(0x19b),'xDBml':_0x2d6321(0x1c1),'IOuds':_0x2d6321(0x200),'rOgUK':_0x2d6321(0x15e)};if(_0x2989d5&&a0_0x48cf8f['existsSync'](_0x2989d5)){_0x3d1c6e[_0x2d6321(0x1da)]=a0_0x5a2746[_0x2d6321(0x163)](_0x2f5bfb[_0x2d6321(0x167)]);try{await a0_0x1983d2[_0x2d6321(0x1d2)](_0x2989d5),_0x3d1c6e['succeed'](a0_0x5a2746['cyan'](_0x2f5bfb['xDBml'])),a0_0x48cf8f[_0x2d6321(0x20a)](SANDBOX_STATE_FILE)&&a0_0x48cf8f[_0x2d6321(0x1a2)](SANDBOX_STATE_FILE);}catch(_0xf5d10e){_0x3d1c6e[_0x2d6321(0x16f)](a0_0x5a2746[_0x2d6321(0x163)](_0x2d6321(0x159)+_0xf5d10e[_0x2d6321(0x169)]));}}else _0x7873bb&&(a0_0x48cf8f[_0x2d6321(0x20a)](SANDBOX_STATE_FILE)?(a0_0x48cf8f[_0x2d6321(0x1a2)](SANDBOX_STATE_FILE),_0x3d1c6e[_0x2d6321(0x1d3)](a0_0x5a2746[_0x2d6321(0x163)](_0x2f5bfb['IOuds']))):_0x3d1c6e[_0x2d6321(0x1e6)](a0_0x5a2746[_0x2d6321(0x163)](_0x2f5bfb[_0x2d6321(0x1c3)])));}function a0_0x2190(){const _0x418af8=['Destroying\x20sandbox...','stringify','pause','KZslG','\x20--silent','.git','qnIoe','relative','log','❌\x20Initial\x20command\x20failed:\x20','Failed\x20to\x20clean\x20up\x20temp\x20directory:\x20','.DS_Store','Tqxec','isDirectory','swMlb','🧹\x20Cleaning\x20up\x20sandbox\x20environment...','xwTWE','NzjFC','Quhmd','13456786rYGRRe','qsFZl','removeListener','unlinkSync','\x20📂\x20Use\x20\x27sandbox\x20open\x27\x20to\x20view\x20the\x20sandbox\x20directory.','\x20--production','⚠️\x20No\x20active\x20sandbox\x20found\x20to\x20open.','❌\x20Failed\x20to\x20open\x20sandbox\x20directory:\x20','yellow','\x20----------------------------------------------\x20','tempDir','xzEUL','aVMdg','startsWith','\x20📦\x20Welcome\x20to\x20your\x20isolated\x20environment.','ZGxpL','WovBN','XYzrQ','\x0a❌\x20Command\x20failed:\x20','YtzdB','ToJal','SngYW','PIipx','📂\x20Opened\x20sandbox\x20directory:\x20','Failed\x20to\x20execute\x20command.\x20Is\x20it\x20installed\x20and\x20in\x20PATH?\x20','line','Copying\x20project\x20files\x20to\x20temporary\x20sandbox:\x20','Rjgmo','apply','\x0a⚠️\x20Corrupted\x20sandbox\x20state\x20file,\x20attempting\x20to\x20remove\x20it.','IERAd','search','DhTqN','Sandbox\x20directory\x20kept\x20for\x20inspection:\x20','🧹\x20Sandbox\x20cleaned\x20up\x20successfully.','Available\x20\x27sandbox\x27\x20subcommands:\x20destroy,\x20open','rOgUK','10653402nGPThw','now','\x0a⚠️\x20An\x20active\x20sandbox\x20is\x20already\x20running\x20at:\x20','iRkNC','--yarn','\x0a💥\x20Neko\x27s\x20sandbox\x20encountered\x20an\x20error:\x20','Initial\x20command\x20completed.','Running\x20initial\x20command\x20in\x20sandbox:\x20\x22','⚠️\x20Unknown\x20\x27sandbox\x27\x20subcommand:\x20','fKMKq',']\x20$\x20','cwd','LZRtW','white','remove','succeed','npm','AvLBO','jYqjW','aoumo','JOxhn','join','text','stdout','ljQyw','toString','\x0a❌\x20','Sandbox\x20destroyed.\x20Exiting.','vqkqz','yarn.lock','bgCyan','yjiVy','📦\x20Preparing\x20Neko\x27s\x20sandbox\x20environment...','uDOHt','info','write','platform','--npm','node_modules','NscSx','win32','1413738wbzOEm','SIGINT','OUmhd','pipe','neko-sandbox-active.json','Use\x20\x27sandbox\x20destroy\x27\x20to\x20exit\x20and\x20clean\x20it\x20up.','EYIhC','[Sandbox:','resume','trim','\x20🎯\x20Sandbox\x20base\x20path:\x20','85YTuKNS','stdin','WgIXC','temp','utf-8','filter','HsmUH','dEUMi','🧹\x20Old\x20sandbox\x20state\x20file\x20removed.','bVonx','mkzLY','error','start','qUzFu','XPvhH','cmd.exe','218944WktvdM','❌\x20Directory\x20not\x20found:\x20','existsSync','ZXhan','346041CNgQVW','(((.+)+)+)+$','Opening\x20sandbox\x20directory...','5734953qmcxLE','Installing\x20dependencies\x20in\x20sandbox\x20using\x20','prompt','exit','bSSTF','constructor','open','/bin/sh','2QmbDhN','tgnCY','...','307448xlGKTI','❌\x20Cannot\x20\x27cd\x27\x20outside\x20of\x20the\x20sandbox\x20environment.','Dependency\x20installation\x20failed.','nhqpH','iyFFK','createInterface','❌\x20Failed\x20to\x20clean\x20up\x20sandbox:\x20','resolve','jiKns','SrlYh','stderr','No\x20active\x20sandbox\x20directory\x20or\x20state\x20file\x20found\x20to\x20destroy.','BIubd','substring','length','nLAZo','cyan','Command\x20exited\x20with\x20code\x20','parse','--dev','SkrPI','JsdBw','message','zrKKk','\x20install','tJrRQ','package.json','--keep','fail','build','red','OXozd','writeFileSync','yarn','TnbRN','NSiis','ilmSX','HourF','lwzoc','racxf','aZVZQ','cfGUj','rxFST','random','❌\x20Failed\x20to\x20install\x20dependencies\x20in\x20sandbox:\x20','data','BlquS','\x0a\x0aType\x20\x27sandbox\x20destroy\x27\x20to\x20exit\x20and\x20remove\x20the\x20sandbox.','close','AfVoN','uwpXB','tmpdir','cKvxN','copy','lnedP','stop','readFileSync'];a0_0x2190=function(){return _0x418af8;};return a0_0x2190();}function getSandboxPrompt(_0x4f0b63,_0x2b2f43){const _0x323e13=a0_0x4c7b9e,_0x52e0ff=a0_0x4dd71e[_0x323e13(0x193)](_0x4f0b63,_0x2b2f43)||'.';return a0_0x5a2746['bgCyan'](a0_0x5a2746[_0x323e13(0x1d1)](_0x323e13(0x1f4)+_0x52e0ff+_0x323e13(0x1ce)));}export const handleSandboxCommand=async _0x242da1=>{const _0x44ce33=a0_0x4c7b9e,_0x4654a3={'xwTWE':function(_0x426660,_0x401ca5){return _0x426660!==_0x401ca5;},'ViOqO':_0x44ce33(0x1ea),'rxFST':function(_0x64d399,_0x4b0664){return _0x64d399!==_0x4b0664;},'MUPVW':_0x44ce33(0x191),'SngYW':function(_0x13dc58,_0x2b9b0c){return _0x13dc58!==_0x2b9b0c;},'lnedP':'.vscode','tJrRQ':function(_0x5760e8,_0x5ade4f){return _0x5760e8!==_0x5ade4f;},'bEOmz':function(_0x39b1d2,_0x5a798d){return _0x39b1d2!==_0x5a798d;},'BIubd':_0x44ce33(0x197),'ljQyw':function(_0x2a571b,_0x397cec){return _0x2a571b===_0x397cec;},'racxf':_0x44ce33(0x16e),'SrlYh':function(_0xf387a5,_0x5a01d9){return _0xf387a5===_0x5a01d9;},'aZVZQ':_0x44ce33(0x1c8),'WovBN':function(_0x43e989,_0x412c32){return _0x43e989===_0x412c32;},'nLAZo':_0x44ce33(0x1d4),'dEUMi':function(_0x4d5aa8,_0x6b91fc){return _0x4d5aa8>_0x6b91fc;},'OUmhd':function(_0x2e08d7,_0x5c78c9){return _0x2e08d7(_0x5c78c9);},'zrKKk':'Processing\x20sandbox\x20command...','xzEUL':function(_0x2eb657,_0x3f40cd){return _0x2eb657===_0x3f40cd;},'iRkNC':function(_0x95ef88,_0x82f481,_0x29fd76,_0x991b6c){return _0x95ef88(_0x82f481,_0x29fd76,_0x991b6c);},'oUrBK':function(_0x102db7,_0xa60e24){return _0x102db7===_0xa60e24;},'ljfEQ':_0x44ce33(0x215),'cfGUj':_0x44ce33(0x1fc),'MzXzx':_0x44ce33(0x1f2),'qnIoe':'Use\x20\x27sandbox\x20open\x27\x20to\x20open\x20the\x20sandbox\x20directory.','XPvhH':function(_0x4165bb,_0x542498){return _0x4165bb(_0x542498);},'ilmSX':_0x44ce33(0x1e4),'GONDG':'❌\x20\x27package.json\x27\x20not\x20found\x20in\x20the\x20current\x20directory.\x20Cannot\x20create\x20sandbox\x20without\x20a\x20project.','qsFZl':function(_0x3d26c9){return _0x3d26c9();},'mkzLY':_0x44ce33(0x1a4),'aVMdg':_0x44ce33(0x190),'ToJal':function(_0x59162d,_0x2dc496,_0x4df207){return _0x59162d(_0x2dc496,_0x4df207);},'NSiis':function(_0x214831,_0x40c7a3){return _0x214831*_0x40c7a3;},'xaqYx':function(_0x464cc8,_0x49a071){return _0x464cc8*_0x49a071;},'jYqjW':_0x44ce33(0x155),'uwpXB':function(_0x36b608,_0x4753e8){return _0x36b608>_0x4753e8;},'NscSx':function(_0x5ed5b6,_0x16fad5,_0x3eae0c,_0x190c70){return _0x5ed5b6(_0x16fad5,_0x3eae0c,_0x190c70);},'EYIhC':_0x44ce33(0x1ca)};let _0x2f2bc0=![],_0xb30897=![],_0x146d01=null,_0x14d01f=[];const _0x3879a5=_0x242da1[_0x44ce33(0x1fd)](_0x5629c6=>_0x5629c6[_0x44ce33(0x1ac)]('--')),_0x21c787=_0x242da1[_0x44ce33(0x1fd)](_0xaf724c=>!_0xaf724c[_0x44ce33(0x1ac)]('--'));for(const _0x4a66d5 of _0x3879a5){if(_0x4a66d5===_0x44ce33(0x166))_0xb30897=!![];else{if(_0x4654a3[_0x44ce33(0x1dc)](_0x4a66d5,_0x4654a3[_0x44ce33(0x17a)]))_0x2f2bc0=!![];else{if(_0x4654a3[_0x44ce33(0x15c)](_0x4a66d5,_0x4654a3[_0x44ce33(0x17b)]))_0x146d01=_0x44ce33(0x174);else _0x4654a3[_0x44ce33(0x1af)](_0x4a66d5,_0x44ce33(0x1e9))&&(_0x146d01=_0x4654a3[_0x44ce33(0x162)]);}}}if(_0x4654a3[_0x44ce33(0x1ff)](_0x21c787[_0x44ce33(0x161)],0x0)){const _0x222612=_0x21c787[0x0];let _0x17c2a3=null;if(a0_0x48cf8f['existsSync'](SANDBOX_STATE_FILE))try{const _0xc8d45b=JSON[_0x44ce33(0x165)](a0_0x48cf8f[_0x44ce33(0x18b)](SANDBOX_STATE_FILE,_0x44ce33(0x1fc)));_0x17c2a3=_0xc8d45b[_0x44ce33(0x1a9)];}catch(_0x1de1c0){console['log'](a0_0x5a2746[_0x44ce33(0x171)](_0x44ce33(0x1bc))),a0_0x48cf8f[_0x44ce33(0x1a2)](SANDBOX_STATE_FILE);}const _0x1dee3f=_0x4654a3[_0x44ce33(0x1ef)](a0_0x5dfcbc,a0_0x5a2746[_0x44ce33(0x163)](_0x4654a3[_0x44ce33(0x16a)]))[_0x44ce33(0x204)]();if(_0x4654a3[_0x44ce33(0x1aa)](_0x222612,'destroy')){await _0x4654a3[_0x44ce33(0x1c7)](destroySandbox,_0x1dee3f,_0x17c2a3,!![]);return;}else{if(_0x4654a3['oUrBK'](_0x222612,_0x4654a3['ljfEQ'])){if(_0x17c2a3&&a0_0x48cf8f[_0x44ce33(0x20a)](_0x17c2a3))try{await _0x4654a3[_0x44ce33(0x1ef)](a0_0x226fbf,_0x17c2a3),_0x1dee3f[_0x44ce33(0x1d3)](a0_0x5a2746[_0x44ce33(0x163)](_0x44ce33(0x1b6)+_0x17c2a3));}catch(_0x57a46c){_0x1dee3f[_0x44ce33(0x16f)](a0_0x5a2746[_0x44ce33(0x171)](_0x44ce33(0x1a6)+_0x57a46c[_0x44ce33(0x169)]));}else _0x1dee3f[_0x44ce33(0x16f)](a0_0x5a2746['yellow'](_0x44ce33(0x1a5)));return;}}_0x1dee3f[_0x44ce33(0x18a)]();}if(a0_0x48cf8f[_0x44ce33(0x20a)](SANDBOX_STATE_FILE))try{const _0x5dec58=JSON[_0x44ce33(0x165)](a0_0x48cf8f[_0x44ce33(0x18b)](SANDBOX_STATE_FILE,_0x4654a3[_0x44ce33(0x17c)]));if(a0_0x48cf8f[_0x44ce33(0x20a)](_0x5dec58['tempDir'])){console['log'](a0_0x5a2746[_0x44ce33(0x1a7)](_0x44ce33(0x1c6)+_0x5dec58[_0x44ce33(0x1a9)])),console[_0x44ce33(0x194)](a0_0x5a2746[_0x44ce33(0x1a7)](_0x4654a3['MzXzx'])),console[_0x44ce33(0x194)](a0_0x5a2746[_0x44ce33(0x1a7)](_0x4654a3[_0x44ce33(0x192)]));return;}else console['log'](a0_0x5a2746[_0x44ce33(0x1a7)]('\x0a⚠️\x20Found\x20stale\x20sandbox\x20state\x20file,\x20cleaning\x20it\x20up.')),a0_0x48cf8f['unlinkSync'](SANDBOX_STATE_FILE);}catch(_0x3dd595){console[_0x44ce33(0x194)](a0_0x5a2746[_0x44ce33(0x171)]('\x0a⚠️\x20Corrupted\x20sandbox\x20state\x20file,\x20attempting\x20to\x20remove\x20it.')),a0_0x48cf8f[_0x44ce33(0x1a2)](SANDBOX_STATE_FILE);}_0x4654a3['dEUMi'](_0x21c787['length'],0x0)&&(_0x14d01f=_0x21c787);let _0x3457a8=null;const _0x3be913=_0x4654a3[_0x44ce33(0x206)](a0_0x5dfcbc,a0_0x5a2746[_0x44ce33(0x163)](_0x4654a3[_0x44ce33(0x177)]))[_0x44ce33(0x204)]();try{const _0x5bac28=process[_0x44ce33(0x1cf)](),_0x162fd9=a0_0x4dd71e[_0x44ce33(0x1d9)](_0x5bac28,_0x44ce33(0x16d));if(!a0_0x48cf8f[_0x44ce33(0x20a)](_0x162fd9)){_0x3be913['fail'](a0_0x5a2746[_0x44ce33(0x171)](_0x4654a3['GONDG']));return;}_0x3457a8=_0x4654a3['qsFZl'](createTempDir),_0x3be913[_0x44ce33(0x1da)]=a0_0x5a2746[_0x44ce33(0x163)](_0x44ce33(0x1b9)+_0x3457a8),await a0_0x1983d2[_0x44ce33(0x188)](_0x5bac28,_0x3457a8,{'filter':_0xad7171=>{const _0x5d21ff=_0x44ce33,_0x4c6eae=a0_0x4dd71e['basename'](_0xad7171);return _0x4654a3[_0x5d21ff(0x19c)](_0x4c6eae,_0x4654a3['ViOqO'])&&_0x4654a3[_0x5d21ff(0x17d)](_0x4c6eae,_0x4654a3['MUPVW'])&&_0x4654a3[_0x5d21ff(0x1b4)](_0x4c6eae,_0x4654a3[_0x5d21ff(0x189)])&&_0x4654a3[_0x5d21ff(0x16c)](_0x4c6eae,_0x5d21ff(0x1fb))&&_0x4654a3[_0x5d21ff(0x1b4)](_0x4c6eae,_0x5d21ff(0x170))&&_0x4654a3['bEOmz'](_0x4c6eae,_0x4654a3[_0x5d21ff(0x15f)]);}});const _0x555edb=_0x146d01||_0x4654a3[_0x44ce33(0x206)](detectPackageManager,_0x3457a8);let _0x1420aa=_0x555edb+_0x44ce33(0x16b);!_0xb30897&&(_0x1420aa+=_0x4654a3[_0x44ce33(0x202)]);_0x1420aa+=_0x4654a3[_0x44ce33(0x1ab)],_0x3be913[_0x44ce33(0x1da)]=a0_0x5a2746[_0x44ce33(0x163)](_0x44ce33(0x210)+_0x555edb+_0x44ce33(0x152));try{await _0x4654a3[_0x44ce33(0x1b3)](execAsync,_0x1420aa,{'cwd':_0x3457a8,'maxBuffer':_0x4654a3[_0x44ce33(0x176)](_0x4654a3['xaqYx'](0x32,0x400),0x400)});}catch(_0x3204a0){_0x3be913[_0x44ce33(0x16f)](a0_0x5a2746[_0x44ce33(0x171)](_0x44ce33(0x17f)+_0x3204a0[_0x44ce33(0x169)]));if(_0x3204a0[_0x44ce33(0x1db)])console[_0x44ce33(0x203)](a0_0x5a2746[_0x44ce33(0x171)](_0x3204a0[_0x44ce33(0x1db)]));if(_0x3204a0[_0x44ce33(0x15d)])console['error'](a0_0x5a2746['red'](_0x3204a0['stderr']));throw new Error(_0x4654a3[_0x44ce33(0x1d6)]);}_0x3be913[_0x44ce33(0x1d3)](a0_0x5a2746['cyan']('✅\x20Neko\x27s\x20sandbox\x20environment\x20is\x20ready\x20at:\x20'+_0x3457a8)),a0_0x48cf8f[_0x44ce33(0x173)](SANDBOX_STATE_FILE,JSON[_0x44ce33(0x18d)]({'tempDir':_0x3457a8,'projectRoot':_0x5bac28,'packageManager':_0x555edb,'keepTempDir':_0x2f2bc0}));if(_0x4654a3[_0x44ce33(0x185)](_0x14d01f[_0x44ce33(0x161)],0x0)){_0x3be913['info'](a0_0x5a2746[_0x44ce33(0x163)](_0x44ce33(0x1cb)+_0x14d01f[_0x44ce33(0x1d9)]('\x20')+'\x22'));try{await _0x4654a3[_0x44ce33(0x1eb)](executeArbitraryCommandInSandbox,_0x14d01f[_0x44ce33(0x1d9)]('\x20'),_0x3457a8,![]),_0x3be913[_0x44ce33(0x1d3)](a0_0x5a2746[_0x44ce33(0x163)](_0x4654a3[_0x44ce33(0x1f3)]));}catch(_0x33161a){_0x3be913[_0x44ce33(0x16f)](a0_0x5a2746[_0x44ce33(0x171)](_0x44ce33(0x195)+_0x33161a[_0x44ce33(0x169)]));}finally{!_0x2f2bc0?await _0x4654a3[_0x44ce33(0x1b3)](destroySandbox,_0x4654a3[_0x44ce33(0x1a0)](a0_0x5dfcbc),_0x3457a8):console[_0x44ce33(0x194)](a0_0x5a2746['cyan']('Sandbox\x20directory\x20kept\x20for\x20inspection:\x20'+_0x3457a8)),a0_0x48cf8f[_0x44ce33(0x20a)](SANDBOX_STATE_FILE)&&a0_0x48cf8f[_0x44ce33(0x1a2)](SANDBOX_STATE_FILE);}return;}await enterInteractiveSandboxMode(_0x3457a8,_0x555edb,_0x2f2bc0);}catch(_0x16be74){_0x3be913['fail'](a0_0x5a2746['red'](_0x44ce33(0x1c9)+_0x16be74[_0x44ce33(0x169)]));if(_0x16be74['stdout'])process[_0x44ce33(0x1db)][_0x44ce33(0x1e7)](a0_0x5a2746[_0x44ce33(0x171)](_0x16be74[_0x44ce33(0x1db)]));if(_0x16be74[_0x44ce33(0x15d)])process['stderr'][_0x44ce33(0x1e7)](a0_0x5a2746[_0x44ce33(0x171)](_0x16be74[_0x44ce33(0x15d)]));_0x3457a8&&a0_0x48cf8f[_0x44ce33(0x20a)](_0x3457a8)&&!_0x2f2bc0&&await a0_0x1983d2[_0x44ce33(0x1d2)](_0x3457a8)['catch'](_0x499ad1=>console['error'](a0_0x5a2746[_0x44ce33(0x171)](_0x44ce33(0x196)+_0x499ad1[_0x44ce33(0x169)]))),a0_0x48cf8f[_0x44ce33(0x20a)](SANDBOX_STATE_FILE)&&a0_0x48cf8f[_0x44ce33(0x1a2)](SANDBOX_STATE_FILE),process[_0x44ce33(0x212)](0x1);}};async function executeArbitraryCommandInSandbox(_0x3e818b,_0x54b5b9,_0x381b93=!![]){const _0x3bd256=a0_0x4c7b9e,_0xba387b={'ZXhan':function(_0x31abe3,_0x43469f){return _0x31abe3===_0x43469f;},'WgIXC':function(_0x53f7c6,_0x5d155a){return _0x53f7c6||_0x5d155a;},'JsdBw':function(_0x283acd){return _0x283acd();},'tgnCY':function(_0x4ce68f,_0x1a662f){return _0x4ce68f===_0x1a662f;},'PIipx':_0x3bd256(0x216),'HsmUH':function(_0x4c5297,_0x45ecde){return _0x4c5297===_0x45ecde;},'ZGxpL':_0x3bd256(0x1ec),'DhTqN':function(_0x4a6572,_0x5b463c,_0x1fee75,_0x153d3d){return _0x4a6572(_0x5b463c,_0x1fee75,_0x153d3d);},'iyFFK':_0x3bd256(0x1f0),'hvFBF':_0x3bd256(0x183),'gIrdI':_0x3bd256(0x203)};return new Promise((_0x2ccf9f,_0x585a5a)=>{const _0x1ffef8=_0x3bd256,_0x770075={'Rjgmo':function(_0x468783,_0x13a251){return _0x468783(_0x13a251);}},_0x1bdf7b=_0xba387b[_0x1ffef8(0x218)](a0_0x1bce16[_0x1ffef8(0x1e8)](),_0x1ffef8(0x1ec))?_0x1ffef8(0x207):_0xba387b[_0x1ffef8(0x1b5)],_0x1cff5f=_0xba387b[_0x1ffef8(0x1fe)](a0_0x1bce16[_0x1ffef8(0x1e8)](),_0xba387b[_0x1ffef8(0x1ae)])?['/c',_0x3e818b]:['-c',_0x3e818b],_0x363d0e=_0xba387b[_0x1ffef8(0x1bf)](spawn,_0x1bdf7b,_0x1cff5f,{'cwd':_0x54b5b9,'stdio':_0xba387b[_0x1ffef8(0x157)]});let _0x521e94='',_0x562790='';_0x363d0e['stdout']['on']('data',_0x143486=>{const _0x55c887=_0x1ffef8;process[_0x55c887(0x1db)][_0x55c887(0x1e7)](_0x143486),_0x521e94+=_0x143486[_0x55c887(0x1dd)]();}),_0x363d0e[_0x1ffef8(0x15d)]['on'](_0x1ffef8(0x180),_0x4671ac=>{const _0x95b40b=_0x1ffef8;process[_0x95b40b(0x15d)][_0x95b40b(0x1e7)](a0_0x5a2746['red'](_0x4671ac)),_0x562790+=_0x4671ac[_0x95b40b(0x1dd)]();}),_0x363d0e['on'](_0xba387b['hvFBF'],_0x284944=>{const _0x7d3bb1=_0x1ffef8;if(_0xba387b[_0x7d3bb1(0x20b)](_0x284944,0x0))_0x2ccf9f();else{const _0x80896f=_0xba387b[_0x7d3bb1(0x1fa)](_0x562790,_0x521e94)||_0x7d3bb1(0x164)+_0x284944+'.';_0x381b93?(console['log'](a0_0x5a2746['red'](_0x7d3bb1(0x1b1)+_0x80896f[_0x7d3bb1(0x1f6)]())),_0xba387b[_0x7d3bb1(0x168)](_0x2ccf9f)):_0x585a5a(new Error(_0x80896f[_0x7d3bb1(0x1f6)]()));}}),_0x363d0e['on'](_0xba387b['gIrdI'],_0x5bed49=>{const _0x23f02d=_0x1ffef8,_0x43cfbd=_0x23f02d(0x1b7)+_0x5bed49[_0x23f02d(0x169)];process[_0x23f02d(0x15d)]['write'](a0_0x5a2746['red'](_0x23f02d(0x1de)+_0x43cfbd+'\x0a')),_0x381b93?_0x2ccf9f():_0x770075[_0x23f02d(0x1ba)](_0x585a5a,new Error(_0x43cfbd));});});}async function enterInteractiveSandboxMode(_0x36c8ac,_0x51764e,_0x19fdd8){const _0x26a7e0=a0_0x4c7b9e,_0x2b9b83={'DxxvY':_0x26a7e0(0x182),'bVonx':'Type\x20\x27sandbox\x20open\x27\x20to\x20open\x20the\x20sandbox\x20directory.','jiKns':function(_0x3dd961){return _0x3dd961();},'NzjFC':function(_0x48034b,_0x4b71a2){return _0x48034b===_0x4b71a2;},'XYzrQ':function(_0x3db3b8){return _0x3db3b8();},'cKvxN':function(_0x3e3fd6,_0x19153b){return _0x3e3fd6===_0x19153b;},'aoumo':'destroy','lwzoc':function(_0x356596,_0x24b74e){return _0x356596(_0x24b74e);},'LZRtW':_0x26a7e0(0x18c),'uDOHt':function(_0x1e06b5,_0x5f4a7a,_0x3138bd){return _0x1e06b5(_0x5f4a7a,_0x3138bd);},'qUzFu':_0x26a7e0(0x1df),'KZslG':_0x26a7e0(0x215),'IERAd':function(_0x47a762,_0xdf5be6){return _0x47a762(_0xdf5be6);},'JOxhn':_0x26a7e0(0x20e),'Tqxec':_0x26a7e0(0x1c2),'gIZiI':function(_0x1bee46){return _0x1bee46();},'BlquS':function(_0x49a65e,_0x3e6527){return _0x49a65e===_0x3e6527;},'TnbRN':function(_0x5087ff,_0x5820b3,_0x538537){return _0x5087ff(_0x5820b3,_0x538537);},'vqkqz':function(_0xa4f1ba,_0x316cf3,_0x544fa6,_0x400ac1){return _0xa4f1ba(_0x316cf3,_0x544fa6,_0x400ac1);},'AvLBO':_0x26a7e0(0x1ee),'yjiVy':function(_0x101f13,_0x3aaf41){return _0x101f13&&_0x3aaf41;},'nhqpH':'\x0a\x20---\x20Entering\x20Neko\x20Sandbox\x20Interactive\x20Mode\x20---\x20','OXozd':_0x26a7e0(0x1ad),'HsdgN':'\x20🧹\x20Use\x20\x27sandbox\x20destroy\x27\x20to\x20exit\x20and\x20clean\x20up\x20the\x20sandbox.','AfVoN':_0x26a7e0(0x1a3),'fKMKq':_0x26a7e0(0x1ec),'Quhmd':'\x20💡\x20Tip:\x20On\x20Windows,\x20use\x20\x27dir\x27\x20instead\x20of\x20\x27ls\x27,\x20and\x20\x27type\x27\x20instead\x20of\x20\x27cat\x27.','swMlb':function(_0x171737){return _0x171737();}};let _0x79e24f=_0x36c8ac;const _0x1b96a1=a0_0x4edb81[_0x26a7e0(0x158)]({'input':process[_0x26a7e0(0x1f9)],'output':process[_0x26a7e0(0x1db)],'prompt':_0x2b9b83['TnbRN'](getSandboxPrompt,_0x36c8ac,_0x79e24f)}),_0x251fc0=()=>{const _0x5df73d=_0x26a7e0;_0x1b96a1[_0x5df73d(0x18e)](),_0x1b96a1[_0x5df73d(0x1f5)](),_0x1b96a1[_0x5df73d(0x211)]();},_0x1bb7db=()=>{const _0x21c913=_0x26a7e0;console['log'](a0_0x5a2746[_0x21c913(0x163)](_0x2b9b83['DxxvY'])),console[_0x21c913(0x194)](a0_0x5a2746['cyan'](_0x2b9b83[_0x21c913(0x201)])),_0x2b9b83[_0x21c913(0x15b)](_0x251fc0);};process['on'](_0x2b9b83[_0x26a7e0(0x1d5)],_0x1bb7db),console[_0x26a7e0(0x194)](a0_0x5a2746[_0x26a7e0(0x1e2)](a0_0x5a2746[_0x26a7e0(0x1d1)](_0x2b9b83[_0x26a7e0(0x156)]))),console['log'](a0_0x5a2746[_0x26a7e0(0x163)](_0x2b9b83[_0x26a7e0(0x172)])),console[_0x26a7e0(0x194)](a0_0x5a2746[_0x26a7e0(0x163)](_0x2b9b83['HsdgN'])),console[_0x26a7e0(0x194)](a0_0x5a2746['cyan'](_0x2b9b83[_0x26a7e0(0x184)])),console[_0x26a7e0(0x194)](a0_0x5a2746[_0x26a7e0(0x163)](_0x26a7e0(0x1f7)+_0x36c8ac));a0_0x1bce16['platform']()===_0x2b9b83[_0x26a7e0(0x1cd)]&&console[_0x26a7e0(0x194)](a0_0x5a2746[_0x26a7e0(0x163)](_0x2b9b83[_0x26a7e0(0x19e)]));console[_0x26a7e0(0x194)](a0_0x5a2746[_0x26a7e0(0x1e2)](a0_0x5a2746[_0x26a7e0(0x1d1)](_0x26a7e0(0x1a8)))),console['log'](''),_0x2b9b83[_0x26a7e0(0x19a)](_0x251fc0);let _0x31f61a=![];_0x1b96a1['on'](_0x26a7e0(0x1b8),async _0x5df9cb=>{const _0x146495=_0x26a7e0,_0x5da9ad=_0x5df9cb['trim'](),[_0x1f6c76,..._0x58f892]=_0x5da9ad['split']('\x20');if(_0x2b9b83['NzjFC'](_0x5da9ad['length'],0x0)){_0x2b9b83[_0x146495(0x1b0)](_0x251fc0);return;}if(_0x2b9b83[_0x146495(0x187)](_0x1f6c76,'sandbox')){const _0x560f93=_0x58f892[0x0];if(_0x2b9b83['NzjFC'](_0x560f93,_0x2b9b83[_0x146495(0x1d7)])){_0x31f61a=!![];const _0x315c95=_0x2b9b83[_0x146495(0x179)](a0_0x5dfcbc,a0_0x5a2746[_0x146495(0x163)](_0x2b9b83[_0x146495(0x1d0)]))[_0x146495(0x204)]();await _0x2b9b83[_0x146495(0x1e5)](destroySandbox,_0x315c95,_0x36c8ac),_0x315c95[_0x146495(0x1d3)](a0_0x5a2746[_0x146495(0x163)](_0x2b9b83[_0x146495(0x205)])),_0x1b96a1[_0x146495(0x183)]();return;}else{if(_0x560f93===_0x2b9b83[_0x146495(0x18f)]){const _0x267a67=_0x2b9b83[_0x146495(0x1bd)](a0_0x5dfcbc,a0_0x5a2746[_0x146495(0x163)](_0x2b9b83[_0x146495(0x1d8)]))[_0x146495(0x204)]();try{await a0_0x226fbf(_0x36c8ac),_0x267a67[_0x146495(0x1d3)](a0_0x5a2746[_0x146495(0x163)](_0x146495(0x1b6)+_0x36c8ac));}catch(_0x4848a6){_0x267a67['fail'](a0_0x5a2746['red'](_0x146495(0x1a6)+_0x4848a6[_0x146495(0x169)]));}_0x251fc0();return;}else{console['log'](a0_0x5a2746[_0x146495(0x1a7)](_0x146495(0x1cc)+_0x560f93)),console[_0x146495(0x194)](a0_0x5a2746['cyan'](_0x2b9b83[_0x146495(0x198)])),_0x2b9b83['gIZiI'](_0x251fc0);return;}}}if(_0x2b9b83[_0x146495(0x19d)](_0x1f6c76,'cd')){const _0x5e782d=_0x58f892[0x0]||'~';let _0x9c6ef7;_0x2b9b83['BlquS'](_0x5e782d,'~')||_0x2b9b83[_0x146495(0x181)](_0x5e782d,'/')?_0x9c6ef7=_0x36c8ac:_0x9c6ef7=a0_0x4dd71e[_0x146495(0x15a)](_0x79e24f,_0x5e782d);if(!_0x9c6ef7[_0x146495(0x1ac)](_0x36c8ac))console[_0x146495(0x194)](a0_0x5a2746[_0x146495(0x171)](_0x146495(0x154)));else!a0_0x48cf8f['existsSync'](_0x9c6ef7)||!a0_0x48cf8f['lstatSync'](_0x9c6ef7)[_0x146495(0x199)]()?console[_0x146495(0x194)](a0_0x5a2746[_0x146495(0x171)](_0x146495(0x209)+_0x5e782d)):_0x79e24f=_0x9c6ef7;_0x1b96a1['setPrompt'](_0x2b9b83[_0x146495(0x175)](getSandboxPrompt,_0x36c8ac,_0x79e24f)),_0x251fc0();return;}try{await _0x2b9b83[_0x146495(0x1e0)](executeArbitraryCommandInSandbox,_0x5da9ad,_0x79e24f,!![]);}catch(_0x4df7b2){console[_0x146495(0x194)](a0_0x5a2746['red']('\x0a❌\x20Error\x20executing\x20command:\x20'+_0x4df7b2[_0x146495(0x169)]));}finally{_0x251fc0();}})['on'](_0x26a7e0(0x183),async()=>{const _0x208233=_0x26a7e0;process[_0x208233(0x1a1)](_0x2b9b83[_0x208233(0x1d5)],_0x1bb7db),console[_0x208233(0x194)](a0_0x5a2746[_0x208233(0x1e2)](a0_0x5a2746[_0x208233(0x1d1)]('\x0a\x20---\x20Exited\x20Neko\x20Sandbox\x20Interactive\x20Mode\x20---\x20')));if(_0x2b9b83[_0x208233(0x1e3)](!_0x31f61a,!_0x19fdd8)){const _0xc081ba=_0x2b9b83[_0x208233(0x1b0)](a0_0x5dfcbc);await destroySandbox(_0xc081ba,_0x36c8ac);}else _0x2b9b83[_0x208233(0x1e3)](!_0x31f61a,_0x19fdd8)&&console[_0x208233(0x194)](a0_0x5a2746[_0x208233(0x163)](_0x208233(0x1c0)+_0x36c8ac));process[_0x208233(0x212)](0x0);});}
+import chalk from "chalk";
+import ora from "ora";
+import fs from "fs";
+import path from "path";
+import os from "os";
+import fsExtra from "fs-extra";
+import { promisify } from "util";
+import { exec, spawn } from "child_process";
+import readline from "readline";
+import open from "open";
+
+const execAsync = promisify(exec);
+const SANDBOX_STATE_FILE = path.join(os.tmpdir(), 'neko-sandbox-active.json');
+
+function createTempDir() {
+    const tempDir = path.join(os.tmpdir(), `neko-sandbox-${Date.now()}-${Math.random().toString(36).substring(2, 8)}`);
+    fsExtra.mkdirSync(tempDir);
+    return tempDir;
+}
+
+function detectPackageManager(projectDir) {
+    if (fs.existsSync(path.join(projectDir, 'yarn.lock'))) {
+        return 'yarn';
+    }
+    return 'npm';
+}
+
+async function destroySandbox(spinner, tempDir, isForceDestroy = false) {
+    if (tempDir && fs.existsSync(tempDir)) {
+        spinner.text = chalk.cyan("🧹 Cleaning up sandbox environment...");
+        try {
+            await fsExtra.remove(tempDir);
+            spinner.succeed(chalk.cyan("🧹 Sandbox cleaned up successfully."));
+            if (fs.existsSync(SANDBOX_STATE_FILE)) {
+                fs.unlinkSync(SANDBOX_STATE_FILE);
+            }
+        } catch (cleanupError) {
+            spinner.fail(chalk.cyan(`❌ Failed to clean up sandbox: ${cleanupError.message}`));
+        }
+    } else if (isForceDestroy) {
+        if (fs.existsSync(SANDBOX_STATE_FILE)) {
+            fs.unlinkSync(SANDBOX_STATE_FILE);
+            spinner.succeed(chalk.cyan("🧹 Old sandbox state file removed."));
+        } else {
+            spinner.info(chalk.cyan("No active sandbox directory or state file found to destroy."));
+        }
+    }
+}
+
+function getSandboxPrompt(baseDir, currentCwd) {
+    const relativePath = path.relative(baseDir, currentCwd) || '.';
+    return chalk.bgCyan(chalk.white(`[Sandbox:${relativePath}] $ `));
+}
+
+export const handleSandboxCommand = async (args) => {
+    let keepTempDir = false;
+    let installDevDependencies = false;
+    let forcePackageManager = null;
+    let initialCommand = [];
+
+    const cliArgs = args.filter(arg => arg.startsWith('--'));
+    const commandArgs = args.filter(arg => !arg.startsWith('--'));
+
+    for (const arg of cliArgs) {
+        if (arg === '--dev') {
+            installDevDependencies = true;
+        } else if (arg === '--keep') {
+            keepTempDir = true;
+        } else if (arg === '--yarn') {
+            forcePackageManager = 'yarn';
+        } else if (arg === '--npm') {
+            forcePackageManager = 'npm';
+        }
+    }
+
+    if (commandArgs.length > 0) {
+        const subCommand = commandArgs[0];
+        let tempDirFromState = null;
+
+        if (fs.existsSync(SANDBOX_STATE_FILE)) {
+            try {
+                const activeSandbox = JSON.parse(fs.readFileSync(SANDBOX_STATE_FILE, 'utf-8'));
+                tempDirFromState = activeSandbox.tempDir;
+            } catch (e) {
+                console.log(chalk.red(`\n⚠️ Corrupted sandbox state file, attempting to remove it.`));
+                fs.unlinkSync(SANDBOX_STATE_FILE);
+            }
+        }
+
+        const spinner = ora(chalk.cyan("Processing sandbox command...")).start();
+        if (subCommand === 'destroy') {
+            await destroySandbox(spinner, tempDirFromState, true);
+            return;
+        } else if (subCommand === 'open') {
+            if (tempDirFromState && fs.existsSync(tempDirFromState)) {
+                try {
+                    await open(tempDirFromState);
+                    spinner.succeed(chalk.cyan(`📂 Opened sandbox directory: ${tempDirFromState}`));
+                } catch (openError) {
+                    spinner.fail(chalk.red(`❌ Failed to open sandbox directory: ${openError.message}`));
+                }
+            } else {
+                spinner.fail(chalk.yellow("⚠️ No active sandbox found to open."));
+            }
+            return;
+        }
+        spinner.stop();
+    }
+
+    if (fs.existsSync(SANDBOX_STATE_FILE)) {
+        try {
+            const activeSandbox = JSON.parse(fs.readFileSync(SANDBOX_STATE_FILE, 'utf-8'));
+            if (fs.existsSync(activeSandbox.tempDir)) {
+                console.log(chalk.yellow(`\n⚠️ An active sandbox is already running at: ${activeSandbox.tempDir}`));
+                console.log(chalk.yellow("Use 'sandbox destroy' to exit and clean it up."));
+                console.log(chalk.yellow("Use 'sandbox open' to open the sandbox directory."));
+                return;
+            } else {
+                console.log(chalk.yellow(`\n⚠️ Found stale sandbox state file, cleaning it up.`));
+                fs.unlinkSync(SANDBOX_STATE_FILE);
+            }
+        } catch (e) {
+            console.log(chalk.red(`\n⚠️ Corrupted sandbox state file, attempting to remove it.`));
+            fs.unlinkSync(SANDBOX_STATE_FILE);
+        }
+    }
+
+    if (commandArgs.length > 0) {
+        initialCommand = commandArgs;
+    }
+
+    let tempDir = null;
+    const spinner = ora(chalk.cyan("📦 Preparing Neko's sandbox environment...")).start();
+
+    try {
+        const projectRoot = process.cwd();
+        const packageJsonPath = path.join(projectRoot, 'package.json');
+
+        if (!fs.existsSync(packageJsonPath)) {
+            spinner.fail(chalk.red("❌ 'package.json' not found in the current directory. Cannot create sandbox without a project."));
+            return;
+        }
+
+        tempDir = createTempDir();
+        spinner.text = chalk.cyan(`Copying project files to temporary sandbox: ${tempDir}`);
+        await fsExtra.copy(projectRoot, tempDir, {
+            filter: (src) => {
+                const basename = path.basename(src);
+                return basename !== 'node_modules' && basename !== '.git' && basename !== '.vscode' && basename !== 'temp' && basename !== 'build' && basename !== '.DS_Store';
+            }
+        });
+
+        const packageManager = forcePackageManager || detectPackageManager(tempDir);
+        let installCommand = `${packageManager} install`;
+        if (!installDevDependencies) {
+            installCommand += ' --production';
+        }
+        installCommand += ' --silent';
+
+        spinner.text = chalk.cyan(`Installing dependencies in sandbox using ${packageManager}...`);
+        try {
+            await execAsync(installCommand, { cwd: tempDir, maxBuffer: 50 * 1024 * 1024 });
+        } catch (installError) {
+            spinner.fail(chalk.red(`❌ Failed to install dependencies in sandbox: ${installError.message}`));
+            if (installError.stdout) console.error(chalk.red(installError.stdout));
+            if (installError.stderr) console.error(chalk.red(installError.stderr));
+            throw new Error("Dependency installation failed.");
+        }
+
+        spinner.succeed(chalk.cyan(`✅ Neko's sandbox environment is ready at: ${tempDir}`));
+
+        fs.writeFileSync(SANDBOX_STATE_FILE, JSON.stringify({
+            tempDir,
+            projectRoot,
+            packageManager,
+            keepTempDir
+        }));
+
+        if (initialCommand.length > 0) {
+            spinner.info(chalk.cyan(`Running initial command in sandbox: "${initialCommand.join(' ')}"`));
+            try {
+                await executeArbitraryCommandInSandbox(initialCommand.join(' '), tempDir, false);
+                spinner.succeed(chalk.cyan("Initial command completed."));
+            } catch (cmdError) {
+                spinner.fail(chalk.red(`❌ Initial command failed: ${cmdError.message}`));
+            } finally {
+                if (!keepTempDir) {
+                    await destroySandbox(ora(), tempDir);
+                } else {
+                    console.log(chalk.cyan(`Sandbox directory kept for inspection: ${tempDir}`));
+                }
+                if (fs.existsSync(SANDBOX_STATE_FILE)) {
+                    fs.unlinkSync(SANDBOX_STATE_FILE);
+                }
+            }
+            return;
+        }
+
+        await enterInteractiveSandboxMode(tempDir, packageManager, keepTempDir);
+
+    } catch (error) {
+        spinner.fail(chalk.red(`\n💥 Neko's sandbox encountered an error: ${error.message}`));
+        if (error.stdout) process.stdout.write(chalk.red(error.stdout));
+        if (error.stderr) process.stderr.write(chalk.red(error.stderr));
+        if (tempDir && fs.existsSync(tempDir) && !keepTempDir) {
+            await fsExtra.remove(tempDir).catch(e => console.error(chalk.red(`Failed to clean up temp directory: ${e.message}`)));
+        }
+        if (fs.existsSync(SANDBOX_STATE_FILE)) {
+            fs.unlinkSync(SANDBOX_STATE_FILE);
+        }
+        process.exit(1);
+    }
+};
+
+async function executeArbitraryCommandInSandbox(command, cwd, maintainInteractive = true) {
+    return new Promise((resolve, reject) => {
+        const shell = os.platform() === 'win32' ? 'cmd.exe' : '/bin/sh';
+        const shellArgs = os.platform() === 'win32' ? ['/c', command] : ['-c', command];
+
+        const child = spawn(shell, shellArgs, { cwd: cwd, stdio: 'pipe' });
+
+        let stdoutBuffer = '';
+        let stderrBuffer = '';
+
+        child.stdout.on('data', (data) => {
+            process.stdout.write(data);
+            stdoutBuffer += data.toString();
+        });
+
+        child.stderr.on('data', (data) => {
+            process.stderr.write(chalk.red(data));
+            stderrBuffer += data.toString();
+        });
+
+        child.on('close', (code) => {
+            if (code === 0) {
+                resolve();
+            } else {
+                const errorMessage = stderrBuffer || stdoutBuffer || `Command exited with code ${code}.`;
+                if (maintainInteractive) {
+                    console.log(chalk.red(`\n❌ Command failed: ${errorMessage.trim()}`));
+                    resolve();
+                } else {
+                    reject(new Error(errorMessage.trim()));
+                }
+            }
+        });
+
+        child.on('error', (err) => {
+            const errorMessage = `Failed to execute command. Is it installed and in PATH? ${err.message}`;
+            process.stderr.write(chalk.red(`\n❌ ${errorMessage}\n`));
+            if (maintainInteractive) {
+                resolve();
+            } else {
+                reject(new Error(errorMessage));
+            }
+        });
+    });
+}
+
+async function enterInteractiveSandboxMode(tempDir, packageManager, initialKeepTempDir) {
+    let currentSandboxCwd = tempDir;
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+        prompt: getSandboxPrompt(tempDir, currentSandboxCwd)
+    });
+
+    const showPrompt = () => {
+        rl.pause();
+        rl.resume();
+        rl.prompt();
+    };
+
+    const sigIntHandler = () => {
+        console.log(chalk.cyan("\n\nType 'sandbox destroy' to exit and remove the sandbox."));
+        console.log(chalk.cyan("Type 'sandbox open' to open the sandbox directory."));
+        showPrompt();
+    };
+
+    process.on('SIGINT', sigIntHandler);
+
+    console.log(chalk.bgCyan(chalk.white("\n --- Entering Neko Sandbox Interactive Mode --- ")));
+    console.log(chalk.cyan(" 📦 Welcome to your isolated environment."));
+    console.log(chalk.cyan(" 🧹 Use 'sandbox destroy' to exit and clean up the sandbox."));
+    console.log(chalk.cyan(" 📂 Use 'sandbox open' to view the sandbox directory."));
+    console.log(chalk.cyan(` 🎯 Sandbox base path: ${tempDir}`));
+    if (os.platform() === 'win32') {
+        console.log(chalk.cyan(" 💡 Tip: On Windows, use 'dir' instead of 'ls', and 'type' instead of 'cat'."));
+    }
+    console.log(chalk.bgCyan(chalk.white(" ---------------------------------------------- ")));
+    console.log("");
+    showPrompt();
+
+    let isDestroying = false;
+    rl.on('line', async (line) => {
+        const fullCommand = line.trim();
+        const [command, ...args] = fullCommand.split(' ');
+
+        if (fullCommand.length === 0) {
+            showPrompt();
+            return;
+        }
+
+        if (command === 'sandbox') {
+            const subCommand = args[0];
+            if (subCommand === 'destroy') {
+                isDestroying = true;
+                const spinner = ora(chalk.cyan("Destroying sandbox...")).start();
+                await destroySandbox(spinner, tempDir);
+                spinner.succeed(chalk.cyan("Sandbox destroyed. Exiting."));
+                rl.close();
+                return;
+            } else if (subCommand === 'open') {
+                const spinner = ora(chalk.cyan("Opening sandbox directory...")).start();
+                try {
+                    await open(tempDir);
+                    spinner.succeed(chalk.cyan(`📂 Opened sandbox directory: ${tempDir}`));
+                } catch (openError) {
+                    spinner.fail(chalk.red(`❌ Failed to open sandbox directory: ${openError.message}`));
+                }
+                showPrompt();
+                return;
+            } else {
+                console.log(chalk.yellow(`⚠️ Unknown 'sandbox' subcommand: ${subCommand}`));
+                console.log(chalk.cyan("Available 'sandbox' subcommands: destroy, open"));
+                showPrompt();
+                return;
+            }
+        }
+
+        if (command === 'cd') {
+            const targetPath = args[0] || '~';
+            let newCwd;
+            if (targetPath === '~' || targetPath === '/') {
+                newCwd = tempDir;
+            } else {
+                newCwd = path.resolve(currentSandboxCwd, targetPath);
+            }
+
+            if (!newCwd.startsWith(tempDir)) {
+                console.log(chalk.red(`❌ Cannot 'cd' outside of the sandbox environment.`));
+            } else if (!fs.existsSync(newCwd) || !fs.lstatSync(newCwd).isDirectory()) {
+                console.log(chalk.red(`❌ Directory not found: ${targetPath}`));
+            } else {
+                currentSandboxCwd = newCwd;
+            }
+            rl.setPrompt(getSandboxPrompt(tempDir, currentSandboxCwd));
+            showPrompt();
+            return;
+        }
+
+        try {
+            await executeArbitraryCommandInSandbox(fullCommand, currentSandboxCwd, true);
+        } catch (error) {
+            console.log(chalk.red(`\n❌ Error executing command: ${error.message}`));
+        } finally {
+            showPrompt();
+        }
+    }).on('close', async () => {
+        process.removeListener('SIGINT', sigIntHandler);
+        console.log(chalk.bgCyan(chalk.white("\n --- Exited Neko Sandbox Interactive Mode --- ")));
+        if (!isDestroying && !initialKeepTempDir) {
+            const cleanupSpinner = ora();
+            await destroySandbox(cleanupSpinner, tempDir);
+        } else if (!isDestroying && initialKeepTempDir) {
+            console.log(chalk.cyan(`Sandbox directory kept for inspection: ${tempDir}`));
+        }
+        process.exit(0);
+    });
+}

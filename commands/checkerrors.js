@@ -1,1 +1,117 @@
-(function(_0x3c27ce,_0xf720fd){const _0x4fd52e=a0_0x408e,_0x1b1384=_0x3c27ce();while(!![]){try{const _0x59b324=-parseInt(_0x4fd52e(0x19e))/0x1*(parseInt(_0x4fd52e(0x1a3))/0x2)+-parseInt(_0x4fd52e(0x1be))/0x3*(parseInt(_0x4fd52e(0x19a))/0x4)+parseInt(_0x4fd52e(0x199))/0x5+-parseInt(_0x4fd52e(0x1b8))/0x6*(parseInt(_0x4fd52e(0x1ae))/0x7)+parseInt(_0x4fd52e(0x1b3))/0x8*(parseInt(_0x4fd52e(0x1b9))/0x9)+parseInt(_0x4fd52e(0x18d))/0xa*(parseInt(_0x4fd52e(0x1c1))/0xb)+parseInt(_0x4fd52e(0x1a4))/0xc;if(_0x59b324===_0xf720fd)break;else _0x1b1384['push'](_0x1b1384['shift']());}catch(_0x1a74ae){_0x1b1384['push'](_0x1b1384['shift']());}}}(a0_0x1d3b,0x74ab8));const a0_0x67e2d3=(function(){let _0x57927b=!![];return function(_0x4edd88,_0x56f11b){const _0x47921c=_0x57927b?function(){if(_0x56f11b){const _0x5057e0=_0x56f11b['apply'](_0x4edd88,arguments);return _0x56f11b=null,_0x5057e0;}}:function(){};return _0x57927b=![],_0x47921c;};}()),a0_0x321797=a0_0x67e2d3(this,function(){const _0x5c3500=a0_0x408e;return a0_0x321797[_0x5c3500(0x19f)]()['search'](_0x5c3500(0x1c3))[_0x5c3500(0x19f)]()['constructor'](a0_0x321797)[_0x5c3500(0x1a7)](_0x5c3500(0x1c3));});a0_0x321797();import a0_0x415dda from'chalk';import a0_0x3bd5b4 from'path';import{exec}from'child_process';import a0_0xc23ea6 from'fs';function a0_0x408e(_0x10aca1,_0xbb82a5){const _0x5ead76=a0_0x1d3b();return a0_0x408e=function(_0x321797,_0x67e2d3){_0x321797=_0x321797-0x18b;let _0x1d3b98=_0x5ead76[_0x321797];return _0x1d3b98;},a0_0x408e(_0x10aca1,_0xbb82a5);}function a0_0x1d3b(){const _0x1d045c=['error','poDNO','418150nyGYTG','19786740qWiiQD','ahNpu','oxZYM','search','cyan','red','✅\x20.jshintignore\x20created\x20with\x20exclusion\x20for\x20node_modules','Wbigj','cwvma','❌\x20stdout:\x20','6916pzTyUU','aMgfk','❌\x20Error\x20occurred\x20while\x20creating\x20the\x20.jshintrc\x20file:','yTSBf','dqiqL','8BlnOVY','⚙️\x20.jshintignore\x20not\x20found,\x20creating\x20one\x20to\x20exclude\x20node_modules...','npm\x20list\x20-g\x20jshint','✅\x20No\x20errors\x20found\x20in\x20the\x20project!','existsSync','2364tdsqkg','3735441YlPtWb','✅\x20.jshintrc\x20created\x20with\x20default\x20configuration','❌\x20Failed\x20to\x20install\x20Deps.\x20Please\x20check\x20your\x20npm\x20setup.','fzVRt','RiVjz','60gsfSEe','🔍\x20Scanning\x20project\x20for\x20code\x20errors...\x0a','oUgvC','22cQTYna','log','(((.+)+)+)+$','BgUHY','MkdvI','xQMhN','✅\x20Deps\x20is\x20already\x20installed.','AvvyE','cwd','rQifp','1166060yWqehi','stringify','writeFileSync','npm\x20install\x20jshint\x20-g\x20--silent','node_modules/\x0a','oFnmP','join','MbOZC','✅\x20Deps\x20installed\x20successfully.','bCsyZ','SZleo','FEvDu','346905tGcunz','174432JZCRSS','.jshintrc','npx\x20jshint\x20.','AbLOL','3MfpgLk','toString','❌\x20Error\x20occurred\x20while\x20creating\x20the\x20.jshintignore\x20file:'];a0_0x1d3b=function(){return _0x1d045c;};return a0_0x1d3b();}async function installJshint(){const _0x394bae=a0_0x408e,_0x45407d={'MkdvI':function(_0x8e19c3,_0x45379c){return _0x8e19c3||_0x45379c;},'yTSBf':_0x394bae(0x195),'oUgvC':function(_0x5b074b){return _0x5b074b();},'FEvDu':'⚙️\x20Installing\x20deps...','oFnmP':_0x394bae(0x190),'Wbigj':_0x394bae(0x1c7),'poDNO':function(_0x357618,_0x55d15a,_0x4f1321){return _0x357618(_0x55d15a,_0x4f1321);}};return new Promise((_0x4d84b6,_0x46d1c7)=>{const _0x5b9b6f=_0x394bae,_0x43692a={'AbLOL':function(_0x482b65,_0x290e66){const _0x444d41=a0_0x408e;return _0x45407d[_0x444d41(0x1c5)](_0x482b65,_0x290e66);},'RiVjz':function(_0x3ebbb0,_0x1411b8){return _0x3ebbb0(_0x1411b8);},'oxZYM':_0x45407d[_0x5b9b6f(0x1b1)],'AvvyE':function(_0x308f49){const _0x159188=_0x5b9b6f;return _0x45407d[_0x159188(0x1c0)](_0x308f49);},'OqDKK':_0x45407d[_0x5b9b6f(0x198)],'bCsyZ':function(_0x36f172,_0x1975ae,_0x43b6bf){return _0x36f172(_0x1975ae,_0x43b6bf);},'xQMhN':_0x45407d[_0x5b9b6f(0x192)],'MbOZC':_0x45407d[_0x5b9b6f(0x1ab)]};_0x45407d[_0x5b9b6f(0x1a2)](exec,_0x5b9b6f(0x1b5),(_0x3011a7,_0x52f95d,_0x17775d)=>{const _0x33270e=_0x5b9b6f;_0x43692a[_0x33270e(0x19d)](_0x3011a7,_0x17775d)?(console['log'](a0_0x415dda[_0x33270e(0x1a8)](_0x43692a['OqDKK'])),_0x43692a[_0x33270e(0x196)](exec,_0x43692a[_0x33270e(0x1c6)],(_0x4a2f62,_0x44ad74,_0x309334)=>{const _0x1eb94=_0x33270e;_0x43692a[_0x1eb94(0x19d)](_0x4a2f62,_0x309334)?_0x43692a[_0x1eb94(0x1bd)](_0x46d1c7,_0x1eb94(0x1bb)):(console[_0x1eb94(0x1c2)](a0_0x415dda[_0x1eb94(0x1a8)](_0x43692a[_0x1eb94(0x1a6)])),_0x43692a[_0x1eb94(0x1c8)](_0x4d84b6));})):(console['log'](a0_0x415dda['cyan'](_0x43692a[_0x33270e(0x194)])),_0x4d84b6());});});}export const handleCheckerrorsCommand=async()=>{const _0x59e41b=a0_0x408e,_0x2e2401={'dqiqL':_0x59e41b(0x1ad),'VyhUa':function(_0x4eb881,_0x20a275){return _0x4eb881(_0x20a275);},'cwvma':_0x59e41b(0x19c),'bkTzw':_0x59e41b(0x19b),'BgUHY':'.jshintignore','fzVRt':function(_0x35beac){return _0x35beac();},'SZleo':'⚙️\x20.jshintrc\x20not\x20found,\x20creating\x20a\x20basic\x20configuration\x20file...','rQifp':_0x59e41b(0x1ba),'aMgfk':_0x59e41b(0x1b0),'Hoypt':_0x59e41b(0x191),'TVEwB':_0x59e41b(0x1aa),'ahNpu':_0x59e41b(0x1a0),'pGULx':_0x59e41b(0x1b6)},_0x2a8770=a0_0x3bd5b4[_0x59e41b(0x193)](process[_0x59e41b(0x18b)](),_0x2e2401['bkTzw']),_0x3456be=a0_0x3bd5b4[_0x59e41b(0x193)](process[_0x59e41b(0x18b)](),_0x2e2401[_0x59e41b(0x1c4)]);try{await _0x2e2401[_0x59e41b(0x1bc)](installJshint);}catch(_0x3710f1){console[_0x59e41b(0x1a1)](a0_0x415dda[_0x59e41b(0x1a9)](_0x3710f1));return;}if(!a0_0xc23ea6[_0x59e41b(0x1b7)](_0x2a8770)){console[_0x59e41b(0x1c2)](a0_0x415dda['cyan'](_0x2e2401[_0x59e41b(0x197)]));const _0x538e27={'esversion':0x6,'node':!![],'browser':!![],'strict':![],'unused':!![]};try{a0_0xc23ea6['writeFileSync'](_0x2a8770,JSON[_0x59e41b(0x18e)](_0x538e27,null,0x2)),console[_0x59e41b(0x1c2)](a0_0x415dda['cyan'](_0x2e2401[_0x59e41b(0x18c)]));}catch(_0x4c0679){console[_0x59e41b(0x1a1)](a0_0x415dda[_0x59e41b(0x1a9)](_0x2e2401[_0x59e41b(0x1af)]),_0x4c0679);return;}}if(!a0_0xc23ea6['existsSync'](_0x3456be)){console[_0x59e41b(0x1c2)](a0_0x415dda['cyan'](_0x59e41b(0x1b4)));try{a0_0xc23ea6[_0x59e41b(0x18f)](_0x3456be,_0x2e2401['Hoypt']),console[_0x59e41b(0x1c2)](a0_0x415dda[_0x59e41b(0x1a8)](_0x2e2401['TVEwB']));}catch(_0x31aa12){console[_0x59e41b(0x1a1)](a0_0x415dda[_0x59e41b(0x1a9)](_0x2e2401[_0x59e41b(0x1a5)]),_0x31aa12);return;}}console[_0x59e41b(0x1c2)](a0_0x415dda[_0x59e41b(0x1a8)](_0x59e41b(0x1bf)));try{const _0x2ff56c=await new Promise((_0x29c539,_0x28bf2f)=>{const _0x2c5a66=_0x59e41b;exec(_0x2e2401[_0x2c5a66(0x1ac)],(_0x4d35ca,_0x45837e,_0x4148ec)=>{const _0x4a360f=_0x2c5a66;_0x4d35ca?(console[_0x4a360f(0x1a1)](a0_0x415dda[_0x4a360f(0x1a9)](_0x2e2401[_0x4a360f(0x1b2)]),_0x45837e),_0x2e2401['VyhUa'](_0x28bf2f,_0x4148ec||_0x4d35ca)):_0x29c539(_0x45837e);});});_0x2ff56c?(console[_0x59e41b(0x1c2)](a0_0x415dda[_0x59e41b(0x1a9)]('❌\x20Errors\x20found:\x0a')),console[_0x59e41b(0x1c2)](_0x2ff56c)):console['log'](a0_0x415dda[_0x59e41b(0x1a8)](_0x2e2401['pGULx']));}catch(_0x1894d3){return;}};
+import chalk from "chalk";
+import path from "path";
+import { exec } from "child_process";
+import fs from "fs";
+
+async function installJshint() {
+  return new Promise((resolve, reject) => {
+    exec("npm list -g jshint", (err, stdout, stderr) => {
+      if (err || stderr) {
+        console.log(chalk.cyan("⚙️ Installing deps..."));
+
+        exec(
+          "npm install jshint -g --silent",
+          (installErr, installStdout, installStderr) => {
+            if (installErr || installStderr) {
+              reject("❌ Failed to install Deps. Please check your npm setup.");
+            } else {
+              console.log(chalk.cyan("✅ Deps installed successfully."));
+              resolve();
+            }
+          }
+        );
+      } else {
+        console.log(chalk.cyan("✅ Deps is already installed."));
+        resolve();
+      }
+    });
+  });
+}
+
+export const handleCheckerrorsCommand = async () => {
+    const jshintConfigPath = path.join(process.cwd(), ".jshintrc");
+  const jshintIgnorePath = path.join(process.cwd(), ".jshintignore");
+
+  try {
+    await installJshint();
+  } catch (error) {
+    console.error(chalk.red(error));
+    return;
+  }
+
+  if (!fs.existsSync(jshintConfigPath)) {
+    console.log(
+      chalk.cyan(
+        "⚙️ .jshintrc not found, creating a basic configuration file..."
+      )
+    );
+
+    const defaultConfig = {
+      esversion: 6,
+      node: true,
+      browser: true,
+      strict: false,
+      unused: true,
+    };
+
+    try {
+      fs.writeFileSync(
+        jshintConfigPath,
+        JSON.stringify(defaultConfig, null, 2)
+      );
+      console.log(
+        chalk.cyan("✅ .jshintrc created with default configuration")
+      );
+    } catch (error) {
+      console.error(
+        chalk.red("❌ Error occurred while creating the .jshintrc file:"),
+        error
+      );
+      return;
+    }
+  }
+
+  if (!fs.existsSync(jshintIgnorePath)) {
+    console.log(
+      chalk.cyan(
+        "⚙️ .jshintignore not found, creating one to exclude node_modules..."
+      )
+    );
+    try {
+      fs.writeFileSync(jshintIgnorePath, "node_modules/\n");
+      console.log(
+        chalk.cyan("✅ .jshintignore created with exclusion for node_modules")
+      );
+    } catch (error) {
+      console.error(
+        chalk.red("❌ Error occurred while creating the .jshintignore file:"),
+        error
+      );
+      return;
+    }
+  }
+
+  console.log(chalk.cyan("🔍 Scanning project for code errors...\n"));
+
+  try {
+    const output = await new Promise((resolve, reject) => {
+      exec("npx jshint .", (err, stdout, stderr) => {
+        if (err) {
+          console.error(chalk.red("❌ stdout: "), stdout);
+          reject(stderr || err);
+        } else {
+          resolve(stdout);
+        }
+      });
+    });
+
+    if (output) {
+      console.log(chalk.red("❌ Errors found:\n"));
+      console.log(output);
+    } else {
+      console.log(chalk.cyan("✅ No errors found in the project!"));
+    }
+  } catch (error) {
+    return;
+  }
+};

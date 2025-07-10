@@ -1,1 +1,184 @@
-function a0_0x2a67(_0x3d1011,_0x3b3dae){const _0x1ddc66=a0_0x5c44();return a0_0x2a67=function(_0x1ffed1,_0x28a46e){_0x1ffed1=_0x1ffed1-0x11b;let _0x5c4411=_0x1ddc66[_0x1ffed1];return _0x5c4411;},a0_0x2a67(_0x3d1011,_0x3b3dae);}(function(_0x4c3292,_0x1f9d17){const _0x22faf6=a0_0x2a67,_0x42f897=_0x4c3292();while(!![]){try{const _0x4155e8=-parseInt(_0x22faf6(0x13c))/0x1*(parseInt(_0x22faf6(0x196))/0x2)+parseInt(_0x22faf6(0x13d))/0x3*(parseInt(_0x22faf6(0x184))/0x4)+parseInt(_0x22faf6(0x147))/0x5+-parseInt(_0x22faf6(0x138))/0x6*(parseInt(_0x22faf6(0x19f))/0x7)+parseInt(_0x22faf6(0x163))/0x8+-parseInt(_0x22faf6(0x137))/0x9+parseInt(_0x22faf6(0x164))/0xa*(parseInt(_0x22faf6(0x11f))/0xb);if(_0x4155e8===_0x1f9d17)break;else _0x42f897['push'](_0x42f897['shift']());}catch(_0x2c6b7e){_0x42f897['push'](_0x42f897['shift']());}}}(a0_0x5c44,0x5ea43));const a0_0x28a46e=(function(){let _0x466c21=!![];return function(_0x113641,_0x5cf6b5){const _0x3f38b0=_0x466c21?function(){const _0x565580=a0_0x2a67;if(_0x5cf6b5){const _0x2138f7=_0x5cf6b5[_0x565580(0x11b)](_0x113641,arguments);return _0x5cf6b5=null,_0x2138f7;}}:function(){};return _0x466c21=![],_0x3f38b0;};}()),a0_0x1ffed1=a0_0x28a46e(this,function(){const _0x5218c1=a0_0x2a67,_0x15feee={'gdSDa':_0x5218c1(0x15a)};return a0_0x1ffed1[_0x5218c1(0x132)]()[_0x5218c1(0x17e)](_0x15feee['gdSDa'])[_0x5218c1(0x132)]()['constructor'](a0_0x1ffed1)[_0x5218c1(0x17e)](_0x15feee[_0x5218c1(0x129)]);});a0_0x1ffed1();import a0_0x355d8c from'chalk';import{spawn}from'child_process';import a0_0x45f6ba from'ora';import a0_0x4e6597 from'chokidar';import a0_0x4a9c8e from'path';import a0_0x3a3fbd from'fs';function formatTimestamp(){const _0x454d77=a0_0x2a67,_0x2a27cb={'gLsdX':function(_0x21b140,_0x2190d7){return _0x21b140(_0x2190d7);},'cOpjp':function(_0x11cbcf,_0x2df856){return _0x11cbcf(_0x2df856);}},_0x4c2c0d=new Date(),_0x1013a8=_0x2a27cb[_0x454d77(0x16d)](String,_0x4c2c0d[_0x454d77(0x144)]())[_0x454d77(0x187)](0x2,'0'),_0x53d37f=_0x2a27cb[_0x454d77(0x135)](String,_0x4c2c0d['getMinutes']())[_0x454d77(0x187)](0x2,'0'),_0x2eafb8=_0x2a27cb[_0x454d77(0x16d)](String,_0x4c2c0d[_0x454d77(0x143)]())[_0x454d77(0x187)](0x2,'0');return''+a0_0x355d8c[_0x454d77(0x169)]('[')+a0_0x355d8c[_0x454d77(0x169)][_0x454d77(0x14c)]('⏰')+a0_0x355d8c[_0x454d77(0x169)]('\x20'+_0x1013a8+':'+_0x53d37f+':'+_0x2eafb8)+a0_0x355d8c[_0x454d77(0x169)](']');}let childProcess=null,watcher=null,isRestarting=![],spinnerInstance=null;const runScriptWithCatsFramework=async _0x5c932b=>{const _0x155473=a0_0x2a67,_0x15273a={'JONkP':'SIGKILL','RNZyW':function(_0x592066){return _0x592066();},'uMjhG':function(_0x232348,_0x29de60){return _0x232348(_0x29de60);},'gcATK':function(_0x1ddf62,_0x5cbf21,_0xc286f2){return _0x1ddf62(_0x5cbf21,_0xc286f2);},'xPoxd':function(_0x568aa8){return _0x568aa8();},'FjVlp':_0x155473(0x172),'DohfK':'Waiting\x20for\x20changes...','owCjI':'cyan','EBqhF':function(_0x516bd4){return _0x516bd4();},'ubGMi':'#FFD700','nydrF':_0x155473(0x122),'EFHle':_0x155473(0x1a4),'yxpKX':_0x155473(0x178),'azOJj':_0x155473(0x11c),'YGxKt':_0x155473(0x11d),'kJxrU':_0x155473(0x16a),'PkOms':function(_0x3ca971){return _0x3ca971();},'bAGXQ':_0x155473(0x180),'uZamV':function(_0x4c559d){return _0x4c559d();},'vuUGp':function(_0x483909,_0x2ddfa4){return _0x483909!==_0x2ddfa4;},'PjvzP':_0x155473(0x15e),'gxFWs':function(_0x413258,_0x2917bd){return _0x413258===_0x2917bd;},'wTiDk':_0x155473(0x199),'IvBLh':'package.json','NOwri':'**/*.mjs','EpJPJ':_0x155473(0x17a),'Pqfse':_0x155473(0x186),'LYaFB':_0x155473(0x14b),'FPPOJ':'dots','NTHgP':_0x155473(0x162),'qtxXz':_0x155473(0x131),'yjSCo':'change','BtVoz':_0x155473(0x124),'yFOWE':_0x155473(0x188),'tbLZa':_0x155473(0x154)};if(!_0x5c932b||_0x15273a['vuUGp'](typeof _0x5c932b,_0x15273a[_0x155473(0x12c)])||_0x15273a[_0x155473(0x18d)](_0x5c932b[_0x155473(0x13f)](),'')){console['error'](a0_0x355d8c[_0x155473(0x17b)](_0x15273a[_0x155473(0x194)]));return;}const _0xa3e4cd=process['cwd'](),_0x15d3b7=a0_0x4a9c8e['join'](_0xa3e4cd,_0x15273a[_0x155473(0x176)]);let _0x4fea7e=[a0_0x4a9c8e[_0x155473(0x19e)](_0xa3e4cd,_0x155473(0x125)),a0_0x4a9c8e[_0x155473(0x19e)](_0xa3e4cd,_0x15273a[_0x155473(0x198)])],_0x1b7fe3=[a0_0x4a9c8e[_0x155473(0x19e)](_0xa3e4cd,_0x15273a['EpJPJ']),a0_0x4a9c8e[_0x155473(0x19e)](_0xa3e4cd,_0x15273a[_0x155473(0x177)]),a0_0x4a9c8e[_0x155473(0x19e)](_0xa3e4cd,'dist'),a0_0x4a9c8e['join'](_0xa3e4cd,_0x155473(0x13e))];spinnerInstance=_0x15273a[_0x155473(0x14f)](a0_0x45f6ba,{'text':a0_0x355d8c[_0x155473(0x169)](_0x15273a[_0x155473(0x12b)]),'spinner':_0x15273a['FPPOJ'],'color':_0x15273a[_0x155473(0x1a1)]})['start']();if(a0_0x3a3fbd[_0x155473(0x16b)](_0x15d3b7))try{const _0x450ffb=JSON[_0x155473(0x14d)](a0_0x3a3fbd['readFileSync'](_0x15d3b7,_0x15273a[_0x155473(0x1a3)]));if(_0x450ffb[_0x155473(0x1a0)]&&_0x450ffb['nekoCLI'][_0x155473(0x152)]){const _0x5e88c3=_0x450ffb[_0x155473(0x1a0)]['flush'];_0x5e88c3['watch']&&Array[_0x155473(0x128)](_0x5e88c3[_0x155473(0x156)])&&(_0x4fea7e=_0x5e88c3[_0x155473(0x156)][_0x155473(0x127)](_0x5cce71=>a0_0x4a9c8e[_0x155473(0x19e)](_0xa3e4cd,_0x5cce71)),spinnerInstance['text']=a0_0x355d8c[_0x155473(0x169)]('📦\x20Loading\x20custom\x20watch\x20paths...')),_0x5e88c3[_0x155473(0x157)]&&Array[_0x155473(0x128)](_0x5e88c3[_0x155473(0x157)])&&(_0x1b7fe3=_0x5e88c3[_0x155473(0x157)][_0x155473(0x127)](_0x2f76e4=>a0_0x4a9c8e[_0x155473(0x19e)](_0xa3e4cd,_0x2f76e4)),spinnerInstance[_0x155473(0x191)]=a0_0x355d8c[_0x155473(0x169)](_0x155473(0x173)));}}catch(_0x48fa67){spinnerInstance['warn'](a0_0x355d8c[_0x155473(0x17b)]('⚠️\x20Warning:\x20Could\x20not\x20parse\x20\x27nekoCLI.flush\x27\x20config\x20in\x20package.json:\x20'+_0x48fa67[_0x155473(0x130)]));}const _0x406cd1=async()=>{const _0x428fe1=_0x155473,_0x1ce3fc={'bKgHU':_0x15273a['JONkP'],'fDtRR':function(_0x43c8a3){return _0x15273a['RNZyW'](_0x43c8a3);},'EpraP':function(_0x35befe,_0x588806){const _0x44c3cc=a0_0x2a67;return _0x15273a[_0x44c3cc(0x14f)](_0x35befe,_0x588806);},'zUqkD':function(_0x24b00f,_0x4003dd,_0xb7deb2){const _0x350889=a0_0x2a67;return _0x15273a[_0x350889(0x18c)](_0x24b00f,_0x4003dd,_0xb7deb2);},'SCSyu':_0x428fe1(0x18e),'disAs':_0x428fe1(0x11c)};childProcess&&(spinnerInstance['info'](_0x15273a[_0x428fe1(0x17c)](formatTimestamp)+'\x20'+a0_0x355d8c['cyan'](_0x428fe1(0x1a2))),childProcess[_0x428fe1(0x17d)](_0x15273a[_0x428fe1(0x19c)]),await new Promise(_0x602878=>{const _0x184b36=_0x428fe1,_0x212435={'ajFSy':_0x1ce3fc[_0x184b36(0x161)],'uaXcR':function(_0x36998c){const _0x5d5f0c=_0x184b36;return _0x1ce3fc[_0x5d5f0c(0x159)](_0x36998c);},'VMhhR':function(_0x534949,_0x2b5334){const _0x508b23=_0x184b36;return _0x1ce3fc[_0x508b23(0x139)](_0x534949,_0x2b5334);}},_0x31d805=_0x1ce3fc['zUqkD'](setTimeout,()=>{const _0x559139=_0x184b36;spinnerInstance[_0x559139(0x15c)](a0_0x355d8c[_0x559139(0x181)](_0x559139(0x151)));if(childProcess)childProcess[_0x559139(0x17d)](_0x212435[_0x559139(0x170)]);_0x212435['uaXcR'](_0x602878);},0xbb8);childProcess['on'](_0x1ce3fc[_0x184b36(0x165)],_0x1c666d=>{_0x212435['VMhhR'](clearTimeout,_0x31d805),_0x602878();}),childProcess['on'](_0x1ce3fc[_0x184b36(0x16c)],_0x375604=>{const _0x35112f=_0x184b36;_0x212435[_0x35112f(0x13b)](clearTimeout,_0x31d805),spinnerInstance[_0x35112f(0x11c)](a0_0x355d8c[_0x35112f(0x181)](_0x35112f(0x121)+_0x375604[_0x35112f(0x130)])),_0x602878();});}),childProcess=null);},_0x33b7fa=async()=>{const _0x1de2ff=_0x155473,_0x56e2a4={'lttZU':_0x1de2ff(0x18f),'KmMqp':_0x15273a[_0x1de2ff(0x1a1)],'TiXCf':_0x1de2ff(0x142)};await _0x15273a['EBqhF'](_0x406cd1),spinnerInstance['text']=a0_0x355d8c[_0x1de2ff(0x18b)](_0x15273a[_0x1de2ff(0x174)])(_0x1de2ff(0x14e)+a0_0x355d8c['hex'](_0x15273a['ubGMi'])[_0x1de2ff(0x14c)](_0x5c932b)+_0x1de2ff(0x148)),spinnerInstance['color']=_0x1de2ff(0x17b),childProcess=spawn(_0x15273a[_0x1de2ff(0x16e)],[_0x15273a[_0x1de2ff(0x126)],_0x5c932b],{'stdio':_0x15273a[_0x1de2ff(0x175)],'shell':!![],'cwd':_0xa3e4cd}),childProcess['on']('close',_0x25b88e=>{const _0x197b4e=_0x1de2ff;!isRestarting?(_0x25b88e===0x0?spinnerInstance[_0x197b4e(0x192)](a0_0x355d8c[_0x197b4e(0x15d)](_0x197b4e(0x146)+a0_0x355d8c[_0x197b4e(0x15d)][_0x197b4e(0x14c)](_0x5c932b)+_0x197b4e(0x189)+_0x25b88e+').')):spinnerInstance[_0x197b4e(0x193)](a0_0x355d8c[_0x197b4e(0x181)](_0x197b4e(0x197)+a0_0x355d8c[_0x197b4e(0x181)]['bold'](_0x5c932b)+_0x197b4e(0x158)+_0x25b88e+').')),spinnerInstance[_0x197b4e(0x18a)](a0_0x355d8c[_0x197b4e(0x169)](_0x56e2a4[_0x197b4e(0x123)])),spinnerInstance['color']=_0x56e2a4[_0x197b4e(0x150)]):(spinnerInstance[_0x197b4e(0x191)]=a0_0x355d8c[_0x197b4e(0x169)](_0x56e2a4['TiXCf']),spinnerInstance['color']=_0x56e2a4['KmMqp']),childProcess=null;}),childProcess['on'](_0x15273a[_0x1de2ff(0x149)],_0xe2530=>{const _0x3bc12f=_0x1de2ff;spinnerInstance['fail'](a0_0x355d8c[_0x3bc12f(0x181)](_0x3bc12f(0x134)+_0x5c932b+_0x3bc12f(0x16f)+_0xe2530[_0x3bc12f(0x130)])),childProcess=null,spinnerInstance[_0x3bc12f(0x18a)](a0_0x355d8c['cyan'](_0x15273a['DohfK'])),spinnerInstance['color']=_0x15273a[_0x3bc12f(0x1a1)];});},_0xd2c1d1=async(_0x38b317,_0x95fbf)=>{const _0x1d6f55=_0x155473,_0x25c119={'sYitX':'Waiting\x20for\x20changes...','JDXau':_0x15273a[_0x1d6f55(0x1a1)]};if(isRestarting)return;isRestarting=!![],spinnerInstance[_0x1d6f55(0x17f)]({'symbol':a0_0x355d8c[_0x1d6f55(0x18b)]('#FFA500')('🚀'),'text':a0_0x355d8c[_0x1d6f55(0x18b)]('#FFA500')(_0x1d6f55(0x14a)+a0_0x355d8c['hex'](_0x15273a[_0x1d6f55(0x167)])['bold'](a0_0x4a9c8e[_0x1d6f55(0x120)](_0xa3e4cd,_0x95fbf))+'\x20('+_0x38b317+_0x1d6f55(0x19b))}),await new Promise(_0x3460cd=>setTimeout(_0x3460cd,0x64)),await _0x15273a['EBqhF'](_0x33b7fa),_0x15273a[_0x1d6f55(0x18c)](setTimeout,()=>{const _0x269ac7=_0x1d6f55;isRestarting=![],!spinnerInstance[_0x269ac7(0x182)]&&(spinnerInstance[_0x269ac7(0x18a)](a0_0x355d8c[_0x269ac7(0x169)](_0x25c119[_0x269ac7(0x1a5)])),spinnerInstance[_0x269ac7(0x133)]=_0x25c119[_0x269ac7(0x12d)]);},0x1f4);};spinnerInstance[_0x155473(0x191)]=a0_0x355d8c['cyan'](_0x155473(0x179)),spinnerInstance[_0x155473(0x133)]=_0x15273a[_0x155473(0x1a1)],watcher=a0_0x4e6597[_0x155473(0x156)](_0x4fea7e,{'ignored':_0x1b7fe3,'persistent':!![],'ignoreInitial':!![],'awaitWriteFinish':{'stabilityThreshold':0x64,'pollInterval':0x32}}),watcher['on'](_0x15273a['qtxXz'],_0x400df5=>_0xd2c1d1('added',_0x400df5))['on'](_0x15273a[_0x155473(0x168)],_0x278823=>_0xd2c1d1(_0x155473(0x183),_0x278823))['on'](_0x15273a[_0x155473(0x19a)],_0x31d8bc=>_0xd2c1d1(_0x155473(0x160),_0x31d8bc))['on'](_0x15273a[_0x155473(0x149)],_0x244534=>spinnerInstance['fail'](a0_0x355d8c[_0x155473(0x181)](_0x155473(0x15b)+_0x244534)))['on'](_0x15273a[_0x155473(0x145)],()=>{const _0x113f87=_0x155473;spinnerInstance['succeed'](a0_0x355d8c['green'](_0x113f87(0x12e)+a0_0x355d8c[_0x113f87(0x14c)](_0x4fea7e[_0x113f87(0x127)](_0x2b0c8d=>a0_0x4a9c8e['relative'](_0xa3e4cd,_0x2b0c8d))['join'](',\x20')))),console[_0x113f87(0x13a)](a0_0x355d8c[_0x113f87(0x171)](_0x113f87(0x11e)+_0x1b7fe3[_0x113f87(0x127)](_0x3bd27d=>a0_0x4a9c8e[_0x113f87(0x120)](_0xa3e4cd,_0x3bd27d))['join'](',\x20')+')')),_0x15273a[_0x113f87(0x153)](_0x33b7fa);}),process['on'](_0x15273a[_0x155473(0x19d)],()=>{const _0x221bea=_0x155473,_0x1f4701=_0x15273a[_0x221bea(0x12a)]['split']('|');let _0x4eeea6=0x0;while(!![]){switch(_0x1f4701[_0x4eeea6++]){case'0':childProcess&&childProcess[_0x221bea(0x17d)](_0x15273a[_0x221bea(0x19c)]);continue;case'1':spinnerInstance&&spinnerInstance['stop']();continue;case'2':watcher&&watcher['close']();continue;case'3':process[_0x221bea(0x190)](0x0);continue;case'4':spinnerInstance[_0x221bea(0x155)]('\x0a'+_0x15273a[_0x221bea(0x141)](formatTimestamp)+'\x20'+a0_0x355d8c[_0x221bea(0x17b)](_0x15273a[_0x221bea(0x12f)]));continue;}break;}}),process['on']('SIGTERM',()=>{const _0x36f246=_0x155473;spinnerInstance[_0x36f246(0x155)]('\x0a'+_0x15273a[_0x36f246(0x15f)](formatTimestamp)+'\x20'+a0_0x355d8c[_0x36f246(0x17b)]('👋\x20Detected\x20SIGTERM.\x20Shutting\x20down\x20Neko-CLI\x20\x27dev\x27...')),childProcess&&childProcess['kill'](_0x15273a[_0x36f246(0x19c)]),watcher&&watcher[_0x36f246(0x18e)](),spinnerInstance&&spinnerInstance[_0x36f246(0x166)](),process['exit'](0x0);});};function a0_0x5c44(){const _0x13fb05=['map','isArray','gdSDa','kJxrU','LYaFB','PjvzP','JDXau','√\x20Watcher\x20ready!\x20Monitoring:\x20','bAGXQ','message','add','toString','color','💥\x20Failed\x20to\x20start\x20script\x20\x22','cOpjp','❌\x20Error:\x20Missing\x20script\x20name\x20for\x20\x27dev\x27\x20command.','3949893aqcdHU','1660902HjAFqa','EpraP','log','VMhhR','1cQyKed','1917819LUDeNb','build','trim','AKUeC','PkOms','Restart\x20complete.\x20Waiting\x20for\x20changes...','getSeconds','getHours','yFOWE','✅\x20Script\x20\x22','808980qHNAdr','\x22...','azOJj','File\x20modified:\x20','Initializing\x20Neko-CLI\x20for\x20\x27dev\x27\x20mode...','bold','parse','▶️\x20Starting\x20script\x20\x22','uMjhG','KmMqp','⚠️\x20Previous\x20process\x20did\x20not\x20close\x20in\x20time.\x20Forcing\x20termination.','flush','RNZyW','SIGINT','info','watch','ignore','\x22\x20exited\x20with\x20error\x20(code\x20','fDtRR','(((.+)+)+)+$','Watcher\x20error:\x20','warn','green','string','uZamV','deleted','bKgHU','utf-8','1909208hDIucH','10tvrkPP','SCSyu','stop','YGxKt','yjSCo','cyan','4|0|2|1|3','existsSync','disAs','gLsdX','nydrF','\x22:\x20','ajFSy','gray','SIGTERM','🚫\x20Loading\x20custom\x20ignore\x20paths...','ubGMi','yxpKX','IvBLh','Pqfse','inherit','Setting\x20up\x20file\x20watcher...','node_modules','yellow','xPoxd','kill','search','stopAndPersist','👋\x20Detected\x20Ctrl+C.\x20Shutting\x20down\x20Neko-CLI\x20\x27dev\x27...','red','isSpinning','changed','4qVnZpF','Usage:\x20meow\x20dev\x20<script_name>','.git','padStart','ready','\x22\x20exited\x20successfully\x20(code\x20','start','hex','gcATK','gxFWs','close','Waiting\x20for\x20changes...','exit','text','succeed','fail','wTiDk','vDDDh','1405678OShxGr','❌\x20Script\x20\x22','NOwri','❌\x20Invalid\x20or\x20missing\x20script\x20name.\x20Please\x20provide\x20a\x20valid\x20script\x20to\x20run.','BtVoz',')\x20-\x20Restarting...','FjVlp','tbLZa','join','14LuIHnV','nekoCLI','owCjI','Stopping\x20previous\x20process...','NTHgP','run','sYitX','apply','error','#FFA500','(Ignoring:\x20','11476091vjVGpL','relative','Error\x20stopping\x20process:\x20','npm','lttZU','unlink','**/*.js','EFHle'];a0_0x5c44=function(){return _0x13fb05;};return a0_0x5c44();}export const handleFlushCommand=async _0x47277f=>{const _0x2a822f=a0_0x2a67,_0x714c18={'AKUeC':_0x2a822f(0x136),'vDDDh':function(_0x163815,_0x32f442){return _0x163815(_0x32f442);}},_0x1ec044=_0x47277f[0x1];if(!_0x1ec044){console[_0x2a822f(0x11c)](a0_0x355d8c[_0x2a822f(0x17b)](_0x714c18[_0x2a822f(0x140)])),console['log'](a0_0x355d8c[_0x2a822f(0x169)](_0x2a822f(0x185)));return;}await _0x714c18[_0x2a822f(0x195)](runScriptWithCatsFramework,_0x1ec044);};
+import chalk from "chalk";
+import { spawn } from "child_process";
+import ora from "ora";
+import chokidar from "chokidar";
+import path from "path";
+import fs from "fs";
+function formatTimestamp() {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, "0");
+    const minutes = String(now.getMinutes()).padStart(2, "0");
+    const seconds = String(now.getSeconds()).padStart(2, "0");
+    return `${chalk.cyan("[")}${chalk.cyan.bold("⏰")}${chalk.cyan(
+        ` ${hours}:${minutes}:${seconds}`
+    )}${chalk.cyan("]")}`;
+}
+let childProcess = null;
+let watcher = null;
+let isRestarting = false;
+let spinnerInstance = null;
+const runScriptWithCatsFramework = async (scriptName) => {
+    if (!scriptName || typeof scriptName !== 'string' || scriptName.trim() === '') {
+        console.error(chalk.yellow("❌ Invalid or missing script name. Please provide a valid script to run."));
+        return;
+    }
+    const projectRoot = process.cwd();
+    const packageJsonPath = path.join(projectRoot, 'package.json');
+    let watchPaths = [path.join(projectRoot, '**/*.js'), path.join(projectRoot, '**/*.mjs')];
+    let ignoredPaths = [
+        path.join(projectRoot, 'node_modules'),
+        path.join(projectRoot, '.git'),
+        path.join(projectRoot, 'dist'),
+        path.join(projectRoot, 'build')
+    ];
+    spinnerInstance = ora({
+        text: chalk.cyan("Initializing Neko-CLI for 'dev' mode..."),
+        spinner: "dots",
+        color: "cyan",
+    }).start();
+    if (fs.existsSync(packageJsonPath)) {
+        try {
+            const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
+            if (packageJson.nekoCLI && packageJson.nekoCLI.flush) {
+                const flushConfig = packageJson.nekoCLI.flush;
+                if (flushConfig.watch && Array.isArray(flushConfig.watch)) {
+                    watchPaths = flushConfig.watch.map(p => path.join(projectRoot, p));
+                    spinnerInstance.text = chalk.cyan(`📦 Loading custom watch paths...`);
+                }
+                if (flushConfig.ignore && Array.isArray(flushConfig.ignore)) {
+                    ignoredPaths = flushConfig.ignore.map(p => path.join(projectRoot, p));
+                    spinnerInstance.text = chalk.cyan(`🚫 Loading custom ignore paths...`);
+                }
+            }
+        } catch (error) {
+            spinnerInstance.warn(chalk.yellow(`⚠️ Warning: Could not parse 'nekoCLI.flush' config in package.json: ${error.message}`));
+        }
+    }
+    const stopPreviousScript = async () => {
+        if (childProcess) {
+            spinnerInstance.info(`${formatTimestamp()} ${chalk.cyan("Stopping previous process...")}`);
+            childProcess.kill("SIGTERM");
+            await new Promise(resolve => {
+                const timeout = setTimeout(() => {
+                    spinnerInstance.warn(chalk.red(`⚠️ Previous process did not close in time. Forcing termination.`));
+                    if (childProcess) childProcess.kill("SIGKILL");
+                    resolve();
+                }, 3000);
+                childProcess.on("close", (code) => {
+                    clearTimeout(timeout);
+                    resolve();
+                });
+                childProcess.on("error", (error) => {
+                    clearTimeout(timeout);
+                    spinnerInstance.error(chalk.red(`Error stopping process: ${error.message}`));
+                    resolve();
+                });
+            });
+            childProcess = null;
+        }
+    };
+    const startScript = async () => {
+        await stopPreviousScript();
+        spinnerInstance.text = chalk.hex('#FFD700')(`▶️ Starting script "${chalk.hex('#FFD700').bold(scriptName)}"...`);
+        spinnerInstance.color = "yellow";
+        childProcess = spawn("npm", ["run", scriptName], {
+            stdio: "inherit",
+            shell: true,
+            cwd: projectRoot,
+        });
+        childProcess.on("close", (code) => {
+            if (!isRestarting) {
+                if (code === 0) {
+                    spinnerInstance.succeed(chalk.green(`✅ Script "${chalk.green.bold(scriptName)}" exited successfully (code ${code}).`));
+                } else {
+                    spinnerInstance.fail(chalk.red(`❌ Script "${chalk.red.bold(scriptName)}" exited with error (code ${code}).`));
+                }
+                spinnerInstance.start(chalk.cyan("Waiting for changes..."));
+                spinnerInstance.color = "cyan";
+            } else {
+                spinnerInstance.text = chalk.cyan("Restart complete. Waiting for changes...");
+                spinnerInstance.color = "cyan";
+            }
+            childProcess = null;
+        });
+        childProcess.on("error", (error) => {
+            spinnerInstance.fail(chalk.red(`💥 Failed to start script "${scriptName}": ${error.message}`));
+            childProcess = null;
+            spinnerInstance.start(chalk.cyan("Waiting for changes..."));
+            spinnerInstance.color = "cyan";
+        });
+    };
+    const restartScript = async (event, filePath) => {
+        if (isRestarting) return;
+        isRestarting = true;
+        spinnerInstance.stopAndPersist({
+            symbol: chalk.hex('#FFA500')("🚀"),
+            text: chalk.hex('#FFA500')(`File modified: ${chalk.hex('#FFA500').bold(path.relative(projectRoot, filePath))} (${event}) - Restarting...`)
+        });
+        await new Promise(resolve => setTimeout(resolve, 100));
+        await startScript();
+        setTimeout(() => {
+            isRestarting = false;
+            if (!spinnerInstance.isSpinning) {
+                spinnerInstance.start(chalk.cyan("Waiting for changes..."));
+                spinnerInstance.color = "cyan";
+            }
+        }, 500);
+    };
+    spinnerInstance.text = chalk.cyan("Setting up file watcher...");
+    spinnerInstance.color = "cyan";
+    watcher = chokidar.watch(watchPaths, {
+        ignored: ignoredPaths,
+        persistent: true,
+        ignoreInitial: true,
+        awaitWriteFinish: {
+            stabilityThreshold: 100,
+            pollInterval: 50
+        }
+    });
+    watcher
+        .on('add', (path) => restartScript('added', path))
+        .on('change', (path) => restartScript('changed', path))
+        .on('unlink', (path) => restartScript('deleted', path))
+        .on('error', (error) => spinnerInstance.fail(chalk.red(`Watcher error: ${error}`)))
+        .on('ready', () => {
+            spinnerInstance.succeed(chalk.green(`√ Watcher ready! Monitoring: ${chalk.bold(watchPaths.map(p => path.relative(projectRoot, p)).join(', '))}`));
+            console.log(chalk.gray(`(Ignoring: ${ignoredPaths.map(p => path.relative(projectRoot, p)).join(', ')})`));
+            startScript();
+        });
+    process.on('SIGINT', () => {
+        spinnerInstance.info(`\n${formatTimestamp()} ${chalk.yellow("👋 Detected Ctrl+C. Shutting down Neko-CLI 'dev'...")}`);
+        if (childProcess) {
+            childProcess.kill("SIGTERM");
+        }
+        if (watcher) {
+            watcher.close();
+        }
+        if (spinnerInstance) {
+            spinnerInstance.stop();
+        }
+        process.exit(0);
+    });
+    process.on('SIGTERM', () => {
+        spinnerInstance.info(`\n${formatTimestamp()} ${chalk.yellow("👋 Detected SIGTERM. Shutting down Neko-CLI 'dev'...")}`);
+        if (childProcess) {
+            childProcess.kill("SIGTERM");
+        }
+        if (watcher) {
+            watcher.close();
+        }
+        if (spinnerInstance) {
+            spinnerInstance.stop();
+        }
+        process.exit(0);
+    });
+};
+export const handleFlushCommand = async (args) => {
+    const scriptName = args[1];
+    if (!scriptName) {
+        console.error(chalk.yellow("❌ Error: Missing script name for 'dev' command."));
+        console.log(chalk.cyan("Usage: meow dev <script_name>"));
+        return;
+    }
+    await runScriptWithCatsFramework(scriptName);
+};

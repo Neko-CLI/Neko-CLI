@@ -1,1 +1,178 @@
-function a0_0x2140(_0x59f63d,_0x6d8143){const _0x13c0e1=a0_0x3b83();return a0_0x2140=function(_0x11ee1a,_0x2790d5){_0x11ee1a=_0x11ee1a-0x1ae;let _0x3b83be=_0x13c0e1[_0x11ee1a];return _0x3b83be;},a0_0x2140(_0x59f63d,_0x6d8143);}(function(_0x36f4ff,_0x376187){const _0x4a6aeb=a0_0x2140,_0x540cbe=_0x36f4ff();while(!![]){try{const _0x4afc83=-parseInt(_0x4a6aeb(0x1d8))/0x1+-parseInt(_0x4a6aeb(0x1e6))/0x2*(-parseInt(_0x4a6aeb(0x1da))/0x3)+parseInt(_0x4a6aeb(0x216))/0x4*(-parseInt(_0x4a6aeb(0x209))/0x5)+parseInt(_0x4a6aeb(0x1b0))/0x6*(parseInt(_0x4a6aeb(0x1f1))/0x7)+-parseInt(_0x4a6aeb(0x1d7))/0x8+-parseInt(_0x4a6aeb(0x1e7))/0x9*(parseInt(_0x4a6aeb(0x1fb))/0xa)+-parseInt(_0x4a6aeb(0x1e9))/0xb*(-parseInt(_0x4a6aeb(0x20e))/0xc);if(_0x4afc83===_0x376187)break;else _0x540cbe['push'](_0x540cbe['shift']());}catch(_0x1cbb05){_0x540cbe['push'](_0x540cbe['shift']());}}}(a0_0x3b83,0x2552e));const a0_0x2790d5=(function(){let _0x4571ed=!![];return function(_0x17867a,_0xcdc628){const _0x19f3a8=_0x4571ed?function(){const _0x38a9da=a0_0x2140;if(_0xcdc628){const _0xf1ffc7=_0xcdc628[_0x38a9da(0x1e1)](_0x17867a,arguments);return _0xcdc628=null,_0xf1ffc7;}}:function(){};return _0x4571ed=![],_0x19f3a8;};}()),a0_0x11ee1a=a0_0x2790d5(this,function(){const _0x1eb300=a0_0x2140,_0x31804e={'pBGxn':_0x1eb300(0x1ae)};return a0_0x11ee1a[_0x1eb300(0x1db)]()['search']('(((.+)+)+)+$')[_0x1eb300(0x1db)]()['constructor'](a0_0x11ee1a)[_0x1eb300(0x1b1)](_0x31804e[_0x1eb300(0x1d5)]);});a0_0x11ee1a();import a0_0x36f197 from'chalk';import{execAsync}from'../utils/execUtils.js';import a0_0x833eda from'fs-extra';import a0_0x437875 from'ora';import a0_0x4ff376 from'axios';import a0_0x1adb83 from'path';import a0_0x38f606 from'https';const {readJson,existsSync}=a0_0x833eda,checkNpmLoginStatus=async()=>{const _0x53ad27=a0_0x2140,_0x1f420d={'qyXCl':function(_0x3ff2f1,_0x1915f3){return _0x3ff2f1(_0x1915f3);},'CnWIg':'npm\x20whoami'};try{const {stdout:_0x4d90db}=await _0x1f420d[_0x53ad27(0x1e3)](execAsync,_0x1f420d[_0x53ad27(0x1bf)]);return _0x4d90db['trim']()!=='';}catch(_0x4cd0b3){return![];}},publishToNpm=async(_0x52561f,_0x2c703d)=>{const _0x1a41f8=a0_0x2140,_0x29169e={'jLjzw':_0x1a41f8(0x1cc),'FbogJ':_0x1a41f8(0x1fd),'vzwVE':function(_0x408f2f,_0x4a8541,_0x4374d5){return _0x408f2f(_0x4a8541,_0x4374d5);},'qTDMK':_0x1a41f8(0x204),'FOshv':'You\x20cannot\x20publish\x20over\x20the\x20previously\x20published\x20versions','wGyJw':'🚨\x20Error:\x20This\x20version\x20has\x20already\x20been\x20published.\x20Please\x20update\x20the\x20\x27version\x27\x20field\x20in\x20your\x20package.json.','UUsBM':_0x1a41f8(0x1fc),'ssOmO':_0x1a41f8(0x1c3)},_0x17f92e=a0_0x437875(a0_0x36f197['cyan'](_0x29169e['jLjzw']))[_0x1a41f8(0x1d4)]();let _0x483e9d=_0x29169e[_0x1a41f8(0x1d2)];_0x2c703d&&(_0x483e9d+='\x20--otp=\x22'+_0x2c703d+'\x22');try{const {stdout:_0x1be49e,stderr:_0x1eaf73}=await _0x29169e[_0x1a41f8(0x210)](execAsync,_0x483e9d,{'cwd':_0x52561f});_0x17f92e['succeed'](a0_0x36f197['cyan'](_0x29169e['qTDMK'])),console['log'](a0_0x36f197[_0x1a41f8(0x1e4)](_0x1be49e));if(_0x1eaf73)console[_0x1a41f8(0x1de)](a0_0x36f197[_0x1a41f8(0x1b2)](_0x1eaf73));return!![];}catch(_0x2eeab9){_0x17f92e[_0x1a41f8(0x1f5)](a0_0x36f197[_0x1a41f8(0x1cb)]('❌\x20Failed\x20to\x20publish\x20to\x20npm:\x20'+_0x2eeab9[_0x1a41f8(0x1b5)]));if(_0x2eeab9['stderr']){if(_0x2eeab9[_0x1a41f8(0x1ed)][_0x1a41f8(0x1c8)](_0x29169e['FOshv']))console[_0x1a41f8(0x1de)](a0_0x36f197['red'](_0x29169e[_0x1a41f8(0x1d1)]));else _0x2eeab9[_0x1a41f8(0x1ed)][_0x1a41f8(0x1c8)](_0x29169e[_0x1a41f8(0x1bb)])||_0x2eeab9[_0x1a41f8(0x1ed)][_0x1a41f8(0x1c8)](_0x1a41f8(0x1ca))?console['error'](a0_0x36f197[_0x1a41f8(0x1cb)](_0x29169e['ssOmO'])):console[_0x1a41f8(0x1de)](a0_0x36f197[_0x1a41f8(0x1cb)](_0x2eeab9['stderr']));}if(_0x2eeab9['stdout'])console[_0x1a41f8(0x1de)](a0_0x36f197[_0x1a41f8(0x1cb)](_0x2eeab9[_0x1a41f8(0x20c)]));return![];}},publishToYarn=async(_0x75edc1,_0x3ce397)=>{const _0x121aff=a0_0x2140,_0x1f5bf7={'FPdwc':function(_0x1fa7fe,_0x24224e){return _0x1fa7fe(_0x24224e);},'HevYi':_0x121aff(0x1cf),'YhvLA':_0x121aff(0x1fc),'XhqBU':_0x121aff(0x1c7),'OUiPz':_0x121aff(0x207),'CVrnY':_0x121aff(0x1e2)},_0x529d63=_0x1f5bf7[_0x121aff(0x1df)](a0_0x437875,a0_0x36f197[_0x121aff(0x1ba)]('Publishing\x20to\x20Yarn\x20registry...'))['start']();let _0x19bebb=_0x121aff(0x1b7);_0x3ce397&&(_0x19bebb+=_0x121aff(0x1f6)+_0x3ce397+'\x22');try{const {stdout:_0x37e1fc,stderr:_0xd9bec3}=await execAsync(_0x19bebb,{'cwd':_0x75edc1});_0x529d63['succeed'](a0_0x36f197[_0x121aff(0x1ba)](_0x1f5bf7[_0x121aff(0x1be)])),console[_0x121aff(0x1f2)](a0_0x36f197['gray'](_0x37e1fc));if(_0xd9bec3)console[_0x121aff(0x1de)](a0_0x36f197[_0x121aff(0x1b2)](_0xd9bec3));return!![];}catch(_0x339c7f){_0x529d63[_0x121aff(0x1f5)](a0_0x36f197[_0x121aff(0x1cb)](_0x121aff(0x1c5)+_0x339c7f[_0x121aff(0x1b5)]));if(_0x339c7f['stderr']){if(_0x339c7f[_0x121aff(0x1ed)][_0x121aff(0x1c8)](_0x121aff(0x1b4))&&_0x339c7f[_0x121aff(0x1ed)]['includes'](_0x1f5bf7['YhvLA']))console['error'](a0_0x36f197[_0x121aff(0x1cb)](_0x1f5bf7[_0x121aff(0x1e5)]));else _0x339c7f[_0x121aff(0x1ed)][_0x121aff(0x1c8)](_0x1f5bf7['OUiPz'])||_0x339c7f[_0x121aff(0x1ed)][_0x121aff(0x1c8)](_0x1f5bf7[_0x121aff(0x1d0)])?console['error'](a0_0x36f197[_0x121aff(0x1cb)](_0x121aff(0x1b6))):console[_0x121aff(0x1de)](a0_0x36f197[_0x121aff(0x1cb)](_0x339c7f[_0x121aff(0x1ed)]));}if(_0x339c7f['stdout'])console[_0x121aff(0x1de)](a0_0x36f197['red'](_0x339c7f[_0x121aff(0x20c)]));return![];}},publishToMeowRegistry=async _0x241928=>{const _0x5b01f7=a0_0x2140,_0x571c51={'SVKNz':function(_0x584e97,_0x21d922){return _0x584e97(_0x21d922);},'WqEYN':function(_0x4969ac,_0x1e5aa8){return _0x4969ac(_0x1e5aa8);},'hkBvj':_0x5b01f7(0x1f3),'kXVkg':function(_0x37132d,_0x384ea4){return _0x37132d||_0x384ea4;},'fOEZh':_0x5b01f7(0x203),'Vzgkw':_0x5b01f7(0x214),'jtufe':function(_0x4208ee,_0x268a9b){return _0x4208ee>=_0x268a9b;},'yOBkB':function(_0x409955,_0x46e231){return _0x409955<_0x46e231;}},_0x4b7e1f=_0x571c51['SVKNz'](a0_0x437875,a0_0x36f197[_0x5b01f7(0x1ba)](_0x5b01f7(0x1af)))[_0x5b01f7(0x1d4)]();try{const _0x36a9e2=await _0x571c51[_0x5b01f7(0x1d6)](readJson,a0_0x1adb83[_0x5b01f7(0x1c6)](_0x241928,_0x571c51['hkBvj'])),_0x4d14f8=_0x36a9e2['name'],_0x5378ac=_0x36a9e2[_0x5b01f7(0x1ea)],_0x333e45=_0x36a9e2['publishConfig']?.['registry']||process[_0x5b01f7(0x20f)][_0x5b01f7(0x1dd)];if(!_0x333e45)return _0x4b7e1f[_0x5b01f7(0x1f5)](a0_0x36f197[_0x5b01f7(0x1cb)]('Custom\x20\x27meow\x27\x20registry\x20URL\x20not\x20configured\x20in\x20package.json\x20(publishConfig.registry)\x20or\x20NEKO_REGISTRY_URL\x20environment\x20variable.')),![];if(_0x571c51[_0x5b01f7(0x1bd)](!_0x4d14f8,!_0x5378ac))return _0x4b7e1f[_0x5b01f7(0x1f5)](a0_0x36f197[_0x5b01f7(0x1cb)](_0x571c51[_0x5b01f7(0x1f9)])),![];const _0x1348a9=a0_0x1adb83[_0x5b01f7(0x1c6)](_0x241928,_0x4d14f8+'-'+_0x5378ac+_0x5b01f7(0x212));await execAsync(_0x5b01f7(0x205)+_0x241928+'\x22',{'cwd':_0x241928});if(!_0x571c51[_0x5b01f7(0x1d6)](existsSync,_0x1348a9))return _0x4b7e1f['fail'](a0_0x36f197[_0x5b01f7(0x1cb)](_0x5b01f7(0x1c9)+_0x1348a9+'.')),![];const _0x54cb40=a0_0x833eda[_0x5b01f7(0x1d9)](_0x1348a9),_0x211b60=new a0_0x38f606[(_0x5b01f7(0x1b9))]({'rejectUnauthorized':![]}),_0x7bbe05=await a0_0x4ff376['put'](_0x333e45+'/'+_0x4d14f8+_0x5b01f7(0x1cd)+_0x4d14f8+'-'+_0x5378ac+_0x5b01f7(0x212),_0x54cb40,{'headers':{'Content-Type':_0x571c51[_0x5b01f7(0x1fa)]},'httpsAgent':_0x211b60});return _0x571c51[_0x5b01f7(0x1ce)](_0x7bbe05[_0x5b01f7(0x1dc)],0xc8)&&_0x571c51[_0x5b01f7(0x1eb)](_0x7bbe05['status'],0x12c)?(_0x4b7e1f[_0x5b01f7(0x1c2)](a0_0x36f197[_0x5b01f7(0x1ba)](_0x5b01f7(0x1e0)+_0x7bbe05[_0x5b01f7(0x1dc)])),!![]):(_0x4b7e1f[_0x5b01f7(0x1f5)](a0_0x36f197[_0x5b01f7(0x1cb)](_0x5b01f7(0x1ef)+_0x7bbe05['status']+',\x20Message:\x20'+_0x7bbe05['statusText'])),![]);}catch(_0x21ec9f){_0x4b7e1f[_0x5b01f7(0x1f5)](a0_0x36f197[_0x5b01f7(0x1cb)](_0x5b01f7(0x1f4)+_0x21ec9f[_0x5b01f7(0x1b5)]));if(_0x21ec9f['response']?.[_0x5b01f7(0x1fe)])console[_0x5b01f7(0x1de)](a0_0x36f197['red'](JSON[_0x5b01f7(0x1ff)](_0x21ec9f[_0x5b01f7(0x1c0)]['data'],null,0x2)));return![];}finally{const _0x175aaa=await readJson(a0_0x1adb83[_0x5b01f7(0x1c6)](_0x241928,_0x571c51[_0x5b01f7(0x1d3)])),_0x2d6a84=_0x175aaa['name'],_0x1489d8=_0x175aaa['version'],_0x35c662=a0_0x1adb83['join'](_0x241928,_0x2d6a84+'-'+_0x1489d8+_0x5b01f7(0x212));existsSync(_0x35c662)&&a0_0x833eda[_0x5b01f7(0x1b8)](_0x35c662);}};export const handlePublishCommand=async(_0x2c7662,_0x3034af)=>{const _0xc23f8c=a0_0x2140,_0x528a26={'BboRJ':function(_0x1d32d9,_0x1948a5){return _0x1d32d9||_0x1948a5;},'TmAZD':_0xc23f8c(0x1e8),'qvHQr':_0xc23f8c(0x1f3),'idQVy':function(_0x3b042e,_0x118a39){return _0x3b042e(_0x118a39);},'MKfsc':_0xc23f8c(0x20d),'XgLoB':function(_0x503642,_0x3999b8,_0x4b6d7e){return _0x503642(_0x3999b8,_0x4b6d7e);},'ETNpN':'yarn','aNpFC':function(_0x459ff3,_0x14dc26,_0x2d58ae){return _0x459ff3(_0x14dc26,_0x2d58ae);},'ymIMz':_0xc23f8c(0x1f7),'aCAyt':_0xc23f8c(0x1f8),'wcDjP':_0xc23f8c(0x1ec)};console[_0xc23f8c(0x1f2)](a0_0x36f197[_0xc23f8c(0x1ba)](_0xc23f8c(0x215)+_0x528a26[_0xc23f8c(0x20a)](_0x2c7662,_0x528a26[_0xc23f8c(0x1b3)])+_0xc23f8c(0x201)));const _0x420246=process[_0xc23f8c(0x208)](),_0x215f6a=a0_0x1adb83['join'](_0x420246,_0x528a26[_0xc23f8c(0x202)]);if(!_0x528a26[_0xc23f8c(0x1f0)](existsSync,_0x215f6a)){console[_0xc23f8c(0x1de)](a0_0x36f197[_0xc23f8c(0x1cb)]('❌\x20package.json\x20not\x20found\x20in\x20the\x20current\x20directory.\x20Cannot\x20publish.'));return;}const _0xc7d8ac=_0x3034af[_0xc23f8c(0x213)](_0x2b9392=>_0x2b9392[_0xc23f8c(0x20b)]('--otp=')),_0x457f45=_0xc7d8ac?_0xc7d8ac['split']('=')[0x1]:null;switch(_0x2c7662){case _0xc23f8c(0x1ee):const _0x4486f=await checkNpmLoginStatus();if(!_0x4486f){console[_0xc23f8c(0x1c4)](a0_0x36f197[_0xc23f8c(0x1b2)](_0x528a26[_0xc23f8c(0x200)]));return;}await _0x528a26[_0xc23f8c(0x206)](publishToNpm,_0x420246,_0x457f45);break;case _0x528a26[_0xc23f8c(0x1bc)]:await _0x528a26[_0xc23f8c(0x1c1)](publishToYarn,_0x420246,_0x457f45);break;case _0x528a26['ymIMz']:await publishToMeowRegistry(_0x420246);break;default:console[_0xc23f8c(0x1de)](a0_0x36f197['red'](_0x528a26['aCAyt']));break;}console[_0xc23f8c(0x1f2)](a0_0x36f197[_0xc23f8c(0x1b2)](_0x528a26[_0xc23f8c(0x211)]));};function a0_0x3b83(){const _0x29fea5=['status','NEKO_REGISTRY_URL','error','FPdwc','Package\x20published\x20to\x20NekoCLI\x20custom\x20registry\x20successfully!\x20Status:\x20','apply','You\x20cannot\x20publish\x20over\x20the\x20previously\x20published\x20versions','qyXCl','gray','XhqBU','22646rDhLmL','12807VGfvah','default','1529dJUTQE','version','yOBkB','⚠️\x20Remember\x20to\x20increment\x20the\x20version\x20number\x20in\x20your\x20package.json\x20before\x20each\x20new\x20publication!','stderr','npm','Failed\x20to\x20publish\x20to\x20NekoCLI\x20custom\x20registry.\x20Status:\x20','idQVy','14jQftwQ','log','package.json','Failed\x20to\x20publish\x20to\x20NekoCLI\x20custom\x20registry:\x20','fail','\x20--otp=\x22','meow','❌\x20Invalid\x20publish\x20platform\x20specified.\x20Use\x20\x27npm\x27,\x20\x27yarn\x27,\x20or\x20\x27meow\x27.','fOEZh','Vzgkw','1060fcgBGB','Two\x20factor\x20authentication\x20enabled','npm\x20publish','data','stringify','MKfsc','...','qvHQr','package.json\x20must\x20have\x20\x27name\x27\x20and\x20\x27version\x27\x20fields\x20for\x20custom\x20registry\x20publish.','Package\x20published\x20to\x20npm\x20successfully!','npm\x20pack\x20--pack-destination\x20\x22','XgLoB','already\x20exists','cwd','10wtaLOB','BboRJ','startsWith','stdout','⚠️\x20Not\x20logged\x20in\x20to\x20npm.\x20Please\x20run\x20\x27npm\x20login\x27\x20first.','46044WdYgXV','env','vzwVE','wcDjP','.tgz','find','application/octet-stream','🚀\x20Attempting\x20to\x20publish\x20package\x20to:\x20','458144sUePGW','(((.+)+)+)+$','Publishing\x20to\x20NekoCLI\x20custom\x20registry...','757428cTQDnM','search','yellow','TmAZD','Can\x27t\x20answer\x20a\x20question\x20unless\x20a\x20user\x20TTY','message','🚨\x20Error:\x20This\x20version\x20has\x20already\x20been\x20published.\x20Please\x20update\x20the\x20\x27version\x27\x20field\x20in\x20your\x20package.json.','yarn\x20publish','removeSync','Agent','cyan','UUsBM','ETNpN','kXVkg','HevYi','CnWIg','response','aNpFC','succeed','🚨\x20Error:\x20Two-factor\x20authentication\x20is\x20enabled.\x20Use\x20`meow\x20publish\x20npm\x20--otp=<your-otp-code>`.','warn','❌\x20Failed\x20to\x20publish\x20to\x20Yarn\x20registry:\x20','join','🚨\x20Error:\x20Two-factor\x20authentication\x20is\x20enabled.\x20Use\x20`meow\x20publish\x20yarn\x20--otp=<your-otp-code>`\x20to\x20provide\x20the\x20OTP.','includes','Failed\x20to\x20create\x20tarball\x20at\x20','requires\x20a\x20one-time\x20password','red','Publishing\x20to\x20npm...','/-/','jtufe','Package\x20published\x20to\x20Yarn\x20registry\x20successfully!','CVrnY','wGyJw','FbogJ','hkBvj','start','pBGxn','WqEYN','1957720euXXcq','291391WVtjJN','readFileSync','75NmgFni','toString'];a0_0x3b83=function(){return _0x29fea5;};return a0_0x3b83();}
+import chalk from "chalk";
+import { execAsync } from "../utils/execUtils.js";
+import fsExtra from "fs-extra";
+import ora from "ora";
+import axios from "axios";
+import path from "path";
+import https from "https";
+
+const { readJson, existsSync } = fsExtra;
+
+const checkNpmLoginStatus = async () => {
+  try {
+    const { stdout } = await execAsync("npm whoami");
+    return stdout.trim() !== "";
+  } catch (error) {
+    return false;
+  }
+};
+
+const publishToNpm = async (dir, otp) => {
+  const spinner = ora(chalk.cyan("Publishing to npm...")).start();
+  let command = "npm publish";
+  if (otp) {
+    command += ` --otp="${otp}"`;
+  }
+
+  try {
+    const { stdout, stderr } = await execAsync(command, { cwd: dir });
+    spinner.succeed(chalk.cyan("Package published to npm successfully!"));
+    console.log(chalk.gray(stdout));
+    if (stderr) console.error(chalk.yellow(stderr));
+    return true;
+  } catch (error) {
+    spinner.fail(chalk.red(`❌ Failed to publish to npm: ${error.message}`));
+    if (error.stderr) {
+      if (error.stderr.includes("You cannot publish over the previously published versions")) {
+        console.error(
+          chalk.red(
+            "🚨 Error: This version has already been published. Please update the 'version' field in your package.json."
+          )
+        );
+      } else if (error.stderr.includes("Two factor authentication enabled") || error.stderr.includes("requires a one-time password")) {
+          console.error(
+              chalk.red("🚨 Error: Two-factor authentication is enabled. Use `meow publish npm --otp=<your-otp-code>`.")
+          );
+      } else {
+        console.error(chalk.red(error.stderr));
+      }
+    }
+    if (error.stdout) console.error(chalk.red(error.stdout));
+    return false;
+  }
+};
+
+const publishToYarn = async (dir, otp) => {
+  const spinner = ora(chalk.cyan("Publishing to Yarn registry...")).start();
+  let command = "yarn publish";
+  if (otp) {
+    command += ` --otp="${otp}"`;
+  }
+
+  try {
+    const { stdout, stderr } = await execAsync(command, { cwd: dir });
+    spinner.succeed(chalk.cyan("Package published to Yarn registry successfully!"));
+    console.log(chalk.gray(stdout));
+    if (stderr) console.error(chalk.yellow(stderr));
+    return true;
+  } catch (error) {
+    spinner.fail(chalk.red(`❌ Failed to publish to Yarn registry: ${error.message}`));
+    if (error.stderr) {
+      if (error.stderr.includes("Can't answer a question unless a user TTY") && error.stderr.includes("Two factor authentication enabled")) {
+        console.error(chalk.red("🚨 Error: Two-factor authentication is enabled. Use `meow publish yarn --otp=<your-otp-code>` to provide the OTP."));
+      } else if (error.stderr.includes("already exists") || error.stderr.includes("You cannot publish over the previously published versions")) {
+        console.error(chalk.red("🚨 Error: This version has already been published. Please update the 'version' field in your package.json."));
+      } else {
+        console.error(chalk.red(error.stderr));
+      }
+    }
+    if (error.stdout) console.error(chalk.red(error.stdout));
+    return false;
+  }
+};
+
+const publishToMeowRegistry = async (dir) => {
+  const spinner = ora(chalk.cyan(`Publishing to NekoCLI custom registry...`)).start();
+  try {
+    const packageJson = await readJson(path.join(dir, 'package.json'));
+    const packageName = packageJson.name;
+    const packageVersion = packageJson.version;
+    const meowRegistryUrl = packageJson.publishConfig?.registry || process.env.NEKO_REGISTRY_URL;
+
+    if (!meowRegistryUrl) {
+      spinner.fail(chalk.red("Custom 'meow' registry URL not configured in package.json (publishConfig.registry) or NEKO_REGISTRY_URL environment variable."));
+      return false;
+    }
+
+    if (!packageName || !packageVersion) {
+      spinner.fail(chalk.red("package.json must have 'name' and 'version' fields for custom registry publish."));
+      return false;
+    }
+
+    const tarballPath = path.join(dir, `${packageName}-${packageVersion}.tgz`);
+    await execAsync(`npm pack --pack-destination "${dir}"`, { cwd: dir });
+
+    if (!existsSync(tarballPath)) {
+      spinner.fail(chalk.red(`Failed to create tarball at ${tarballPath}.`));
+      return false;
+    }
+
+    const tarballBuffer = fsExtra.readFileSync(tarballPath);
+
+    const agent = new https.Agent({ rejectUnauthorized: false });
+
+    const response = await axios.put(`${meowRegistryUrl}/${packageName}/-/${packageName}-${packageVersion}.tgz`, tarballBuffer, {
+      headers: {
+        'Content-Type': 'application/octet-stream',
+      },
+      httpsAgent: agent,
+    });
+
+    if (response.status >= 200 && response.status < 300) {
+      spinner.succeed(chalk.cyan(`Package published to NekoCLI custom registry successfully! Status: ${response.status}`));
+      return true;
+    } else {
+      spinner.fail(chalk.red(`Failed to publish to NekoCLI custom registry. Status: ${response.status}, Message: ${response.statusText}`));
+      return false;
+    }
+
+  } catch (error) {
+    spinner.fail(chalk.red(`Failed to publish to NekoCLI custom registry: ${error.message}`));
+    if (error.response?.data) console.error(chalk.red(JSON.stringify(error.response.data, null, 2)));
+    return false;
+  } finally {
+    const packageJson = await readJson(path.join(dir, 'package.json'));
+    const packageName = packageJson.name;
+    const packageVersion = packageJson.version;
+    const tarballPath = path.join(dir, `${packageName}-${packageVersion}.tgz`);
+    if (existsSync(tarballPath)) {
+        fsExtra.removeSync(tarballPath);
+    }
+  }
+};
+
+export const handlePublishCommand = async (registryType, options) => {
+  console.log(chalk.cyan(`🚀 Attempting to publish package to: ${registryType || 'default'}...`));
+
+  const currentDir = process.cwd();
+  const packageJsonPath = path.join(currentDir, 'package.json');
+
+  if (!existsSync(packageJsonPath)) {
+    console.error(chalk.red("❌ package.json not found in the current directory. Cannot publish."));
+    return;
+  }
+
+  const otpOption = options.find(opt => opt.startsWith('--otp='));
+  const otp = otpOption ? otpOption.split('=')[1] : null;
+
+  switch (registryType) {
+    case "npm":
+      const loggedInNpm = await checkNpmLoginStatus();
+      if (!loggedInNpm) {
+        console.warn(chalk.yellow("⚠️ Not logged in to npm. Please run 'npm login' first."));
+        return;
+      }
+      await publishToNpm(currentDir, otp);
+      break;
+    case "yarn":
+      await publishToYarn(currentDir, otp);
+      break;
+    case "meow":
+      await publishToMeowRegistry(currentDir);
+      break;
+    default:
+      console.error(chalk.red("❌ Invalid publish platform specified. Use 'npm', 'yarn', or 'meow'."));
+      break;
+  }
+  console.log(chalk.yellow("⚠️ Remember to increment the version number in your package.json before each new publication!"));
+};

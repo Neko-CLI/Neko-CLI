@@ -1,1 +1,47 @@
-const a0_0x3595a1=a0_0x24fa;function a0_0x491a(){const _0x23e36f=['⚠️\x20Error\x20checking\x20','7435737dkdmgW','BVScZ','yellow','apply','where','cyan','trim','1803224XOXZPm','message','552Whgvkv','5239870tHFLvl','win32','promisify','yarn','constructor','mNgjH','253476wEMKIw','vSVfX','toString','search','✔️\x20Found\x20binary:\x20','KOIcG','wQpfI','135301frzSDC','error','70XjAIOt','(((.+)+)+)+$','log','FfZYs','9824660XEOAni','which','4dDSfqs','Gqdkh','19743fcbdqd','warn','platform'];a0_0x491a=function(){return _0x23e36f;};return a0_0x491a();}(function(_0x2d7c06,_0x2b66a7){const _0x2a3aa2=a0_0x24fa,_0x1643b1=_0x2d7c06();while(!![]){try{const _0x1c738b=-parseInt(_0x2a3aa2(0x17e))/0x1*(parseInt(_0x2a3aa2(0x186))/0x2)+-parseInt(_0x2a3aa2(0x188))/0x3*(-parseInt(_0x2a3aa2(0x170))/0x4)+parseInt(_0x2a3aa2(0x171))/0x5+-parseInt(_0x2a3aa2(0x177))/0x6*(-parseInt(_0x2a3aa2(0x180))/0x7)+parseInt(_0x2a3aa2(0x16e))/0x8+-parseInt(_0x2a3aa2(0x18c))/0x9+-parseInt(_0x2a3aa2(0x184))/0xa;if(_0x1c738b===_0x2b66a7)break;else _0x1643b1['push'](_0x1643b1['shift']());}catch(_0xeccc30){_0x1643b1['push'](_0x1643b1['shift']());}}}(a0_0x491a,0x801d2));const a0_0x4bc74f=(function(){let _0x4a23d5=!![];return function(_0x2ab74c,_0x52cbf6){const _0xb4844d=_0x4a23d5?function(){const _0x377291=a0_0x24fa;if(_0x52cbf6){const _0x183a69=_0x52cbf6[_0x377291(0x16a)](_0x2ab74c,arguments);return _0x52cbf6=null,_0x183a69;}}:function(){};return _0x4a23d5=![],_0xb4844d;};}()),a0_0x248991=a0_0x4bc74f(this,function(){const _0x2609b5=a0_0x24fa,_0x4ae639={'KOIcG':_0x2609b5(0x181)};return a0_0x248991[_0x2609b5(0x179)]()[_0x2609b5(0x17a)](_0x4ae639[_0x2609b5(0x17c)])[_0x2609b5(0x179)]()[_0x2609b5(0x175)](a0_0x248991)['search'](_0x4ae639[_0x2609b5(0x17c)]);});a0_0x248991();import a0_0x2d948a from'chalk';import a0_0x196bf2 from'os';import a0_0x460f05 from'util';const execPromise=a0_0x460f05[a0_0x3595a1(0x173)](exec);import{exec}from'child_process';function a0_0x24fa(_0x55b0ed,_0x53f980){const _0x2b3606=a0_0x491a();return a0_0x24fa=function(_0x248991,_0x4bc74f){_0x248991=_0x248991-0x16a;let _0x491a49=_0x2b3606[_0x248991];return _0x491a49;},a0_0x24fa(_0x55b0ed,_0x53f980);}export const handleBinCommand=async()=>{const _0x2bc2db=a0_0x3595a1,_0xb7ad29={'Gqdkh':'npm','lBwlM':_0x2bc2db(0x174),'FfZYs':function(_0xbab32e,_0x1fa5b2){return _0xbab32e===_0x1fa5b2;},'mNgjH':_0x2bc2db(0x172),'vSVfX':_0x2bc2db(0x185),'wQpfI':function(_0x39512c,_0x3f0fd7){return _0x39512c(_0x3f0fd7);},'BVScZ':'❌\x20None\x20of\x20the\x20binaries\x20were\x20found.'};try{const _0x5c7520=['node',_0xb7ad29[_0x2bc2db(0x187)],_0xb7ad29['lBwlM']],_0x5c33db=a0_0x196bf2[_0x2bc2db(0x18a)](),_0x33d1f1=_0xb7ad29[_0x2bc2db(0x183)](_0x5c33db,_0xb7ad29[_0x2bc2db(0x176)])?_0x2bc2db(0x16b):_0xb7ad29[_0x2bc2db(0x178)];console[_0x2bc2db(0x182)](a0_0x2d948a[_0x2bc2db(0x16c)]('Platform:\x20'+_0x5c33db));for(const _0x2036f9 of _0x5c7520){try{const {stdout:_0xb3c9c7,stderr:_0x55d01b}=await _0xb7ad29[_0x2bc2db(0x17d)](execPromise,_0x33d1f1+'\x20'+_0x2036f9);if(_0x55d01b)continue;if(_0xb3c9c7)return console['log'](a0_0x2d948a['cyan'](_0x2bc2db(0x17b)+_0x2036f9+'\x20at\x20'+_0xb3c9c7[_0x2bc2db(0x16d)]())),_0xb3c9c7['trim']();}catch(_0x1789d1){console[_0x2bc2db(0x189)](a0_0x2d948a[_0x2bc2db(0x18e)](_0x2bc2db(0x18b)+_0x2036f9+':\x20'+_0x1789d1[_0x2bc2db(0x16f)]));continue;}}return console[_0x2bc2db(0x17f)](a0_0x2d948a[_0x2bc2db(0x18e)](_0xb7ad29[_0x2bc2db(0x18d)])),null;}catch(_0x3c07f8){return console['error'](a0_0x2d948a[_0x2bc2db(0x18e)]('❌\x20Error\x20during\x20binary\x20check:\x20'+_0x3c07f8['message'])),null;}};
+import chalk from "chalk";
+import os from "os";
+import util from "util";
+const execPromise = util.promisify(exec);
+import { exec } from "child_process";
+
+export const handleBinCommand = async () => {
+  try {
+    const binaries = ["node", "npm", "yarn"];
+    const platform = os.platform();
+    const command = platform === "win32" ? "where" : "which";
+
+    console.log(chalk.cyan(`Platform: ${platform}`));
+
+    for (const binaryName of binaries) {
+      try {
+        const { stdout, stderr } = await execPromise(
+          `${command} ${binaryName}`
+        );
+
+        if (stderr) {
+          continue;
+        }
+
+        if (stdout) {
+          console.log(
+            chalk.cyan(`✔️ Found binary: ${binaryName} at ${stdout.trim()}`)
+          );
+          return stdout.trim();
+        }
+      } catch (error) {
+        console.warn(
+          chalk.yellow(`⚠️ Error checking ${binaryName}: ${error.message}`)
+        );
+        continue;
+      }
+    }
+
+    console.error(chalk.yellow("❌ None of the binaries were found."));
+    return null;
+  } catch (error) {
+    console.error(
+      chalk.yellow(`❌ Error during binary check: ${error.message}`)
+    );
+    return null;
+  }
+};

@@ -1,1 +1,123 @@
-function a0_0x4916(){const _0x20d03f=['gray','apply','from\x20dev\x20dependencies\x20locally','dependencies','cyan','18968AqxVhz','🗑️\x20','--dev','An\x20error\x20occurred\x20with\x20','cBBzh','yISuV','kWgNW','22CMWXee','gXvXG','gNUMG','35554512qpdmVo','vdmji','red','1295745kkaQvD','Fusag','\x20from\x20devDependencies.','startsWith','Error\x20during\x20','4581xiyzJY','rjUNP','=^._.^=\x20Meow\x20is\x20removing\x20the\x20packages...','\x20successfully.','1063345CywLKm','pRfnj','(Neko.rock)\x20\x27neko.rock\x27\x20file\x20not\x20found\x20during\x20removal.\x20No\x20lock\x20file\x20update\x20needed.','EVduO','neko.rock','dump','LncUV','(Neko.rock)\x20Error\x20reading\x20or\x20parsing\x20\x27neko.rock\x27\x20for\x20removal:\x20','YGTAx','load','stop','\x20from\x20dependencies.','\x20not\x20found\x20in\x20\x27neko.rock\x27\x20for\x20removal.\x20No\x20lock\x20file\x20update\x20needed.','slice','yellow','search','❌\x20Error:\x20No\x20valid\x20packages\x20specified\x20for\x20removal.','existsSync','--global','\x20--silent','error','\x20package\x20uninstallation:\x20','rainbow','cFTJp','(((.+)+)+)+$','4ifpVCX','3474790jmJnsr','locally','6TQHUNO','(Neko.rock)\x20Package\x20','❌\x20Error:\x20You\x20must\x20specify\x20at\x20least\x20one\x20package\x20name\x20to\x20remove.','globally','(Neko.rock)\x20Warning:\x20\x27neko.rock\x27\x20content\x20is\x20invalid\x20for\x20removal.\x20Reinitializing.','qcpAI','BCvgl','qptAK','npm\x20uninstall\x20','1670139qbpBYW','FgNkD','Usage:\x20meow\x20remove\x20<package-name>\x20[--global\x20|\x20--dev]','includes','LoZGY','devDependencies','cwd','zwkOM','(Neko.rock)\x20Removed\x20','--save-dev','object','--save','filter','6tswnSo','join','log','#\x20Neko-CLI\x20package\x20lock\x20file\x0a#\x20This\x20file\x20tracks\x20installed\x20package\x20versions\x20and\x20integrity.\x0a','utf8','grZgS','message','toString','Iujap','\x20removed\x20','8649466KWlnLS','writeFileSync','length'];a0_0x4916=function(){return _0x20d03f;};return a0_0x4916();}(function(_0x28361c,_0x4f2108){const _0x5374e6=a0_0x2874,_0x31e660=_0x28361c();while(!![]){try{const _0x137c75=parseInt(_0x5374e6(0x156))/0x1+parseInt(_0x5374e6(0x17b))/0x2*(parseInt(_0x5374e6(0x184))/0x3)+parseInt(_0x5374e6(0x178))/0x4*(parseInt(_0x5374e6(0x15f))/0x5)+-parseInt(_0x5374e6(0x191))/0x6*(parseInt(_0x5374e6(0x19b))/0x7)+parseInt(_0x5374e6(0x149))/0x8*(parseInt(_0x5374e6(0x15b))/0x9)+-parseInt(_0x5374e6(0x179))/0xa*(-parseInt(_0x5374e6(0x150))/0xb)+-parseInt(_0x5374e6(0x153))/0xc;if(_0x137c75===_0x4f2108)break;else _0x31e660['push'](_0x31e660['shift']());}catch(_0x546b4e){_0x31e660['push'](_0x31e660['shift']());}}}(a0_0x4916,0xd74ac));const a0_0x160b2c=(function(){let _0x291a07=!![];return function(_0x45a7ae,_0x4ba681){const _0x3d0143=_0x291a07?function(){const _0xe355fd=a0_0x2874;if(_0x4ba681){const _0x55d74a=_0x4ba681[_0xe355fd(0x145)](_0x45a7ae,arguments);return _0x4ba681=null,_0x55d74a;}}:function(){};return _0x291a07=![],_0x3d0143;};}()),a0_0x15c65d=a0_0x160b2c(this,function(){const _0x3761a6=a0_0x2874;return a0_0x15c65d[_0x3761a6(0x198)]()[_0x3761a6(0x16e)](_0x3761a6(0x177))[_0x3761a6(0x198)]()['constructor'](a0_0x15c65d)[_0x3761a6(0x16e)](_0x3761a6(0x177));});a0_0x15c65d();import a0_0x5e348b from'chalk';function a0_0x2874(_0x1debb7,_0x27e359){const _0x10371e=a0_0x4916();return a0_0x2874=function(_0x15c65d,_0x160b2c){_0x15c65d=_0x15c65d-0x143;let _0x4916b4=_0x10371e[_0x15c65d];return _0x4916b4;},a0_0x2874(_0x1debb7,_0x27e359);}import a0_0x269c94 from'ora';import a0_0xeee5aa from'chalk-animation';import{exec}from'child_process';import a0_0x3e5e66 from'fs';import a0_0x2c8360 from'path';import a0_0x5501e7 from'js-yaml';function updateNekoRockForRemoval(_0x2b4cb7,_0x376e77){const _0x2aff37=a0_0x2874,_0xbdb19d={'EVduO':_0x2aff37(0x163),'kWgNW':_0x2aff37(0x195),'XudDC':function(_0x5ca2cc,_0x4a545b){return _0x5ca2cc!==_0x4a545b;},'cFTJp':_0x2aff37(0x18e),'YGTAx':_0x2aff37(0x194),'Iujap':function(_0x2ff9bc,_0x36e86a){return _0x2ff9bc+_0x36e86a;}},_0x194d8d=a0_0x2c8360[_0x2aff37(0x192)](process[_0x2aff37(0x18a)](),_0xbdb19d[_0x2aff37(0x162)]);let _0x3b623f={};if(a0_0x3e5e66[_0x2aff37(0x170)](_0x194d8d))try{const _0x4c715=a0_0x3e5e66['readFileSync'](_0x194d8d,_0xbdb19d[_0x2aff37(0x14f)]);_0x3b623f=a0_0x5501e7[_0x2aff37(0x168)](_0x4c715),(_0xbdb19d['XudDC'](typeof _0x3b623f,_0xbdb19d[_0x2aff37(0x176)])||_0x3b623f===null)&&(console[_0x2aff37(0x193)](a0_0x5e348b[_0x2aff37(0x16d)](_0x2aff37(0x17f))),_0x3b623f={});}catch(_0x2a6058){console[_0x2aff37(0x173)](a0_0x5e348b['red'](_0x2aff37(0x166)+_0x2a6058['message']+'.\x20Reinitializing.')),_0x3b623f={};}else{console['log'](a0_0x5e348b[_0x2aff37(0x144)](_0x2aff37(0x161)));return;}_0x3b623f[_0x2aff37(0x147)]=_0x3b623f[_0x2aff37(0x147)]||{},_0x3b623f[_0x2aff37(0x189)]=_0x3b623f[_0x2aff37(0x189)]||{};let _0x153ff5=![];_0x376e77?_0x3b623f['devDependencies'][_0x2b4cb7]&&(delete _0x3b623f[_0x2aff37(0x189)][_0x2b4cb7],console[_0x2aff37(0x193)](a0_0x5e348b['gray'](_0x2aff37(0x18c)+_0x2b4cb7+_0x2aff37(0x158))),_0x153ff5=!![]):_0x3b623f[_0x2aff37(0x147)][_0x2b4cb7]&&(delete _0x3b623f[_0x2aff37(0x147)][_0x2b4cb7],console[_0x2aff37(0x193)](a0_0x5e348b[_0x2aff37(0x144)](_0x2aff37(0x18c)+_0x2b4cb7+_0x2aff37(0x16a))),_0x153ff5=!![]);if(_0x153ff5)try{const _0x2c7a80=_0xbdb19d[_0x2aff37(0x167)],_0x3be90b=a0_0x5501e7[_0x2aff37(0x164)](_0x3b623f,{'lineWidth':-0x1});a0_0x3e5e66[_0x2aff37(0x19c)](_0x194d8d,_0xbdb19d[_0x2aff37(0x199)](_0x2c7a80,_0x3be90b),_0xbdb19d['kWgNW']);}catch(_0x3b0c6c){console[_0x2aff37(0x173)](a0_0x5e348b[_0x2aff37(0x155)]('(Neko.rock)\x20Error\x20writing\x20to\x20\x27neko.rock\x27\x20after\x20removal\x20for\x20'+_0x2b4cb7+':\x20'+_0x3b0c6c['message']));}else console['log'](a0_0x5e348b[_0x2aff37(0x16d)](_0x2aff37(0x17c)+_0x2b4cb7+_0x2aff37(0x16b)));}export const handleRemoveCommand=async _0x47033e=>{const _0x3cd3d8=a0_0x2874,_0x3d54a6={'grZgS':function(_0xcb71d0,_0x1f131d){return _0xcb71d0(_0x1f131d);},'rjUNP':function(_0x23cf18,_0x54e24c,_0x4695f2){return _0x23cf18(_0x54e24c,_0x4695f2);},'BCvgl':_0x3cd3d8(0x171),'Fusag':_0x3cd3d8(0x18d),'KtDXp':_0x3cd3d8(0x18f),'gXvXG':function(_0x36470a,_0x1f0109){return _0x36470a<_0x1f0109;},'LoZGY':function(_0x581320,_0x4119fc){return _0x581320(_0x4119fc);},'VpdnT':'Uninstallation\x20complete!\x20🎉','zwkOM':function(_0x4004b0,_0x21b18f){return _0x4004b0===_0x21b18f;},'qptAK':_0x3cd3d8(0x17d),'FgNkD':_0x3cd3d8(0x186),'cBBzh':function(_0x3e4b27,_0x32108a){return _0x3e4b27===_0x32108a;},'ntyMU':function(_0x55066b,_0x249120){return _0x55066b(_0x249120);},'vdmji':'Removing\x20global\x20packages...','qcpAI':'Removing\x20packages...','gNUMG':_0x3cd3d8(0x17e),'LncUV':_0x3cd3d8(0x146)},_0x1ec53b=_0x47033e[_0x3cd3d8(0x16c)](0x1);if(_0x3d54a6[_0x3cd3d8(0x18b)](_0x1ec53b[_0x3cd3d8(0x143)],0x0)){console[_0x3cd3d8(0x193)](a0_0x5e348b[_0x3cd3d8(0x16d)](_0x3d54a6[_0x3cd3d8(0x182)])),console['log'](a0_0x5e348b[_0x3cd3d8(0x148)](_0x3d54a6[_0x3cd3d8(0x185)]));return;}const _0x4b8014=_0x1ec53b[_0x3cd3d8(0x187)]('-g')||_0x1ec53b[_0x3cd3d8(0x187)](_0x3cd3d8(0x171)),_0x2b686e=_0x1ec53b[_0x3cd3d8(0x187)](_0x3cd3d8(0x14b)),_0x387240=_0x1ec53b[_0x3cd3d8(0x190)](_0x2fc42f=>!_0x2fc42f[_0x3cd3d8(0x159)]('-'));if(_0x3d54a6[_0x3cd3d8(0x14d)](_0x387240['length'],0x0)){console[_0x3cd3d8(0x193)](a0_0x5e348b['yellow'](_0x3cd3d8(0x16f))),console[_0x3cd3d8(0x193)](a0_0x5e348b[_0x3cd3d8(0x148)](_0x3d54a6[_0x3cd3d8(0x185)]));return;}const _0x546448=a0_0xeee5aa[_0x3cd3d8(0x175)](_0x3cd3d8(0x15d)),_0x3a1fee=_0x3d54a6['ntyMU'](a0_0x269c94,_0x4b8014?_0x3d54a6[_0x3cd3d8(0x154)]:_0x3d54a6[_0x3cd3d8(0x180)])['start'](),_0x313306=_0x4b8014?_0x3d54a6[_0x3cd3d8(0x152)]:_0x2b686e?_0x3d54a6[_0x3cd3d8(0x165)]:_0x3cd3d8(0x17a),_0x5a9de3=_0x26e6f6=>{return new Promise((_0x3740e7,_0x5525cd)=>{const _0x26a5f5=a0_0x2874,_0x5716fa={'pRfnj':function(_0x27a806,_0x4da8ca){const _0x5d69ee=a0_0x2874;return _0x3d54a6[_0x5d69ee(0x196)](_0x27a806,_0x4da8ca);},'yISuV':function(_0xef4d93,_0x3c44e5,_0xf98f00){const _0x26ec05=a0_0x2874;return _0x3d54a6[_0x26ec05(0x15c)](_0xef4d93,_0x3c44e5,_0xf98f00);},'pgPhb':function(_0x135f93,_0x1b3997){return _0x135f93(_0x1b3997);}},_0x3b88f0=_0x26a5f5(0x183)+_0x26e6f6+'\x20'+(_0x4b8014?_0x3d54a6[_0x26a5f5(0x181)]:_0x2b686e?_0x3d54a6[_0x26a5f5(0x157)]:_0x3d54a6['KtDXp'])+_0x26a5f5(0x172);_0x3d54a6[_0x26a5f5(0x15c)](exec,_0x3b88f0,(_0x1532c1,_0x4b2c06,_0x25eb8b)=>{const _0x669710=_0x26a5f5;if(_0x1532c1)return _0x5716fa[_0x669710(0x160)](_0x5525cd,_0x669710(0x15a)+_0x313306+_0x669710(0x174)+(_0x25eb8b||_0x4b2c06||_0x1532c1[_0x669710(0x197)]));else _0x5716fa[_0x669710(0x14e)](updateNekoRockForRemoval,_0x26e6f6,_0x2b686e),_0x5716fa['pgPhb'](_0x3740e7,_0x26e6f6+_0x669710(0x19a)+_0x313306+_0x669710(0x15e));});});},_0x40a9b2=async()=>{const _0x355dc1=_0x3cd3d8;for(let _0x4d573d=0x0;_0x3d54a6[_0x355dc1(0x151)](_0x4d573d,_0x387240['length']);_0x4d573d++){const _0x3d960a=_0x387240[_0x4d573d];try{const _0x993f4e=await _0x3d54a6[_0x355dc1(0x188)](_0x5a9de3,_0x3d960a);console['log'](a0_0x5e348b[_0x355dc1(0x148)](_0x355dc1(0x14a)+_0x993f4e));}catch(_0xcf7dc7){console['log'](a0_0x5e348b[_0x355dc1(0x16d)](_0x355dc1(0x14c)+_0x3d960a+':\x20'+_0xcf7dc7));}}_0x3a1fee[_0x355dc1(0x169)](),_0x546448['stop'](),console[_0x355dc1(0x193)](a0_0x5e348b[_0x355dc1(0x148)](_0x3d54a6['VpdnT']));};_0x40a9b2();};
+import chalk from "chalk";
+import ora from "ora";
+import chalkAnimation from "chalk-animation";
+import { exec } from "child_process";
+import fs from "fs";
+import path from "path";
+import yaml from "js-yaml";
+function updateNekoRockForRemoval(packageName, isDevDependency) {
+    const nekoRockPath = path.join(process.cwd(), 'deps.neko');
+    let nekoRockContent = {};
+    if (fs.existsSync(nekoRockPath)) {
+        try {
+            const fileContent = fs.readFileSync(nekoRockPath, 'utf8');
+            nekoRockContent = yaml.load(fileContent);
+            if (typeof nekoRockContent !== 'object' || nekoRockContent === null) {
+                console.log(chalk.yellow(`(deps.neko) Warning: 'deps.neko' content is invalid for removal. Reinitializing.`));
+                nekoRockContent = {};
+            }
+        } catch (error) {
+            console.error(chalk.red(`(deps.neko) Error reading or parsing 'deps.neko' for removal: ${error.message}. Reinitializing.`));
+            nekoRockContent = {};
+        }
+    } else {
+        console.log(chalk.gray(`(deps.neko) 'deps.neko' file not found during removal. No lock file update needed.`));
+        return;
+    }
+    nekoRockContent.dependencies = nekoRockContent.dependencies || {};
+    nekoRockContent.devDependencies = nekoRockContent.devDependencies || {};
+    let removed = false;
+    if (isDevDependency) {
+        if (nekoRockContent.devDependencies[packageName]) {
+            delete nekoRockContent.devDependencies[packageName];
+            console.log(chalk.gray(`(deps.neko) Removed ${packageName} from devDependencies.`));
+            removed = true;
+        }
+    } else {
+        if (nekoRockContent.dependencies[packageName]) {
+            delete nekoRockContent.dependencies[packageName];
+            console.log(chalk.gray(`(deps.neko) Removed ${packageName} from dependencies.`));
+            removed = true;
+        }
+    }
+    if (removed) {
+        try {
+            const header = "# Neko-CLI package lock file\n# This file tracks installed package versions and integrity.\n";
+            const dumpedContent = yaml.dump(nekoRockContent, { lineWidth: -1 });
+            fs.writeFileSync(nekoRockPath, header + dumpedContent, 'utf8');
+        } catch (error) {
+            console.error(chalk.red(`(deps.neko) Error writing to 'deps.neko' after removal for ${packageName}: ${error.message}`));
+        }
+    } else {
+        console.log(chalk.yellow(`(deps.neko) Package ${packageName} not found in 'deps.neko' for removal. No lock file update needed.`));
+    }
+}
+export const handleRemoveCommand = async (args) => {
+    const commandArgs = args.slice(1);
+    if (commandArgs.length === 0) {
+        console.log(
+            chalk.yellow("❌ Error: You must specify at least one package name to remove.")
+        );
+        console.log(chalk.cyan("Usage: meow remove <package-name> [--global | --dev]"));
+        return;
+    }
+    const isGlobalRemove = commandArgs.includes("-g") || commandArgs.includes("--global");
+    const isDevRemove = commandArgs.includes("--dev");
+    const packagesToRemove = commandArgs.filter(
+        (arg) => !arg.startsWith("-")
+    );
+    if (packagesToRemove.length === 0) {
+        console.log(
+            chalk.yellow("❌ Error: No valid packages specified for removal.")
+        );
+        console.log(chalk.cyan("Usage: meow remove <package-name> [--global | --dev]"));
+        return;
+    }
+    const animationRemove = chalkAnimation.rainbow(
+        "=^._.^= Meow is removing the packages..."
+    );
+    const spinnerRemove = ora(
+        isGlobalRemove ? "Removing global packages..." : "Removing packages..."
+    ).start();
+    const removeScope = isGlobalRemove
+        ? "globally"
+        : isDevRemove
+            ? "from dev dependencies locally"
+            : "locally";
+    const uninstallPackage = (packageName) => {
+        return new Promise((resolve, reject) => {
+            const uninstallCommand = `npm uninstall ${packageName} ${
+                isGlobalRemove ? "--global" : isDevRemove ? "--save-dev" : "--save"
+            } --silent`;
+            exec(uninstallCommand, (err, stdout, stderr) => {
+                if (err) {
+                    return reject(
+                        `Error during ${removeScope} package uninstallation: ${stderr || stdout || err.message}`
+                    );
+                } else {
+                    updateNekoRockForRemoval(packageName, isDevRemove);
+                    resolve(`${packageName} removed ${removeScope} successfully.`);
+                }
+            });
+        });
+    };
+    const uninstallSequentially = async () => {
+        for (let i = 0; i < packagesToRemove.length; i++) {
+            const packageName = packagesToRemove[i];
+            try {
+                const result = await uninstallPackage(packageName);
+                console.log(chalk.cyan(`🗑️ ${result}`));
+            } catch (err) {
+                console.log(
+                    chalk.yellow(
+                        `An error occurred with ${packageName}: ${err}`
+                    )
+                );
+            }
+        }
+        spinnerRemove.stop();
+        animationRemove.stop();
+        console.log(chalk.cyan("Uninstallation complete! 🎉"));
+    };
+    uninstallSequentially();
+};

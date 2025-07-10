@@ -1,1 +1,44 @@
-function a0_0x5260(_0x4025ee,_0x4c5ad9){const _0x1f31ea=a0_0x7e87();return a0_0x5260=function(_0x29ed16,_0x400269){_0x29ed16=_0x29ed16-0x17d;let _0x7e872=_0x1f31ea[_0x29ed16];return _0x7e872;},a0_0x5260(_0x4025ee,_0x4c5ad9);}(function(_0x4c3c89,_0x30044b){const _0x406c35=a0_0x5260,_0x333dff=_0x4c3c89();while(!![]){try{const _0x3fba65=-parseInt(_0x406c35(0x192))/0x1+-parseInt(_0x406c35(0x194))/0x2+-parseInt(_0x406c35(0x18b))/0x3*(parseInt(_0x406c35(0x197))/0x4)+parseInt(_0x406c35(0x191))/0x5*(parseInt(_0x406c35(0x17d))/0x6)+-parseInt(_0x406c35(0x188))/0x7+parseInt(_0x406c35(0x182))/0x8*(-parseInt(_0x406c35(0x18c))/0x9)+parseInt(_0x406c35(0x19b))/0xa*(parseInt(_0x406c35(0x185))/0xb);if(_0x3fba65===_0x30044b)break;else _0x333dff['push'](_0x333dff['shift']());}catch(_0x4f8289){_0x333dff['push'](_0x333dff['shift']());}}}(a0_0x7e87,0x5ce7c));const a0_0x400269=(function(){let _0x5142fa=!![];return function(_0x4d48cd,_0x3c1103){const _0x9ec78a=_0x5142fa?function(){const _0x4d8fde=a0_0x5260;if(_0x3c1103){const _0x25c6e0=_0x3c1103[_0x4d8fde(0x198)](_0x4d48cd,arguments);return _0x3c1103=null,_0x25c6e0;}}:function(){};return _0x5142fa=![],_0x9ec78a;};}()),a0_0x29ed16=a0_0x400269(this,function(){const _0x476852=a0_0x5260,_0x3b1076={'Zsxle':'(((.+)+)+)+$'};return a0_0x29ed16[_0x476852(0x199)]()[_0x476852(0x196)](_0x3b1076[_0x476852(0x18f)])[_0x476852(0x199)]()[_0x476852(0x19c)](a0_0x29ed16)['search'](_0x476852(0x183));});a0_0x29ed16();import a0_0x15ec08 from'chalk';import a0_0x47c782 from'path';function a0_0x7e87(){const _0x4fb18f=['661160GSTlHJ','apply','toString','veDWB','30TLavlW','constructor','hwxtC','XOCOR','cwd','pVqrF','6QAyDje','log','statSync','readdirSync','join','4759064fBwvix','(((.+)+)+)+$','.fleet','7343391TLszld','forEach','.git','5093186fPwGHX','cyan','node_modules','6hEInlA','9VlkSLX','existsSync','mevYV','Zsxle','✔️\x20Structure\x20saved\x20to\x20meow-structure.yml','2414600jPUozL','282922tELNql','CgDzw','338280fjPGOM','nCTCr','search'];a0_0x7e87=function(){return _0x4fb18f;};return a0_0x7e87();}import a0_0x409b47 from'js-yaml';import a0_0x32bc5e from'fs';function convertToTreeObject(_0x7cff4d){const _0x441262=a0_0x5260,_0x5f3b18={'pVqrF':function(_0x25e0f4,_0x1ce73c){return _0x25e0f4===_0x1ce73c;},'veDWB':_0x441262(0x18a),'mevYV':_0x441262(0x187),'CgDzw':'.github','bvQFg':'.idea','NPCYE':'.settings','hwxtC':function(_0x2ed7fe,_0x587d9b){return _0x2ed7fe(_0x587d9b);}},_0x33f031={},_0x2094da=a0_0x32bc5e[_0x441262(0x180)](_0x7cff4d);return _0x2094da[_0x441262(0x186)](_0x34fdd4=>{const _0x5054fc=_0x441262;if(_0x5f3b18[_0x5054fc(0x1a0)](_0x34fdd4,_0x5f3b18[_0x5054fc(0x19a)]))return;if(_0x5f3b18[_0x5054fc(0x1a0)](_0x34fdd4,_0x5f3b18[_0x5054fc(0x18e)]))return;if(_0x34fdd4===_0x5f3b18[_0x5054fc(0x193)])return;if(_0x34fdd4===_0x5f3b18['bvQFg'])return;if(_0x5f3b18[_0x5054fc(0x1a0)](_0x34fdd4,_0x5054fc(0x184)))return;if(_0x5f3b18['pVqrF'](_0x34fdd4,_0x5f3b18['NPCYE']))return;const _0x45317a=a0_0x47c782[_0x5054fc(0x181)](_0x7cff4d,_0x34fdd4),_0x58ef8e=a0_0x32bc5e[_0x5054fc(0x17f)](_0x45317a);_0x58ef8e['isDirectory']()?_0x33f031[_0x34fdd4]=_0x5f3b18[_0x5054fc(0x19d)](convertToTreeObject,_0x45317a):_0x33f031[_0x34fdd4]='📄';}),_0x33f031;}export const handleStructCommand=async()=>{const _0x5a2b7a=a0_0x5260,_0x5b7ed9={'fobbv':'Structure\x20of\x20the\x20Program:','nCTCr':'meow-structure.yml','XOCOR':_0x5a2b7a(0x190)},_0x1a073e=a0_0x47c782['join'](process[_0x5a2b7a(0x19f)]());console[_0x5a2b7a(0x17e)](a0_0x15ec08[_0x5a2b7a(0x189)](_0x5b7ed9['fobbv']));const _0x199f0d=a0_0x47c782[_0x5a2b7a(0x181)](process[_0x5a2b7a(0x19f)](),_0x5b7ed9[_0x5a2b7a(0x195)]),_0xa62629=convertToTreeObject(_0x1a073e);a0_0x32bc5e[_0x5a2b7a(0x18d)](_0x199f0d)&&a0_0x32bc5e['unlinkSync'](_0x199f0d),a0_0x32bc5e['writeFileSync'](_0x199f0d,a0_0x409b47['dump'](_0xa62629)),console[_0x5a2b7a(0x17e)](a0_0x15ec08[_0x5a2b7a(0x189)](_0x5b7ed9[_0x5a2b7a(0x19e)]));};
+import chalk from "chalk";
+import path from "path";
+import yaml from "js-yaml";
+import fs from "fs";
+
+function convertToTreeObject(dirPath) {
+  const treeObject = {};
+  const files = fs.readdirSync(dirPath);
+
+  files.forEach((file) => {
+    if (file === "node_modules") return;
+    if (file === ".git") return;
+    if (file === ".github") return;
+    if (file === ".idea") return;
+    if (file === ".fleet") return;
+    if (file === ".settings") return;
+
+    const fullPath = path.join(dirPath, file);
+    const stat = fs.statSync(fullPath);
+
+    if (stat.isDirectory()) {
+      treeObject[file] = convertToTreeObject(fullPath);
+    } else {
+      treeObject[file] = "📄";
+    }
+  });
+
+  return treeObject;
+}
+
+export const handleStructCommand = async () => {
+  const rootDir = path.join(process.cwd());
+  console.log(chalk.cyan("Structure of the Program:"));
+
+  const ymlPath = path.join(process.cwd(), "meow-structure.yml");
+  const treeObject = convertToTreeObject(rootDir);
+
+  if (fs.existsSync(ymlPath)) {
+    fs.unlinkSync(ymlPath);
+  }
+
+  fs.writeFileSync(ymlPath, yaml.dump(treeObject));
+  console.log(chalk.cyan("✔️ Structure saved to meow-structure.yml"));
+};

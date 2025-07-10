@@ -1,1 +1,74 @@
-(function(_0xb3338e,_0x492ced){const _0x258b3a=a0_0x1f0f,_0x47781f=_0xb3338e();while(!![]){try{const _0x5b5b4a=-parseInt(_0x258b3a(0x9e))/0x1+-parseInt(_0x258b3a(0xaa))/0x2*(-parseInt(_0x258b3a(0xb6))/0x3)+parseInt(_0x258b3a(0x9f))/0x4*(parseInt(_0x258b3a(0xe1))/0x5)+-parseInt(_0x258b3a(0xca))/0x6*(-parseInt(_0x258b3a(0xdb))/0x7)+parseInt(_0x258b3a(0xea))/0x8*(parseInt(_0x258b3a(0x9d))/0x9)+-parseInt(_0x258b3a(0xcb))/0xa*(parseInt(_0x258b3a(0xcc))/0xb)+-parseInt(_0x258b3a(0xa7))/0xc;if(_0x5b5b4a===_0x492ced)break;else _0x47781f['push'](_0x47781f['shift']());}catch(_0x260c1c){_0x47781f['push'](_0x47781f['shift']());}}}(a0_0x49b4,0x5846c));const a0_0x3b76da=(function(){let _0x463245=!![];return function(_0x51cbd5,_0x11505f){const _0x30ea76=_0x463245?function(){if(_0x11505f){const _0x55b612=_0x11505f['apply'](_0x51cbd5,arguments);return _0x11505f=null,_0x55b612;}}:function(){};return _0x463245=![],_0x30ea76;};}()),a0_0x346dcb=a0_0x3b76da(this,function(){const _0x3bbe0b=a0_0x1f0f,_0x33c7c5={'jDyLy':_0x3bbe0b(0xa3)};return a0_0x346dcb[_0x3bbe0b(0xad)]()[_0x3bbe0b(0xbf)](_0x33c7c5[_0x3bbe0b(0xc3)])['toString']()[_0x3bbe0b(0xd5)](a0_0x346dcb)[_0x3bbe0b(0xbf)](_0x3bbe0b(0xa3));});a0_0x346dcb();import a0_0x51bca8 from'chalk';function a0_0x49b4(){const _0x41d76a=['\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Check\x20and\x20update\x20outdated\x20packages.\x20🔄\x0a\x20\x20-\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20List\x20detected\x20languages\x20&\x20files.\x20📜\x0a\x20\x20-\x20','log','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Remove\x20logs,\x20backups,\x20and\x20unused\x20files.\x20🧹\x0a📜\x20Info\x20&\x20Listings:\x0a\x20\x20-\x20','meow\x20outdated','trCzQ','oZbhG','48oHxlIf','meow\x20prune','\x0a🐈\x20NEKO-CLI\x20-\x20Your\x20Paw-some\x20Project\x20Companion!\x20🐾\x0a==============================================\x0a📅\x20Current\x20Time:\x20','iSzfm','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Install\x20all\x20packages.\x20⚙️\x0a\x20\x20-\x20','VHHFX','dist-tags','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Save\x20code\x20structure\x20to\x20meow-structure.yml.\x20🗂️\x0a\x20\x20-\x20','cyan','search','bold','https://neko-cli.com/','meow\x20add\x20<pkg1..>\x20[-g]\x20[--dev]','jDyLy','YhSUY','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Remove\x20unnecessary\x20dependencies.\x20🧹\x0a\x20\x20-\x20','\x0aDeveloped\x20by\x20Thomas\x20Garau:\x20',':\x20Publish\x20to\x20cloud.\x20☁️\x0a📊\x20Project\x20Health\x20&\x20Analysis:\x0a\x20\x20-\x20','latest','meow\x20version','86448ZrVOiA','210050KYpjwF','165tpgTIc','unknown','json','MHbwY','xPlUR','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Show\x20this\x20help\x20guide.\x20❓\x0a\x20\x20-\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Enter\x20an\x20isolated,\x20temporary\x20project\x20environment.\x20📦\x0a🗄️\x20Utilities\x20&\x20Maintenance:\x0a\x20\x20-\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Install\x20dependencies.\x20🐱\x0a\x20\x20-\x20','FnYEh','constructor','zRqVS','UAwnX','meow\x20seccheck','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Get\x20path\x20to\x20installed\x20binaries.\x20🔍\x0a\x20\x20-\x20','bgCyan','77Mrglwc','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Check\x20for\x20outdated\x20versions\x20&\x20suggest\x20updates.\x20🔍\x0a\x20\x20-\x20','resolvedOptions','\x20:\x20Add\x20packages.\x20📦\x0a\x20\x20-\x20','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20List\x20all\x20installed\x20dependencies.\x20📜\x0a\x20\x20-\x20','jLGPp','20muapey','https://registry.npmjs.org/neko-cli','PhKyV','https://github.com/StrayVibes','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Create\x20project\x20backup.\x20💾\x0a\x20\x20-\x20','HH:mm:ss','meow\x20compatibility','meow\x20init\x20[--skip]\x20[-y]','\x0a==============================================\x0a\x20\x20\x20\x20','3799008FfoMhe','white','format','meow\x20list','FktjH','underline','GFdZT','meow\x20languages','nZobX','JwPfy','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Run\x20the\x20development\x20script.\x20🔧\x0a🚀\x20Script\x20&\x20Publishing:\x0a\x20\x20-\x20','meow\x20remove\x20<pkg1..>\x20[-g]\x20[--dev]','meow\x20backup','hwFeH','yellow','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Detect\x20and\x20list\x20code\x20errors.\x20👾\x0a✨\x20CLI\x20Management:\x0a\x20\x20-\x20','9JHZZzg','454548kfBwCn','190612DMEgBB','\x0a✨\x20Core\x20Commands:\x0a\x20\x20-\x20','meow\x20meow','meow\x20analyze','(((.+)+)+)+$','meow\x20checkerrors','meow\x20publish\x20<npm|yarn|meow>','vpJOy','433404lsxXxy','NwUWr','meow\x20clean','42918MMIxLh','tsADw','bCmDp','toString','\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Fetch\x20detailed\x20package\x20info.\x20🔍\x0a\x20\x20-\x20'];a0_0x49b4=function(){return _0x41d76a;};return a0_0x49b4();}import a0_0x1eff0a from'moment-timezone';async function getPackageVersion(){const _0x220254=a0_0x1f0f,_0x366aef={'UAwnX':_0x220254(0xe2),'PhKyV':_0x220254(0xbc),'jLGPp':'Error\x20fetching\x20version\x20from\x20meow\x20registry:'};try{const _0x36e7fe=await fetch(_0x366aef[_0x220254(0xd7)]),_0x31e2f9=await _0x36e7fe[_0x220254(0xce)]();return _0x31e2f9[_0x366aef[_0x220254(0xe3)]][_0x220254(0xc8)];}catch(_0xd851f3){return console['error'](a0_0x51bca8[_0x220254(0x9b)](_0x366aef[_0x220254(0xe0)],_0xd851f3)),_0x220254(0xcd);}}function a0_0x1f0f(_0x3881bc,_0x186cfc){const _0x326a99=a0_0x49b4();return a0_0x1f0f=function(_0x346dcb,_0x3b76da){_0x346dcb=_0x346dcb-0x90;let _0x49b4e5=_0x326a99[_0x346dcb];return _0x49b4e5;},a0_0x1f0f(_0x3881bc,_0x186cfc);}export const handleHelpCommand=async()=>{const _0x424b49=a0_0x1f0f,_0x160df6={'iSzfm':_0x424b49(0xe6),'lOtsR':function(_0x38e108){return _0x38e108();},'oZbhG':'\x20NEW\x20','NwUWr':_0x424b49(0xe8),'LaFbj':_0x424b49(0xc2),'eNfyP':_0x424b49(0xa1),'FnYEh':'meow\x20all','FktjH':'meow\x20flush\x20<script-name>','wRqCw':_0x424b49(0xa5),'MHbwY':_0x424b49(0xb3),'puNcW':_0x424b49(0xa2),'YhSUY':'meow\x20audit','trCzQ':'meow\x20doctor','tsADw':_0x424b49(0xe7),'mwaGd':'meow\x20struct','nZobX':_0x424b49(0x99),'GFdZT':_0x424b49(0xb7),'xPlUR':_0x424b49(0xa9),'CQRcJ':_0x424b49(0x90),'hwFeH':'meow\x20bin','VHHFX':'meow\x20info\x20<pkg>','vpJOy':_0x424b49(0x94),'JwPfy':_0x424b49(0xa4),'UnTcs':'meow\x20update','zRqVS':'meow\x20help','AiEbD':_0x424b49(0xc9),'bCmDp':_0x424b49(0xe4)},_0x54c76b=Intl['DateTimeFormat']()[_0x424b49(0xdd)]()['timeZone'],_0x31626c=a0_0x1eff0a()['tz'](_0x54c76b)[_0x424b49(0xec)](_0x160df6[_0x424b49(0xb9)]),_0x2125d8=await _0x160df6['lOtsR'](getPackageVersion),_0x531ebe=a0_0x51bca8[_0x424b49(0xda)][_0x424b49(0xeb)][_0x424b49(0xc0)](_0x160df6[_0x424b49(0xb5)]);console[_0x424b49(0xb1)](a0_0x51bca8[_0x424b49(0xbe)](_0x424b49(0xb8)+a0_0x51bca8[_0x424b49(0xeb)](_0x31626c)+'\x20('+a0_0x51bca8['white'](_0x54c76b)+')\x0a📦\x20CLI\x20Version:\x20\u00a0'+a0_0x51bca8[_0x424b49(0xbe)](_0x2125d8)+_0x424b49(0xa0)+a0_0x51bca8['cyan'](_0x160df6[_0x424b49(0xa8)])+'\x20\x20\x20\x20\x20\x20\x20\x20:\x20Initialize\x20project.\x20🌱\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6['LaFbj'])+_0x424b49(0xde)+a0_0x51bca8[_0x424b49(0xbe)](_0x424b49(0x98))+':\x20Remove\x20packages.\x20❌\x0a\x20\x20-\x20'+a0_0x51bca8['cyan'](_0x160df6['eNfyP'])+_0x424b49(0xd3)+a0_0x51bca8['cyan'](_0x160df6[_0x424b49(0xd4)])+_0x424b49(0xba)+a0_0x51bca8['cyan']('meow\x20dev')+_0x424b49(0x97)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0x91)])+'\x20\x20\x20\x20\x20:\x20Run\x20scripts\x20with\x20cats\x20framework.\x20🐾\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6['wRqCw'])+_0x424b49(0xc7)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0xcf)])+_0x424b49(0xaf)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6['puNcW'])+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Analyze\x20dependencies\x20&\x20bundle\x20size.\x20📊\x0a\x20\x20-\x20'+a0_0x51bca8['cyan'](_0x160df6[_0x424b49(0xc4)])+_0x424b49(0xdc)+a0_0x51bca8['cyan'](_0x424b49(0xd8))+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Scan\x20for\x20known\x20vulnerabilities.\x20🔒\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0xb4)])+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Check\x20for\x20common\x20project\x20issues.\x20🩺\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0xab)])+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Check\x20dependency\x20compatibility\x20with\x20Node.js.\x20🧑‍💻\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x531ebe+'\x20meow\x20stale')+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Check\x20for\x20unmaintained/inactive\x20dependencies.\x20⏳\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x531ebe+'\x20meow\x20sandbox')+_0x424b49(0xd2)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6['mwaGd'])+_0x424b49(0xbd)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0x95)])+_0x424b49(0xe5)+a0_0x51bca8['cyan'](_0x160df6[_0x424b49(0x93)])+_0x424b49(0xc5)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0xd0)])+_0x424b49(0xb2)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6['CQRcJ'])+_0x424b49(0xdf)+a0_0x51bca8[_0x424b49(0xbe)]('meow\x20licenses')+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20List\x20all\x20package\x20licenses.\x20⚖️\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0x9a)])+_0x424b49(0xd9)+a0_0x51bca8['cyan'](_0x160df6[_0x424b49(0xbb)])+_0x424b49(0xae)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0xa6)])+_0x424b49(0xb0)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0x96)])+_0x424b49(0x9c)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6['UnTcs'])+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Update\x20Meow\x20CLI.\x20📈\x0a\x20\x20-\x20'+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6[_0x424b49(0xd6)])+_0x424b49(0xd1)+a0_0x51bca8[_0x424b49(0xbe)](_0x160df6['AiEbD'])+'\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20:\x20Show\x20current\x20CLI\x20version.\x20🧬\x0aFor\x20more\x20information,\x20visit\x20our\x20website:\x20'+a0_0x51bca8[_0x424b49(0x92)][_0x424b49(0xbe)](_0x424b49(0xc1))+_0x424b49(0xc6)+a0_0x51bca8[_0x424b49(0x92)][_0x424b49(0xbe)](_0x160df6[_0x424b49(0xac)])+_0x424b49(0xe9)));};
+import chalk from "chalk";
+import moment from "moment-timezone";
+async function getPackageVersion() {
+  try {
+    const response = await fetch("https://registry.npmjs.org/neko-cli");
+    const data = await response.json();
+    return data["dist-tags"].latest;
+  } catch (err) {
+    console.error(
+      chalk.yellow("Error fetching version from meow registry:", err)
+    );
+    return "unknown";
+  }
+}
+export const handleHelpCommand = async () => {
+  const userTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const currentTime = moment().tz(userTimezone).format("HH:mm:ss");
+  const version = await getPackageVersion();
+  const newChip = chalk.bgCyan.white.bold(" NEW ");
+  console.log(
+    chalk.cyan(`
+🐈 NEKO-CLI - Your Paw-some Project Companion! 🐾
+==============================================
+📅 Current Time: ${chalk.white(currentTime)} (${chalk.white(userTimezone)})
+📦 CLI Version:  ${chalk.cyan(version)}
+✨ Core Commands:
+  - ${chalk.cyan("meow init [--skip] [-y]")}        : Initialize project. 🌱
+  - ${chalk.cyan("meow add <pkg1..> [-g] [--dev]")} : Add packages. 📦
+  - ${chalk.cyan("meow remove <pkg1..> [-g] [--dev]")}: Remove packages. ❌
+  - ${chalk.cyan("meow meow")}                      : Install dependencies. 🐱
+  - ${chalk.cyan("meow all")}                       : Install all packages. ⚙️
+  - ${chalk.cyan("meow dev")}                       : Run the development script. 🔧
+🚀 Script & Publishing:
+  - ${chalk.cyan("meow flush <script-name>")}     : Run scripts with cats framework. 🐾
+  - ${chalk.cyan("meow publish <npm|yarn|meow>")}: Publish to cloud. ☁️
+📊 Project Health & Analysis:
+  - ${chalk.cyan("meow outdated")}                : Check and update outdated packages. 🔄
+  - ${chalk.cyan("meow analyze")}                 : Analyze dependencies & bundle size. 📊
+  - ${chalk.cyan("meow audit")}                   : Check for outdated versions & suggest updates. 🔍
+  - ${chalk.cyan("meow seccheck")}                : Scan for known vulnerabilities. 🔒
+  - ${chalk.cyan("meow doctor")}                  : Check for common project issues. 🩺
+  - ${chalk.cyan("meow compatibility")}           : Check dependency compatibility with Node.js. 🧑‍💻
+  - ${chalk.cyan(
+    `${newChip} meow stale`
+  )}             : Check for unmaintained/inactive dependencies. ⏳
+  - ${chalk.cyan(
+    `${newChip} meow sandbox`
+  )}           : Enter an isolated, temporary project environment. 📦
+🗄️ Utilities & Maintenance:
+  - ${chalk.cyan("meow struct")}                  : Save code structure to meow-structure.yml. 🗂️
+  - ${chalk.cyan("meow backup")}                  : Create project backup. 💾
+  - ${chalk.cyan("meow prune")}                   : Remove unnecessary dependencies. 🧹
+  - ${chalk.cyan("meow clean")}                   : Remove logs, backups, and unused files. 🧹
+📜 Info & Listings:
+  - ${chalk.cyan("meow list")}                    : List all installed dependencies. 📜
+  - ${chalk.cyan("meow licenses")}                : List all package licenses. ⚖️
+  - ${chalk.cyan("meow bin")}                     : Get path to installed binaries. 🔍
+  - ${chalk.cyan("meow info <pkg>")}              : Fetch detailed package info. 🔍
+  - ${chalk.cyan("meow languages")}               : List detected languages & files. 📜
+  - ${chalk.cyan("meow checkerrors")}             : Detect and list code errors. 👾
+✨ CLI Management:
+  - ${chalk.cyan("meow update")}                  : Update Meow CLI. 📈
+  - ${chalk.cyan("meow help")}                    : Show this help guide. ❓
+  - ${chalk.cyan("meow version")}                 : Show current CLI version. 🧬
+For more information, visit our website: ${chalk.underline.cyan(
+      "https://neko-cli.com/"
+    )}
+Developed by Thomas Garau: ${chalk.underline.cyan(
+      "https://github.com/StrayVibes"
+    )}
+==============================================
+    `)
+  );
+};

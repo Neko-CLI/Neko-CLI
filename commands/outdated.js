@@ -1,1 +1,182 @@
-(function(_0x40aab9,_0x330064){const _0x2e79ea=a0_0x5dc8,_0x16e99a=_0x40aab9();while(!![]){try{const _0x3fc534=-parseInt(_0x2e79ea(0x1c0))/0x1+-parseInt(_0x2e79ea(0x1cf))/0x2+parseInt(_0x2e79ea(0x1f3))/0x3+-parseInt(_0x2e79ea(0x217))/0x4+-parseInt(_0x2e79ea(0x1f0))/0x5+-parseInt(_0x2e79ea(0x1dc))/0x6*(parseInt(_0x2e79ea(0x208))/0x7)+parseInt(_0x2e79ea(0x1e5))/0x8;if(_0x3fc534===_0x330064)break;else _0x16e99a['push'](_0x16e99a['shift']());}catch(_0x4a6740){_0x16e99a['push'](_0x16e99a['shift']());}}}(a0_0x2e53,0xb484a));const a0_0x1daef9=(function(){let _0x3a2d6e=!![];return function(_0x3577a4,_0x322d48){const _0x1523a8=_0x3a2d6e?function(){const _0x4f6f18=a0_0x5dc8;if(_0x322d48){const _0x4c63b4=_0x322d48[_0x4f6f18(0x1fc)](_0x3577a4,arguments);return _0x322d48=null,_0x4c63b4;}}:function(){};return _0x3a2d6e=![],_0x1523a8;};}()),a0_0x2f752d=a0_0x1daef9(this,function(){const _0x34a945=a0_0x5dc8,_0x7e5286={'vEiiS':'(((.+)+)+)+$'};return a0_0x2f752d[_0x34a945(0x1d3)]()[_0x34a945(0x1eb)](_0x34a945(0x1a6))[_0x34a945(0x1d3)]()[_0x34a945(0x1ec)](a0_0x2f752d)[_0x34a945(0x1eb)](_0x7e5286[_0x34a945(0x1ad)]);});a0_0x2f752d();import a0_0xea91da from'chalk';function a0_0x5dc8(_0x5602db,_0x15548c){const _0xbb3d14=a0_0x2e53();return a0_0x5dc8=function(_0x2f752d,_0x1daef9){_0x2f752d=_0x2f752d-0x1a6;let _0x2e5334=_0xbb3d14[_0x2f752d];return _0x2e5334;},a0_0x5dc8(_0x5602db,_0x15548c);}import{execAsync}from'../utils/execUtils.js';import a0_0x32ccc2 from'readline';import*as a0_0x25db52 from'fs/promises';import a0_0x14d1e5 from'ora';import a0_0x11e215 from'path';export const handleOutdatedCommand=async()=>{const _0x52bccf=a0_0x5dc8,_0xd8ae76={'JAivH':function(_0x110681,_0x4a3f6e){return _0x110681(_0x4a3f6e);},'ouAXT':_0x52bccf(0x1fa),'TiaeW':_0x52bccf(0x1b9),'UTnIf':_0x52bccf(0x1bc),'tmuJl':function(_0x5956f4,_0x2de380){return _0x5956f4&&_0x2de380;},'rppmy':_0x52bccf(0x214),'XGGGf':function(_0x54600d,_0x2aa2b5){return _0x54600d===_0x2aa2b5;},'oXyQJ':_0x52bccf(0x1a9),'EzOFy':'npm','iQtDu':'Yarn\x20lock\x20file\x20detected.\x20Using\x20Yarn.','DtZpG':_0x52bccf(0x1e0),'INWdf':_0x52bccf(0x1f1),'NqPrF':_0x52bccf(0x1fd),'NUcbf':_0x52bccf(0x1f2),'DXcWB':_0x52bccf(0x207),'wwFeW':'npm\x20update','neMlB':_0x52bccf(0x1c5),'JYUoU':function(_0x400072,_0x493bd8){return _0x400072(_0x493bd8);},'jsdWg':_0x52bccf(0x20d),'iTHCn':function(_0x2c6cf8,_0x20b65b){return _0x2c6cf8!==_0x20b65b;},'AzlGt':'object','wvlpt':function(_0x2cf9bb,_0x502180){return _0x2cf9bb===_0x502180;},'KwRSo':'\x0a✨\x20All\x20packages\x20are\x20up-to-date.\x20Fantastic!','OEXXR':'\x0a📦\x20Outdated\x20packages\x20found:','Uudfj':_0x52bccf(0x1bd),'BdbIR':function(_0xdc1ebc,_0x20698d){return _0xdc1ebc(_0x20698d);},'noUIh':_0x52bccf(0x1b8),'hRBeN':function(_0x4660cf,_0x10893b){return _0x4660cf===_0x10893b;},'PdyCM':function(_0x2fbf6e,_0x2d6de0){return _0x2fbf6e(_0x2d6de0);},'vMPss':_0x52bccf(0x1d5),'bEgSg':_0x52bccf(0x1f6),'hqgRH':function(_0x5bec56,_0x49a2f0){return _0x5bec56===_0x49a2f0;},'iiLTr':function(_0x526202,_0x7b3ce0){return _0x526202(_0x7b3ce0);},'luaWF':_0x52bccf(0x20a),'ELchm':_0x52bccf(0x1c4)},_0xf6c30e=a0_0x32ccc2[_0x52bccf(0x212)]({'input':process[_0x52bccf(0x204)],'output':process['stdout']}),_0x14b20e=_0x578b01=>new Promise(_0x5cd799=>_0xf6c30e[_0x52bccf(0x1d7)](_0x578b01,_0x5cd799));try{let _0x45ae9a,_0x20c15a;const _0x64010d=_0xd8ae76[_0x52bccf(0x1d6)](a0_0x14d1e5,a0_0xea91da[_0x52bccf(0x206)](_0xd8ae76['ouAXT']))[_0x52bccf(0x1d4)]();try{const _0x1196e2=a0_0x11e215[_0x52bccf(0x1aa)](process[_0x52bccf(0x205)](),_0xd8ae76[_0x52bccf(0x1ba)]),_0x10dbfe=a0_0x11e215[_0x52bccf(0x1aa)](process[_0x52bccf(0x205)](),_0x52bccf(0x1e2));_0x45ae9a=await a0_0x25db52[_0x52bccf(0x1ef)](_0x1196e2)[_0x52bccf(0x1b1)](()=>!![])['catch'](()=>![]),_0x20c15a=await a0_0x25db52['access'](_0x10dbfe)[_0x52bccf(0x1b1)](()=>!![])[_0x52bccf(0x1c2)](()=>![]),_0x64010d[_0x52bccf(0x200)](a0_0xea91da[_0x52bccf(0x206)](_0xd8ae76[_0x52bccf(0x1af)]));}catch(_0x221d4a){_0x64010d[_0x52bccf(0x216)](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x209)+_0x221d4a[_0x52bccf(0x1a7)]));return;}let _0x2dfc4e;if(_0xd8ae76[_0x52bccf(0x1b7)](_0x45ae9a,_0x20c15a)){const _0x139509=await _0x14b20e(a0_0xea91da['cyan'](_0xd8ae76[_0x52bccf(0x1f7)]));_0x2dfc4e=_0xd8ae76[_0x52bccf(0x1ea)](_0x139509['toLowerCase'](),'y')?_0xd8ae76[_0x52bccf(0x1c6)]:_0xd8ae76[_0x52bccf(0x1b0)];}else{if(_0x45ae9a)_0x2dfc4e=_0xd8ae76[_0x52bccf(0x1c6)],console[_0x52bccf(0x20e)](a0_0xea91da['cyan'](_0xd8ae76[_0x52bccf(0x1ac)]));else{if(_0x20c15a)_0x2dfc4e=_0xd8ae76[_0x52bccf(0x1b0)],console[_0x52bccf(0x20e)](a0_0xea91da['cyan'](_0xd8ae76[_0x52bccf(0x202)]));else{console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x1e4)](_0xd8ae76[_0x52bccf(0x1bb)]));return;}}}const _0x13cc4e=_0x2dfc4e===_0xd8ae76['oXyQJ']?_0xd8ae76[_0x52bccf(0x1f5)]:_0xd8ae76[_0x52bccf(0x1ce)],_0x2fd9e3=_0xd8ae76[_0x52bccf(0x1ea)](_0x2dfc4e,_0xd8ae76['oXyQJ'])?_0xd8ae76[_0x52bccf(0x1db)]:_0xd8ae76[_0x52bccf(0x1f8)];console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x206)](_0xd8ae76[_0x52bccf(0x215)]));const _0x3b22db=_0xd8ae76[_0x52bccf(0x1d6)](a0_0x14d1e5,a0_0xea91da[_0x52bccf(0x206)](_0x52bccf(0x20f)))[_0x52bccf(0x1d4)]();let _0x3a60ed,_0x5c790d;try{({stdout:_0x3a60ed,stderr:_0x5c790d}=await _0xd8ae76['JYUoU'](execAsync,_0x13cc4e),_0x3b22db[_0x52bccf(0x200)](a0_0xea91da['cyan'](_0xd8ae76[_0x52bccf(0x1f9)])));}catch(_0x464a4a){_0x3b22db[_0x52bccf(0x216)](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x1b3)+_0x464a4a[_0x52bccf(0x1a7)]));if(_0x464a4a['stdout'])console[_0x52bccf(0x201)](a0_0xea91da['red'](_0x52bccf(0x1c7)+_0x464a4a[_0x52bccf(0x1c3)]));if(_0x464a4a[_0x52bccf(0x1fe)])console['error'](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x1e7)+_0x464a4a[_0x52bccf(0x1fe)]));return;}_0x5c790d&&_0xd8ae76['iTHCn'](_0x5c790d['trim'](),'')&&console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x1e4)]('⚠️\x20Warnings/Info\x20from\x20'+_0x2dfc4e+'\x20outdated:\x20'+_0x5c790d[_0x52bccf(0x1b5)]()));let _0x8c0cd2;try{_0x8c0cd2=JSON[_0x52bccf(0x1c8)](_0x3a60ed);}catch(_0x1856b4){console[_0x52bccf(0x201)](a0_0xea91da['red'](_0x52bccf(0x1b2)+_0x2dfc4e+'\x20outdated:\x20'+_0x1856b4[_0x52bccf(0x1a7)])),console['error'](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x1b4)+_0x3a60ed));return;}let _0x1ff735;_0x2dfc4e===_0xd8ae76[_0x52bccf(0x1b0)]?_0x1ff735=_0x8c0cd2:_0x1ff735=_0x8c0cd2?.['data']?.['body']||[];if(!_0x1ff735||Array[_0x52bccf(0x211)](_0x1ff735)&&_0x1ff735[_0x52bccf(0x1be)]===0x0||typeof _0x1ff735===_0xd8ae76[_0x52bccf(0x1ca)]&&_0xd8ae76[_0x52bccf(0x20b)](Object['keys'](_0x1ff735)[_0x52bccf(0x1be)],0x0)){console['log'](a0_0xea91da[_0x52bccf(0x206)](_0xd8ae76[_0x52bccf(0x210)]));return;}console[_0x52bccf(0x20e)](a0_0xea91da['cyan'](_0xd8ae76[_0x52bccf(0x1da)])),console[_0x52bccf(0x20e)](a0_0xea91da['gray'](_0xd8ae76[_0x52bccf(0x1c1)]));if(_0xd8ae76[_0x52bccf(0x20b)](_0x2dfc4e,_0x52bccf(0x1e1)))for(const [_0x501ce7,_0x4d5118]of Object[_0x52bccf(0x1d8)](_0x1ff735)){const _0x2233bf=_0x4d5118[_0x52bccf(0x1dd)],_0x68e5c=_0x4d5118['latest'];console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x206)](_0x501ce7)+':\x20'+a0_0xea91da['yellow'](_0x2233bf)+_0x52bccf(0x1cc)+a0_0xea91da[_0x52bccf(0x206)](_0x68e5c));}else for(const _0x1aa234 of _0x1ff735){const _0x4ed483=_0x1aa234[0x0],_0x2b44ef=_0x1aa234[0x1],_0x56f1cc=_0x1aa234[0x3];console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x206)](_0x4ed483)+':\x20'+a0_0xea91da[_0x52bccf(0x1e4)](_0x2b44ef)+_0x52bccf(0x1cc)+a0_0xea91da[_0x52bccf(0x206)](_0x56f1cc));}console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x1a8)](_0x52bccf(0x1bd)));const _0x3f1194=await _0xd8ae76[_0x52bccf(0x1d2)](_0x14b20e,a0_0xea91da[_0x52bccf(0x206)](_0xd8ae76[_0x52bccf(0x1ff)]));if(_0xd8ae76[_0x52bccf(0x1f4)](_0x3f1194['toLowerCase'](),'y')){console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x206)](_0x52bccf(0x1d1)));const _0x1e8c40=_0xd8ae76['PdyCM'](a0_0x14d1e5,a0_0xea91da['cyan'](_0x52bccf(0x203)))[_0x52bccf(0x1d4)]();try{await _0xd8ae76[_0x52bccf(0x1fb)](execAsync,_0x2fd9e3+'\x20--silent'),_0x1e8c40[_0x52bccf(0x200)](a0_0xea91da[_0x52bccf(0x206)](_0xd8ae76['vMPss']));}catch(_0x52e77a){_0x1e8c40['fail'](a0_0xea91da[_0x52bccf(0x1ee)]('❌\x20Failed\x20to\x20update\x20all\x20packages:\x20'+_0x52e77a[_0x52bccf(0x1a7)]));if(_0x52e77a[_0x52bccf(0x1c3)])console[_0x52bccf(0x201)](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x1c7)+_0x52e77a[_0x52bccf(0x1c3)]));if(_0x52e77a[_0x52bccf(0x1fe)])console['error'](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x1e7)+_0x52e77a[_0x52bccf(0x1fe)]));}}else{if(_0xd8ae76[_0x52bccf(0x1f4)](_0x3f1194['toLowerCase'](),'n'))console[_0x52bccf(0x20e)](a0_0xea91da['cyan'](_0x52bccf(0x1e3)));else{if(_0xd8ae76[_0x52bccf(0x1ea)](_0x3f1194[_0x52bccf(0x1ed)](),'s')){console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x206)](_0xd8ae76[_0x52bccf(0x1cd)]));let _0x22bd9d=0x0,_0x507041=0x0;const _0x1b6d62=_0xd8ae76[_0x52bccf(0x1ea)](_0x2dfc4e,_0x52bccf(0x1e1))?Object[_0x52bccf(0x1d8)](_0x1ff735):_0x1ff735;for(const _0x343a46 of _0x1b6d62){let _0x391d7b,_0xce7aef,_0x100dc3;_0xd8ae76[_0x52bccf(0x1f4)](_0x2dfc4e,_0xd8ae76['EzOFy'])?[_0x391d7b,{current:_0xce7aef,latest:_0x100dc3}]=_0x343a46:[_0x391d7b,_0xce7aef,,_0x100dc3]=_0x343a46;const _0x1a8876=await _0x14b20e(a0_0xea91da[_0x52bccf(0x206)](_0x52bccf(0x1ab)+_0x391d7b+'\x20('+a0_0xea91da['yellow'](_0xce7aef)+'\x20➔\x20'+a0_0xea91da['cyan'](_0x100dc3)+')?')+_0x52bccf(0x1e8));if(_0xd8ae76[_0x52bccf(0x1c9)](_0x1a8876[_0x52bccf(0x1ed)](),'y')){const _0x4ec197=_0xd8ae76[_0x52bccf(0x1c9)](_0x2dfc4e,_0xd8ae76[_0x52bccf(0x1c6)])?_0x52bccf(0x1cb)+_0x391d7b+_0x52bccf(0x1d9):_0x52bccf(0x1bf)+_0x391d7b+_0x52bccf(0x1d9);console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x206)](_0x52bccf(0x1e6)+_0x391d7b+_0x52bccf(0x1ae)));const _0x132bca=_0xd8ae76[_0x52bccf(0x1d6)](a0_0x14d1e5,a0_0xea91da['cyan'](_0x52bccf(0x1d0)))[_0x52bccf(0x1d4)]();try{await _0xd8ae76[_0x52bccf(0x1e9)](execAsync,_0x4ec197),_0x132bca[_0x52bccf(0x200)](a0_0xea91da[_0x52bccf(0x206)]('✅\x20'+_0x391d7b+_0x52bccf(0x1df))),_0x22bd9d++;}catch(_0x5cc46a){_0x132bca['fail'](a0_0xea91da['red']('❌\x20Failed\x20to\x20update\x20'+_0x391d7b+':\x20'+_0x5cc46a[_0x52bccf(0x1a7)]));if(_0x5cc46a[_0x52bccf(0x1c3)])console[_0x52bccf(0x201)](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x1c7)+_0x5cc46a[_0x52bccf(0x1c3)]));if(_0x5cc46a[_0x52bccf(0x1fe)])console[_0x52bccf(0x201)](a0_0xea91da[_0x52bccf(0x1ee)](_0x52bccf(0x1e7)+_0x5cc46a[_0x52bccf(0x1fe)]));}}else console[_0x52bccf(0x20e)](a0_0xea91da['yellow']('❌\x20'+_0x391d7b+'\x20was\x20not\x20updated.')),_0x507041++;}console['log'](a0_0xea91da['cyan'](_0x52bccf(0x20c))),console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x206)]('Packages\x20updated:\x20'+_0x22bd9d)),console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x1e4)](_0x52bccf(0x1de)+_0x507041)),console[_0x52bccf(0x20e)](a0_0xea91da['cyan'](_0x52bccf(0x1b6)));}else console[_0x52bccf(0x20e)](a0_0xea91da[_0x52bccf(0x1e4)](_0xd8ae76[_0x52bccf(0x213)]));}}}catch(_0x44f3bd){console[_0x52bccf(0x201)](a0_0xea91da[_0x52bccf(0x1ee)]('\x0a💥\x20An\x20unexpected\x20error\x20occurred:\x20'+_0x44f3bd[_0x52bccf(0x1a7)]));if(_0x44f3bd[_0x52bccf(0x1c3)])console[_0x52bccf(0x201)](a0_0xea91da[_0x52bccf(0x1ee)]('\x20\x20Output:\x20'+_0x44f3bd[_0x52bccf(0x1c3)]));if(_0x44f3bd[_0x52bccf(0x1fe)])console[_0x52bccf(0x201)](a0_0xea91da['red'](_0x52bccf(0x1e7)+_0x44f3bd[_0x52bccf(0x1fe)]));console['error'](a0_0xea91da['yellow'](_0xd8ae76['ELchm']));}finally{_0xf6c30e['close']();}};function a0_0x2e53(){const _0x12dd1d=['isArray','createInterface','luaWF','Both\x20yarn.lock\x20and\x20package.json\x20are\x20detected.\x20Which\x20package\x20manager\x20would\x20you\x20like\x20to\x20use?\x20(y/npm)\x20>\x20','neMlB','fail','1024056qEfZGz','(((.+)+)+)+$','message','gray','yarn','join','Update\x20','iQtDu','vEiiS','...','UTnIf','EzOFy','then','❌\x20Error\x20parsing\x20JSON\x20output\x20from\x20','❌\x20Failed\x20to\x20check\x20for\x20outdated\x20packages:\x20','Raw\x20output:\x20','trim','--------------------------------','tmuJl','\x0aDo\x20you\x20want\x20to\x20update\x20packages?\x20(y\x20=\x20all,\x20n\x20=\x20none,\x20s\x20=\x20select)\x20>\x20','yarn.lock','TiaeW','INWdf','Manifest\x20files\x20checked.','--------------------------------------------------','length','npm\x20update\x20','826539SWrJpo','Uudfj','catch','stdout','Please\x20check\x20the\x20error\x20details\x20above\x20and\x20ensure\x20your\x20environment\x20is\x20set\x20up\x20correctly.','\x0a🔍\x20Initiating\x20check\x20for\x20outdated\x20packages...','oXyQJ','\x20\x20Output:\x20','parse','hqgRH','AzlGt','yarn\x20upgrade\x20','\x20➔\x20','bEgSg','NUcbf','1157292QoZZLv','Running\x20outdated\x20update\x20update...','⏳\x20Updating\x20all\x20packages...\x20This\x20might\x20take\x20a\x20moment.','BdbIR','toString','start','✅\x20All\x20packages\x20have\x20been\x20successfully\x20updated!','JAivH','question','entries','\x20--silent','OEXXR','DXcWB','12LRQDpU','current','Packages\x20skipped:\x20','\x20updated\x20successfully!','package.json\x20detected.','npm','package.json','❌\x20No\x20packages\x20were\x20updated.','yellow','32089584EqmWun','⏳\x20Updating\x20','\x20\x20Error:\x20','\x20(y/n)\x20>\x20','iiLTr','XGGGf','search','constructor','toLowerCase','red','access','7306960pzhMYf','❌\x20No\x20yarn.lock\x20or\x20package.json\x20found\x20in\x20the\x20current\x20directory.\x20Aborting.','npm\x20outdated\x20--json','3083271ryaywx','hRBeN','NqPrF','\x0a🎯\x20Starting\x20selective\x20update:','rppmy','wwFeW','jsdWg','Checking\x20for\x20project\x20manifest\x20files...','PdyCM','apply','yarn\x20outdated\x20--json','stderr','noUIh','succeed','error','DtZpG','Running\x20outdated\x20command\x27...','stdin','cwd','cyan','yarn\x20upgrade','4119367LdjcMw','❌\x20Error\x20accessing\x20files:\x20','⚠️\x20Invalid\x20option.\x20No\x20packages\x20were\x20updated.','wvlpt','\x0a---\x20Selective\x20Update\x20Summary\x20---','Outdated\x20packages\x20check\x20complete.','log','Running\x20meow\x20outdated\x20command...','KwRSo'];a0_0x2e53=function(){return _0x12dd1d;};return a0_0x2e53();}
+import chalk from "chalk";
+import { execAsync } from "../utils/execUtils.js";
+import readline from "readline";
+import * as fsp from "fs/promises";
+import ora from "ora";
+import path from "path";
+export const handleOutdatedCommand = async () => {
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    });
+    const askQuestion = (query) =>
+        new Promise((resolve) => rl.question(query, resolve));
+    try {
+        let hasYarnLock, hasPackageJson;
+        const checkFilesSpinner = ora(chalk.cyan("Checking for project manifest files...")).start();
+        try {
+            const yarnLockPath = path.join(process.cwd(), "yarn.lock");
+            const packageJsonPath = path.join(process.cwd(), "package.json");
+            hasYarnLock = await fsp.access(yarnLockPath).then(() => true).catch(() => false);
+            hasPackageJson = await fsp.access(packageJsonPath).then(() => true).catch(() => false);
+            checkFilesSpinner.succeed(chalk.cyan("Manifest files checked."));
+        } catch (fileAccessError) {
+            checkFilesSpinner.fail(chalk.red(`❌ Error accessing files: ${fileAccessError.message}`));
+            return;
+        }
+        let packageManager;
+        if (hasYarnLock && hasPackageJson) {
+            const answer = await askQuestion(
+                chalk.cyan(
+                    "Both yarn.lock and package.json are detected. Which package manager would you like to use? (y/npm) > "
+                )
+            );
+            packageManager = answer.toLowerCase() === "y" ? "yarn" : "npm";
+        } else if (hasYarnLock) {
+            packageManager = "yarn";
+            console.log(chalk.cyan("Yarn lock file detected. Using Yarn."));
+        } else if (hasPackageJson) {
+            packageManager = "npm";
+            console.log(chalk.cyan("package.json detected."));
+        } else {
+            console.log(
+                chalk.yellow("❌ No yarn.lock or package.json found in the current directory. Aborting.")
+            );
+            return;
+        }
+        const outdatedCommand =
+            packageManager === "yarn"
+                ? "yarn outdated --json"
+                : "npm outdated --json";
+        const updateCommand =
+            packageManager === "yarn" ? "yarn upgrade" : "npm update";
+        console.log(chalk.cyan("\n🔍 Initiating check for outdated packages..."));
+        const checkOutdatedSpinner = ora(chalk.cyan(`Running meow outdated command...`)).start();
+        let stdout, stderr;
+        try {
+            ({ stdout, stderr } = await execAsync(outdatedCommand));
+            checkOutdatedSpinner.succeed(chalk.cyan("Outdated packages check complete."));
+        } catch (execError) {
+            checkOutdatedSpinner.fail(chalk.red(`❌ Failed to check for outdated packages: ${execError.message}`));
+            if (execError.stdout) console.error(chalk.red(`  Output: ${execError.stdout}`));
+            if (execError.stderr) console.error(chalk.red(`  Error: ${execError.stderr}`));
+            return;
+        }
+        if (stderr && stderr.trim() !== "") {
+            console.log(chalk.yellow(`⚠️ Warnings/Info from ${packageManager} outdated: ${stderr.trim()}`));
+        }
+        let outdatedData;
+        try {
+            outdatedData = JSON.parse(stdout);
+        } catch (jsonError) {
+            console.error(chalk.red(`❌ Error parsing JSON output from ${packageManager} outdated: ${jsonError.message}`));
+            console.error(chalk.red(`Raw output: ${stdout}`));
+            return;
+        }
+        let packageUpdates;
+        if (packageManager === "npm") {
+            packageUpdates = outdatedData;
+        } else {
+            packageUpdates = outdatedData?.data?.body || [];
+        }
+        if (!packageUpdates || (Array.isArray(packageUpdates) && packageUpdates.length === 0) || (typeof packageUpdates === 'object' && Object.keys(packageUpdates).length === 0)) {
+            console.log(chalk.cyan("\n✨ All packages are up-to-date. Fantastic!"));
+            return;
+        }
+        console.log(chalk.cyan("\n📦 Outdated packages found:"));
+        console.log(chalk.gray("--------------------------------------------------"));
+        if (packageManager === "npm") {
+            for (const [packageName, packageInfo] of Object.entries(packageUpdates)) {
+                const currentVersion = packageInfo.current;
+                const latestVersion = packageInfo.latest;
+                console.log(
+                    `${chalk.cyan(packageName)}: ${chalk.yellow(
+                        currentVersion
+                    )} ➔ ${chalk.cyan(latestVersion)}`
+                );
+            }
+        } else {
+            for (const packageArray of packageUpdates) {
+                const packageName = packageArray[0];
+                const currentVersion = packageArray[1];
+                const latestVersion = packageArray[3];
+                console.log(
+                    `${chalk.cyan(packageName)}: ${chalk.yellow(
+                        currentVersion
+                    )} ➔ ${chalk.cyan(latestVersion)}`
+                );
+            }
+        }
+        console.log(chalk.gray("--------------------------------------------------"));
+        const action = await askQuestion(
+            chalk.cyan(
+                "\nDo you want to update packages? (y = all, n = none, s = select) > "
+            )
+        );
+        if (action.toLowerCase() === "y") {
+            console.log(chalk.cyan("⏳ Updating all packages... This might take a moment."));
+            const updateAllSpinner = ora(chalk.cyan(`Running outdated command'...`)).start();
+            try {
+                await execAsync(`${updateCommand} --silent`);
+                updateAllSpinner.succeed(chalk.cyan("✅ All packages have been successfully updated!"));
+            } catch (updateError) {
+                updateAllSpinner.fail(chalk.red(`❌ Failed to update all packages: ${updateError.message}`));
+                if (updateError.stdout) console.error(chalk.red(`  Output: ${updateError.stdout}`));
+                if (updateError.stderr) console.error(chalk.red(`  Error: ${updateError.stderr}`));
+            }
+        } else if (action.toLowerCase() === "n") {
+            console.log(chalk.cyan("❌ No packages were updated."));
+        } else if (action.toLowerCase() === "s") {
+            console.log(chalk.cyan("\n🎯 Starting selective update:"));
+            let updatedCount = 0;
+            let skippedCount = 0;
+            const packagesToIterate = packageManager === "npm" ? Object.entries(packageUpdates) : packageUpdates;
+            for (const entry of packagesToIterate) {
+                let packageName, currentVersion, latestVersion;
+                if (packageManager === "npm") {
+                    [packageName, { current: currentVersion, latest: latestVersion }] = entry;
+                } else {
+                    [packageName, currentVersion, , latestVersion] = entry;
+                }
+                const updatePackage = await askQuestion(
+                    `${chalk.cyan(
+                        `Update ${packageName} (${chalk.yellow(currentVersion)} ➔ ${chalk.cyan(latestVersion)})?`
+                    )} (y/n) > `
+                );
+                if (updatePackage.toLowerCase() === "y") {
+                    const packageUpdateCommand =
+                        packageManager === "yarn"
+                            ? `yarn upgrade ${packageName} --silent`
+                            : `npm update ${packageName} --silent`;
+                    console.log(chalk.cyan(`⏳ Updating ${packageName}...`));
+                    const updateIndividualSpinner = ora(chalk.cyan(`Running outdated update update...`)).start();
+                    try {
+                        await execAsync(packageUpdateCommand);
+                        updateIndividualSpinner.succeed(chalk.cyan(`✅ ${packageName} updated successfully!`));
+                        updatedCount++;
+                    } catch (individualUpdateError) {
+                        updateIndividualSpinner.fail(chalk.red(`❌ Failed to update ${packageName}: ${individualUpdateError.message}`));
+                        if (individualUpdateError.stdout) console.error(chalk.red(`  Output: ${individualUpdateError.stdout}`));
+                        if (individualUpdateError.stderr) console.error(chalk.red(`  Error: ${individualUpdateError.stderr}`));
+                    }
+                } else {
+                    console.log(chalk.yellow(`❌ ${packageName} was not updated.`));
+                    skippedCount++;
+                }
+            }
+            console.log(chalk.cyan("\n--- Selective Update Summary ---"));
+            console.log(chalk.cyan(`Packages updated: ${updatedCount}`));
+            console.log(chalk.yellow(`Packages skipped: ${skippedCount}`));
+            console.log(chalk.cyan("--------------------------------"));
+        } else {
+            console.log(chalk.yellow("⚠️ Invalid option. No packages were updated."));
+        }
+    } catch (error) {
+        console.error(chalk.red(`\n💥 An unexpected error occurred: ${error.message}`));
+        if (error.stdout) console.error(chalk.red(`  Output: ${error.stdout}`));
+        if (error.stderr) console.error(chalk.red(`  Error: ${error.stderr}`));
+        console.error(chalk.yellow("Please check the error details above and ensure your environment is set up correctly."));
+    } finally {
+        rl.close();
+    }
+};

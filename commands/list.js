@@ -1,1 +1,65 @@
-(function(_0x494c5e,_0x5c4c0d){const _0x5eb369=a0_0x56f2,_0x36ae70=_0x494c5e();while(!![]){try{const _0x116016=-parseInt(_0x5eb369(0xc3))/0x1+parseInt(_0x5eb369(0xc1))/0x2+parseInt(_0x5eb369(0xe4))/0x3+parseInt(_0x5eb369(0xd0))/0x4+parseInt(_0x5eb369(0xb6))/0x5+parseInt(_0x5eb369(0xc8))/0x6*(-parseInt(_0x5eb369(0xe3))/0x7)+-parseInt(_0x5eb369(0xb4))/0x8*(parseInt(_0x5eb369(0xe6))/0x9);if(_0x116016===_0x5c4c0d)break;else _0x36ae70['push'](_0x36ae70['shift']());}catch(_0x59518f){_0x36ae70['push'](_0x36ae70['shift']());}}}(a0_0x11c4,0xde744));const a0_0x191687=(function(){let _0x1c6910=!![];return function(_0x596c36,_0x5b2663){const _0x2d1945=_0x1c6910?function(){const _0x3169c4=a0_0x56f2;if(_0x5b2663){const _0x2e809f=_0x5b2663[_0x3169c4(0xc7)](_0x596c36,arguments);return _0x5b2663=null,_0x2e809f;}}:function(){};return _0x1c6910=![],_0x2d1945;};}()),a0_0x178037=a0_0x191687(this,function(){const _0x1716d0=a0_0x56f2,_0x40f8f8={'gBZPl':_0x1716d0(0xc9)};return a0_0x178037[_0x1716d0(0xd2)]()['search'](_0x40f8f8[_0x1716d0(0xbd)])['toString']()['constructor'](a0_0x178037)[_0x1716d0(0xd1)](_0x40f8f8['gBZPl']);});a0_0x178037();import a0_0x28ed5f from'chalk';import a0_0x2ac582 from'fs-extra';function a0_0x56f2(_0x224d83,_0x5db21f){const _0x4c76f4=a0_0x11c4();return a0_0x56f2=function(_0x178037,_0x191687){_0x178037=_0x178037-0xb3;let _0x11c4d0=_0x4c76f4[_0x178037];return _0x11c4d0;},a0_0x56f2(_0x224d83,_0x5db21f);}import{exec}from'child_process';const {readJson}=a0_0x2ac582;function detectPackageManager(){const _0x69a753=a0_0x56f2,_0x3eabbe={'EhlaR':_0x69a753(0xd5),'lMouy':_0x69a753(0xd3)};return a0_0x2ac582[_0x69a753(0xc4)](_0x3eabbe[_0x69a753(0xde)])?_0x69a753(0xe7):_0x3eabbe[_0x69a753(0xba)];}function a0_0x11c4(){const _0x38171c=['72sjrAHC','yarn','MMYUK','KSBoO','No\x20dependencies\x20installed.','1071704QhCFHe','version','6127580KOYKqG','Listing\x20Installed\x20Dependencies:','❌\x20Error:\x20package.json\x20not\x20found\x20in\x20the\x20current\x20directory.','qCuWV','lMouy','Unknown\x20Version','Project\x20Name:','gBZPl','KzLcU','peZiC','\x0a\x20\x20\x20\x20📦\x20','2848984UREzWY','error','1779362MPwZly','existsSync','log','yarn\x20list\x20--depth=0\x20--silent','apply','444JgUlnh','(((.+)+)+)+$','tnFCW','\x20🧩\x0a\x20\x20\x20\x20===========================\x0a\x20\x20\x20\x20\x20\x20\x20\x20','npm\x20list\x20--depth=0\x20--silent','myimR','name','\x0a\x0a\x20\x20\x20\x20🔍\x20','2100252SBsnQV','search','toString','npm','Author:','./yarn.lock','rGDqW','Project\x20Version:','VKGIs','qZQMb','yellow','XhCLC','Installed\x20Dependencies','cyan','EhlaR','❌\x20Error\x20while\x20listing\x20dependencies:\x20','./package.json','white','\x0a\x20\x20\x20\x20👤\x20','73759qqAAox','4100715wpwMSE','author'];a0_0x11c4=function(){return _0x38171c;};return a0_0x11c4();}export const handleListCommand=async()=>{const _0x2724db=a0_0x56f2,_0x1aba1e={'KzLcU':_0x2724db(0xb3),'kkKqv':_0x2724db(0xe0),'MMYUK':function(_0x1268f7,_0x230658){return _0x1268f7(_0x230658);},'XhCLC':'Unknown\x20Project','VKGIs':_0x2724db(0xbb),'tnFCW':'Unknown\x20Author','peZiC':_0x2724db(0xdc),'qZQMb':_0x2724db(0xbc),'xWJpp':_0x2724db(0xd7),'rGDqW':_0x2724db(0xb7),'qCuWV':function(_0x512062,_0x103b7d){return _0x512062===_0x103b7d;},'myimR':_0x2724db(0xe7),'KSBoO':_0x2724db(0xc6)},_0x162c3c=_0x1aba1e['kkKqv'];!a0_0x2ac582[_0x2724db(0xc4)](_0x162c3c)&&(console[_0x2724db(0xc2)](a0_0x28ed5f[_0x2724db(0xda)](_0x2724db(0xb8))),process['exit'](0x1));try{const _0x3ed1c4=await _0x1aba1e[_0x2724db(0xe8)](readJson,_0x162c3c),_0x578824=_0x3ed1c4[_0x2724db(0xce)]||_0x1aba1e[_0x2724db(0xdb)],_0x109dec=_0x3ed1c4[_0x2724db(0xb5)]||_0x1aba1e[_0x2724db(0xd8)],_0x3856e9=_0x3ed1c4[_0x2724db(0xe5)]||_0x1aba1e[_0x2724db(0xca)];console['log'](a0_0x28ed5f[_0x2724db(0xdd)]('\x0a\x20\x20\x20\x20===========================\x0a\x20\x20\x20\x20📦\x20'+a0_0x28ed5f['cyan'](_0x1aba1e[_0x2724db(0xbf)])+'\x20📦\x0a\x20\x20\x20\x20===========================\x0a\x0a\x20\x20\x20\x20🚀\x20'+a0_0x28ed5f[_0x2724db(0xe1)](_0x1aba1e[_0x2724db(0xd9)])+'\x20'+a0_0x28ed5f[_0x2724db(0xdd)](_0x578824)+_0x2724db(0xc0)+a0_0x28ed5f['white'](_0x1aba1e['xWJpp'])+'\x20'+a0_0x28ed5f[_0x2724db(0xdd)](_0x109dec)+_0x2724db(0xe2)+a0_0x28ed5f[_0x2724db(0xe1)](_0x2724db(0xd4))+'\x20'+a0_0x28ed5f[_0x2724db(0xdd)](_0x3856e9)+_0x2724db(0xcf)+a0_0x28ed5f[_0x2724db(0xe1)](_0x1aba1e[_0x2724db(0xd6)])+_0x2724db(0xcb)));const _0x490fa0=detectPackageManager(),_0x3f917b=_0x1aba1e[_0x2724db(0xb9)](_0x490fa0,_0x1aba1e[_0x2724db(0xcd)])?_0x1aba1e[_0x2724db(0xe9)]:_0x2724db(0xcc);exec(_0x3f917b,(_0x50c3ad,_0x2cf657,_0x13f2f2)=>{const _0x196963=_0x2724db;_0x50c3ad&&(console[_0x196963(0xc2)](a0_0x28ed5f['yellow'](_0x196963(0xdf)+_0x13f2f2)),process['exit'](0x1)),_0x2cf657?console['log'](a0_0x28ed5f[_0x196963(0xdd)](_0x2cf657)):console[_0x196963(0xc5)](a0_0x28ed5f[_0x196963(0xda)](_0x1aba1e[_0x196963(0xbe)]));});}catch(_0x3bdc2a){console[_0x2724db(0xc2)](a0_0x28ed5f['yellow']('❌\x20Error:\x20'+_0x3bdc2a['message']));}};
+import chalk from "chalk";
+import fsExtra from "fs-extra";
+import { exec } from "child_process";
+
+const { readJson } = fsExtra;
+
+
+function detectPackageManager() {
+  return fsExtra.existsSync("./yarn.lock") ? "yarn" : "npm";
+}
+
+export const handleListCommand = async () => {
+  const packagePath = "./package.json";
+
+  if (!fsExtra.existsSync(packagePath)) {
+    console.error(
+      chalk.yellow("❌ Error: package.json not found in the current directory.")
+    );
+    process.exit(1);
+  }
+
+  try {
+    const packageData = await readJson(packagePath);
+    const projectName = packageData.name || "Unknown Project";
+    const version = packageData.version || "Unknown Version";
+    const author = packageData.author || "Unknown Author";
+
+    console.log(
+      chalk.cyan(`
+    ===========================
+    📦 ${chalk.cyan("Installed Dependencies")} 📦
+    ===========================
+
+    🚀 ${chalk.white("Project Name:")} ${chalk.cyan(projectName)}
+    📦 ${chalk.white("Project Version:")} ${chalk.cyan(version)}
+    👤 ${chalk.white("Author:")} ${chalk.cyan(author)}
+
+    🔍 ${chalk.white("Listing Installed Dependencies:")} 🧩
+    ===========================
+        `)
+    );
+
+    const packageManager = detectPackageManager();
+    const command =
+      packageManager === "yarn"
+        ? "yarn list --depth=0 --silent"
+        : "npm list --depth=0 --silent";
+
+    exec(command, (err, stdout, stderr) => {
+      if (err) {
+        console.error(
+          chalk.yellow(`❌ Error while listing dependencies: ${stderr}`)
+        );
+        process.exit(1);
+      }
+      if (stdout) {
+        console.log(chalk.cyan(stdout));
+      } else {
+        console.log(chalk.yellow("No dependencies installed."));
+      }
+    });
+  } catch (error) {
+    console.error(chalk.yellow(`❌ Error: ${error.message}`));
+  }
+};

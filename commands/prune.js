@@ -1,1 +1,82 @@
-(function(_0x820894,_0x2767cd){const _0x4a2799=a0_0x2c1d,_0x192266=_0x820894();while(!![]){try{const _0xb2fe4a=parseInt(_0x4a2799(0x18f))/0x1+parseInt(_0x4a2799(0x15f))/0x2+-parseInt(_0x4a2799(0x158))/0x3*(parseInt(_0x4a2799(0x14e))/0x4)+parseInt(_0x4a2799(0x14d))/0x5*(parseInt(_0x4a2799(0x166))/0x6)+-parseInt(_0x4a2799(0x149))/0x7*(parseInt(_0x4a2799(0x17e))/0x8)+parseInt(_0x4a2799(0x159))/0x9*(-parseInt(_0x4a2799(0x176))/0xa)+-parseInt(_0x4a2799(0x16f))/0xb*(-parseInt(_0x4a2799(0x15d))/0xc);if(_0xb2fe4a===_0x2767cd)break;else _0x192266['push'](_0x192266['shift']());}catch(_0x5f8eb8){_0x192266['push'](_0x192266['shift']());}}}(a0_0x56b8,0xae44c));const a0_0x47ccc9=(function(){let _0x1efb83=!![];return function(_0x2c3580,_0x5dc85a){const _0x562da0=_0x1efb83?function(){const _0x52cdfc=a0_0x2c1d;if(_0x5dc85a){const _0x38186e=_0x5dc85a[_0x52cdfc(0x15a)](_0x2c3580,arguments);return _0x5dc85a=null,_0x38186e;}}:function(){};return _0x1efb83=![],_0x562da0;};}()),a0_0x35abcb=a0_0x47ccc9(this,function(){const _0x1fc103=a0_0x2c1d,_0x2ddafd={'sttNe':_0x1fc103(0x17f)};return a0_0x35abcb['toString']()[_0x1fc103(0x154)](_0x2ddafd[_0x1fc103(0x156)])['toString']()['constructor'](a0_0x35abcb)[_0x1fc103(0x154)](_0x2ddafd[_0x1fc103(0x156)]);});a0_0x35abcb();import a0_0x41bf22 from'chalk';import a0_0x481534 from'fs-extra';function a0_0x2c1d(_0x4f00d2,_0x13b7cb){const _0x301367=a0_0x56b8();return a0_0x2c1d=function(_0x35abcb,_0x47ccc9){_0x35abcb=_0x35abcb-0x143;let _0x56b8e8=_0x301367[_0x35abcb];return _0x56b8e8;},a0_0x2c1d(_0x4f00d2,_0x13b7cb);}import{execAsync}from'../utils/execUtils.js';import a0_0x363d6b from'ora';import a0_0x9e66ab from'path';function a0_0x56b8(){const _0x10d7e6=['optionalDependencies','error','stderr','xBZxc','stdout','TfNxx','length','✨\x20No\x20development\x20dependencies\x20to\x20remove\x20from\x20manifest.','4487PXtsyd','LKgdN','\x0a🧹\x20Performing\x20module\x20cleanup\x20with\x20','OWBXt','357985ZjDhMq','68cDSYpb','❌\x20Error:\x20Project\x20manifest\x20(package.json)\x20not\x20found.\x20Cannot\x20proceed.','VrSGI','writeJson','pUZeZ','npm\x20prune\x20--silent','search','yarn','sttNe','\x20\x20Output:\x20','209442ZNxXxC','244044yHmQnZ','apply','Project\x20manifest\x20found!','npm','203676KkTsuk','...','825520lAQlPi','💥\x20Module\x20cleanup\x20failed!\x20','✨\x20Initiating\x20dependency\x20declutter\x20operation...','✅\x20Module\x20cleanup\x20complete!\x20Unused\x20packages\x20removed.','XmhiK','sRSul','join','12RPAtmi','regiz','✨\x20No\x20optional\x20dependencies\x20to\x20remove\x20from\x20manifest.','\x0a🚀\x20Analyzing\x20manifest\x20for\x20development\x20and\x20optional\x20dependencies...','cHDZk','axPuZ','readJson','❌\x20Error:\x20Failed\x20to\x20write\x20updated\x20package.json.\x20','red','1870hEnvMb','devDependencies','Verifying\x20project\x20manifest\x20(package.json)...','succeed','TegtP','Processing\x20optional\x20dependencies...','rRikL','310XzdmwR','cyan','Processing\x20development\x20dependencies...','log','MQObu','message','fhyrO','✔️\x20Project\x20manifest\x20updated.','16088XUPHLf','(((.+)+)+)+$','start','info','\x0a🔍\x20No\x20changes\x20required\x20in\x20package.json.','Updating\x20project\x20manifest\x20(package.json)...','🔧\x20Development\x20dependencies\x20removed\x20from\x20manifest.','yarn\x20install\x20--force\x20--silent','✔️\x20Module\x20cleanup\x20complete!\x20No\x20unused\x20packages\x20found.','Loading\x20project\x20dependencies...\x20(from\x20package.json)','❌\x20Error:\x20Could\x20not\x20read\x20package.json.\x20','rlhxR','fail','cwd','\x20\x20Error:\x20','\x20cleanup\x20command...','yarn.lock','588925qZIzbo','yellow'];a0_0x56b8=function(){return _0x10d7e6;};return a0_0x56b8();}const {existsSync}=a0_0x481534;export const handlePruneCommand=async()=>{const _0x24307d=a0_0x2c1d,_0x2f07da={'rRikL':_0x24307d(0x161),'pUZeZ':'package.json','TGswd':_0x24307d(0x18e),'sRSul':function(_0x5e7279,_0x2acfc4){return _0x5e7279(_0x2acfc4);},'pvuLW':_0x24307d(0x171),'PUOLv':_0x24307d(0x14f),'TegtP':_0x24307d(0x15b),'cHDZk':function(_0x334ef5,_0x20b7b6){return _0x334ef5(_0x20b7b6);},'fhyrO':'Dependencies\x20loaded\x20successfully.','regiz':function(_0x1a3344,_0x24f564){return _0x1a3344>_0x24f564;},'axPuZ':_0x24307d(0x184),'qteeR':_0x24307d(0x148),'XkWqX':'🔧\x20Optional\x20dependencies\x20removed\x20from\x20manifest.','XmhiK':_0x24307d(0x183),'rlhxR':_0x24307d(0x17d),'LKgdN':'\x0a⚠️\x20Warning:\x20Development\x20and\x20optional\x20dependencies\x20have\x20been\x20removed\x20from\x20your\x20package.json.','TfNxx':_0x24307d(0x182),'VrSGI':_0x24307d(0x155),'EBSds':_0x24307d(0x15c),'MQObu':function(_0x5647c3,_0x1b559c){return _0x5647c3===_0x1b559c;},'xBZxc':_0x24307d(0x185),'KQEkN':_0x24307d(0x162),'OWBXt':'\x0a🔍\x20Detailed\x20error\x20from\x20package\x20manager:'};console['log'](a0_0x41bf22[_0x24307d(0x177)](_0x2f07da[_0x24307d(0x175)]));const _0x4e34ad=a0_0x9e66ab[_0x24307d(0x165)](process[_0x24307d(0x18b)](),_0x2f07da[_0x24307d(0x152)]),_0x483afc=a0_0x9e66ab[_0x24307d(0x165)](process[_0x24307d(0x18b)](),_0x2f07da['TGswd']),_0xa3bc35=_0x2f07da[_0x24307d(0x164)](a0_0x363d6b,a0_0x41bf22[_0x24307d(0x177)](_0x2f07da['pvuLW']))[_0x24307d(0x180)]();if(!_0x2f07da[_0x24307d(0x164)](existsSync,_0x4e34ad)){_0xa3bc35[_0x24307d(0x18a)](a0_0x41bf22[_0x24307d(0x16e)](_0x2f07da['PUOLv']));return;}_0xa3bc35['succeed'](a0_0x41bf22['cyan'](_0x2f07da[_0x24307d(0x173)]));let _0x67fbae;const _0x303d8b=_0x2f07da[_0x24307d(0x16a)](a0_0x363d6b,a0_0x41bf22[_0x24307d(0x177)](_0x24307d(0x187)))[_0x24307d(0x180)]();try{_0x67fbae=await a0_0x481534[_0x24307d(0x16c)](_0x4e34ad),_0x303d8b['succeed'](a0_0x41bf22['cyan'](_0x2f07da[_0x24307d(0x17c)]));}catch(_0x3ab407){_0x303d8b[_0x24307d(0x18a)](a0_0x41bf22[_0x24307d(0x16e)](_0x24307d(0x188)+_0x3ab407[_0x24307d(0x17b)]));return;}let _0x346a3c=![];console['log'](a0_0x41bf22[_0x24307d(0x177)](_0x24307d(0x169)));const _0xccaf96=_0x67fbae[_0x24307d(0x170)]||{},_0x4a3976=_0x67fbae[_0x24307d(0x191)]||{},_0xbf3654=a0_0x363d6b(a0_0x41bf22['yellow'](_0x24307d(0x178)))[_0x24307d(0x180)]();_0x2f07da[_0x24307d(0x167)](Object['keys'](_0xccaf96)[_0x24307d(0x147)],0x0)?(delete _0x67fbae[_0x24307d(0x170)],_0x346a3c=!![],_0xbf3654[_0x24307d(0x172)](a0_0x41bf22['cyan'](_0x2f07da[_0x24307d(0x16b)]))):_0xbf3654['info'](a0_0x41bf22[_0x24307d(0x177)](_0x2f07da['qteeR']));const _0x16a507=_0x2f07da[_0x24307d(0x164)](a0_0x363d6b,a0_0x41bf22['yellow'](_0x24307d(0x174)))[_0x24307d(0x180)]();_0x2f07da[_0x24307d(0x167)](Object['keys'](_0x4a3976)[_0x24307d(0x147)],0x0)?(delete _0x67fbae[_0x24307d(0x191)],_0x346a3c=!![],_0x16a507[_0x24307d(0x172)](a0_0x41bf22[_0x24307d(0x177)](_0x2f07da['XkWqX']))):_0x16a507[_0x24307d(0x181)](a0_0x41bf22['cyan'](_0x24307d(0x168)));if(_0x346a3c){const _0x55877d=a0_0x363d6b(a0_0x41bf22[_0x24307d(0x177)](_0x2f07da[_0x24307d(0x163)]))[_0x24307d(0x180)]();try{await a0_0x481534[_0x24307d(0x151)](_0x4e34ad,_0x67fbae,{'spaces':0x2}),_0x55877d[_0x24307d(0x172)](a0_0x41bf22[_0x24307d(0x177)](_0x2f07da[_0x24307d(0x189)])),console[_0x24307d(0x179)](a0_0x41bf22[_0x24307d(0x190)](_0x2f07da[_0x24307d(0x14a)])),console[_0x24307d(0x179)](a0_0x41bf22[_0x24307d(0x190)]('This\x20means\x20they\x20will\x20no\x20longer\x20be\x20installed\x20by\x20default.'));}catch(_0x459f63){_0x55877d[_0x24307d(0x18a)](a0_0x41bf22[_0x24307d(0x16e)](_0x24307d(0x16d)+_0x459f63['message']));return;}}else console[_0x24307d(0x179)](a0_0x41bf22['cyan'](_0x2f07da[_0x24307d(0x146)]));const _0x3748f4=a0_0x481534['existsSync'](_0x483afc),_0x1b2f89=_0x3748f4?_0x2f07da[_0x24307d(0x150)]:_0x2f07da['EBSds'],_0x8b8b07=_0x2f07da[_0x24307d(0x17a)](_0x1b2f89,_0x2f07da[_0x24307d(0x150)])?_0x2f07da[_0x24307d(0x144)]:_0x24307d(0x153);console[_0x24307d(0x179)](a0_0x41bf22[_0x24307d(0x177)](_0x24307d(0x14b)+_0x1b2f89+_0x24307d(0x15e)));const _0xcb4586=_0x2f07da[_0x24307d(0x16a)](a0_0x363d6b,a0_0x41bf22['cyan']('Executing\x20'+_0x1b2f89+_0x24307d(0x18d)))[_0x24307d(0x180)]();try{const {stdout:_0x477749,stderr:_0x33aa19}=await _0x2f07da['sRSul'](execAsync,_0x8b8b07);_0x477749||_0x33aa19?_0xcb4586['succeed'](a0_0x41bf22['cyan'](_0x2f07da['KQEkN'])):_0xcb4586['succeed'](a0_0x41bf22[_0x24307d(0x177)](_0x24307d(0x186)));}catch(_0x14e577){_0xcb4586[_0x24307d(0x18a)](a0_0x41bf22['red'](_0x24307d(0x160)+_0x14e577[_0x24307d(0x17b)])),console[_0x24307d(0x192)](a0_0x41bf22[_0x24307d(0x16e)](_0x2f07da[_0x24307d(0x14c)]));if(_0x14e577['stdout'])console[_0x24307d(0x192)](a0_0x41bf22[_0x24307d(0x16e)](_0x24307d(0x157)+_0x14e577[_0x24307d(0x145)]));if(_0x14e577[_0x24307d(0x143)])console[_0x24307d(0x192)](a0_0x41bf22[_0x24307d(0x16e)](_0x24307d(0x18c)+_0x14e577['stderr']));console[_0x24307d(0x192)](a0_0x41bf22[_0x24307d(0x190)]('Tip:\x20Check\x20the\x20above\x20output\x20for\x20reasons.\x20Ensure\x20your\x20package\x20manager\x20is\x20installed\x20and\x20functioning.'));}};
+import chalk from "chalk";
+import fsExtra from "fs-extra";
+import { execAsync } from "../utils/execUtils.js";
+import ora from "ora";
+import path from "path";
+const { existsSync } = fsExtra;
+export const handlePruneCommand = async () => {
+    console.log(chalk.cyan("✨ Initiating dependency declutter operation..."));
+    const packagePath = path.join(process.cwd(), "package.json");
+    const yarnLockPath = path.join(process.cwd(), "yarn.lock");
+    const checkManifestSpinner = ora(chalk.cyan("Verifying project manifest (package.json)...")).start();
+    if (!existsSync(packagePath)) {
+        checkManifestSpinner.fail(chalk.red("❌ Error: Project manifest (package.json) not found. Cannot proceed."));
+        return;
+    }
+    checkManifestSpinner.succeed(chalk.cyan("Project manifest found!"));
+    let packageData;
+    const loadManifestSpinner = ora(chalk.cyan("Loading project dependencies... (from package.json)")).start();
+    try {
+        packageData = await fsExtra.readJson(packagePath);
+        loadManifestSpinner.succeed(chalk.cyan("Dependencies loaded successfully."));
+    } catch (error) {
+        loadManifestSpinner.fail(chalk.red(`❌ Error: Could not read package.json. ${error.message}`));
+        return;
+    }
+    let changedManifest = false;
+    console.log(chalk.cyan("\n🚀 Analyzing manifest for development and optional dependencies..."));
+    const devDependencies = packageData.devDependencies || {};
+    const optionalDependencies = packageData.optionalDependencies || {};
+    const devSpinner = ora(chalk.yellow("Processing development dependencies...")).start();
+    if (Object.keys(devDependencies).length > 0) {
+        delete packageData.devDependencies;
+        changedManifest = true;
+        devSpinner.succeed(chalk.cyan("🔧 Development dependencies removed from manifest."));
+    } else {
+        devSpinner.info(chalk.cyan("✨ No development dependencies to remove from manifest."));
+    }
+    const optionalSpinner = ora(chalk.yellow("Processing optional dependencies...")).start();
+    if (Object.keys(optionalDependencies).length > 0) {
+        delete packageData.optionalDependencies;
+        changedManifest = true;
+        optionalSpinner.succeed(chalk.cyan("🔧 Optional dependencies removed from manifest."));
+    } else {
+        optionalSpinner.info(chalk.cyan("✨ No optional dependencies to remove from manifest."));
+    }
+    if (changedManifest) {
+        const writeManifestSpinner = ora(chalk.cyan("Updating project manifest (package.json)...")).start();
+        try {
+            await fsExtra.writeJson(packagePath, packageData, { spaces: 2 });
+            writeManifestSpinner.succeed(chalk.cyan("✔️ Project manifest updated."));
+            console.log(chalk.yellow("\n⚠️ Warning: Development and optional dependencies have been removed from your package.json."));
+            console.log(chalk.yellow("This means they will no longer be installed by default."));
+        } catch (error) {
+            writeManifestSpinner.fail(chalk.red(`❌ Error: Failed to write updated package.json. ${error.message}`));
+            return;
+        }
+    } else {
+        console.log(chalk.cyan("\n🔍 No changes required in package.json."));
+    }
+    const isYarn = fsExtra.existsSync(yarnLockPath);
+    const packageManager = isYarn ? "yarn" : "npm";
+    const pruneCommand =
+        packageManager === "yarn"
+            ? "yarn install --force --silent"
+            : "npm prune --silent";
+    console.log(chalk.cyan(`\n🧹 Performing module cleanup with ${packageManager}...`));
+    const cleanupSpinner = ora(chalk.cyan(`Executing ${packageManager} cleanup command...`)).start();
+    try {
+        const { stdout, stderr } = await execAsync(pruneCommand);
+        if (stdout || stderr) {
+            cleanupSpinner.succeed(chalk.cyan("✅ Module cleanup complete! Unused packages removed."));
+        } else {
+            cleanupSpinner.succeed(chalk.cyan("✔️ Module cleanup complete! No unused packages found."));
+        }
+    } catch (error) {
+        cleanupSpinner.fail(chalk.red(`💥 Module cleanup failed! ${error.message}`));
+        console.error(chalk.red("\n🔍 Detailed error from package manager:"));
+        if (error.stdout) console.error(chalk.red(`  Output: ${error.stdout}`));
+        if (error.stderr) console.error(chalk.red(`  Error: ${error.stderr}`));
+        console.error(chalk.yellow("Tip: Check the above output for reasons. Ensure your package manager is installed and functioning."));
+    }
+};

@@ -1,1 +1,183 @@
-(function(_0x451b3c,_0x4aee4d){const _0x35b3ee=a0_0x121e,_0x4bab61=_0x451b3c();while(!![]){try{const _0xe13f8d=-parseInt(_0x35b3ee(0xd7))/0x1+-parseInt(_0x35b3ee(0x97))/0x2+parseInt(_0x35b3ee(0xb0))/0x3*(-parseInt(_0x35b3ee(0xf4))/0x4)+parseInt(_0x35b3ee(0x8f))/0x5+-parseInt(_0x35b3ee(0xf1))/0x6+parseInt(_0x35b3ee(0xd1))/0x7+parseInt(_0x35b3ee(0xeb))/0x8*(-parseInt(_0x35b3ee(0x106))/0x9);if(_0xe13f8d===_0x4aee4d)break;else _0x4bab61['push'](_0x4bab61['shift']());}catch(_0x1a468b){_0x4bab61['push'](_0x4bab61['shift']());}}}(a0_0x2c99,0x4a9d8));const a0_0x15ff13=(function(){let _0x4c8178=!![];return function(_0x493156,_0x129dc6){const _0x537a0d=_0x4c8178?function(){const _0x263451=a0_0x121e;if(_0x129dc6){const _0x2087a0=_0x129dc6[_0x263451(0xa2)](_0x493156,arguments);return _0x129dc6=null,_0x2087a0;}}:function(){};return _0x4c8178=![],_0x537a0d;};}()),a0_0x29d424=a0_0x15ff13(this,function(){const _0x1da5d2=a0_0x121e,_0x347eda={'GIXrn':_0x1da5d2(0xe1)};return a0_0x29d424[_0x1da5d2(0xd2)]()[_0x1da5d2(0xe9)](_0x347eda[_0x1da5d2(0x104)])['toString']()[_0x1da5d2(0xdd)](a0_0x29d424)[_0x1da5d2(0xe9)](_0x347eda[_0x1da5d2(0x104)]);});a0_0x29d424();import a0_0x1a9fc6 from'chalk';import a0_0x1fe11c from'ora';import a0_0x8a0b5a from'chalk-animation';import{exec}from'child_process';function a0_0x2c99(){const _0x3d1cc0=['rainbow','base64','Error\x20downloading\x20tarball:\x20','XCmDO','2763625HUqxuS','stop','utf8','Adding\x20packages...','❌\x20Error:\x20No\x20valid\x20packages\x20specified\x20for\x20addition.','🎉\x20','error','writeFileSync','136476YaoOSE','devDependencies','\x20in\x20','QLVjc','ReaMy','fHktP','IxMna','\x20package\x20installation:\x20','version','ctipX','get','apply','filter','(Neko.rock)\x20\x27neko.rock\x27\x20file\x20not\x20found.\x20Creating\x20new\x20file.','\x20--silent','(Neko.rock)\x20Added/Updated\x20','npm\x20install\x20','pufVP','wDxYH','UpqUg','pASMb','sha512-','DZtWB','rJtMA','liZxF','15EdFCLm','readFileSync','\x20added\x20','npm\x20show\x20','PXaFW','startsWith','DvURO','neko.rock','log','E404','pTXxj','BToEb','object','Package\x20\x27','BqlaE','CxGKd','fOfUI','yMFAy','\x20does\x20not\x20have\x20a\x20valid\x20tarball\x20URL.','integrity','load','xooBd','resolved','ElZsB','locally','LIqZR','dist','(Neko.rock)\x20Warning:\x20\x27neko.rock\x27\x20content\x20is\x20invalid.\x20Reinitializing.','start','\x20successfully.','=^._.^=\x20Meow\x20is\x20adding\x20the\x20packages...','cNsko','gray','3873562kDiqVW','toString','yellow','red','JqPOX','Failed\x20to\x20fetch\x20package\x20details\x20for\x20','49016BNOxaf','cyan','length','includes','aQRJQ','existsSync','constructor','Error\x20making\x20HTTP\x20request:\x20','XrEhl','Installation\x20complete!\x20🎉','(((.+)+)+)+$','NdPab','FUqsf','message','VWuKg','\x27\x20not\x20found\x20in\x20npm\x20registry.','slice','EBlIT','search','hgqWF','944khlMbe','Error\x20processing\x20package\x20','Usage:\x20meow\x20add\x20<package-name>\x20[--global\x20|\x20--dev]','DVTuQ','Astkb','join','276300AQcFRr','Failed\x20to\x20download\x20tarball:\x20HTTP\x20status\x20code\x20','YyWxG','128732YjrODy','QAKTQ','--save-dev','\x20dist\x20version\x20--json','#\x20Neko-CLI\x20package\x20lock\x20file\x0a#\x20This\x20file\x20tracks\x20installed\x20package\x20versions\x20and\x20integrity.\x0a','--global','replace','HUDoJ','tarball','end','Adding\x20global\x20packages...','statusCode','dependencies','createHash','sha512','SQmDx','GIXrn','.\x20Reinitializing.','36324OnTMLf'];a0_0x2c99=function(){return _0x3d1cc0;};return a0_0x2c99();}import a0_0x346454 from'crypto';import a0_0x3807e7 from'https';import a0_0x325b81 from'fs';import a0_0x4cb3cb from'path';import a0_0x39e376 from'js-yaml';function a0_0x121e(_0x37e77f,_0x54bc02){const _0xc1218e=a0_0x2c99();return a0_0x121e=function(_0x29d424,_0x15ff13){_0x29d424=_0x29d424-0x8e;let _0x2c9943=_0xc1218e[_0x29d424];return _0x2c9943;},a0_0x121e(_0x37e77f,_0x54bc02);}async function calculateIntegrity(_0x1c0892){const _0x131a8e=a0_0x121e,_0x1d4a70={'XCmDO':function(_0x1434ed,_0x5aef44){return _0x1434ed!==_0x5aef44;},'EBlIT':function(_0x59d31d,_0x3ae0f8){return _0x59d31d(_0x3ae0f8);},'BToEb':'data','xooBd':_0x131a8e(0xfd),'GOAMy':_0x131a8e(0x102),'zRwen':_0x131a8e(0x95)};return new Promise((_0x124f49,_0x4773c5)=>{const _0x1af7d1=_0x131a8e,_0x48a79f={'pASMb':function(_0x3bcd57,_0x5bae20){return _0x3bcd57(_0x5bae20);},'aQRJQ':function(_0x400558,_0x3512c5){const _0x344bcf=a0_0x121e;return _0x1d4a70[_0x344bcf(0x8e)](_0x400558,_0x3512c5);},'vUNvC':function(_0x24abd1,_0x1f9390){const _0x3b9d10=a0_0x121e;return _0x1d4a70[_0x3b9d10(0xe8)](_0x24abd1,_0x1f9390);},'IxMna':_0x1d4a70[_0x1af7d1(0xbb)],'hWhrH':_0x1d4a70[_0x1af7d1(0xc5)]},_0x27499e=a0_0x346454[_0x1af7d1(0x101)](_0x1d4a70['GOAMy']);a0_0x3807e7[_0x1af7d1(0xa1)](_0x1c0892,_0x5a5b38=>{const _0x4ca2cb=_0x1af7d1,_0x446c49={'JvnTv':_0x4ca2cb(0x108)};if(_0x48a79f[_0x4ca2cb(0xdb)](_0x5a5b38[_0x4ca2cb(0xff)],0xc8))return _0x48a79f['vUNvC'](_0x4773c5,new Error(_0x4ca2cb(0xf2)+_0x5a5b38[_0x4ca2cb(0xff)]));_0x5a5b38['on'](_0x48a79f[_0x4ca2cb(0x9d)],_0x5b3ee9=>{_0x27499e['update'](_0x5b3ee9);}),_0x5a5b38['on'](_0x48a79f['hWhrH'],()=>{const _0x4966c6=_0x4ca2cb;_0x124f49(_0x4966c6(0xac)+_0x27499e['digest'](_0x446c49['JvnTv']));}),_0x5a5b38['on'](_0x4ca2cb(0x95),_0x1a202f=>{const _0x37cab7=_0x4ca2cb;_0x48a79f[_0x37cab7(0xab)](_0x4773c5,new Error(_0x37cab7(0x109)+_0x1a202f[_0x37cab7(0xe4)]));});})['on'](_0x1d4a70['zRwen'],_0x45b3c1=>{const _0x16f8d2=_0x1af7d1;_0x4773c5(new Error(_0x16f8d2(0xde)+_0x45b3c1[_0x16f8d2(0xe4)]));});});}function updateNekoRockForAddition(_0x526743,_0x3ef55a,_0x1648ef){const _0x542fbd=a0_0x121e,_0x181c76={'XrEhl':_0x542fbd(0xb7),'HUDoJ':_0x542fbd(0x91),'PkRHT':_0x542fbd(0xbc),'DVTuQ':'devDependencies','iSSdp':_0x542fbd(0x100),'VWuKg':_0x542fbd(0xf8),'ctipX':function(_0x41d7a9,_0x2fd7df){return _0x41d7a9+_0x2fd7df;}},_0x2b06e0=a0_0x4cb3cb[_0x542fbd(0xf0)](process['cwd'](),_0x181c76[_0x542fbd(0xdf)]);let _0x1e86c2={};if(a0_0x325b81[_0x542fbd(0xdc)](_0x2b06e0))try{const _0x53e5fb=a0_0x325b81[_0x542fbd(0xb1)](_0x2b06e0,_0x181c76[_0x542fbd(0xfb)]),_0x2ea5df=_0x53e5fb[_0x542fbd(0xfa)](/# Neko-CLI package lock file\n# This file tracks installed package versions and integrity.\n/,'');_0x1e86c2=a0_0x39e376[_0x542fbd(0xc4)](_0x2ea5df),(typeof _0x1e86c2!==_0x181c76['PkRHT']||_0x1e86c2===null)&&(console[_0x542fbd(0xb8)](a0_0x1a9fc6['yellow'](_0x542fbd(0xcb))),_0x1e86c2={'dependencies':{},'devDependencies':{}});}catch(_0x35cb26){console['error'](a0_0x1a9fc6[_0x542fbd(0xd4)]('(Neko.rock)\x20Error\x20reading\x20or\x20parsing\x20\x27neko.rock\x27:\x20'+_0x35cb26[_0x542fbd(0xe4)]+_0x542fbd(0x105))),_0x1e86c2={'dependencies':{},'devDependencies':{}};}else console[_0x542fbd(0xb8)](a0_0x1a9fc6[_0x542fbd(0xd0)](_0x542fbd(0xa4))),_0x1e86c2={'dependencies':{},'devDependencies':{}};_0x1e86c2[_0x542fbd(0x100)]=_0x1e86c2['dependencies']||{},_0x1e86c2[_0x542fbd(0x98)]=_0x1e86c2[_0x542fbd(0x98)]||{};const _0x345ede=_0x1648ef?_0x1e86c2[_0x542fbd(0x98)]:_0x1e86c2[_0x542fbd(0x100)];_0x345ede[_0x526743]={'version':_0x3ef55a['version'],'resolved':_0x3ef55a[_0x542fbd(0xc6)],'integrity':_0x3ef55a[_0x542fbd(0xc3)]},console[_0x542fbd(0xb8)](a0_0x1a9fc6[_0x542fbd(0xd0)](_0x542fbd(0xa6)+_0x526743+_0x542fbd(0x99)+(_0x1648ef?_0x181c76[_0x542fbd(0xee)]:_0x181c76['iSSdp'])+'.'));try{const _0x197a89=_0x181c76[_0x542fbd(0xe5)],_0x7d8967=a0_0x39e376['dump'](_0x1e86c2,{'lineWidth':-0x1,'skipInvalid':!![]});a0_0x325b81[_0x542fbd(0x96)](_0x2b06e0,_0x181c76[_0x542fbd(0xa0)](_0x197a89,_0x7d8967),_0x181c76['HUDoJ']);}catch(_0x1885a9){console[_0x542fbd(0x95)](a0_0x1a9fc6['red']('(Neko.rock)\x20Error\x20writing\x20to\x20\x27neko.rock\x27\x20after\x20addition\x20for\x20'+_0x526743+':\x20'+_0x1885a9[_0x542fbd(0xe4)]));}}export const handleAddCommand=async _0x230f7f=>{const _0x3ae76c=a0_0x121e,_0x985dee={'wDxYH':function(_0x52131c,_0x4f119b){return _0x52131c(_0x4f119b);},'QAKTQ':function(_0x5eaba8,_0x2779b2){return _0x5eaba8(_0x2779b2);},'DvURO':_0x3ae76c(0xf9),'rJtMA':_0x3ae76c(0xf6),'yMFAy':function(_0x7f1b2,_0x3fbcf1,_0x59295d){return _0x7f1b2(_0x3fbcf1,_0x59295d);},'cNsko':function(_0x1f122a,_0x839e43){return _0x1f122a(_0x839e43);},'JqPOX':function(_0x455043,_0x4e4c50,_0x5c313e){return _0x455043(_0x4e4c50,_0x5c313e);},'ElZsB':function(_0x134710,_0x19ff9f){return _0x134710(_0x19ff9f);},'CxGKd':_0x3ae76c(0xe0),'Astkb':function(_0x4ef40a,_0x2ecc09){return _0x4ef40a===_0x2ecc09;},'BqlaE':_0x3ae76c(0xed),'fOfUI':'--dev','hgqWF':_0x3ae76c(0x93),'UpqUg':_0x3ae76c(0xce),'FUqsf':function(_0x4f2ef0,_0x3efde2){return _0x4f2ef0(_0x3efde2);},'DZtWB':_0x3ae76c(0x92),'QLVjc':'to\x20dev\x20dependencies\x20locally','SQmDx':_0x3ae76c(0xc8),'YyWxG':function(_0x1577f2){return _0x1577f2();}},_0x19a590=_0x230f7f[_0x3ae76c(0xe7)](0x1);if(_0x985dee['Astkb'](_0x19a590[_0x3ae76c(0xd9)],0x0)){console[_0x3ae76c(0xb8)](a0_0x1a9fc6['yellow']('❌\x20Error:\x20You\x20must\x20specify\x20at\x20least\x20one\x20package\x20name\x20to\x20add.')),console[_0x3ae76c(0xb8)](a0_0x1a9fc6[_0x3ae76c(0xd8)](_0x985dee[_0x3ae76c(0xbe)]));return;}const _0x1350d6=_0x19a590['includes']('-g')||_0x19a590[_0x3ae76c(0xda)](_0x3ae76c(0xf9)),_0x38a1fa=_0x19a590[_0x3ae76c(0xda)](_0x985dee[_0x3ae76c(0xc0)]),_0x4c362d=_0x19a590[_0x3ae76c(0xa3)](_0x275fb3=>!_0x275fb3[_0x3ae76c(0xb5)]('-'));if(_0x985dee[_0x3ae76c(0xef)](_0x4c362d[_0x3ae76c(0xd9)],0x0)){console[_0x3ae76c(0xb8)](a0_0x1a9fc6[_0x3ae76c(0xd3)](_0x985dee[_0x3ae76c(0xea)])),console[_0x3ae76c(0xb8)](a0_0x1a9fc6['cyan'](_0x985dee[_0x3ae76c(0xbe)]));return;}const _0x2c8625=_0x4c362d,_0x370640=a0_0x8a0b5a[_0x3ae76c(0x107)](_0x985dee[_0x3ae76c(0xaa)]),_0xadc2b5=_0x985dee[_0x3ae76c(0xe3)](a0_0x1fe11c,_0x1350d6?_0x3ae76c(0xfe):_0x985dee[_0x3ae76c(0xad)])[_0x3ae76c(0xcc)](),_0x1aa032=_0x1350d6?'globally':_0x38a1fa?_0x985dee[_0x3ae76c(0x9a)]:_0x985dee[_0x3ae76c(0x103)],_0x5a96e0=_0x517cb9=>{return new Promise((_0x45a429,_0x40f311)=>{const _0x1ae011=a0_0x121e,_0x21d9c2={'fHktP':function(_0x1f56ca,_0x129f17){const _0x57a389=a0_0x121e;return _0x985dee[_0x57a389(0xa9)](_0x1f56ca,_0x129f17);},'ReaMy':function(_0x2f6d13,_0x4dc45d){const _0x7640e7=a0_0x121e;return _0x985dee[_0x7640e7(0xa9)](_0x2f6d13,_0x4dc45d);},'LIqZR':_0x1ae011(0xb9),'NdPab':function(_0x805986,_0x336766){const _0x177b0d=_0x1ae011;return _0x985dee[_0x177b0d(0xf5)](_0x805986,_0x336766);},'PXaFW':_0x985dee[_0x1ae011(0xb6)],'VUIkH':_0x985dee[_0x1ae011(0xae)],'pufVP':'--save','pTXxj':function(_0x5a2036,_0x65002d,_0x599550){const _0x59ad9e=_0x1ae011;return _0x985dee[_0x59ad9e(0xc1)](_0x5a2036,_0x65002d,_0x599550);},'liZxF':function(_0x3c9652,_0x61787b){const _0x5d533f=_0x1ae011;return _0x985dee[_0x5d533f(0xcf)](_0x3c9652,_0x61787b);}},_0x5eede5=_0x1ae011(0xb3)+_0x517cb9+_0x1ae011(0xf7);_0x985dee[_0x1ae011(0xd5)](exec,_0x5eede5,async(_0x13dde6,_0x19184d,_0x5d6290)=>{const _0x27d960=_0x1ae011;if(_0x13dde6){let _0x464b00=_0x27d960(0xd6)+_0x517cb9;if(_0x5d6290&&_0x5d6290['includes'](_0x21d9c2[_0x27d960(0xc9)]))_0x464b00=_0x27d960(0xbd)+_0x517cb9+_0x27d960(0xe6);else _0x13dde6['message']&&(_0x464b00+=':\x20'+_0x13dde6[_0x27d960(0xe4)]);return _0x40f311(_0x464b00);}try{const _0x1305ca=JSON['parse'](_0x19184d);if(!_0x1305ca[_0x27d960(0xca)]||!_0x1305ca[_0x27d960(0xca)][_0x27d960(0xfc)])return _0x21d9c2[_0x27d960(0xe2)](_0x40f311,'Package\x20'+_0x517cb9+_0x27d960(0xc2));const _0x386c34=_0x1305ca['dist'][_0x27d960(0xfc)],_0x337772={'version':_0x1305ca[_0x27d960(0x9f)],'resolved':_0x386c34,'integrity':await calculateIntegrity(_0x386c34)};updateNekoRockForAddition(_0x517cb9,_0x337772,_0x38a1fa);const _0x1f842f=_0x27d960(0xa7)+_0x517cb9+'\x20'+(_0x1350d6?_0x21d9c2[_0x27d960(0xb4)]:_0x38a1fa?_0x21d9c2['VUIkH']:_0x21d9c2[_0x27d960(0xa8)])+_0x27d960(0xa5);_0x21d9c2[_0x27d960(0xba)](exec,_0x1f842f,(_0x23be90,_0x368ec1,_0x214487)=>{const _0x530d75=_0x27d960;if(_0x23be90)return _0x21d9c2[_0x530d75(0x9c)](_0x40f311,'Error\x20during\x20'+_0x1aa032+_0x530d75(0x9e)+(_0x214487||_0x368ec1||_0x23be90[_0x530d75(0xe4)]));else _0x21d9c2[_0x530d75(0x9b)](_0x45a429,_0x517cb9+_0x530d75(0xb2)+_0x1aa032+_0x530d75(0xcd));});}catch(_0x354b26){return _0x21d9c2[_0x27d960(0xaf)](_0x40f311,_0x27d960(0xec)+_0x517cb9+':\x20'+(_0x354b26[_0x27d960(0xe4)]||_0x354b26[_0x27d960(0xd2)]()));}});});},_0x2be9cf=async()=>{const _0x1682c3=_0x3ae76c;for(let _0x4ee8a5=0x0;_0x4ee8a5<_0x2c8625['length'];_0x4ee8a5++){const _0x388dd1=_0x2c8625[_0x4ee8a5];try{const _0x4b418d=await _0x985dee[_0x1682c3(0xc7)](_0x5a96e0,_0x388dd1);console[_0x1682c3(0xb8)](a0_0x1a9fc6[_0x1682c3(0xd8)](_0x1682c3(0x94)+_0x4b418d));}catch(_0x4f2ce8){console[_0x1682c3(0xb8)](a0_0x1a9fc6[_0x1682c3(0xd3)]('An\x20error\x20occurred\x20with\x20'+_0x388dd1+':\x20'+_0x4f2ce8));}}_0xadc2b5[_0x1682c3(0x90)](),_0x370640['stop'](),console[_0x1682c3(0xb8)](a0_0x1a9fc6[_0x1682c3(0xd8)](_0x985dee[_0x1682c3(0xbf)]));};_0x985dee[_0x3ae76c(0xf3)](_0x2be9cf);};
+import chalk from "chalk";
+import ora from "ora";
+import chalkAnimation from "chalk-animation";
+import { exec } from "child_process";
+import crypto from "crypto";
+import https from "https";
+import fs from "fs";
+import path from "path";
+import yaml from "js-yaml";
+
+async function calculateIntegrity(tarballUrl) {
+    return new Promise((resolve, reject) => {
+        const hash = crypto.createHash('sha512');
+        https.get(tarballUrl, (response) => {
+            if (response.statusCode !== 200) {
+                return reject(new Error(`Failed to download tarball: HTTP status code ${response.statusCode}`));
+            }
+            response.on('data', (chunk) => {
+                hash.update(chunk);
+            });
+            response.on('end', () => {
+                resolve(`sha512-${hash.digest('base64')}`);
+            });
+            response.on('error', (err) => {
+                reject(new Error(`Error downloading tarball: ${err.message}`));
+            });
+        }).on('error', (err) => {
+            reject(new Error(`Error making HTTP request: ${err.message}`));
+        });
+    });
+}
+
+function updateNekoRockForAddition(packageName, packageInfo, isDevAdd) {
+    const nekoRockPath = path.join(process.cwd(), 'deps.neko');
+    let nekoRockContent = {};
+
+    if (fs.existsSync(nekoRockPath)) {
+        try {
+            const fileContent = fs.readFileSync(nekoRockPath, 'utf8');
+            const yamlContent = fileContent.replace(/# Neko-CLI package lock file\n# This file tracks installed package versions and integrity.\n/, '');
+            nekoRockContent = yaml.load(yamlContent);
+            if (typeof nekoRockContent !== 'object' || nekoRockContent === null) {
+                console.log(chalk.yellow(`(deps.neko) Warning: 'deps.neko' content is invalid. Reinitializing.`));
+                nekoRockContent = { dependencies: {}, devDependencies: {} };
+            }
+        } catch (error) {
+            console.error(chalk.red(`(deps.neko) Error reading or parsing 'deps.neko': ${error.message}. Reinitializing.`));
+            nekoRockContent = { dependencies: {}, devDependencies: {} };
+        }
+    } else {
+        console.log(chalk.gray(`(deps.neko) 'deps.neko' file not found. Creating new file.`));
+        nekoRockContent = { dependencies: {}, devDependencies: {} };
+    }
+
+    nekoRockContent.dependencies = nekoRockContent.dependencies || {};
+    nekoRockContent.devDependencies = nekoRockContent.devDependencies || {};
+
+    const targetSection = isDevAdd ? nekoRockContent.devDependencies : nekoRockContent.dependencies;
+
+    targetSection[packageName] = {
+        version: packageInfo.version,
+        resolved: packageInfo.resolved,
+        integrity: packageInfo.integrity
+    };
+
+    console.log(chalk.gray(`(deps.neko) Added/Updated ${packageName} in ${isDevAdd ? 'devDependencies' : 'dependencies'}.`));
+
+    try {
+        const header = "# Neko-CLI package lock file\n# This file tracks installed package versions and integrity.\n";
+        const dumpedContent = yaml.dump(nekoRockContent, { lineWidth: -1, skipInvalid: true });
+        fs.writeFileSync(nekoRockPath, header + dumpedContent, 'utf8');
+    } catch (error) {
+        console.error(chalk.red(`(deps.neko) Error writing to 'deps.neko' after addition for ${packageName}: ${error.message}`));
+    }
+}
+
+export const handleAddCommand = async (args) => {
+    const commandArgs = args.slice(1);
+
+    if (commandArgs.length === 0) {
+        console.log(
+            chalk.yellow("❌ Error: You must specify at least one package name to add.")
+        );
+        console.log(chalk.cyan("Usage: meow add <package-name> [--global | --dev]"));
+        return;
+    }
+
+    const isGlobalAdd = commandArgs.includes("-g") || commandArgs.includes("--global");
+    const isDevAdd = commandArgs.includes("--dev");
+    const packagesToAdd = commandArgs.filter(
+        (arg) => !arg.startsWith("-")
+    );
+
+    if (packagesToAdd.length === 0) {
+        console.log(
+            chalk.yellow("❌ Error: No valid packages specified for addition.")
+        );
+        console.log(chalk.cyan("Usage: meow add <package-name> [--global | --dev]"));
+        return;
+    }
+
+    const filteredPackagesToAdd = packagesToAdd;
+    const animationAdd = chalkAnimation.rainbow(
+        "=^._.^= Meow is adding the packages..."
+    );
+    const spinnerAdd = ora(
+        isGlobalAdd ? "Adding global packages..." : "Adding packages..."
+    ).start();
+
+    const addScope = isGlobalAdd
+        ? "globally"
+        : isDevAdd
+            ? "to dev dependencies locally"
+            : "locally";
+
+    const installPackage = (packageName) => {
+        return new Promise((resolve, reject) => {
+            const npmCommand = `npm show ${packageName} dist version --json`;
+            exec(npmCommand, async (err, stdout, stderr) => {
+                if (err) {
+                    let errorMessage = `Failed to fetch package details for ${packageName}`;
+                    if (stderr && stderr.includes("E404")) {
+                        errorMessage = `Package '${packageName}' not found in npm registry.`;
+                    } else if (err.message) {
+                        errorMessage += `: ${err.message}`;
+                    }
+                    return reject(errorMessage);
+                }
+                try {
+                    const info = JSON.parse(stdout);
+                    if (!info.dist || !info.dist.tarball) {
+                        return reject(`Package ${packageName} does not have a valid tarball URL.`);
+                    }
+                    const tarballUrl = info.dist.tarball;
+                    const packageInfo = {
+                        version: info.version,
+                        resolved: tarballUrl,
+                        integrity: await calculateIntegrity(tarballUrl),
+                    };
+
+                    updateNekoRockForAddition(packageName, packageInfo, isDevAdd);
+
+                    const installCommand = `npm install ${packageName} ${
+                        isGlobalAdd ? "--global" : isDevAdd ? "--save-dev" : "--save"
+                    } --silent`;
+
+                    exec(installCommand, (err, stdout, stderr) => {
+                        if (err) {
+                            return reject(
+                                `Error during ${addScope} package installation: ${stderr || stdout || err.message}`
+                            );
+                        } else {
+                            resolve(`${packageName} added ${addScope} successfully.`);
+                        }
+                    });
+                } catch (error) {
+                    return reject(`Error processing package ${packageName}: ${error.message || error.toString()}`);
+                }
+            });
+        });
+    };
+
+    const installSequentially = async () => {
+        for (let i = 0; i < filteredPackagesToAdd.length; i++) {
+            const packageName = filteredPackagesToAdd[i];
+            try {
+                const result = await installPackage(packageName);
+                console.log(chalk.cyan(`🎉 ${result}`));
+            } catch (err) {
+                console.log(
+                    chalk.yellow(
+                        `An error occurred with ${packageName}: ${err}`
+                    )
+                );
+            }
+        }
+        spinnerAdd.stop();
+        animationAdd.stop();
+        console.log(chalk.cyan("Installation complete! 🎉"));
+    };
+
+    installSequentially();
+};

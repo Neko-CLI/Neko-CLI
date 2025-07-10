@@ -1,1 +1,155 @@
-(function(_0x21cd66,_0x3956d4){const _0x5d20cc=a0_0x1b96,_0xdbd39a=_0x21cd66();while(!![]){try{const _0x4346e5=parseInt(_0x5d20cc(0x1ea))/0x1*(-parseInt(_0x5d20cc(0x1e5))/0x2)+-parseInt(_0x5d20cc(0x224))/0x3+-parseInt(_0x5d20cc(0x1dc))/0x4+-parseInt(_0x5d20cc(0x220))/0x5+parseInt(_0x5d20cc(0x1f5))/0x6+parseInt(_0x5d20cc(0x219))/0x7+parseInt(_0x5d20cc(0x227))/0x8;if(_0x4346e5===_0x3956d4)break;else _0xdbd39a['push'](_0xdbd39a['shift']());}catch(_0x54dab1){_0xdbd39a['push'](_0xdbd39a['shift']());}}}(a0_0x54c4,0xc3288));const a0_0x205cb0=(function(){let _0x1e5fd8=!![];return function(_0x5ea91f,_0x556d93){const _0x1e344a=_0x1e5fd8?function(){if(_0x556d93){const _0x13405e=_0x556d93['apply'](_0x5ea91f,arguments);return _0x556d93=null,_0x13405e;}}:function(){};return _0x1e5fd8=![],_0x1e344a;};}()),a0_0x41914b=a0_0x205cb0(this,function(){const _0x4dae25=a0_0x1b96,_0x41b47a={'iaqfX':_0x4dae25(0x1d7)};return a0_0x41914b['toString']()['search'](_0x4dae25(0x1d7))[_0x4dae25(0x22a)]()[_0x4dae25(0x230)](a0_0x41914b)['search'](_0x41b47a[_0x4dae25(0x1fa)]);});a0_0x41914b();import a0_0x2d22a9 from'chalk';import a0_0x395c1b from'ora';import a0_0x216297 from'path';function a0_0x54c4(){const _0x3a1f0a=['yarn.lock','6fCBKTB','OAqaX','stop','createHash','Updated\x20neko.rock\x20with\x20dependencies\x20and\x20integrity.','256001eYiBLL','lktWt','Found\x20yarn.lock,\x20running\x20install\x20for\x20all\x20dependencies...','uxRpQ','xHQxa','TWDzl','.tgz','https://registry.npmjs.org/','join','cyan','yarn\x20install\x20--silent','57840EnnHmf','get','map','sha512','No\x20dependencies\x20found\x20to\x20install.','iaqfX','resolve','readFileSync','data','yellow','update','kLawT','YTPAC','writeFileSync','utf-8','base64','FPXJK','Installing\x20all\x20dependencies...','keys',':\x0a\x20\x20🔖\x20version:\x20\x22','\x22\x0a\x20\x20⚙️\x20type:\x20runtime\x0a','Found\x20neko.rock,\x20installing\x20dependencies...','log','error','NVLin','length','pnpm\x20install\x20--silent','all','sha512-','\x0a🐾\x20neko-cli\x20package\x20lock\x20🐾\x0a\x0adependencies:\x0a','npm\x20install\x20--silent','devDependencies','dvhgw','end','Dependencies\x20installed\x20successfully.','forEach','3186106KjVhRU','xxxkO','GOknj','DvAXl','package.json','cwd','Error:\x20No\x20package.json,\x20yarn.lock,\x20pnpm-lock.yaml,\x20or\x20neko.rock\x20found.','509655TbKMPt','wNbAR','🐱\x20','parse','3834315VPOcRR','start','GPeKP','20539688GGrnsd','fsZqi','rDSml','toString','Found\x20package.json,\x20running\x20install\x20for\x20all\x20dependencies...','Installing\x20dependencies...','split','dependencies','push','constructor','exec','/-/','(((.+)+)+)+$','No\x20package.json\x20found.','uQBRP','KglJh','existsSync','339408THJQAd','yJFBI','\x22\x0a\x20\x20🔒\x20integrity:\x20\x22','digest','then','Xnzns','Updated\x20neko.rock\x20with\x20dependencies\x20from\x20package.json.','neko.rock'];a0_0x54c4=function(){return _0x3a1f0a;};return a0_0x54c4();}import a0_0x44ebe8 from'fs';function a0_0x1b96(_0x62671e,_0xd55aa7){const _0x5709aa=a0_0x54c4();return a0_0x1b96=function(_0x41914b,_0x205cb0){_0x41914b=_0x41914b-0x1d5;let _0x54c4f4=_0x5709aa[_0x41914b];return _0x54c4f4;},a0_0x1b96(_0x62671e,_0xd55aa7);}import a0_0x3f0e52 from'crypto';import a0_0x56ec0c from'https';import{exec}from'child_process';function calculateIntegrity(_0xeadb12){const _0x599c7c=a0_0x1b96,_0x359f98={'dvhgw':_0x599c7c(0x1fd),'kLawT':_0x599c7c(0x20c)};return new Promise((_0xd87dc8,_0x40c4b0)=>{const _0x231ccc=_0x599c7c,_0x3328bb={'yJFBI':_0x359f98[_0x231ccc(0x215)],'KglJh':_0x359f98[_0x231ccc(0x200)]},_0x1a8cfc=a0_0x3f0e52[_0x231ccc(0x1e8)](_0x231ccc(0x1f8));a0_0x56ec0c[_0x231ccc(0x1f6)](_0xeadb12,_0x3a279b=>{const _0x138517=_0x231ccc;_0x3a279b['on'](_0x3328bb[_0x138517(0x1dd)],_0x1df50a=>_0x1a8cfc[_0x138517(0x1ff)](_0x1df50a)),_0x3a279b['on'](_0x138517(0x216),()=>_0xd87dc8(_0x138517(0x211)+_0x1a8cfc[_0x138517(0x1df)](_0x138517(0x204)))),_0x3a279b['on'](_0x3328bb[_0x138517(0x1da)],_0x40c4b0);})['on'](_0x359f98[_0x231ccc(0x200)],_0x40c4b0);});}async function updateNekoRockWithIntegrity(_0x1a1629,_0x44d033){const _0x478553=a0_0x1b96,_0x21043a={'BeTfJ':_0x478553(0x1e9)},_0x3f8886=await Promise[_0x478553(0x210)](_0x44d033[_0x478553(0x1f7)](_0x504477=>{const _0x26a599=_0x478553,[_0x15df04,_0x3e8d78]=_0x504477[_0x26a599(0x22d)]('@'),_0x457abe=_0x26a599(0x1f1)+_0x15df04+_0x26a599(0x1d6)+_0x15df04+'-'+_0x3e8d78+_0x26a599(0x1f0);return calculateIntegrity(_0x457abe)[_0x26a599(0x1e0)](_0x2ecff3=>{const _0x291e92=_0x26a599;return _0x291e92(0x222)+_0x15df04+_0x291e92(0x208)+_0x3e8d78+'\x22\x0a\x20\x20📦\x20resolved:\x20\x22'+_0x457abe+_0x291e92(0x1de)+_0x2ecff3+_0x291e92(0x209);});})),_0x151325='\x0a🐾\x20neko-cli\x20package\x20lock\x20🐾\x0a\x0adependencies:\x0a'+_0x3f8886['join']('\x0a')+'\x0a';a0_0x44ebe8[_0x478553(0x202)](_0x1a1629,_0x151325,'utf-8'),console[_0x478553(0x20b)](a0_0x2d22a9[_0x478553(0x1f3)](_0x21043a['BeTfJ']));}export const handleInstallCommand=async()=>{const _0x4e8d47=a0_0x1b96,_0x59dcaa={'uxRpQ':_0x4e8d47(0x217),'uQBRP':'All\x20dependencies\x20installed\x20successfully.','GOknj':_0x4e8d47(0x1e3),'QdPfx':'Creating\x20neko.rock\x20file...','tuJtz':'neko.rock\x20file\x20created\x20successfully.','mUWdf':_0x4e8d47(0x20a),'FPXJK':_0x4e8d47(0x203),'lktWt':function(_0x309fd7,_0x147f5d){return _0x309fd7!==_0x147f5d;},'OAqaX':function(_0x515ae4,_0x288130){return _0x515ae4===_0x288130;},'xxxkO':function(_0xe4cc1d,_0x53f0d6){return _0xe4cc1d>_0x53f0d6;},'YTPAC':function(_0xa35ef3,_0xe640e4,_0x33641f){return _0xa35ef3(_0xe640e4,_0x33641f);},'fsZqi':_0x4e8d47(0x1d8),'qazDw':function(_0x2f4488,_0x2a71a8){return _0x2f4488>_0x2a71a8;},'NVLin':_0x4e8d47(0x22c),'Xnzns':'pnpm-lock.yaml','wNbAR':'Found\x20pnpm-lock.yaml,\x20running\x20install\x20for\x20all\x20dependencies...','DvAXl':function(_0x1c4fc0,_0x51b379){return _0x1c4fc0(_0x51b379);},'TWDzl':_0x4e8d47(0x20f),'TaCwq':_0x4e8d47(0x206),'GPeKP':_0x4e8d47(0x213),'rDSml':function(_0x49673f,_0x59f245,_0x325ce4){return _0x49673f(_0x59f245,_0x325ce4);},'xHQxa':_0x4e8d47(0x1f4),'ldXKh':_0x4e8d47(0x21f)},_0x12a97f=a0_0x216297[_0x4e8d47(0x1fb)](process[_0x4e8d47(0x21e)](),_0x59dcaa[_0x4e8d47(0x21b)]);if(!a0_0x44ebe8[_0x4e8d47(0x1db)](_0x12a97f)){console[_0x4e8d47(0x20b)](a0_0x2d22a9[_0x4e8d47(0x1f3)](_0x59dcaa['QdPfx']));const _0x4c94ac=_0x4e8d47(0x212);a0_0x44ebe8['writeFileSync'](_0x12a97f,_0x4c94ac,_0x4e8d47(0x203)),console['log'](a0_0x2d22a9[_0x4e8d47(0x1f3)](_0x59dcaa['tuJtz']));}if(a0_0x44ebe8[_0x4e8d47(0x1db)](_0x12a97f)){console[_0x4e8d47(0x20b)](a0_0x2d22a9[_0x4e8d47(0x1f3)](_0x59dcaa['mUWdf']));const _0x1b2916=a0_0x44ebe8[_0x4e8d47(0x1fc)](_0x12a97f,_0x59dcaa['FPXJK']),_0x2e3d1b=/🐱 (.*?)\s*:\s*[\s\S]*?🔖 version:\s*"([^"]+)"/g;let _0x5ad07e;const _0x2a5008=[];while(_0x59dcaa[_0x4e8d47(0x1eb)](_0x5ad07e=_0x2e3d1b[_0x4e8d47(0x1d5)](_0x1b2916),null)){const _0x276768=_0x5ad07e[0x1],_0x144632=_0x5ad07e[0x2];_0x2a5008[_0x4e8d47(0x22f)](_0x276768+'@'+_0x144632);}if(_0x59dcaa[_0x4e8d47(0x1e6)](_0x2a5008['length'],0x0)){console[_0x4e8d47(0x20b)](a0_0x2d22a9[_0x4e8d47(0x1f3)]('No\x20dependencies\x20found\x20in\x20neko.rock,\x20checking\x20package.json...'));const _0x29c4ff=a0_0x216297[_0x4e8d47(0x1fb)](process[_0x4e8d47(0x21e)](),_0x4e8d47(0x21d));if(a0_0x44ebe8[_0x4e8d47(0x1db)](_0x29c4ff)){const _0x42550f=JSON[_0x4e8d47(0x223)](a0_0x44ebe8[_0x4e8d47(0x1fc)](_0x29c4ff,_0x59dcaa[_0x4e8d47(0x205)])),_0x4c7ca4=_0x42550f[_0x4e8d47(0x22e)]||{},_0x3437ae=_0x42550f[_0x4e8d47(0x214)]||{};Object[_0x4e8d47(0x207)](_0x4c7ca4)[_0x4e8d47(0x218)](_0x2fde5e=>{_0x2a5008['push'](_0x2fde5e+'@'+_0x4c7ca4[_0x2fde5e]);}),Object[_0x4e8d47(0x207)](_0x3437ae)[_0x4e8d47(0x218)](_0x161ff7=>{const _0x1459c5=_0x4e8d47;_0x2a5008[_0x1459c5(0x22f)](_0x161ff7+'@'+_0x3437ae[_0x161ff7]);}),_0x59dcaa[_0x4e8d47(0x21a)](_0x2a5008[_0x4e8d47(0x20e)],0x0)&&(await _0x59dcaa['YTPAC'](updateNekoRockWithIntegrity,_0x12a97f,_0x2a5008),console[_0x4e8d47(0x20b)](a0_0x2d22a9['cyan'](_0x4e8d47(0x1e2))));}else console[_0x4e8d47(0x20b)](a0_0x2d22a9['yellow'](_0x59dcaa[_0x4e8d47(0x228)]));}if(_0x59dcaa['qazDw'](_0x2a5008[_0x4e8d47(0x20e)],0x0)){const _0x538e2b=a0_0x395c1b(_0x59dcaa[_0x4e8d47(0x20d)])[_0x4e8d47(0x225)]();_0x59dcaa[_0x4e8d47(0x201)](exec,'npm\x20install\x20'+_0x2a5008[_0x4e8d47(0x1f2)]('\x20')+'\x20--silent',_0x1bb61a=>{const _0x9ee09e=_0x4e8d47;_0x538e2b['stop']();if(_0x1bb61a){}else console['log'](a0_0x2d22a9[_0x9ee09e(0x1f3)](_0x59dcaa[_0x9ee09e(0x1ed)]));});}else console[_0x4e8d47(0x20b)](a0_0x2d22a9['yellow'](_0x4e8d47(0x1f9)));}const _0x1ba9d6=a0_0x44ebe8[_0x4e8d47(0x1db)](_0x59dcaa[_0x4e8d47(0x1e1)]),_0x5d5f5f=a0_0x44ebe8[_0x4e8d47(0x1db)](_0x4e8d47(0x21d)),_0x5977e1=a0_0x44ebe8[_0x4e8d47(0x1db)](_0x4e8d47(0x1e4));if(_0x1ba9d6){console['log'](a0_0x2d22a9[_0x4e8d47(0x1f3)](_0x59dcaa[_0x4e8d47(0x221)]));const _0xc53929=_0x59dcaa[_0x4e8d47(0x21c)](a0_0x395c1b,_0x4e8d47(0x206))[_0x4e8d47(0x225)]();_0x59dcaa['YTPAC'](exec,_0x59dcaa[_0x4e8d47(0x1ef)],_0x21c3b8=>{const _0x3237d1=_0x4e8d47;_0xc53929[_0x3237d1(0x1e7)]();if(_0x21c3b8){}else console[_0x3237d1(0x20b)](a0_0x2d22a9[_0x3237d1(0x1f3)](_0x59dcaa[_0x3237d1(0x1d9)]));});}else{if(_0x5d5f5f){console[_0x4e8d47(0x20b)](a0_0x2d22a9[_0x4e8d47(0x1f3)](_0x4e8d47(0x22b)));const _0xb98b78=_0x59dcaa[_0x4e8d47(0x21c)](a0_0x395c1b,_0x59dcaa['TaCwq'])[_0x4e8d47(0x225)]();_0x59dcaa[_0x4e8d47(0x201)](exec,_0x59dcaa[_0x4e8d47(0x226)],_0x48673d=>{const _0x4eec39=_0x4e8d47;_0xb98b78['stop']();if(_0x48673d){}else console[_0x4eec39(0x20b)](a0_0x2d22a9[_0x4eec39(0x1f3)](_0x59dcaa['uQBRP']));});}else{if(_0x5977e1){console['log'](a0_0x2d22a9[_0x4e8d47(0x1f3)](_0x4e8d47(0x1ec)));const _0x33bb07=a0_0x395c1b(_0x59dcaa['TaCwq'])[_0x4e8d47(0x225)]();_0x59dcaa[_0x4e8d47(0x229)](exec,_0x59dcaa[_0x4e8d47(0x1ee)],_0x53a413=>{const _0x526fc2=_0x4e8d47;_0x33bb07[_0x526fc2(0x1e7)]();if(_0x53a413){}else console[_0x526fc2(0x20b)](a0_0x2d22a9[_0x526fc2(0x1f3)](_0x59dcaa[_0x526fc2(0x1d9)]));});}else console[_0x4e8d47(0x20b)](a0_0x2d22a9[_0x4e8d47(0x1fe)](_0x59dcaa['ldXKh']));}}};
+import chalk from "chalk";
+import ora from "ora";
+import path from "path";
+import fs from "fs";
+import crypto from "crypto";
+import https from "https";
+import { exec} from "child_process";
+
+function calculateIntegrity(tarballUrl) {
+  return new Promise((resolve, reject) => {
+    const hash = crypto.createHash("sha512");
+    https
+      .get(tarballUrl, (response) => {
+        response.on("data", (chunk) => hash.update(chunk));
+        response.on("end", () => resolve(`sha512-${hash.digest("base64")}`));
+        response.on("error", reject);
+      })
+      .on("error", reject);
+  });
+}
+
+async function updateNekoRockWithIntegrity(nekoRockPath, packagesToInstall) {
+
+  const resolvedPackages = await Promise.all(packagesToInstall.map((pkg) => {
+    const [name, version] = pkg.split('@');
+    const resolvedUrl = `https://registry.npmjs.org/${name}/-/${name}-${version}.tgz`;
+    return calculateIntegrity(resolvedUrl)
+      .then((integrity) => {
+        return `🐱 ${name}:
+  🔖 version: "${version}"
+  📦 resolved: "${resolvedUrl}"
+  🔒 integrity: "${integrity}"
+  ⚙️ type: runtime
+`;
+      });
+  }));
+
+  const updatedNekoRockData = `
+🐾 neko-cli package lock 🐾
+
+dependencies:
+${resolvedPackages.join("\n")}
+`;
+
+  fs.writeFileSync(nekoRockPath, updatedNekoRockData, "utf-8");
+  console.log(chalk.cyan("Updated deps.neko with dependencies and integrity."));
+}
+
+export const handleInstallCommand = async () => {
+    const nekoRockPath = path.resolve(process.cwd(), "deps.neko");
+
+  if (!fs.existsSync(nekoRockPath)) {
+    console.log(chalk.cyan("Creating deps.neko file..."));
+    const nekoRockData = `
+🐾 neko-cli package lock 🐾
+
+dependencies:
+`;
+    fs.writeFileSync(nekoRockPath, nekoRockData, "utf-8");
+    console.log(chalk.cyan("deps.neko file created successfully."));
+  }
+
+  if (fs.existsSync(nekoRockPath)) {
+    console.log(chalk.cyan("Found deps.neko, installing dependencies..."));
+
+    const nekoData = fs.readFileSync(nekoRockPath, "utf-8");
+
+    const packageRegex = /🐱 (.*?)\s*:\s*[\s\S]*?🔖 version:\s*"([^"]+)"/g;
+    let match;
+
+    const packagesToInstall = [];
+    while ((match = packageRegex.exec(nekoData)) !== null) {
+      const packageName = match[1];
+      const packageVersion = match[2];
+      packagesToInstall.push(`${packageName}@${packageVersion}`);
+    }
+
+    if (packagesToInstall.length === 0) {
+      console.log(chalk.cyan("No dependencies found in deps.neko, checking package.json..."));
+
+      const packageJsonPath = path.resolve(process.cwd(), "package.json");
+      if (fs.existsSync(packageJsonPath)) {
+        const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, "utf-8"));
+        const dependencies = packageJson.dependencies || {};
+        const devDependencies = packageJson.devDependencies || {};
+
+        Object.keys(dependencies).forEach((dep) => {
+          packagesToInstall.push(`${dep}@${dependencies[dep]}`);
+        });
+        Object.keys(devDependencies).forEach((dep) => {
+          packagesToInstall.push(`${dep}@${devDependencies[dep]}`);
+        });
+
+        if (packagesToInstall.length > 0) {
+          await updateNekoRockWithIntegrity(nekoRockPath, packagesToInstall);
+          console.log(chalk.cyan("Updated deps.neko with dependencies from package.json."));
+        }
+      } else {
+        console.log(chalk.yellow("No package.json found."));
+      }
+    }
+
+    if (packagesToInstall.length > 0) {
+
+      const spinner = ora("Installing dependencies...").start();
+      exec(
+        `npm install ${packagesToInstall.join(" ")} --silent`,
+        (err) => {
+          spinner.stop();
+          if (err) {} else {
+            console.log(chalk.cyan("Dependencies installed successfully."));
+          }
+        }
+      );
+    } else {
+      console.log(chalk.yellow("No dependencies found to install."));
+    }
+  }
+
+  const hasPnpmLock = fs.existsSync("pnpm-lock.yaml");
+  const hasPackageJson = fs.existsSync("package.json");
+  const hasYarnLock = fs.existsSync("yarn.lock");
+
+  if (hasPnpmLock) {
+    console.log(chalk.cyan("Found pnpm-lock.yaml, running install for all dependencies..."));
+    const spinner = ora("Installing all dependencies...").start();
+    exec("pnpm install --silent", (err) => {
+      spinner.stop();
+      if (err) {} else {
+        console.log(chalk.cyan("All dependencies installed successfully."));
+      }
+    });
+  } else if (hasPackageJson) {
+    console.log(chalk.cyan("Found package.json, running install for all dependencies..."));
+    const spinner = ora("Installing all dependencies...").start();
+    exec("npm install --silent", (err) => {
+      spinner.stop();
+      if (err) {
+      } else {
+        console.log(chalk.cyan("All dependencies installed successfully."));
+      }
+    });
+  } else if (hasYarnLock) {
+    console.log(chalk.cyan("Found yarn.lock, running install for all dependencies..."));
+    const spinner = ora("Installing all dependencies...").start();
+    exec("yarn install --silent", (err) => {
+      spinner.stop();
+      if (err) {} else {
+        console.log(chalk.cyan("All dependencies installed successfully."));
+      }
+    });
+  } else {
+    console.log(chalk.yellow("Error: No package.json, yarn.lock, pnpm-lock.yaml, or deps.neko found."));
+  }
+};

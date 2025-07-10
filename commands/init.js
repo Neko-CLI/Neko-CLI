@@ -1,1 +1,273 @@
-(function(_0x50f4f6,_0x54d188){const _0xb3bd50=a0_0x539e,_0x3b52ef=_0x50f4f6();while(!![]){try{const _0x453380=parseInt(_0xb3bd50(0x1d6))/0x1*(-parseInt(_0xb3bd50(0x23f))/0x2)+parseInt(_0xb3bd50(0x199))/0x3*(-parseInt(_0xb3bd50(0x1a3))/0x4)+-parseInt(_0xb3bd50(0x251))/0x5*(parseInt(_0xb3bd50(0x197))/0x6)+parseInt(_0xb3bd50(0x21d))/0x7*(-parseInt(_0xb3bd50(0x22c))/0x8)+parseInt(_0xb3bd50(0x1c7))/0x9*(-parseInt(_0xb3bd50(0x246))/0xa)+parseInt(_0xb3bd50(0x195))/0xb+-parseInt(_0xb3bd50(0x1d8))/0xc*(-parseInt(_0xb3bd50(0x1eb))/0xd);if(_0x453380===_0x54d188)break;else _0x3b52ef['push'](_0x3b52ef['shift']());}catch(_0x33e9bb){_0x3b52ef['push'](_0x3b52ef['shift']());}}}(a0_0x119d,0x75731));function a0_0x119d(){const _0x943dd2=['^3.0.0','Enter\x20the\x20author\x20name\x20(default:\x20Author\x20Name):\x20','❌\x20Failed\x20to\x20create\x20package.json:\x20','node','\x0a3.\x20Start\x20your\x20project\x20in\x20development\x20mode:','.git','Creating\x20package.json...🚀','error','type','https://github.com/user/','\x27\x20already\x20exists.\x20Using\x20\x27','⚠️\x20A\x20directory\x20named\x20\x27','\x0a2.\x20Install\x20project\x20dependencies:','IHlgR','vlkbM','log','split','toLowerCase','QhCcv','nDwqv','UInRs','src','#\x20Neko-CLI\x20package\x20lock\x20file\x0a#\x20This\x20file\x20tracks\x20installed\x20package\x20versions\x20and\x20integrity.\x0adependencies:\x20{}\x0adevDependencies:\x20{}\x0a','eXZZV','\x0a🚀\x20Let\x27s\x20set\x20up\x20your\x20new\x20project\x20details!','Enter\x20the\x20project\x20name\x20(default:\x20neko-cli-project):\x20','gzKip','close','ignore','stdout','wwTRn','console.log(\x22Hello\x20from\x20your\x20ES\x20Module\x20Neko\x20CLI\x20project!\x22);\x0a','Enter\x20the\x20project\x20version\x20(default:\x201.0.0):\x20','❌\x20Failed\x20to\x20create\x20','replace','658cAvIDH','writeFile','MEMrN','question','❌\x20Nodemon\x20not\x20installed\x20as\x20per\x20your\x20choice.','🎉\x20Nodemon\x20added\x20successfully!','\x27\x20already\x20exists.','erofH','❌\x20Project\x20folders\x20not\x20created\x20as\x20per\x20your\x20choice.','ISC','package.json','\x27\x20initialized\x20successfully!\x20package.json\x20created.','Please\x20review\x20the\x20error\x20and\x20try\x20again.','SCigL','❌\x20Failed\x20to\x20create\x20.gitignore:\x20','67576SnlFOT','dwbcU','📦\x20Creating\x20project\x20directory:\x20','⚡\x20Skipping\x20prompts:\x20Using\x20project\x20name:\x20','dist','LICENSE.md','xSfMC','idUpn','startsWith','fail','hinQn','README.md','\x20file...','❌\x20Failed\x20to\x20create\x20project\x20folders:\x20','ensureDir','Created\x20folders:\x20','caJYi','nodemon\x20index.js','join','2iVjeZv','\x20\x20\x20Error:\x20','createInterface','(((.+)+)+)+$','GJsCQ','\x0a✨\x20Project\x20initialization\x20complete!\x20Your\x20new\x20project\x20is\x20ready\x20at:\x20','utf-8','547570LlGtHd','endsWith','config','vpyvz','Mbpij','uqdHC','succeed','⚠️\x20Directory\x20\x27','#readme','\x20\x20\x20Output:\x20','message','183905sWWDKo','RHtSb','HjOkr','7451554xbJDot','LkIbw','78vfRduw','stop','9EHGGgo','node\x20index.js','CjmUS','tests','Author\x20Name','neko-cli-project','yarn\x20--version','>=18.0.0','LWhEU','starter','199076CygSXY','--skip','MpUlo','PilKv','nuTyi','KYBrU','YTgvZ','constructor','module','.gitignore','cwd','azVeP','XpbkZ','index.js','yarn.lock','TqYtt','\x0a💥\x20An\x20unexpected\x20error\x20occurred\x20during\x20initialization:\x20','\x20\x20\x20','❌\x20Failed\x20to\x20install\x20Yarn\x20globally:\x20','zDSyJ','node\x20index.mjs','HjCmn','sDSSI','UkkdD','toFixed','❌\x20Failed\x20to\x20create\x20neko.rock:\x20','\x27\x20instead.','basename','❌\x20Failed\x20to\x20install\x20nodemon:\x20','VYoNg','project','sTACs','\x0a1.\x20Navigate\x20to\x20your\x20project\x20directory:','qSBpL','start','otnjk','81fhRqFb','Neko\x20CLI\x20User','Creating\x20neko.rock\x20file...','tEyrB','Creating\x20','🎉\x20Yarn\x20installed\x20globally!','⚠️\x20Yarn\x20lock\x20file\x20found,\x20but\x20Yarn\x20is\x20not\x20installed\x20globally.','Would\x20you\x20like\x20to\x20install\x20Yarn\x20globally\x20to\x20continue?\x20(y/n)\x20>\x20','Installing\x20nodemon\x20(this\x20might\x20take\x20a\x20moment)...','rainbow','.gitignore\x20created!','index.mjs','kKAaf','search','cd\x20','790726YztkOT','now','15052056sGCBjQ','npm\x20install\x20-g\x20yarn','includes','stdin','yellow','zaogA','cyan','bZCYr','Do\x20you\x20want\x20to\x20use\x20\x27','NvrAd','1.0.0','skITj','rKMtl','toString','npm\x20install\x20nodemon\x20--save-dev\x20--silent','rKYPe','stderr','RfrSB','aRNPr','26SvnwTT','meow\x20dev','Please\x20enter\x20a\x20different\x20project\x20name:\x20','🎉\x20Created\x20neko.rock\x20file\x20successfully!','SDZed','dasRl','Vgtwk','node_modules/\x0a.env\x0aneko.rock\x0a','zUdwg','Ikbsn','NlxNa','bzMPl','red','neko-cli','git'];a0_0x119d=function(){return _0x943dd2;};return a0_0x119d();}const a0_0x645abd=(function(){let _0x276aa6=!![];return function(_0x3f2c7d,_0x466ccd){const _0x4e8dfd=_0x276aa6?function(){if(_0x466ccd){const _0x2b1216=_0x466ccd['apply'](_0x3f2c7d,arguments);return _0x466ccd=null,_0x2b1216;}}:function(){};return _0x276aa6=![],_0x4e8dfd;};}()),a0_0x3593dd=a0_0x645abd(this,function(){const _0x55195b=a0_0x539e,_0x2e2133={'vlkbM':_0x55195b(0x242)};return a0_0x3593dd['toString']()[_0x55195b(0x1d4)](_0x2e2133[_0x55195b(0x208)])[_0x55195b(0x1e5)]()[_0x55195b(0x1aa)](a0_0x3593dd)[_0x55195b(0x1d4)](_0x2e2133[_0x55195b(0x208)]);});a0_0x3593dd();import a0_0x595cbb from'chalk';import a0_0x5c687d from'readline';import a0_0x2678d1 from'fs-extra';import a0_0x559142 from'path';import a0_0x1ec8e6 from'ora';import a0_0x45b096 from'chalk-animation';function a0_0x539e(_0x3bcbc9,_0x38ad59){const _0x20ef50=a0_0x119d();return a0_0x539e=function(_0x3593dd,_0x645abd){_0x3593dd=_0x3593dd-0x194;let _0x119d4f=_0x20ef50[_0x3593dd];return _0x119d4f;},a0_0x539e(_0x3bcbc9,_0x38ad59);}import{execAsync}from'../utils/execUtils.js';const {existsSync,writeJson}=a0_0x2678d1;async function isYarnInstalled(){const _0x47778c=a0_0x539e,_0xc9a5a7={'HjCmn':function(_0x269b61,_0x1a9689,_0x40a0c8){return _0x269b61(_0x1a9689,_0x40a0c8);},'GJsCQ':_0x47778c(0x19f),'Vgtwk':_0x47778c(0x216)};try{return await _0xc9a5a7[_0x47778c(0x1b8)](execAsync,_0xc9a5a7[_0x47778c(0x243)],{'stdio':_0xc9a5a7[_0x47778c(0x1f1)]}),!![];}catch(_0x4177e9){return![];}}async function createIndexJs(_0x24b72f,_0x22b504){const _0xd95002=a0_0x539e,_0x18384e={'Mbpij':function(_0x4b8fee,_0x1155d2){return _0x4b8fee(_0x1155d2);},'RfrSB':'.mjs','imUmM':_0xd95002(0x219),'LWhEU':'console.log(\x22Hello\x20from\x20your\x20Neko\x20CLI\x20project!\x22);\x0a','aRNPr':_0xd95002(0x245)},_0x50c482=_0x18384e[_0xd95002(0x24a)](a0_0x1ec8e6,a0_0x595cbb['cyan'](_0xd95002(0x1cb)+_0x22b504+_0xd95002(0x238)))['start']();try{const _0x154671=_0x22b504[_0xd95002(0x247)](_0x18384e[_0xd95002(0x1e9)])?_0x18384e['imUmM']:_0x18384e[_0xd95002(0x1a1)];await a0_0x2678d1[_0xd95002(0x21e)](a0_0x559142['join'](_0x24b72f,_0x22b504),_0x154671,_0x18384e[_0xd95002(0x1ea)]),_0x50c482[_0xd95002(0x24c)](a0_0x595cbb[_0xd95002(0x1de)](_0x22b504+'\x20created!'));}catch(_0x44fa82){_0x50c482['fail'](a0_0x595cbb[_0xd95002(0x1f7)](_0xd95002(0x21b)+_0x22b504+':\x20'+_0x44fa82[_0xd95002(0x250)]));}}async function createGitIgnore(_0x271d10){const _0x1e605d=a0_0x539e,_0x3d8055={'zDSyJ':function(_0x1cf210,_0x35de7e){return _0x1cf210(_0x35de7e);},'UInRs':_0x1e605d(0x1ac),'TqYtt':_0x1e605d(0x245)},_0x4fdeba=_0x3d8055[_0x1e605d(0x1b6)](a0_0x1ec8e6,a0_0x595cbb['cyan']('Creating\x20.gitignore\x20file...'))[_0x1e605d(0x1c5)]();try{const _0x3275cc=_0x1e605d(0x1f2);await a0_0x2678d1[_0x1e605d(0x21e)](a0_0x559142[_0x1e605d(0x23e)](_0x271d10,_0x3d8055[_0x1e605d(0x20e)]),_0x3275cc,_0x3d8055[_0x1e605d(0x1b2)]),_0x4fdeba['succeed'](a0_0x595cbb[_0x1e605d(0x1de)](_0x1e605d(0x1d1)));}catch(_0xfe1be0){_0x4fdeba['fail'](a0_0x595cbb[_0x1e605d(0x1f7)](_0x1e605d(0x22b)+_0xfe1be0['message']));}}async function createProjectFolders(_0x3336d){const _0x36048f=a0_0x539e,_0x525ed5={'MEMrN':_0x36048f(0x20f),'KYBrU':_0x36048f(0x248),'skITj':_0x36048f(0x19c),'zaogA':function(_0x315a0a,_0x47936d){return _0x315a0a(_0x47936d);}},_0x481a69=[_0x525ed5[_0x36048f(0x21f)],_0x36048f(0x230),_0x525ed5[_0x36048f(0x1a8)],_0x525ed5[_0x36048f(0x1e3)]],_0x41e16d=_0x525ed5[_0x36048f(0x1dd)](a0_0x1ec8e6,a0_0x595cbb[_0x36048f(0x1de)]('Creating\x20project\x20folders...'))[_0x36048f(0x1c5)]();try{for(const _0x10b4db of _0x481a69){await a0_0x2678d1['ensureDir'](a0_0x559142[_0x36048f(0x23e)](_0x3336d,_0x10b4db));}_0x41e16d[_0x36048f(0x24c)](a0_0x595cbb['cyan'](_0x36048f(0x23b)+_0x481a69[_0x36048f(0x23e)](',\x20')));}catch(_0x32e233){_0x41e16d[_0x36048f(0x235)](a0_0x595cbb[_0x36048f(0x1f7)](_0x36048f(0x239)+_0x32e233['message']));}}const initializeProject=async(_0xed6e,_0xd0eb06)=>{const _0x311cce=a0_0x539e,_0x3f3252={'IHlgR':function(_0xed6628,_0x433b88){return _0xed6628||_0x433b88;},'XpbkZ':_0x311cce(0x19e),'nDwqv':function(_0x42ff7f,_0x45f0cb){return _0x42ff7f(_0x45f0cb);},'MpUlo':function(_0x379abd,_0x5d9864,_0x48dea8){return _0x379abd(_0x5d9864,_0x48dea8);},'zUdwg':function(_0x37c7c7,_0x59cf2b){return _0x37c7c7===_0x59cf2b;},'NlxNa':function(_0x2e134c,_0x12f04b){return _0x2e134c(_0x12f04b);},'rKMtl':_0x311cce(0x227),'erofH':_0x311cce(0x1b1),'CjmUS':'neko.rock','azVeP':'4|3|2|1|0','PIXGx':_0x311cce(0x1c8),'dasRl':_0x311cce(0x1e2),'wvmXH':_0x311cce(0x212),'uWRpM':_0x311cce(0x21a),'uqdHC':_0x311cce(0x1fb),'zhGPK':_0x311cce(0x19d),'tEyrB':function(_0x30ff8c,_0x47eec8){return _0x30ff8c(_0x47eec8);},'QeuZN':'Would\x20you\x20like\x20to\x20use\x20nodemon\x20for\x20development?\x20(y/n)\x20>\x20','qSBpL':function(_0x15f39a,_0x20f179){return _0x15f39a(_0x20f179);},'sDSSI':'Would\x20you\x20like\x20to\x20create\x20common\x20project\x20folders\x20(src,\x20dist,\x20etc.)?\x20(y/n)\x20>\x20','caJYi':function(_0x25dcd5,_0xf8b0){return _0x25dcd5===_0xf8b0;},'nuTyi':_0x311cce(0x1cd),'DGfch':function(_0x357587,_0x8f0ee5){return _0x357587===_0x8f0ee5;},'Pgvpa':'🚫\x20Exiting\x20the\x20project\x20initialization\x20process.','SDZed':function(_0x40c9c5,_0x1362b6){return _0x40c9c5(_0x1362b6);},'hinQn':'Installing\x20Yarn\x20globally...\x20This\x20might\x20take\x20a\x20moment.','SCigL':_0x311cce(0x1b0),'xSfMC':_0x311cce(0x19a),'jZjYL':'nodemon\x20index.mjs','kKAaf':_0x311cce(0x23d),'UkkdD':'echo\x20\x22Building\x20project...\x22','WBJlL':_0x311cce(0x226),'HZmxj':_0x311cce(0x1fa),'gzKip':_0x311cce(0x1a0),'bzMPl':_0x311cce(0x1f9),'sTACs':_0x311cce(0x1fd),'rgvfO':_0x311cce(0x1c1),'Ikbsn':_0x311cce(0x1a2),'RHtSb':_0x311cce(0x1d2),'otnjk':_0x311cce(0x231),'dwbcU':_0x311cce(0x1ab),'QhCcv':function(_0x186bd7,_0xadc2f){return _0x186bd7(_0xadc2f);},'wwTRn':_0x311cce(0x200),'HjOkr':function(_0x243e4d,_0x347c71,_0x478002,_0x14e810){return _0x243e4d(_0x347c71,_0x478002,_0x14e810);},'nQmbZ':function(_0x56b460,_0x4910f1,_0x496fe1){return _0x56b460(_0x4910f1,_0x496fe1);},'bZCYr':_0x311cce(0x225),'cioEA':_0x311cce(0x1c9),'YuPhB':_0x311cce(0x210),'vpyvz':_0x311cce(0x245),'LkIbw':_0x311cce(0x1ee),'NvrAd':'=^._.^=\x20Meow\x20is\x20adding\x20nodemon\x20for\x20purr-fect\x20development...\x20=^._.^=','rKYPe':function(_0x1b84df,_0xc0c35b){return _0x1b84df(_0xc0c35b);},'DudPE':_0x311cce(0x1cf),'YTgvZ':_0x311cce(0x1e6),'OLinj':function(_0x13432c,_0x3719ef){return _0x13432c/_0x3719ef;},'eXZZV':function(_0x1bd2fc,_0x3a7fb0){return _0x1bd2fc-_0x3a7fb0;},'PilKv':'---\x20Next\x20Steps\x20---'},_0x464a10=a0_0x5c687d[_0x311cce(0x241)]({'input':process[_0x311cce(0x1db)],'output':process['stdout']}),_0x46781a=(_0x2d1d0b,_0x5546e6='')=>new Promise(_0x33ec27=>_0x464a10[_0x311cce(0x220)](_0x2d1d0b,_0x1435e9=>_0x33ec27(_0x1435e9||_0x5546e6)));try{let _0x1219c1;const _0x22e142=process[_0x311cce(0x1ad)]();let _0x25570b;_0xd0eb06?(_0x1219c1=_0x3f3252[_0x311cce(0x207)](_0xed6e,_0x3f3252[_0x311cce(0x1af)]),console['log'](a0_0x595cbb[_0x311cce(0x1dc)](_0x311cce(0x22f)+_0x1219c1))):_0x1219c1=await _0x46781a(a0_0x595cbb['cyan'](_0x311cce(0x213)),_0x3f3252['XpbkZ']);_0x1219c1=_0x1219c1['toLowerCase']()[_0x311cce(0x21c)](/\s+/g,'-');let _0x2755c4=0x0,_0x589804=_0x1219c1,_0x3878ef=a0_0x559142[_0x311cce(0x23e)](_0x22e142,_0x589804);while(_0x3f3252[_0x311cce(0x20d)](existsSync,_0x3878ef)){_0x2755c4++;const _0x5459b5=_0x1219c1+'-'+_0x2755c4;_0x3878ef=a0_0x559142[_0x311cce(0x23e)](_0x22e142,_0x5459b5);if(_0xd0eb06)console['log'](a0_0x595cbb[_0x311cce(0x1dc)](_0x311cce(0x24d)+_0x589804+_0x311cce(0x204)+_0x5459b5+_0x311cce(0x1bd))),_0x589804=_0x5459b5;else{console[_0x311cce(0x209)](a0_0x595cbb['yellow'](_0x311cce(0x205)+a0_0x559142[_0x311cce(0x1be)](_0x3878ef[_0x311cce(0x21c)]('-'+_0x2755c4,''))+_0x311cce(0x223)));const _0x4e99d6=await _0x3f3252[_0x311cce(0x1a5)](_0x46781a,a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x1e0)+_0x5459b5+'\x27?\x20(y/n)\x20>\x20'),'y');if(_0x3f3252[_0x311cce(0x1f3)](_0x4e99d6[_0x311cce(0x20b)](),'y')){_0x589804=_0x5459b5;break;}else{const _0x5ca4d9=await _0x3f3252[_0x311cce(0x1f5)](_0x46781a,a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x1ed)));_0x1219c1=_0x5ca4d9[_0x311cce(0x20b)]()[_0x311cce(0x21c)](/\s+/g,'-'),_0x589804=_0x1219c1,_0x3878ef=a0_0x559142[_0x311cce(0x23e)](_0x22e142,_0x589804),_0x2755c4=0x0;}}}_0x25570b=_0x3878ef,_0x1219c1=_0x589804,await a0_0x2678d1[_0x311cce(0x23a)](_0x25570b),console[_0x311cce(0x209)](a0_0x595cbb['cyan'](_0x311cce(0x22e)+a0_0x559142['basename'](_0x25570b)));const _0x1091d6=a0_0x559142[_0x311cce(0x23e)](_0x25570b,_0x3f3252[_0x311cce(0x1e4)]),_0x132cd5=a0_0x559142['join'](_0x25570b,_0x3f3252[_0x311cce(0x224)]),_0x2ed889=a0_0x559142['join'](_0x25570b,_0x3f3252[_0x311cce(0x19b)]);let _0x4ec10b,_0x50fafc,_0x997d3b,_0x49df52,_0x4d2a2d;if(_0xd0eb06){const _0x2453fc=_0x3f3252[_0x311cce(0x1ae)][_0x311cce(0x20a)]('|');let _0x17da1d=0x0;while(!![]){switch(_0x2453fc[_0x17da1d++]){case'0':_0x4d2a2d=![];continue;case'1':_0x49df52=![];continue;case'2':_0x997d3b=![];continue;case'3':_0x50fafc=_0x3f3252['PIXGx'];continue;case'4':_0x4ec10b=_0x3f3252[_0x311cce(0x1f0)];continue;}break;}}else console[_0x311cce(0x209)](a0_0x595cbb['cyan'](_0x3f3252['wvmXH'])),_0x4ec10b=await _0x3f3252[_0x311cce(0x1a5)](_0x46781a,a0_0x595cbb[_0x311cce(0x1de)](_0x3f3252['uWRpM']),_0x3f3252[_0x311cce(0x1f0)]),_0x50fafc=await _0x3f3252[_0x311cce(0x1a5)](_0x46781a,a0_0x595cbb['cyan'](_0x3f3252[_0x311cce(0x24b)]),_0x3f3252['zhGPK']),_0x997d3b=_0x3f3252[_0x311cce(0x1f3)](await _0x3f3252[_0x311cce(0x1ca)](_0x46781a,a0_0x595cbb[_0x311cce(0x1de)](_0x3f3252['QeuZN'])),'y'),_0x49df52=_0x3f3252[_0x311cce(0x1f3)](await _0x3f3252[_0x311cce(0x1c4)](_0x46781a,a0_0x595cbb['cyan'](_0x3f3252[_0x311cce(0x1b9)])),'y'),_0x4d2a2d=_0x3f3252[_0x311cce(0x23c)](await _0x46781a(a0_0x595cbb['cyan']('Would\x20you\x20like\x20to\x20use\x20ES\x20Modules\x20(\x27type\x27:\x20\x27module\x27)?\x20(y/n)\x20>\x20')),'y');if(_0x3f3252[_0x311cce(0x20d)](existsSync,_0x132cd5)&&!await isYarnInstalled()){console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1dc)](_0x3f3252[_0x311cce(0x1a7)]));const _0x272ad8=_0x3f3252['DGfch'](await _0x3f3252['NlxNa'](_0x46781a,a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x1ce))),'y');if(!_0x272ad8){console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1dc)](_0x3f3252['Pgvpa']));return;}const _0x281108=_0x3f3252[_0x311cce(0x1ef)](a0_0x1ec8e6,a0_0x595cbb[_0x311cce(0x1de)](_0x3f3252[_0x311cce(0x236)]))[_0x311cce(0x1c5)]();try{await _0x3f3252[_0x311cce(0x1f5)](execAsync,_0x311cce(0x1d9)),_0x281108[_0x311cce(0x24c)](a0_0x595cbb['cyan'](_0x311cce(0x1cc)));}catch(_0x49716f){_0x281108[_0x311cce(0x235)](a0_0x595cbb['red'](_0x311cce(0x1b5)+_0x49716f[_0x311cce(0x250)])),console[_0x311cce(0x201)](a0_0x595cbb['red'](_0x311cce(0x1b4)+(_0x49716f[_0x311cce(0x1e8)]||_0x49716f[_0x311cce(0x217)])));return;}}const _0x56335b={'name':_0x1219c1,'version':_0x4ec10b,'description':'','main':_0x4d2a2d?'index.mjs':_0x3f3252[_0x311cce(0x22a)],'scripts':{'start':_0x4d2a2d?'node\x20index.mjs':_0x3f3252[_0x311cce(0x232)],'test':'echo\x20\x22Error:\x20no\x20test\x20specified\x22\x20&&\x20exit\x201','dev':_0x997d3b?_0x4d2a2d?_0x3f3252['jZjYL']:_0x3f3252[_0x311cce(0x1d3)]:_0x4d2a2d?_0x311cce(0x1b7):_0x3f3252['xSfMC'],'build':_0x3f3252[_0x311cce(0x1ba)]},'author':_0x50fafc,'license':_0x3f3252['WBJlL'],'dependencies':{},'devDependencies':_0x997d3b?{'nodemon':_0x3f3252['HZmxj']}:{},'engines':{'node':_0x3f3252[_0x311cce(0x214)]},'repository':{'type':_0x3f3252[_0x311cce(0x1f6)],'url':_0x311cce(0x203)+_0x1219c1+_0x311cce(0x1ff)},'bugs':{'url':_0x311cce(0x203)+_0x1219c1+'/issues'},'homepage':_0x311cce(0x203)+_0x1219c1+_0x311cce(0x24e),'keywords':[_0x3f3252[_0x311cce(0x1c2)],_0x3f3252['rgvfO'],_0x3f3252[_0x311cce(0x1f4)],_0x311cce(0x1f8)],'private':![],'files':[_0x4d2a2d?_0x3f3252[_0x311cce(0x252)]:_0x3f3252['SCigL'],_0x311cce(0x237),_0x3f3252[_0x311cce(0x1c6)]]};_0x4d2a2d&&(_0x56335b[_0x311cce(0x202)]=_0x3f3252[_0x311cce(0x22d)]);const _0x3572c4=_0x3f3252[_0x311cce(0x20c)](a0_0x1ec8e6,a0_0x595cbb[_0x311cce(0x1de)](_0x3f3252[_0x311cce(0x218)]))[_0x311cce(0x1c5)]();try{await _0x3f3252[_0x311cce(0x194)](writeJson,_0x1091d6,_0x56335b,{'spaces':0x2}),_0x3572c4[_0x311cce(0x24c)](a0_0x595cbb['cyan']('🎉\x20Project\x20\x27'+_0x1219c1+_0x311cce(0x228)));}catch(_0x20d997){_0x3572c4['fail'](a0_0x595cbb[_0x311cce(0x1f7)](_0x311cce(0x1fc)+_0x20d997[_0x311cce(0x250)]));return;}await _0x3f3252['nQmbZ'](createIndexJs,_0x25570b,_0x4d2a2d?_0x3f3252['RHtSb']:_0x3f3252['SCigL']),await _0x3f3252[_0x311cce(0x1f5)](createGitIgnore,_0x25570b);_0x49df52?await _0x3f3252[_0x311cce(0x1f5)](createProjectFolders,_0x25570b):console['log'](a0_0x595cbb[_0x311cce(0x1dc)](_0x3f3252[_0x311cce(0x1df)]));if(!_0x3f3252[_0x311cce(0x1ca)](existsSync,_0x2ed889)){const _0x248914=_0x3f3252[_0x311cce(0x20c)](a0_0x1ec8e6,a0_0x595cbb[_0x311cce(0x1de)](_0x3f3252['cioEA']))[_0x311cce(0x1c5)]();try{const _0x1300a7=_0x3f3252['YuPhB'];await a0_0x2678d1['writeFile'](_0x2ed889,_0x1300a7,_0x3f3252[_0x311cce(0x249)]),_0x248914['succeed'](a0_0x595cbb[_0x311cce(0x1de)](_0x3f3252[_0x311cce(0x196)]));}catch(_0x3771b1){_0x248914[_0x311cce(0x235)](a0_0x595cbb[_0x311cce(0x1f7)](_0x311cce(0x1bc)+_0x3771b1[_0x311cce(0x250)]));}}if(_0x997d3b){const _0xb909b1=a0_0x45b096[_0x311cce(0x1d0)](_0x3f3252[_0x311cce(0x1e1)]),_0x118f27=_0x3f3252[_0x311cce(0x1e7)](a0_0x1ec8e6,a0_0x595cbb['cyan'](_0x3f3252['DudPE']))[_0x311cce(0x1c5)](),_0xce6979=Date[_0x311cce(0x1d7)]();try{await execAsync(_0x3f3252[_0x311cce(0x1a9)],{'cwd':_0x25570b}),_0x118f27[_0x311cce(0x24c)](a0_0x595cbb['cyan'](_0x311cce(0x222)));}catch(_0x245e5d){_0x118f27[_0x311cce(0x235)](a0_0x595cbb[_0x311cce(0x1f7)](_0x311cce(0x1bf)+_0x245e5d[_0x311cce(0x250)])),console['error'](a0_0x595cbb['red'](_0x311cce(0x1b4)+(_0x245e5d[_0x311cce(0x1e8)]||_0x245e5d[_0x311cce(0x217)])));}finally{_0xb909b1[_0x311cce(0x198)]();}const _0x11d28e=Date[_0x311cce(0x1d7)](),_0x14e4d9=_0x3f3252['OLinj'](_0x3f3252[_0x311cce(0x211)](_0x11d28e,_0xce6979),0x3e8)[_0x311cce(0x1bb)](0x2);console[_0x311cce(0x209)](a0_0x595cbb['cyan']('Time\x20taken\x20to\x20add\x20Nodemon:\x20'+_0x14e4d9+'s'));}else console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1dc)](_0x311cce(0x221)));console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x244)+_0x25570b+'\x20✨')),console[_0x311cce(0x209)]('\x0a'),console[_0x311cce(0x209)]('\x0a'),console['log'](a0_0x595cbb[_0x311cce(0x1de)](_0x3f3252[_0x311cce(0x1a6)])),console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1de)]('To\x20get\x20started\x20with\x20your\x20new\x20project,\x20follow\x20these\x20commands:')),console['log'](a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x1c3))),console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x1b4)+a0_0x595cbb['yellow'](_0x311cce(0x1d5)+a0_0x559142[_0x311cce(0x1be)](_0x25570b)))),console[_0x311cce(0x209)](a0_0x595cbb['cyan'](_0x311cce(0x206))),console['log'](a0_0x595cbb['cyan'](_0x311cce(0x1b4)+a0_0x595cbb[_0x311cce(0x1dc)]('meow\x20all'))),console['log'](a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x1fe))),console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1de)](_0x311cce(0x1b4)+a0_0x595cbb[_0x311cce(0x1dc)](_0x311cce(0x1ec)))),console[_0x311cce(0x209)](a0_0x595cbb[_0x311cce(0x1de)]('\x0aHappy\x20coding\x20with\x20Neko-CLI!\x20=^._.^='));}catch(_0x2c9470){console[_0x311cce(0x201)](a0_0x595cbb['red'](_0x311cce(0x1b3)+_0x2c9470[_0x311cce(0x250)]));if(_0x2c9470[_0x311cce(0x217)])console['error'](a0_0x595cbb['red'](_0x311cce(0x24f)+_0x2c9470[_0x311cce(0x217)]));if(_0x2c9470[_0x311cce(0x1e8)])console['error'](a0_0x595cbb[_0x311cce(0x1f7)](_0x311cce(0x240)+_0x2c9470[_0x311cce(0x1e8)]));console['error'](a0_0x595cbb[_0x311cce(0x1dc)](_0x311cce(0x229)));}finally{_0x464a10[_0x311cce(0x215)]();}};export const handleInitCommand=async _0x46d442=>{const _0x2406b2=a0_0x539e,_0x1c0286={'idUpn':function(_0x1863a6,_0x56d6bf){return _0x1863a6!==_0x56d6bf;},'VYoNg':function(_0x35734b,_0x26f146,_0xd95ffa){return _0x35734b(_0x26f146,_0xd95ffa);}},_0x1c0dc4=_0x46d442['includes'](_0x2406b2(0x1a4))||_0x46d442[_0x2406b2(0x1da)]('-y'),_0x3459f2=_0x46d442['findIndex'](_0x5d612b=>!_0x5d612b[_0x2406b2(0x234)]('-'));let _0x183548=null;_0x1c0286[_0x2406b2(0x233)](_0x3459f2,-0x1)&&(_0x183548=_0x46d442[_0x3459f2]),await _0x1c0286[_0x2406b2(0x1c0)](initializeProject,_0x183548,_0x1c0dc4);};
+import chalk from "chalk";
+import readline from "readline";
+import fsExtra from "fs-extra";
+import path from "path";
+import ora from "ora";
+import chalkAnimation from "chalk-animation";
+import { execAsync } from "../utils/execUtils.js";
+
+const { existsSync, writeJson } = fsExtra;
+
+async function isYarnInstalled() {
+    try {
+        await execAsync("yarn --version", { stdio: "ignore" });
+        return true;
+    } catch (error) {
+        return false;
+    }
+}
+
+async function createIndexJs(projectPath, fileName) {
+    const spinner = ora(chalk.cyan(`Creating ${fileName} file...`)).start();
+    try {
+        const content = fileName.endsWith('.mjs') ? 'console.log("Hello from your ES Module Neko CLI project!");\n' : 'console.log("Hello from your Neko CLI project!");\n';
+        await fsExtra.writeFile(path.join(projectPath, fileName), content, 'utf-8');
+        spinner.succeed(chalk.cyan(`${fileName} created!`));
+    } catch (error) {
+        spinner.fail(chalk.red(`❌ Failed to create ${fileName}: ${error.message}`));
+    }
+}
+
+async function createGitIgnore(projectPath) {
+    const spinner = ora(chalk.cyan("Creating .gitignore file...")).start();
+    try {
+        const gitIgnoreContent = `node_modules/\n.env\ndeps.neko\n`;
+        await fsExtra.writeFile(path.join(projectPath, '.gitignore'), gitIgnoreContent, 'utf-8');
+        spinner.succeed(chalk.cyan(".gitignore created!"));
+    } catch (error) {
+        spinner.fail(chalk.red(`❌ Failed to create .gitignore: ${error.message}`));
+    }
+}
+
+async function createProjectFolders(projectPath) {
+    const folders = ['src', 'dist', 'config', 'tests'];
+    const spinner = ora(chalk.cyan("Creating project folders...")).start();
+    try {
+        for (const folder of folders) {
+            await fsExtra.ensureDir(path.join(projectPath, folder));
+        }
+        spinner.succeed(chalk.cyan(`Created folders: ${folders.join(', ')}`));
+    } catch (error) {
+        spinner.fail(chalk.red(`❌ Failed to create project folders: ${error.message}`));
+    }
+}
+
+const initializeProject = async (cliProjectName, skipPrompts) => {
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    });
+
+    const askQuestion = (query, defaultValue = '') =>
+        new Promise((resolve) => rl.question(query, (answer) => resolve(answer || defaultValue)));
+
+    try {
+        let projectName;
+        const baseProjectPath = process.cwd();
+        let projectPath;
+
+        if (skipPrompts) {
+            projectName = cliProjectName || "neko-cli-project";
+            console.log(chalk.yellow(`⚡ Skipping prompts: Using project name: ${projectName}`));
+        } else {
+            projectName = await askQuestion(chalk.cyan(`Enter the project name (default: neko-cli-project): `), "neko-cli-project");
+        }
+
+        projectName = projectName.toLowerCase().replace(/\s+/g, '-');
+
+        let counter = 0;
+        let uniqueProjectName = projectName;
+        let uniqueProjectPath = path.join(baseProjectPath, uniqueProjectName);
+
+        while (existsSync(uniqueProjectPath)) {
+            counter++;
+            const newAttemptName = `${projectName}-${counter}`;
+            uniqueProjectPath = path.join(baseProjectPath, newAttemptName);
+
+            if (skipPrompts) {
+                console.log(chalk.yellow(`⚠️ Directory '${uniqueProjectName}' already exists. Using '${newAttemptName}' instead.`));
+                uniqueProjectName = newAttemptName;
+            } else {
+                console.log(chalk.yellow(`⚠️ A directory named '${path.basename(uniqueProjectPath.replace(`-${counter}`, ''))}' already exists.`));
+                const useSuggested = await askQuestion(chalk.cyan(`Do you want to use '${newAttemptName}'? (y/n) > `), 'y');
+                if (useSuggested.toLowerCase() === 'y') {
+                    uniqueProjectName = newAttemptName;
+                    break;
+                } else {
+                    const customName = await askQuestion(chalk.cyan("Please enter a different project name: "));
+                    projectName = customName.toLowerCase().replace(/\s+/g, '-');
+                    uniqueProjectName = projectName;
+                    uniqueProjectPath = path.join(baseProjectPath, uniqueProjectName);
+                    counter = 0;
+                }
+            }
+        }
+        projectPath = uniqueProjectPath;
+        projectName = uniqueProjectName;
+
+        await fsExtra.ensureDir(projectPath);
+        console.log(chalk.cyan(`📦 Creating project directory: ${path.basename(projectPath)}`));
+
+        const packageJsonPath = path.join(projectPath, "package.json");
+        const yarnLockPath = path.join(projectPath, "yarn.lock");
+        const nekoRockPath = path.join(projectPath, "deps.neko");
+
+        let projectVersion, author, useNodemon, projectFolders, useModules;
+
+        if (skipPrompts) {
+            projectVersion = "1.0.0";
+            author = "Neko CLI User";
+            useNodemon = false;
+            projectFolders = false;
+            useModules = false;
+        } else {
+            console.log(chalk.cyan("\n🚀 Let's set up your new project details!"));
+
+            projectVersion = await askQuestion(chalk.cyan("Enter the project version (default: 1.0.0): "), "1.0.0");
+            author = await askQuestion(chalk.cyan("Enter the author name (default: Author Name): "), "Author Name");
+            useNodemon = (await askQuestion(chalk.cyan("Would you like to use nodemon for development? (y/n) > "))) === 'y';
+            projectFolders = (await askQuestion(chalk.cyan("Would you like to create common project folders (src, dist, etc.)? (y/n) > "))) === 'y';
+            useModules = (await askQuestion(chalk.cyan("Would you like to use ES Modules ('type': 'module')? (y/n) > "))) === 'y';
+        }
+
+        if (existsSync(yarnLockPath) && !(await isYarnInstalled())) {
+            console.log(chalk.yellow("⚠️ Yarn lock file found, but Yarn is not installed globally."));
+            const installYarn = (await askQuestion(chalk.cyan("Would you like to install Yarn globally to continue? (y/n) > "))) === 'y';
+            if (!installYarn) {
+                console.log(chalk.yellow("🚫 Exiting the project initialization process."));
+                return;
+            }
+
+            const installYarnSpinner = ora(chalk.cyan("Installing Yarn globally... This might take a moment.")).start();
+            try {
+                await execAsync("npm install -g yarn");
+                installYarnSpinner.succeed(chalk.cyan("🎉 Yarn installed globally!"));
+            } catch (error) {
+                installYarnSpinner.fail(chalk.red(`❌ Failed to install Yarn globally: ${error.message}`));
+                console.error(chalk.red(`   ${error.stderr || error.stdout}`));
+                return;
+            }
+        }
+
+        const packageJson = {
+            name: projectName,
+            version: projectVersion,
+            description: "",
+            main: useModules ? "index.mjs" : "index.js",
+            scripts: {
+                start: useModules ? "node index.mjs" : "node index.js",
+                test: 'echo "Error: no test specified" && exit 1',
+                dev: useNodemon ? (useModules ? "nodemon index.mjs" : "nodemon index.js") : (useModules ? "node index.mjs" : "node index.js"),
+                build: 'echo "Building project..."',
+            },
+            author: author,
+            license: "ISC",
+            dependencies: {},
+            devDependencies: useNodemon ? { nodemon: "^3.0.0" } : {},
+            engines: {
+                node: ">=18.0.0",
+            },
+            repository: {
+                type: "git",
+                url: `https://github.com/user/${projectName}.git`,
+            },
+            bugs: {
+                url: `https://github.com/user/${projectName}/issues`,
+            },
+            homepage: `https://github.com/user/${projectName}#readme`,
+            keywords: ["node", "project", "starter", "neko-cli"],
+            private: false,
+            files: [useModules ? "index.mjs" : "index.js", "README.md", "LICENSE.md"],
+        };
+
+        if (useModules) {
+            packageJson.type = "module";
+        }
+
+        const createPackageJsonSpinner = ora(chalk.cyan("Creating package.json...🚀")).start();
+        try {
+            await writeJson(packageJsonPath, packageJson, { spaces: 2 });
+            createPackageJsonSpinner.succeed(chalk.cyan(`🎉 Project '${projectName}' initialized successfully! package.json created.`));
+        } catch (error) {
+            createPackageJsonSpinner.fail(chalk.red(`❌ Failed to create package.json: ${error.message}`));
+            return;
+        }
+
+        await createIndexJs(projectPath, useModules ? "index.mjs" : "index.js");
+        await createGitIgnore(projectPath);
+
+        if (projectFolders) {
+            await createProjectFolders(projectPath);
+        } else {
+            console.log(chalk.yellow("❌ Project folders not created as per your choice."));
+        }
+
+        if (!existsSync(nekoRockPath)) {
+            const createNekoRockSpinner = ora(chalk.cyan("Creating deps.neko file...")).start();
+            try {
+                const nekoRockContent = "# Neko-CLI package lock file\n# This file tracks installed package versions and integrity.\ndependencies: {}\ndevDependencies: {}\n";
+                await fsExtra.writeFile(nekoRockPath, nekoRockContent, "utf-8");
+                createNekoRockSpinner.succeed(chalk.cyan("🎉 Created deps.neko file successfully!"));
+            } catch (error) {
+                createNekoRockSpinner.fail(chalk.red(`❌ Failed to create deps.neko: ${error.message}`));
+            }
+        }
+
+        if (useNodemon) {
+            const nodemonInstallAnimation = chalkAnimation.rainbow(
+                "=^._.^= Meow is adding nodemon for purr-fect development... =^._.^="
+            );
+            const nodemonSpinner = ora(chalk.cyan("Installing nodemon (this might take a moment)...")).start();
+            const startTime = Date.now();
+            try {
+                await execAsync("npm install nodemon --save-dev --silent", { cwd: projectPath });
+                nodemonSpinner.succeed(chalk.cyan("🎉 Nodemon added successfully!"));
+            } catch (error) {
+                nodemonSpinner.fail(chalk.red(`❌ Failed to install nodemon: ${error.message}`));
+                console.error(chalk.red(`   ${error.stderr || error.stdout}`));
+            } finally {
+                nodemonInstallAnimation.stop();
+            }
+            const endTime = Date.now();
+            const installTime = ((endTime - startTime) / 1000).toFixed(2);
+            console.log(chalk.cyan(`Time taken to add Nodemon: ${installTime}s`));
+        } else {
+            console.log(chalk.yellow("❌ Nodemon not installed as per your choice."));
+        }
+
+        console.log(chalk.cyan(`\n✨ Project initialization complete! Your new project is ready at: ${projectPath} ✨`));
+
+        console.log("\n");
+        console.log("\n");
+        console.log(chalk.cyan("--- Next Steps ---"));
+        console.log(chalk.cyan(`To get started with your new project, follow these commands:`));
+        console.log(chalk.cyan(`\n1. Navigate to your project directory:`));
+        console.log(chalk.cyan(`   ${chalk.yellow(`cd ${path.basename(projectPath)}`)}`));
+        console.log(chalk.cyan(`\n2. Install project dependencies:`));
+        console.log(chalk.cyan(`   ${chalk.yellow(`meow all`)}`));
+        console.log(chalk.cyan(`\n3. Start your project in development mode:`));
+        console.log(chalk.cyan(`   ${chalk.yellow(`meow dev`)}`));
+        console.log(chalk.cyan(`\nHappy coding with Neko-CLI! =^._.^=`));
+
+
+    } catch (error) {
+        console.error(chalk.red(`\n💥 An unexpected error occurred during initialization: ${error.message}`));
+        if (error.stdout) console.error(chalk.red(`   Output: ${error.stdout}`));
+        if (error.stderr) console.error(chalk.red(`   Error: ${error.stderr}`));
+        console.error(chalk.yellow("Please review the error and try again."));
+    } finally {
+        rl.close();
+    }
+};
+
+export const handleInitCommand = async (options) => {
+    const skipPrompts = options.includes('--skip') || options.includes('-y');
+    const projectNameIndex = options.findIndex(opt => !opt.startsWith('-'));
+    let projectName = null;
+
+    if (projectNameIndex !== -1) {
+        projectName = options[projectNameIndex];
+    }
+
+    await initializeProject(projectName, skipPrompts);
+};

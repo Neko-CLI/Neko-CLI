@@ -1,1 +1,31 @@
-(function(_0x17c68d,_0x102629){const _0x34b3e5=a0_0x4abd,_0x3094e4=_0x17c68d();while(!![]){try{const _0x4d8cd6=-parseInt(_0x34b3e5(0x14c))/0x1*(parseInt(_0x34b3e5(0x138))/0x2)+-parseInt(_0x34b3e5(0x14b))/0x3+-parseInt(_0x34b3e5(0x139))/0x4*(parseInt(_0x34b3e5(0x144))/0x5)+-parseInt(_0x34b3e5(0x14f))/0x6*(-parseInt(_0x34b3e5(0x13d))/0x7)+-parseInt(_0x34b3e5(0x13f))/0x8*(-parseInt(_0x34b3e5(0x147))/0x9)+parseInt(_0x34b3e5(0x132))/0xa+parseInt(_0x34b3e5(0x14e))/0xb*(parseInt(_0x34b3e5(0x12f))/0xc);if(_0x4d8cd6===_0x102629)break;else _0x3094e4['push'](_0x3094e4['shift']());}catch(_0xcbc854){_0x3094e4['push'](_0x3094e4['shift']());}}}(a0_0x435f,0x29706));const a0_0x53d3af=(function(){let _0x2a79e8=!![];return function(_0x20d7ed,_0x27c3f9){const _0x3c73a7=_0x2a79e8?function(){if(_0x27c3f9){const _0x29f6d4=_0x27c3f9['apply'](_0x20d7ed,arguments);return _0x27c3f9=null,_0x29f6d4;}}:function(){};return _0x2a79e8=![],_0x3c73a7;};}()),a0_0x4e6a98=a0_0x53d3af(this,function(){const _0x3930af=a0_0x4abd,_0x1d65f5={'bqoKa':_0x3930af(0x12e)};return a0_0x4e6a98['toString']()[_0x3930af(0x13b)](_0x1d65f5[_0x3930af(0x136)])[_0x3930af(0x12d)]()[_0x3930af(0x142)](a0_0x4e6a98)[_0x3930af(0x13b)]('(((.+)+)+)+$');});function a0_0x4abd(_0x204426,_0x5ea480){const _0x1dd85b=a0_0x435f();return a0_0x4abd=function(_0x4e6a98,_0x53d3af){_0x4e6a98=_0x4e6a98-0x12c;let _0x435fce=_0x1dd85b[_0x4e6a98];return _0x435fce;},a0_0x4abd(_0x204426,_0x5ea480);}a0_0x4e6a98();function a0_0x435f(){const _0x2e41ad=['88200ZBVwGA','Ensure\x20\x27package.json\x27\x20exists\x20in\x20the\x20CLI\x27s\x20root\x20directory.','yellow','error','360216Nlawvo','1QwYpUn','scSJQ','44JQwABV','6lzGvix','message','GXvpD','toString','(((.+)+)+)+$','319692vEYTRu','Current\x20CLI\x20version:\x20','neDDa','3373390EzdBKT','json','AMfGT','red','bqoKa','dist-tags','580738NlvupL','93484ijCBWe','cyan','search','eskFI','1793071jFfpWc','https://registry.npmjs.org/neko-cli','112RWiMTJ','PwHmE','xrirp','constructor','log','55BxozVt','unknown','❌\x20Could\x20not\x20determine\x20NekoCLI\x20version:\x20'];a0_0x435f=function(){return _0x2e41ad;};return a0_0x435f();}import a0_0x3d36ff from'chalk';async function getPackageVersion(){const _0x25f72d=a0_0x4abd,_0x2ed4d8={'PwHmE':function(_0x3c2224,_0x2d08d4){return _0x3c2224(_0x2d08d4);},'Utynw':_0x25f72d(0x13e),'xrirp':_0x25f72d(0x137),'TcoxJ':_0x25f72d(0x145)};try{const _0x23df4a=await _0x2ed4d8[_0x25f72d(0x140)](fetch,_0x2ed4d8['Utynw']),_0x36e167=await _0x23df4a[_0x25f72d(0x133)]();return _0x36e167[_0x2ed4d8[_0x25f72d(0x141)]]['latest'];}catch(_0x10c54c){return console[_0x25f72d(0x14a)](a0_0x3d36ff[_0x25f72d(0x149)]('Error\x20fetching\x20version\x20from\x20meow\x20registry:',_0x10c54c)),_0x2ed4d8['TcoxJ'];}}export const handleVersionCommand=async()=>{const _0x44760e=a0_0x4abd,_0x3c28ac={'GXvpD':function(_0x101166){return _0x101166();},'neDDa':function(_0x20bd9d,_0x31be50){return _0x20bd9d+_0x31be50;},'scSJQ':_0x44760e(0x130),'eskFI':'Author:\x20Thomas\x20Garau','AMfGT':_0x44760e(0x148)};try{const _0x2f0c5e=await _0x3c28ac[_0x44760e(0x12c)](getPackageVersion);console['log'](a0_0x3d36ff[_0x44760e(0x13a)](_0x3c28ac[_0x44760e(0x131)](_0x3c28ac[_0x44760e(0x14d)],_0x2f0c5e))),console[_0x44760e(0x143)](a0_0x3d36ff[_0x44760e(0x13a)](_0x3c28ac[_0x44760e(0x13c)])),console[_0x44760e(0x143)](a0_0x3d36ff[_0x44760e(0x13a)]('Official\x20website:\x20https://neko-cli.com')),console[_0x44760e(0x143)](a0_0x3d36ff[_0x44760e(0x13a)]('My\x20GitHub:\x20https://github.com/StrayVibes'));}catch(_0x112ecc){console['error'](a0_0x3d36ff[_0x44760e(0x135)](_0x44760e(0x146)+_0x112ecc[_0x44760e(0x150)])),console[_0x44760e(0x143)](a0_0x3d36ff[_0x44760e(0x149)](_0x3c28ac[_0x44760e(0x134)]));}};
+import chalk from "chalk";
+
+async function getPackageVersion() {
+  try {
+    const response = await fetch("https://registry.npmjs.org/neko-cli");
+    const data = await response.json();
+    return data["dist-tags"].latest;
+  } catch (err) {
+    console.error(
+      chalk.yellow("Error fetching version from meow registry:", err)
+    );
+    return "unknown";
+  }
+}
+
+export const handleVersionCommand = async () => {
+  try {
+    const version = await getPackageVersion();
+    console.log(chalk.cyan("Current CLI version: " + version));
+    console.log(chalk.cyan("Author: Thomas Garau"));
+    console.log(chalk.cyan("Official website: https://neko-cli.com"));
+    console.log(chalk.cyan("My GitHub: https://github.com/StrayVibes"));
+  } catch (error) {
+    console.error(
+      chalk.red(`❌ Could not determine NekoCLI version: ${error.message}`)
+    );
+    console.log(
+      chalk.yellow("Ensure 'package.json' exists in the CLI's root directory.")
+    );
+  }
+};

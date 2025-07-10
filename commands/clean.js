@@ -1,1 +1,38 @@
-(function(_0x5d1a3e,_0x48ffa0){const _0x5638dc=a0_0x2489,_0x1ee8ce=_0x5d1a3e();while(!![]){try{const _0x3170d9=parseInt(_0x5638dc(0x10f))/0x1*(parseInt(_0x5638dc(0x121))/0x2)+parseInt(_0x5638dc(0x12b))/0x3+parseInt(_0x5638dc(0x10c))/0x4+parseInt(_0x5638dc(0x113))/0x5*(-parseInt(_0x5638dc(0x125))/0x6)+-parseInt(_0x5638dc(0x10e))/0x7*(parseInt(_0x5638dc(0x117))/0x8)+-parseInt(_0x5638dc(0x111))/0x9+parseInt(_0x5638dc(0x126))/0xa;if(_0x3170d9===_0x48ffa0)break;else _0x1ee8ce['push'](_0x1ee8ce['shift']());}catch(_0x24d2e2){_0x1ee8ce['push'](_0x1ee8ce['shift']());}}}(a0_0x2993,0x9e617));function a0_0x2489(_0x2c64c8,_0x37fa70){const _0x3468ec=a0_0x2993();return a0_0x2489=function(_0x3c5122,_0x6b741b){_0x3c5122=_0x3c5122-0x10c;let _0x299334=_0x3468ec[_0x3c5122];return _0x299334;},a0_0x2489(_0x2c64c8,_0x37fa70);}function a0_0x2993(){const _0x512471=['forEach','log','rmSync','eaYCO','qZXTT','error','✅\x20Project\x20cleanup\x20completed\x20successfully.','AgaRJ','FfGKz','290bDpAIL','cyan','*.swp','🗑️\x20Deleted\x20file:\x20','6YBYgJK','11668980Qtddns','join','constructor','🗑️\x20Deleted\x20directory:\x20','qmdzn','1552191wkVhbE','ROnen','2357848rBoWGD','*.log','133fcklHw','7261ynZkMt','(((.+)+)+)+$','8753535IpLmPY','search','6351560yXXZfF','yellow','toString','*.bak','183136DzhiZK'];a0_0x2993=function(){return _0x512471;};return a0_0x2993();}const a0_0x6b741b=(function(){let _0x59df9f=!![];return function(_0x40282d,_0x556c35){const _0x49a904=_0x59df9f?function(){if(_0x556c35){const _0x6b9185=_0x556c35['apply'](_0x40282d,arguments);return _0x556c35=null,_0x6b9185;}}:function(){};return _0x59df9f=![],_0x49a904;};}()),a0_0x3c5122=a0_0x6b741b(this,function(){const _0xcb2602=a0_0x2489,_0x384a36={'FfGKz':_0xcb2602(0x110)};return a0_0x3c5122[_0xcb2602(0x115)]()[_0xcb2602(0x112)](_0x384a36[_0xcb2602(0x120)])[_0xcb2602(0x115)]()[_0xcb2602(0x128)](a0_0x3c5122)[_0xcb2602(0x112)](_0x384a36['FfGKz']);});a0_0x3c5122();import a0_0xc4e557 from'chalk';import a0_0x35bc90 from'path';import a0_0x5249c7 from'fs';import{sync as a0_0x5f345d}from'glob';export const handleCleanCommand=async()=>{const _0x5ceb01=a0_0x2489,_0x25391d={'ROnen':'.tmp','qZXTT':_0x5ceb01(0x10d),'AgaRJ':_0x5ceb01(0x116),'tZjZK':_0x5ceb01(0x123),'eaYCO':_0x5ceb01(0x11e),'qmdzn':'❌\x20An\x20error\x20occurred\x20while\x20cleaning\x20the\x20project:'};try{const _0x2987e3=process['cwd'](),_0x2e955f=[a0_0x35bc90[_0x5ceb01(0x127)](_0x2987e3,_0x25391d[_0x5ceb01(0x12c)])],_0x18d63d=[a0_0x35bc90[_0x5ceb01(0x127)](_0x2987e3,_0x25391d[_0x5ceb01(0x11c)]),a0_0x35bc90[_0x5ceb01(0x127)](_0x2987e3,_0x25391d[_0x5ceb01(0x11f)]),a0_0x35bc90[_0x5ceb01(0x127)](_0x2987e3,_0x25391d['tZjZK'])];_0x2e955f['forEach'](_0x2a8fe3=>{const _0x4ec6b8=_0x5ceb01;a0_0x5249c7['existsSync'](_0x2a8fe3)&&(a0_0x5249c7[_0x4ec6b8(0x11a)](_0x2a8fe3,{'recursive':!![],'force':!![]}),console[_0x4ec6b8(0x119)](a0_0xc4e557[_0x4ec6b8(0x114)](_0x4ec6b8(0x129)+_0x2a8fe3)));}),_0x18d63d[_0x5ceb01(0x118)](_0x3bc7f1=>{const _0x1862df=_0x5ceb01;a0_0x5f345d(_0x3bc7f1)[_0x1862df(0x118)](_0x5b08fe=>{const _0xc8f8b2=_0x1862df;a0_0x5249c7['unlinkSync'](_0x5b08fe),console['log'](a0_0xc4e557[_0xc8f8b2(0x114)](_0xc8f8b2(0x124)+_0x5b08fe));});}),console['log'](a0_0xc4e557[_0x5ceb01(0x122)](_0x25391d[_0x5ceb01(0x11b)]));}catch(_0x55c54a){console[_0x5ceb01(0x11d)](a0_0xc4e557['yellow'](_0x25391d[_0x5ceb01(0x12a)]),_0x55c54a);}};
+import chalk from "chalk";
+import path from "path";
+import fs from "fs";
+import { sync as globSync } from "glob";
+
+export const handleCleanCommand = async () => {
+  try {
+    const projectDir = process.cwd();
+    const directoriesToDelete = [path.join(projectDir, ".tmp")];
+
+    const filesToDelete = [
+      path.join(projectDir, "*.log"),
+      path.join(projectDir, "*.bak"),
+      path.join(projectDir, "*.swp"),
+    ];
+
+    directoriesToDelete.forEach((dir) => {
+      if (fs.existsSync(dir)) {
+        fs.rmSync(dir, { recursive: true, force: true });
+        console.log(chalk.yellow(`🗑️ Deleted directory: ${dir}`));
+      }
+    });
+
+    filesToDelete.forEach((filePattern) => {
+      globSync(filePattern).forEach((file) => {
+        fs.unlinkSync(file);
+        console.log(chalk.yellow(`🗑️ Deleted file: ${file}`));
+      });
+    });
+
+    console.log(chalk.cyan("✅ Project cleanup completed successfully."));
+  } catch (error) {
+    console.error(
+      chalk.yellow("❌ An error occurred while cleaning the project:"),
+      error
+    );
+  }
+};

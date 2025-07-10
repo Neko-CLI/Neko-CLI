@@ -1,2 +1,322 @@
 #!/usr/bin/env node
-const a0_0x47d288=a0_0xd4e8;function a0_0xd4e8(_0x2e75a6,_0x5d04f6){const _0x1a9c1b=a0_0x32dc();return a0_0xd4e8=function(_0x231e14,_0x5b7c33){_0x231e14=_0x231e14-0x187;let _0x32dcf7=_0x1a9c1b[_0x231e14];return _0x32dcf7;},a0_0xd4e8(_0x2e75a6,_0x5d04f6);}(function(_0x16ea02,_0x442220){const _0x334395=a0_0xd4e8,_0x203a85=_0x16ea02();while(!![]){try{const _0x31bf59=-parseInt(_0x334395(0x1f7))/0x1*(parseInt(_0x334395(0x18c))/0x2)+-parseInt(_0x334395(0x21a))/0x3*(-parseInt(_0x334395(0x1bd))/0x4)+-parseInt(_0x334395(0x214))/0x5*(parseInt(_0x334395(0x1f8))/0x6)+-parseInt(_0x334395(0x21c))/0x7+parseInt(_0x334395(0x1ae))/0x8+parseInt(_0x334395(0x209))/0x9*(-parseInt(_0x334395(0x1b6))/0xa)+parseInt(_0x334395(0x18a))/0xb*(parseInt(_0x334395(0x1a6))/0xc);if(_0x31bf59===_0x442220)break;else _0x203a85['push'](_0x203a85['shift']());}catch(_0x171251){_0x203a85['push'](_0x203a85['shift']());}}}(a0_0x32dc,0x286a1));const a0_0x5b7c33=(function(){let _0x428df5=!![];return function(_0x25b984,_0x2c5bd9){const _0x2e0c34=_0x428df5?function(){const _0x197404=a0_0xd4e8;if(_0x2c5bd9){const _0xbcf2b6=_0x2c5bd9[_0x197404(0x21d)](_0x25b984,arguments);return _0x2c5bd9=null,_0xbcf2b6;}}:function(){};return _0x428df5=![],_0x2e0c34;};}()),a0_0x231e14=a0_0x5b7c33(this,function(){const _0xf14263=a0_0xd4e8,_0x49b876={'lpaAE':_0xf14263(0x1da)};return a0_0x231e14[_0xf14263(0x1e9)]()[_0xf14263(0x1b8)](_0x49b876[_0xf14263(0x1d4)])['toString']()[_0xf14263(0x20d)](a0_0x231e14)[_0xf14263(0x1b8)](_0x49b876[_0xf14263(0x1d4)]);});a0_0x231e14();import a0_0x1646d0 from'chalk';import{exec}from'child_process';const execAsync=promisify(exec);import{promisify}from'util';import a0_0x5b7826 from'readline';import a0_0x6ffad1 from'ora';import{handleInitCommand}from'./commands/init.js';import{handleAddCommand}from'./commands/add.js';import{handleRemoveCommand}from'./commands/remove.js';import{handleInstallCommand}from'./commands/install.js';import{handleAllCommand}from'./commands/all.js';import{handleFlushCommand}from'./commands/flush.js';import{handlePublishCommand}from'./commands/publish.js';import{handleOutdatedCommand}from'./commands/outdated.js';import{handleAnalyzeCommand}from'./commands/analyze.js';import{handleAuditCommand}from'./commands/audit.js';import{handleSeccheckCommand}from'./commands/seccheck.js';import{handleDoctorCommand}from'./commands/doctor.js';import{handleCompatibilityCommand}from'./commands/compatibility.js';import{handleStructCommand}from'./commands/struct.js';import{handleBackupCommand}from'./commands/backup.js';import{handlePruneCommand}from'./commands/prune.js';import{handleCleanCommand}from'./commands/clean.js';import{handleListCommand}from'./commands/list.js';import{handleLicensesCommand}from'./commands/licenses.js';import{handleBinCommand}from'./commands/bin.js';import{handleInfoCommand}from'./commands/info.js';import{handleLanguagesCommand}from'./commands/languages.js';import{handleCheckerrorsCommand}from'./commands/checkerrors.js';import{handleUpdateCommand}from'./commands/update.js';import{handleHelpCommand}from'./commands/help.js';import{handleVersionCommand}from'./commands/version.js';import{handleStaleCommand}from'./commands/stale.js';import{handleSandboxCommand}from'./commands/sandbox.js';const args=process[a0_0x47d288(0x200)][a0_0x47d288(0x1ac)](0x2),command=args[0x0];let subCommand=null;const packageNames=[],options=[];function a0_0x32dc(){const _0x19a862=['remove','OdnOk','/releases/tags/v','cLfqy','updUO','OeySR','outdated','edUEZ','jUzle','6295668VHIcuZ','neGci','JFiUh','Ezcgs','No\x20changelog\x20provided\x20for\x20version\x20v','\x20\x20\x20','slice','❌\x20No\x20binary\x20found.','1341928zjzDaB','\x0a---\x20Changelog\x20and\x20New\x20Features\x20---','IiNPI','mxeCO','all','ledTL','XnBLf','then','10QVUzeo','A\x20new\x20version\x20is\x20available.\x20Do\x20you\x20want\x20to\x20update\x20neko-cli?\x20(y/n)\x20>\x20','search','GZDPe','npm\x20install\x20-g\x20neko-cli\x20--silent','tag_name','bCMcr','177436DTQNTA','publish','ZrAVU','fSbsb','qxbSC','❌\x20neko-cli\x20is\x20not\x20installed\x20globally.','prune','log','MDNYD','For\x20details\x20on\x20changes\x20and\x20features\x20in\x20this\x20version,\x20visit:','split','HrPCC','IrkBy','sCDGp','FiEQj','add','createInterface','licenses','error','lMFUE','✅\x20`neko-cli`\x20has\x20been\x20successfully\x20updated.','json','init','lpaAE','No\x20changelog\x20provided\x20for\x20latest\x20release\x20v','WktIT','dev','YrElU','meow','(((.+)+)+)+$','audit','----------------------------------\x0a','3|4|5|1|2|0','ZNnZQ','ULXZi','YsPQB','struct','clean','message','...','/releases','trim','question','CUuKj','toString','LLXQE','Fetching\x20changelog\x20for\x20v','KrzHL','❌\x20Failed\x20to\x20update\x20neko-cli:\x20','kkaWT','btCzv','\x20\x20\x20Error\x20details:\x20','ciKZe','OMLxC','Current\x20installed\x20version:\x20','🔗\x20https://github.com/','qeITV','YprFJ','86237mQCgxK','1005804UEXgAG','red','❌\x20Skipped\x20updating\x20`neko-cli`.','flush','CvXra','iRUGe','EmIsd','ckHKb','argv','push','cyan','WCndx','list','stop','npm\x20list\x20-g\x20neko-cli\x20--depth=0','aSzfR','start','2695698DHGEBp','sandbox','❌\x20Error\x20while\x20checking\x20for\x20outdated\x20neko-cli\x20version:','pPlbC','constructor','Checking\x20current\x20neko-cli\x20version...','stdout','FsDKU','stderr','Checking\x20for\x20latest\x20available\x20version...','Latest\x20available\x20version:\x20','5fQTBmQ','A\x20new\x20version\x20of\x20`neko-cli`\x20is\x20available.','fail','KQYsI','Changelog\x20retrieved:','startsWith','15hcIpFe','CdLQy','1366715qwCQvw','apply','bin','languages','RHdaV','analyze','11rLVmzX','gPCKn','2uPDfvk','⚠️\x20Invalid\x20command\x20use\x20\x22meow\x20help\x22\x20to\x20see\x20available\x20commands.','Neko-CLI','body','VMXPs','gyLqs','TBssD','match','❌\x20An\x20error\x20occurred\x20during\x20neko-cli\x20update\x20process:','vpgHP','succeed','length','WMUzC','stale','version','euYTx','yellow'];a0_0x32dc=function(){return _0x19a862;};return a0_0x32dc();}if(command){let currentArgIndex=0x1;(command===a0_0x47d288(0x1be)||command==='flush')&&args[currentArgIndex]&&!args[currentArgIndex][a0_0x47d288(0x219)]('-')&&(subCommand=args[currentArgIndex],currentArgIndex++);for(let i=currentArgIndex;i<args[a0_0x47d288(0x197)];i++){const arg=args[i];arg['startsWith']('-')?options['push'](arg):packageNames[a0_0x47d288(0x201)](arg);}}const nekoCLIOutdatedVersion=async()=>{const _0x32667d=a0_0x47d288,_0x529941={'rJJid':function(_0x214ad5,_0x5df6b5){return _0x214ad5(_0x5df6b5);},'OMLxC':'npm\x20show\x20neko-cli\x20version','GcFeQ':_0x32667d(0x206),'jUzle':_0x32667d(0x1c2),'pPlbC':function(_0x24fcc8,_0x1420e7){return _0x24fcc8!==_0x1420e7;},'WCndx':function(_0x23c445){return _0x23c445();}};try{const _0x37305=_0x529941['rJJid'](execAsync,_0x529941[_0x32667d(0x1f2)]),_0x4c8473=await execAsync(_0x529941['GcFeQ']),_0x352bc8=_0x4c8473[_0x32667d(0x20f)][_0x32667d(0x193)](/neko-cli@([^\s]+)/)?.[0x1];if(!_0x352bc8){console[_0x32667d(0x1c4)](a0_0x1646d0[_0x32667d(0x19c)](_0x529941[_0x32667d(0x1a5)]));return;}const _0x2379fc=await _0x37305,_0x3c4fda=_0x2379fc['stdout'][_0x32667d(0x1e6)]();_0x529941[_0x32667d(0x20c)](_0x352bc8,_0x3c4fda)&&(console[_0x32667d(0x1c4)](a0_0x1646d0[_0x32667d(0x202)](_0x32667d(0x215))),await _0x529941[_0x32667d(0x203)](updateNekoCLI));}catch(_0x3cfd30){console[_0x32667d(0x1cf)](a0_0x1646d0[_0x32667d(0x19c)](_0x32667d(0x20b)),_0x3cfd30[_0x32667d(0x1e3)]);}};async function getGitHubReleaseChangelog(_0x44b923,_0x4df420,_0x192e12){const _0x373c9b=a0_0x47d288;try{const _0x3fe024=await fetch('https://api.github.com/repos/'+_0x44b923+'/'+_0x4df420+_0x373c9b(0x19f)+_0x192e12);if(!_0x3fe024['ok']){const _0x267276=await fetch('https://api.github.com/repos/'+_0x44b923+'/'+_0x4df420+'/releases/latest'),_0x1d4851=await _0x267276[_0x373c9b(0x1d2)]();return _0x1d4851[_0x373c9b(0x18f)]||_0x373c9b(0x1d5)+_0x1d4851[_0x373c9b(0x1bb)]+'.';}const _0x7d8fda=await _0x3fe024[_0x373c9b(0x1d2)]();return _0x7d8fda[_0x373c9b(0x18f)]||_0x373c9b(0x1aa)+_0x192e12+'.';}catch(_0x333963){return'Failed\x20to\x20fetch\x20changelog\x20from\x20GitHub:\x20'+_0x333963[_0x373c9b(0x1e3)];}}const updateNekoCLI=async()=>{const _0x58f0b7=a0_0x47d288,_0x48b71e={'KrzHL':_0x58f0b7(0x1b7),'qeITV':_0x58f0b7(0x18e),'TBssD':function(_0x588032,_0x53d298){return _0x588032(_0x53d298);},'gPCKn':function(_0x29f148,_0x53660d){return _0x29f148(_0x53660d);},'ZrAVU':_0x58f0b7(0x206),'ACsiX':'❌\x20neko-cli\x20is\x20not\x20installed\x20globally.','qxbSC':function(_0x3b26d5,_0x32ea88){return _0x3b26d5(_0x32ea88);},'neGci':_0x58f0b7(0x212),'KQYsI':function(_0x30bff8,_0x30b927){return _0x30bff8(_0x30b927);},'mVYji':'npm\x20show\x20neko-cli\x20version','vpgHP':function(_0x1a5fb9,_0xcc88a6){return _0x1a5fb9===_0xcc88a6;},'BeqEL':'---------------------------\x0a','iYcls':'✨\x20Your\x20`neko-cli`\x20is\x20already\x20up\x20to\x20date.','YrElU':'\x0a---\x20Version\x20Information\x20---','YprFJ':_0x58f0b7(0x1c6),'LHTUX':_0x58f0b7(0x1af),'IiNPI':function(_0x606768,_0x5bc315){return _0x606768(_0x5bc315);},'hbvsz':function(_0x78dea9,_0x30c452,_0x490728,_0x765778){return _0x78dea9(_0x30c452,_0x490728,_0x765778);},'FsDKU':_0x58f0b7(0x218),'OeySR':_0x58f0b7(0x1dc),'cTTjD':function(_0x28b37c,_0x2f61e9){return _0x28b37c===_0x2f61e9;},'twEmn':'⏳\x20Updating\x20neko-cli...','DYKND':function(_0x3d8a85,_0x26d4e3){return _0x3d8a85(_0x26d4e3);},'mQogi':_0x58f0b7(0x1ba),'HrPCC':_0x58f0b7(0x1d1),'ckHKb':_0x58f0b7(0x1fa)},_0x238846=_0x48b71e['qeITV'],_0x497986=_0x48b71e[_0x58f0b7(0x1f5)];try{const _0x2a1d83=_0x48b71e[_0x58f0b7(0x192)](a0_0x6ffad1,a0_0x1646d0[_0x58f0b7(0x202)](_0x58f0b7(0x20e)))['start'](),{stdout:_0x5a5f1e}=await _0x48b71e[_0x58f0b7(0x18b)](execAsync,_0x48b71e[_0x58f0b7(0x1bf)]),_0x467f2f=_0x5a5f1e[_0x58f0b7(0x193)](/neko-cli@([^\s]+)/),_0x6c0e96=_0x467f2f?_0x467f2f[0x1]:null;_0x2a1d83[_0x58f0b7(0x205)]();if(!_0x6c0e96){console[_0x58f0b7(0x1c4)](a0_0x1646d0[_0x58f0b7(0x19c)](_0x48b71e['ACsiX']));return;}console[_0x58f0b7(0x1c4)](a0_0x1646d0[_0x58f0b7(0x202)](_0x58f0b7(0x1f3)+_0x6c0e96));const _0x3ffd36=_0x48b71e[_0x58f0b7(0x1c1)](a0_0x6ffad1,a0_0x1646d0[_0x58f0b7(0x202)](_0x48b71e[_0x58f0b7(0x1a7)]))[_0x58f0b7(0x208)](),{stdout:_0x5ee9d1}=await _0x48b71e[_0x58f0b7(0x217)](execAsync,_0x48b71e['mVYji']),_0x298b69=_0x5ee9d1[_0x58f0b7(0x1e6)]();_0x3ffd36[_0x58f0b7(0x205)](),console['log'](a0_0x1646d0['cyan'](_0x58f0b7(0x213)+_0x298b69));if(_0x48b71e[_0x58f0b7(0x195)](_0x6c0e96,_0x298b69)){const _0x151e73=_0x58f0b7(0x1dd)[_0x58f0b7(0x1c7)]('|');let _0x51c32c=0x0;while(!![]){switch(_0x151e73[_0x51c32c++]){case'0':return;case'1':console[_0x58f0b7(0x1c4)](a0_0x1646d0['cyan'](_0x58f0b7(0x1f4)+_0x238846+'/'+_0x497986+_0x58f0b7(0x1e5)));continue;case'2':console[_0x58f0b7(0x1c4)](a0_0x1646d0['cyan'](_0x48b71e['BeqEL']));continue;case'3':console[_0x58f0b7(0x1c4)](a0_0x1646d0[_0x58f0b7(0x202)](_0x48b71e['iYcls']));continue;case'4':console[_0x58f0b7(0x1c4)](a0_0x1646d0[_0x58f0b7(0x202)](_0x48b71e[_0x58f0b7(0x1d8)]));continue;case'5':console[_0x58f0b7(0x1c4)](a0_0x1646d0['cyan'](_0x48b71e[_0x58f0b7(0x1f6)]));continue;}break;}}console[_0x58f0b7(0x1c4)](a0_0x1646d0[_0x58f0b7(0x202)](_0x48b71e['LHTUX']));const _0x2f617c=_0x48b71e[_0x58f0b7(0x1b0)](a0_0x6ffad1,a0_0x1646d0[_0x58f0b7(0x202)](_0x58f0b7(0x1eb)+_0x298b69+_0x58f0b7(0x1e4)))[_0x58f0b7(0x208)](),_0x13d698=await _0x48b71e['hbvsz'](getGitHubReleaseChangelog,_0x238846,_0x497986,_0x298b69);_0x2f617c[_0x58f0b7(0x196)](a0_0x1646d0[_0x58f0b7(0x202)](_0x48b71e[_0x58f0b7(0x210)])),console[_0x58f0b7(0x1c4)](a0_0x1646d0['white'](_0x13d698)),console[_0x58f0b7(0x1c4)](a0_0x1646d0['cyan'](_0x48b71e[_0x58f0b7(0x1a2)]));const _0x1089fa=await new Promise(_0x181cab=>{const _0x401a69=_0x58f0b7,_0x2b8789={'JFiUh':function(_0x259532,_0x3726d6){return _0x259532(_0x3726d6);}},_0x160343=a0_0x5b7826[_0x401a69(0x1cd)]({'input':process['stdin'],'output':process[_0x401a69(0x20f)]});_0x160343[_0x401a69(0x1e7)](a0_0x1646d0['cyan'](_0x48b71e[_0x401a69(0x1ec)]),_0x4ee82f=>{const _0x19d5f6=_0x401a69;_0x160343['close'](),_0x2b8789[_0x19d5f6(0x1a8)](_0x181cab,_0x4ee82f['toLowerCase']());});});if(_0x48b71e['cTTjD'](_0x1089fa,'y')){const _0xd74919=a0_0x6ffad1(a0_0x1646d0[_0x58f0b7(0x202)](_0x48b71e['twEmn']))[_0x58f0b7(0x208)]();try{await _0x48b71e['DYKND'](execAsync,_0x48b71e['mQogi']),_0xd74919[_0x58f0b7(0x196)](a0_0x1646d0[_0x58f0b7(0x202)](_0x48b71e[_0x58f0b7(0x1c8)]));}catch(_0x64f44a){_0xd74919[_0x58f0b7(0x216)](a0_0x1646d0[_0x58f0b7(0x1f9)](_0x58f0b7(0x1ed)+_0x64f44a[_0x58f0b7(0x1e3)])),console[_0x58f0b7(0x1cf)](a0_0x1646d0[_0x58f0b7(0x1f9)](_0x58f0b7(0x1ab)+(_0x64f44a[_0x58f0b7(0x211)]||_0x64f44a[_0x58f0b7(0x20f)])));}}else console[_0x58f0b7(0x1c4)](a0_0x1646d0[_0x58f0b7(0x19c)](_0x48b71e[_0x58f0b7(0x1ff)]));}catch(_0x3116d5){console['error'](a0_0x1646d0['red'](_0x58f0b7(0x194)),_0x3116d5['message']);if(_0x3116d5['stderr'])console['error'](a0_0x1646d0[_0x58f0b7(0x1f9)](_0x58f0b7(0x1f0)+_0x3116d5[_0x58f0b7(0x211)]));else{if(_0x3116d5[_0x58f0b7(0x20f)])console['error'](a0_0x1646d0[_0x58f0b7(0x1f9)]('\x20\x20\x20Output\x20details:\x20'+_0x3116d5[_0x58f0b7(0x20f)]));}}},runCommand=async()=>{const _0x342675=a0_0x47d288,_0x1bc1a3={'pmVgT':_0x342675(0x1ad),'cLfqy':function(_0x5a2d0b,_0x3fb10e){return _0x5a2d0b(_0x3fb10e);},'CvXra':_0x342675(0x1cc),'kkaWT':function(_0x35c1c9){return _0x35c1c9();},'fSbsb':_0x342675(0x1d9),'lGLyU':_0x342675(0x1b2),'WktIT':function(_0x2f083b){return _0x2f083b();},'RHdaV':_0x342675(0x1fb),'YsPQB':function(_0x7d6424){return _0x7d6424();},'ciKZe':function(_0x25b95d,_0x8c2a36){return _0x25b95d(_0x8c2a36);},'XnBLf':_0x342675(0x1be),'MDNYD':function(_0x12afc5){return _0x12afc5();},'zTMvQ':function(_0x2aaed8,_0x4cac95,_0x2fdd9b){return _0x2aaed8(_0x4cac95,_0x2fdd9b);},'CdLQy':_0x342675(0x1a3),'lMFUE':function(_0x7ad99d){return _0x7ad99d();},'IrkBy':_0x342675(0x189),'iRUGe':function(_0x393b7d){return _0x393b7d();},'LLXQE':_0x342675(0x1db),'updUO':function(_0x1eb0b0){return _0x1eb0b0();},'leSFT':'doctor','edUEZ':'compatibility','mxeCO':function(_0x83d16e){return _0x83d16e();},'ledTL':function(_0x5b6c7c){return _0x5b6c7c();},'sCDGp':function(_0x59f5fb){return _0x59f5fb();},'ZNnZQ':'backup','Jrmik':_0x342675(0x1c3),'aSzfR':function(_0xeb5cad){return _0xeb5cad();},'CUuKj':_0x342675(0x204),'gyLqs':function(_0x2a707e){return _0x2a707e();},'MoWUt':_0x342675(0x1ce),'EUuto':_0x342675(0x21e),'bCMcr':'info','WMUzC':function(_0x102a66,_0x134db6){return _0x102a66(_0x134db6);},'GZDPe':function(_0x3f9b0b){return _0x3f9b0b();},'euYTx':'checkerrors','Ezcgs':function(_0x4db7a1){return _0x4db7a1();},'nrOkb':'update','EmIsd':function(_0x2b47b1){return _0x2b47b1();},'OdnOk':'help','FiEQj':function(_0x1af0c5){return _0x1af0c5();},'VMXPs':_0x342675(0x19a),'ULXZi':_0x342675(0x199),'btCzv':_0x342675(0x20a)};switch(command){case _0x342675(0x1d3):nekoCLIOutdatedVersion(),await _0x1bc1a3[_0x342675(0x1a0)](handleInitCommand,args);break;case _0x1bc1a3[_0x342675(0x1fc)]:nekoCLIOutdatedVersion(),await _0x1bc1a3[_0x342675(0x1a0)](handleAddCommand,args);break;case _0x342675(0x19d):_0x1bc1a3['kkaWT'](nekoCLIOutdatedVersion),await handleRemoveCommand(args);break;case _0x1bc1a3[_0x342675(0x1c0)]:nekoCLIOutdatedVersion(),await _0x1bc1a3[_0x342675(0x1ee)](handleInstallCommand);break;case _0x1bc1a3['lGLyU']:_0x1bc1a3['WktIT'](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x1d6)](handleAllCommand);break;case _0x342675(0x1d7):_0x1bc1a3['WktIT'](nekoCLIOutdatedVersion),await handleFlushCommand([_0x1bc1a3[_0x342675(0x188)],_0x342675(0x1d7)]);break;case _0x1bc1a3[_0x342675(0x188)]:_0x1bc1a3['YsPQB'](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x1f1)](handleFlushCommand,args);break;case _0x1bc1a3[_0x342675(0x1b4)]:_0x1bc1a3[_0x342675(0x1c5)](nekoCLIOutdatedVersion),await _0x1bc1a3['zTMvQ'](handlePublishCommand,subCommand,options);break;case _0x1bc1a3[_0x342675(0x21b)]:_0x1bc1a3[_0x342675(0x1d0)](nekoCLIOutdatedVersion),await _0x1bc1a3['lMFUE'](handleOutdatedCommand);break;case _0x1bc1a3[_0x342675(0x1c9)]:nekoCLIOutdatedVersion(),await _0x1bc1a3[_0x342675(0x1fd)](handleAnalyzeCommand);break;case _0x1bc1a3[_0x342675(0x1ea)]:_0x1bc1a3[_0x342675(0x1e0)](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x1fd)](handleAuditCommand);break;case'seccheck':_0x1bc1a3[_0x342675(0x1ee)](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x1a1)](handleSeccheckCommand);break;case _0x1bc1a3['leSFT']:nekoCLIOutdatedVersion(),await handleDoctorCommand();break;case _0x1bc1a3[_0x342675(0x1a4)]:_0x1bc1a3[_0x342675(0x1b1)](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x1b3)](handleCompatibilityCommand);break;case _0x342675(0x1e1):nekoCLIOutdatedVersion(),await _0x1bc1a3[_0x342675(0x1ca)](handleStructCommand);break;case _0x1bc1a3[_0x342675(0x1de)]:nekoCLIOutdatedVersion(),await _0x1bc1a3[_0x342675(0x1fd)](handleBackupCommand);break;case _0x1bc1a3['Jrmik']:_0x1bc1a3['aSzfR'](nekoCLIOutdatedVersion),await handlePruneCommand();break;case _0x342675(0x1e2):_0x1bc1a3[_0x342675(0x1a1)](nekoCLIOutdatedVersion),await handleCleanCommand();break;case _0x1bc1a3[_0x342675(0x1e8)]:_0x1bc1a3[_0x342675(0x191)](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x207)](handleListCommand);break;case _0x1bc1a3['MoWUt']:nekoCLIOutdatedVersion(),await _0x1bc1a3['lMFUE'](handleLicensesCommand);break;case _0x1bc1a3['EUuto']:_0x1bc1a3[_0x342675(0x1a1)](nekoCLIOutdatedVersion),await handleBinCommand()[_0x342675(0x1b5)](_0x51c773=>{const _0x53151b=_0x342675;if(_0x51c773){}else console[_0x53151b(0x1c4)](_0x1bc1a3['pmVgT']);});;break;case _0x1bc1a3[_0x342675(0x1bc)]:_0x1bc1a3['YsPQB'](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x198)](handleInfoCommand,packageNames[0x0]);break;case _0x342675(0x187):nekoCLIOutdatedVersion(),await _0x1bc1a3[_0x342675(0x1b9)](handleLanguagesCommand);break;case _0x1bc1a3[_0x342675(0x19b)]:_0x1bc1a3[_0x342675(0x1a9)](nekoCLIOutdatedVersion),await handleCheckerrorsCommand();break;case _0x1bc1a3['nrOkb']:_0x1bc1a3[_0x342675(0x1fe)](nekoCLIOutdatedVersion),await handleUpdateCommand();break;case _0x1bc1a3[_0x342675(0x19e)]:_0x1bc1a3[_0x342675(0x1cb)](nekoCLIOutdatedVersion),await handleHelpCommand();break;case _0x1bc1a3[_0x342675(0x190)]:_0x1bc1a3[_0x342675(0x1ee)](nekoCLIOutdatedVersion),await _0x1bc1a3[_0x342675(0x1b9)](handleVersionCommand);break;case _0x1bc1a3[_0x342675(0x1df)]:nekoCLIOutdatedVersion(),await handleStaleCommand(args[_0x342675(0x1ac)](0x1));break;case _0x1bc1a3[_0x342675(0x1ef)]:nekoCLIOutdatedVersion(),await _0x1bc1a3['WMUzC'](handleSandboxCommand,args['slice'](0x1));break;default:_0x1bc1a3[_0x342675(0x1e0)](nekoCLIOutdatedVersion),console[_0x342675(0x1c4)](a0_0x1646d0[_0x342675(0x19c)](_0x342675(0x18d)));break;}};runCommand();
+import chalk from "chalk";
+import { exec } from "child_process";
+const execAsync = promisify(exec);
+import { promisify } from "util";
+import readline from "readline";
+import ora from "ora";
+
+import { handleInitCommand } from "./commands/init.js";
+import { handleAddCommand } from "./commands/add.js";
+import { handleRemoveCommand } from "./commands/remove.js";
+import { handleInstallCommand } from "./commands/install.js";
+import { handleAllCommand } from "./commands/all.js";
+import { handleFlushCommand } from "./commands/flush.js";
+import { handlePublishCommand } from "./commands/publish.js";
+import { handleOutdatedCommand } from "./commands/outdated.js";
+import { handleAnalyzeCommand } from "./commands/analyze.js";
+import { handleAuditCommand } from "./commands/audit.js";
+import { handleSeccheckCommand } from "./commands/seccheck.js";
+import { handleDoctorCommand } from "./commands/doctor.js";
+import { handleCompatibilityCommand } from "./commands/compatibility.js";
+import { handleStructCommand } from "./commands/struct.js";
+import { handleBackupCommand } from "./commands/backup.js";
+import { handlePruneCommand } from "./commands/prune.js";
+import { handleCleanCommand } from "./commands/clean.js";
+import { handleListCommand } from "./commands/list.js";
+import { handleLicensesCommand } from "./commands/licenses.js";
+import { handleBinCommand } from "./commands/bin.js";
+import { handleInfoCommand } from "./commands/info.js";
+import { handleLanguagesCommand } from "./commands/languages.js";
+import { handleCheckerrorsCommand } from "./commands/checkerrors.js";
+import { handleUpdateCommand } from "./commands/update.js";
+import { handleHelpCommand } from "./commands/help.js";
+import { handleVersionCommand } from "./commands/version.js";
+import { handleStaleCommand } from './commands/stale.js';
+import { handleSandboxCommand } from './commands/sandbox.js';
+
+const args = process.argv.slice(2);
+const command = args[0];
+let subCommand = null;
+const packageNames = [];
+const options = [];
+if (command) {
+  let currentArgIndex = 1;
+  if (
+    (command === "publish" || command === "flush") &&
+    args[currentArgIndex] &&
+    !args[currentArgIndex].startsWith("-")
+  ) {
+    subCommand = args[currentArgIndex];
+    currentArgIndex++;
+  }
+  for (let i = currentArgIndex; i < args.length; i++) {
+    const arg = args[i];
+    if (arg.startsWith("-")) {
+      options.push(arg);
+    } else {
+      packageNames.push(arg);
+    }
+  }
+}
+
+const nekoCLIOutdatedVersion = async () => {
+  try {
+    const latestVersionPromise = execAsync("npm show neko-cli version");
+
+    const installedVersionOutput = await execAsync(
+      "npm list -g neko-cli --depth=0"
+    );
+    const installedVersion =
+      installedVersionOutput.stdout.match(/neko-cli@([^\s]+)/)?.[1];
+
+    if (!installedVersion) {
+      console.log(chalk.yellow("❌ neko-cli is not installed globally."));
+      return;
+    }
+
+    const latestVersion = await latestVersionPromise;
+    const cleanLatestVersion = latestVersion.stdout.trim();
+
+    if (installedVersion !== cleanLatestVersion) {
+      console.log(chalk.cyan("A new version of `neko-cli` is available."));
+      await updateNekoCLI();
+    }
+  } catch (error) {
+    console.error(
+      chalk.yellow("❌ Error while checking for outdated neko-cli version:"),
+      error.message
+    );
+  }
+};
+
+async function getGitHubReleaseChangelog(owner, repo, version) {
+    try {
+        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/tags/v${version}`);
+        if (!response.ok) {
+            const latestResponse = await fetch(`https://api.github.com/repos/${owner}/${repo}/releases/latest`);
+            const latestRelease = await latestResponse.json();
+            return latestRelease.body || `No changelog provided for latest release v${latestRelease.tag_name}.`;
+        }
+        const release = await response.json();
+        return release.body || `No changelog provided for version v${version}.`;
+    } catch (error) {
+        return `Failed to fetch changelog from GitHub: ${error.message}`;
+    }
+}
+
+const updateNekoCLI = async () => {
+    const owner = "Neko-CLI";
+    const repo = "Neko-CLI";
+
+    try {
+        const spinnerCurrent = ora(chalk.cyan("Checking current neko-cli version...")).start();
+        const { stdout: currentVersionOutput } = await execAsync("npm list -g neko-cli --depth=0");
+        const installedVersionMatch = currentVersionOutput.match(/neko-cli@([^\s]+)/);
+        const installedVersion = installedVersionMatch ? installedVersionMatch[1] : null;
+        spinnerCurrent.stop();
+
+        if (!installedVersion) {
+            console.log(chalk.yellow("❌ neko-cli is not installed globally."));
+            return;
+        }
+
+        console.log(chalk.cyan(`Current installed version: ${installedVersion}`));
+
+        const spinnerLatest = ora(chalk.cyan("Checking for latest available version...")).start();
+        const { stdout: latestVersionOutput } = await execAsync("npm show neko-cli version");
+        const cleanLatestVersion = latestVersionOutput.trim();
+        spinnerLatest.stop();
+
+        console.log(chalk.cyan(`Latest available version: ${cleanLatestVersion}`));
+
+        if (installedVersion === cleanLatestVersion) {
+            console.log(chalk.cyan("✨ Your `neko-cli` is already up to date."));
+            console.log(chalk.cyan("\n--- Version Information ---"));
+            console.log(chalk.cyan("For details on changes and features in this version, visit:"));
+            console.log(chalk.cyan(`🔗 https://github.com/${owner}/${repo}/releases`));
+            console.log(chalk.cyan("---------------------------\n"));
+            return;
+        }
+
+        console.log(chalk.cyan("\n--- Changelog and New Features ---"));
+        const changelogSpinner = ora(chalk.cyan(`Fetching changelog for v${cleanLatestVersion}...`)).start();
+        const changelog = await getGitHubReleaseChangelog(owner, repo, cleanLatestVersion);
+        changelogSpinner.succeed(chalk.cyan("Changelog retrieved:"));
+        console.log(chalk.white(changelog));
+        console.log(chalk.cyan("----------------------------------\n"));
+
+
+        const response = await new Promise((resolve) => {
+            const rl = readline.createInterface({
+                input: process.stdin,
+                output: process.stdout,
+            });
+
+            rl.question(
+                chalk.cyan(
+                    "A new version is available. Do you want to update neko-cli? (y/n) > "
+                ),
+                (answer) => {
+                    rl.close();
+                    resolve(answer.toLowerCase());
+                }
+            );
+        });
+
+        if (response === "y") {
+            const updateSpinner = ora(chalk.cyan("⏳ Updating neko-cli...")).start();
+            try {
+                await execAsync("npm install -g neko-cli --silent");
+                updateSpinner.succeed(chalk.cyan("✅ `neko-cli` has been successfully updated."));
+            } catch (updateError) {
+                updateSpinner.fail(chalk.red(`❌ Failed to update neko-cli: ${updateError.message}`));
+                console.error(chalk.red(`   ${updateError.stderr || updateError.stdout}`));
+            }
+        } else {
+            console.log(chalk.yellow("❌ Skipped updating `neko-cli`."));
+        }
+    } catch (error) {
+        console.error(
+            chalk.red("❌ An error occurred during neko-cli update process:"),
+            error.message
+        );
+        if (error.stderr) console.error(chalk.red(`   Error details: ${error.stderr}`));
+        else if (error.stdout) console.error(chalk.red(`   Output details: ${error.stdout}`));
+    }
+};
+
+const runCommand = async () => {
+  switch (command) {
+    case "init":
+      nekoCLIOutdatedVersion();
+      await handleInitCommand(args);
+        break;
+    case "add":
+      nekoCLIOutdatedVersion();
+      await handleAddCommand(args);
+      break;
+    case "remove":
+      nekoCLIOutdatedVersion();
+      await handleRemoveCommand(args);
+      break;
+    case "meow":
+      nekoCLIOutdatedVersion();
+      await handleInstallCommand();
+      break;
+    case "all":
+      nekoCLIOutdatedVersion();
+      await handleAllCommand();
+      break;
+    case "dev":
+      nekoCLIOutdatedVersion();
+      await handleFlushCommand(['flush', 'dev']);
+      break;
+    case "flush":
+      nekoCLIOutdatedVersion();
+      await handleFlushCommand(args);
+      break;
+    case "publish":
+      nekoCLIOutdatedVersion();
+      await handlePublishCommand(subCommand, options);
+      break;
+    case "outdated":
+      nekoCLIOutdatedVersion();
+      await handleOutdatedCommand();
+      break;
+    case "analyze":
+      nekoCLIOutdatedVersion();
+      await handleAnalyzeCommand();
+      break;
+    case "audit":
+      nekoCLIOutdatedVersion();
+      await handleAuditCommand();
+      break;
+    case "seccheck":
+      nekoCLIOutdatedVersion();
+      await handleSeccheckCommand();
+      break;
+    case "doctor":
+      nekoCLIOutdatedVersion();
+      await handleDoctorCommand();
+      break;
+    case "compatibility":
+      nekoCLIOutdatedVersion();
+      await handleCompatibilityCommand();
+      break;
+    case "struct":
+      nekoCLIOutdatedVersion();
+      await handleStructCommand();
+      break;
+    case "backup":
+      nekoCLIOutdatedVersion();
+      await handleBackupCommand();
+      break;
+    case "prune":
+      nekoCLIOutdatedVersion();
+      await handlePruneCommand();
+      break;
+    case "clean":
+      nekoCLIOutdatedVersion();
+      await handleCleanCommand();
+      break;
+    case "list":
+      nekoCLIOutdatedVersion();
+      await handleListCommand();
+      break;
+    case "licenses":
+      nekoCLIOutdatedVersion();
+      await handleLicensesCommand();
+      break;
+    case "bin":
+      nekoCLIOutdatedVersion();
+      await handleBinCommand().then((binaryPath) => {
+          if (binaryPath) {
+          } else {
+            console.log("❌ No binary found.");
+          }
+        });;
+      break;
+    case "info":
+      nekoCLIOutdatedVersion();
+      await handleInfoCommand(packageNames[0]);
+      break;
+    case "languages":
+      nekoCLIOutdatedVersion();
+      await handleLanguagesCommand();
+      break;
+    case "checkerrors":
+      nekoCLIOutdatedVersion();
+      await handleCheckerrorsCommand();
+      break;
+    case "update":
+      nekoCLIOutdatedVersion();
+      await handleUpdateCommand();
+      break;
+    case "help":
+      nekoCLIOutdatedVersion();
+      await handleHelpCommand();
+      break;
+    case "version":
+      nekoCLIOutdatedVersion();
+      await handleVersionCommand();
+      break;
+    case "stale":
+      nekoCLIOutdatedVersion();
+      await handleStaleCommand(args.slice(1));
+      break;
+    case "sandbox":
+      nekoCLIOutdatedVersion();
+      await handleSandboxCommand(args.slice(1));
+      break;
+    default:
+      nekoCLIOutdatedVersion();
+      console.log(
+        chalk.yellow(
+          `⚠️ Invalid command use "meow help" to see available commands.`
+        )
+      );
+      break;
+  }
+};
+runCommand();

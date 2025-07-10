@@ -1,1 +1,78 @@
-(function(_0x1c819c,_0x2bb00c){const _0x54c4d3=a0_0x969a,_0x13ac66=_0x1c819c();while(!![]){try{const _0x3f2270=-parseInt(_0x54c4d3(0x118))/0x1*(parseInt(_0x54c4d3(0x10a))/0x2)+-parseInt(_0x54c4d3(0xf5))/0x3*(parseInt(_0x54c4d3(0x116))/0x4)+parseInt(_0x54c4d3(0x11b))/0x5*(-parseInt(_0x54c4d3(0x120))/0x6)+-parseInt(_0x54c4d3(0xff))/0x7*(parseInt(_0x54c4d3(0xf7))/0x8)+parseInt(_0x54c4d3(0xf8))/0x9+-parseInt(_0x54c4d3(0xfd))/0xa*(parseInt(_0x54c4d3(0x122))/0xb)+parseInt(_0x54c4d3(0xfc))/0xc;if(_0x3f2270===_0x2bb00c)break;else _0x13ac66['push'](_0x13ac66['shift']());}catch(_0x519742){_0x13ac66['push'](_0x13ac66['shift']());}}}(a0_0x17d0,0xe0615));const a0_0x42dcbd=(function(){let _0x575f0e=!![];return function(_0x206b6e,_0x3bb649){const _0x42645a=_0x575f0e?function(){const _0x397713=a0_0x969a;if(_0x3bb649){const _0x1177dd=_0x3bb649[_0x397713(0x11c)](_0x206b6e,arguments);return _0x3bb649=null,_0x1177dd;}}:function(){};return _0x575f0e=![],_0x42645a;};}()),a0_0x5c5be6=a0_0x42dcbd(this,function(){const _0x3dc7dd=a0_0x969a,_0x3fe819={'InwXF':'(((.+)+)+)+$'};return a0_0x5c5be6[_0x3dc7dd(0xf2)]()['search'](_0x3fe819[_0x3dc7dd(0x103)])['toString']()['constructor'](a0_0x5c5be6)[_0x3dc7dd(0x102)](_0x3fe819[_0x3dc7dd(0x103)]);});a0_0x5c5be6();import a0_0x180edc from'chalk';function a0_0x17d0(){const _0x164701=['92906LLuAdq','toString','stdout','join','4590795eSnmVt','cyan','7016MXVImr','7791147MjCsFf','.git','cDjXc','❌\x20Backup\x20process\x20aborted.','71518620pLlFYo','2030lxCpMU','question','1505HDaYfg','error','❌\x20Error\x20during\x20backup:\x20','search','InwXF','finalize','node_modules','toLowerCase','includes','⚠️\x20A\x20backup\x20already\x20exists\x20at\x20','SoozY','1048wHcqoW','log','BpRna','zip','❌\x20Error\x20during\x20the\x20backup\x20process:','cwd','temp','yObxC','stdin','createInterface','build','forEach','4HNcHWI','yellow','2159UUyzaU','meow-project-backup.zip','pipe','655zbysoj','apply','.\x20Overwrite?\x20(y/n)\x20>\x20','CJgWG','OALAV','61458rBclcF','close'];a0_0x17d0=function(){return _0x164701;};return a0_0x17d0();}import a0_0x35f05d from'archiver';import a0_0x1da8cc from'path';import a0_0x93f9ca from'fs';function a0_0x969a(_0x1e3349,_0x392221){const _0xd72c60=a0_0x17d0();return a0_0x969a=function(_0x5c5be6,_0x42dcbd){_0x5c5be6=_0x5c5be6-0xf2;let _0x17d0ba=_0xd72c60[_0x5c5be6];return _0x17d0ba;},a0_0x969a(_0x1e3349,_0x392221);}import a0_0x53d45d from'readline';import a0_0xc25f0d from'fs-extra';const {existsSync,readdirSync}=a0_0xc25f0d;export const handleBackupCommand=async()=>{const _0x3217c5=a0_0x969a,_0x35d076={'OALAV':_0x3217c5(0x119),'cDjXc':_0x3217c5(0x105),'ZMcGq':_0x3217c5(0x110),'BpRna':function(_0x57845e,_0x5e6cfa){return _0x57845e(_0x5e6cfa);},'SoozY':_0x3217c5(0xfb),'yObxC':function(_0x560e36,_0x5c7ba1,_0x3c0904){return _0x560e36(_0x5c7ba1,_0x3c0904);},'ydHPV':_0x3217c5(0x121),'CJgWG':'📦\x20Starting\x20the\x20backup\x20process...','gsLSj':_0x3217c5(0x10e)},_0x9290a4=a0_0x53d45d[_0x3217c5(0x113)]({'input':process[_0x3217c5(0x112)],'output':process[_0x3217c5(0xf3)]}),_0x2f78a1=_0x25b516=>{const _0x36a43e=_0x3217c5;return new Promise(_0x2e6721=>_0x9290a4[_0x36a43e(0xfe)](_0x25b516,_0x2e6721));};try{const _0x502379=process[_0x3217c5(0x10f)](),_0x4bfeac=a0_0x1da8cc[_0x3217c5(0xf4)](_0x502379,_0x35d076[_0x3217c5(0x11f)]),_0xf8c5dd=[_0x35d076[_0x3217c5(0xfa)],_0x3217c5(0xf9),_0x35d076['ZMcGq'],_0x3217c5(0x114)];if(existsSync(_0x4bfeac)){const _0x4bec0d=await _0x35d076['BpRna'](_0x2f78a1,a0_0x180edc[_0x3217c5(0xf6)](_0x3217c5(0x108)+_0x4bfeac+_0x3217c5(0x11d)));if(_0x4bec0d[_0x3217c5(0x106)]()!=='y'){console['log'](a0_0x180edc[_0x3217c5(0xf6)](_0x35d076[_0x3217c5(0x109)])),_0x9290a4[_0x3217c5(0x121)]();return;}}const _0x329b54=a0_0x93f9ca['createWriteStream'](_0x4bfeac),_0x52e8f8=_0x35d076[_0x3217c5(0x111)](a0_0x35f05d,_0x3217c5(0x10d),{'zlib':{'level':0x9}});_0x52e8f8['on'](_0x3217c5(0x100),_0x391761=>{const _0x516160=_0x3217c5;console[_0x516160(0x100)](a0_0x180edc[_0x516160(0x117)](_0x516160(0x101)),_0x391761),_0x9290a4['close']();}),_0x329b54['on'](_0x35d076['ydHPV'],()=>{const _0xd6eb44=_0x3217c5;console['log'](a0_0x180edc['cyan']('✅\x20Backup\x20completed!\x20'+_0x52e8f8['pointer']()+'\x20total\x20bytes.')),_0x9290a4[_0xd6eb44(0x121)]();}),_0x52e8f8[_0x3217c5(0x11a)](_0x329b54),console[_0x3217c5(0x10b)](a0_0x180edc['cyan'](_0x35d076[_0x3217c5(0x11e)]));const _0x1a2378=_0x35d076[_0x3217c5(0x10c)](readdirSync,_0x502379);_0x1a2378[_0x3217c5(0x115)](_0x28e999=>{const _0x13a68a=_0x3217c5,_0x3b79d6=a0_0x1da8cc[_0x13a68a(0xf4)](_0x502379,_0x28e999),_0x3ce430=a0_0x93f9ca['statSync'](_0x3b79d6)['isDirectory']();if(!_0xf8c5dd[_0x13a68a(0x107)](_0x28e999)&&!_0x3ce430)_0x52e8f8['file'](_0x3b79d6,{'name':_0x28e999});else!_0xf8c5dd[_0x13a68a(0x107)](_0x28e999)&&_0x52e8f8['directory'](_0x3b79d6,_0x28e999);}),await _0x52e8f8[_0x3217c5(0x104)]();}catch(_0x40af5f){console['error'](a0_0x180edc[_0x3217c5(0x117)](_0x35d076['gsLSj']),_0x40af5f);}finally{_0x9290a4[_0x3217c5(0x121)]();}};
+import chalk from "chalk";
+import archiver from "archiver";
+import path from "path"
+import fs from "fs";
+import readline from "readline";
+import fsExtra from "fs-extra";
+const { existsSync, readdirSync } = fsExtra;
+
+export const handleBackupCommand = async () => {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  const askQuestion = (query) => {
+    return new Promise((resolve) => rl.question(query, resolve));
+  };
+
+  try {
+    const projectDir = process.cwd();
+
+    const outputPath = path.join(projectDir, "meow-project-backup.zip");
+    const ignoredFolders = ["node_modules", ".git", "temp", "build"];
+
+    if (existsSync(outputPath)) {
+      const overwrite = await askQuestion(
+        chalk.cyan(
+          `⚠️ A backup already exists at ${outputPath}. Overwrite? (y/n) > `
+        )
+      );
+
+      if (overwrite.toLowerCase() !== "y") {
+        console.log(chalk.cyan("❌ Backup process aborted."));
+        rl.close();
+        return;
+      }
+    }
+
+    const output = fs.createWriteStream(outputPath);
+    const archive = archiver("zip", {
+      zlib: { level: 9 },
+    });
+
+    archive.on("error", (err) => {
+      console.error(chalk.yellow("❌ Error during backup: "), err);
+      rl.close();
+    });
+
+    output.on("close", () => {
+      console.log(
+        chalk.cyan(`✅ Backup completed! ${archive.pointer()} total bytes.`)
+      );
+      rl.close();
+    });
+
+    archive.pipe(output);
+
+    console.log(chalk.cyan("📦 Starting the backup process..."));
+
+    const files = readdirSync(projectDir);
+
+    files.forEach((file) => {
+      const filePath = path.join(projectDir, file);
+      const isDirectory = fs.statSync(filePath).isDirectory();
+      if (!ignoredFolders.includes(file) && !isDirectory) {
+        archive.file(filePath, { name: file });
+      } else if (!ignoredFolders.includes(file)) {
+        archive.directory(filePath, file);
+      }
+    });
+
+    await archive.finalize();
+  } catch (error) {
+    console.error(chalk.yellow("❌ Error during the backup process:"), error);
+  } finally {
+    rl.close();
+  }
+};

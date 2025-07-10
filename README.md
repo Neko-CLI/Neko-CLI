@@ -33,15 +33,15 @@ If you manage to deobfuscate this puzzle, send me the content by email to receiv
 **Neko CLI** is a whimsical command-line utility that lets you manage your npm and yarn packages with ease and fun, embodying the charming essence of a cat ('neko' in Japanese). With Neko CLI, you can add or remove packages, initialize projects, and more, all through a delightful user interface.
 
 
-🐾 **neko.rock** - The Native Package Manager of Neko CLI
+🐾 **deps.neko** - The Native Package Manager of Neko CLI
 
-`neko.rock` is the beating heart of **Neko CLI**, a lock file that tracks packages and their versions for each project managed. It functions as a dedicated dependency manager, much like `package.json` in npm, but with a fun feline twist. Every package added via Neko CLI is recorded in `neko.rock`, allowing you to easily manage your project's dependencies.
+`deps.neko` is the beating heart of **Neko CLI**, a lock file that tracks packages and their versions for each project managed. It functions as a dedicated dependency manager, much like `package.json` in npm, but with a fun feline twist. Every package added via Neko CLI is recorded in `deps.neko`, allowing you to easily manage your project's dependencies.
 
-The `neko.rock` file contains detailed information about the packages, including version, integrity, and dependency type (runtime or dev), providing a more organized and enjoyable experience for managing packages. With `neko.rock`, you'll always have full control over your dependencies in a simple and intuitive way!
+The `deps.neko` file contains detailed information about the packages, including version, integrity, and dependency type (runtime or dev), providing a more organized and enjoyable experience for managing packages. With `deps.neko`, you'll always have full control over your dependencies in a simple and intuitive way!
 
 ---
 
-This addition should give your users a clear understanding of how `neko.rock` works within Neko CLI.
+This addition should give your users a clear understanding of how `deps.neko` works within Neko CLI.
 
 # **Performances of Neko-CLI**
 
@@ -108,8 +108,8 @@ Here are the commands you can use with Neko CLI:
 - **meow init [--skip (skip questions)] [-y (skip questions)]**: Initialize a new project. 🌱
 - **meow add `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Add a specified package to the project. 📦
 - **meow remove `<pkg1..pkg2...>` [-g (global)] [--dev (development)]**: Remove a specified package from the project. ❌
-- **meow meow**: Install dependencies listed in `meow.rock` or `package.json` or `yarn.lock` or `pnpm-lock.yaml`. 🐱
-- **meow all**: Install all packages listed in `meow.rock` or `package.json` or `yarn.lock` or `pnpm-lock.yaml`. ⚙️
+- **meow meow**: Install dependencies listed in `meow.neko` or `package.json` or `yarn.lock` or `pnpm-lock.yaml`. 🐱
+- **meow all**: Install all packages listed in `meow.neko` or `package.json` or `yarn.lock` or `pnpm-lock.yaml`. ⚙️
 - **meow flush `<script-name>`**: Run a specified script from your project. 🔄
 - **meow dev**: Flush the dev script if it exists. 🔧
 - **meow struct**: Predict the structure of the code and save it in a `meow-structure.yml`. 🗂️

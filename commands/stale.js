@@ -1,1 +1,209 @@
-(function(_0x4f18cb,_0x5df3bf){const _0x138141=a0_0x389e,_0x209e4b=_0x4f18cb();while(!![]){try{const _0x4e5155=parseInt(_0x138141(0x164))/0x1*(-parseInt(_0x138141(0x1dc))/0x2)+parseInt(_0x138141(0x1b4))/0x3*(parseInt(_0x138141(0x174))/0x4)+parseInt(_0x138141(0x1c3))/0x5+-parseInt(_0x138141(0x15b))/0x6*(-parseInt(_0x138141(0x1f0))/0x7)+-parseInt(_0x138141(0x1e0))/0x8*(parseInt(_0x138141(0x1d2))/0x9)+parseInt(_0x138141(0x1a6))/0xa+-parseInt(_0x138141(0x1a0))/0xb*(-parseInt(_0x138141(0x1cd))/0xc);if(_0x4e5155===_0x5df3bf)break;else _0x209e4b['push'](_0x209e4b['shift']());}catch(_0x428155){_0x209e4b['push'](_0x209e4b['shift']());}}}(a0_0x4b7d,0x54621));const a0_0x501f5d=(function(){let _0x2a867a=!![];return function(_0x55b956,_0x34241c){const _0x1a2fb9=_0x2a867a?function(){const _0x249f1d=a0_0x389e;if(_0x34241c){const _0x174c6a=_0x34241c[_0x249f1d(0x1a7)](_0x55b956,arguments);return _0x34241c=null,_0x174c6a;}}:function(){};return _0x2a867a=![],_0x1a2fb9;};}()),a0_0x3b2998=a0_0x501f5d(this,function(){const _0xb315e=a0_0x389e,_0x2b7017={'QcWWq':'(((.+)+)+)+$'};return a0_0x3b2998[_0xb315e(0x1e8)]()[_0xb315e(0x19f)](_0x2b7017['QcWWq'])[_0xb315e(0x1e8)]()['constructor'](a0_0x3b2998)[_0xb315e(0x19f)](_0x2b7017[_0xb315e(0x1e3)]);});a0_0x3b2998();import a0_0x5c43f8 from'chalk';import a0_0x2fe4b2 from'ora';function a0_0x389e(_0x1d70f6,_0x48b0b0){const _0x4ba2dd=a0_0x4b7d();return a0_0x389e=function(_0x3b2998,_0x501f5d){_0x3b2998=_0x3b2998-0x15b;let _0x4b7d22=_0x4ba2dd[_0x3b2998];return _0x4b7d22;},a0_0x389e(_0x1d70f6,_0x48b0b0);}import a0_0x25bdb6 from'fs';import a0_0x4ebf43 from'path';import a0_0x1005f1 from'axios';import a0_0x508da8 from'moment';const DEFAULT_STALE_THRESHOLD_DAYS=0xb4;function a0_0x4b7d(){const _0x2e4b6c=['fxjCp','forEach','3353320hKVGfG','fVAfK','N/A','QcWWq','RYclj','IhVKb','Not\x20a\x20GitHub\x20repository\x20or\x20unsupported.','https://registry.npmjs.org/','toString','🐾\x20Neko\x20is\x20sniffing\x20out\x20stale\x20dependencies...','\x0a---\x20Summary\x20---','cyan','error','package.json\x20not\x20found\x20in\x20the\x20current\x20directory.','repository','OhDnS','1815667HaAyzk','6otLwBo','--github-token','split','get','gQTjR','utf8','dist-tags','oFPZd','name','543193RNuedA','response','dependencies','days','readFileSync','GitHub\x20activity\x20check\x20issue:\x20','qXWHC','white','AxYAp',')\x20[','https://api.github.com/repos/','Active\x20packages:\x20','includes','wjCfH','No\x20repo\x20commit\x20in\x20','Dependency','19532nsSNrF','TinAM','sort','0|1|5|3|4|2','type','Ordyx','ERROR','time','No\x20npm\x20publish\x20in\x20','caDTc','author','lFcwD','EzQKJ','iOiER','cwd','date','modified','\x22.\x20Using\x20default\x20','info','tyoFu','Potentially\x20stale\x20packages:\x20','CaZhn','gHzSH','YYYY-MM-DD','match','version','stop','join','VNiHO','reasons','red','Package\x20not\x20found\x20on\x20npm.','No\x20GitHub\x20repo\x20found\x20or\x20supported.','diff','Error\x20reading\x20or\x20parsing\x20package.json:\x20','replace','aVWQn','token\x20','StTwi','text','🐾\x20Analyzing\x20','Seems\x20actively\x20maintained\x20within\x20the\x20threshold.','RrXfK','search','471229VdAQbA','keys','ZucYh','warn','BmAHA','ACTIVE','2079390KGdIzI','apply','gray','commit','mYZri','HWrRE','NfuQd','No\x20publish\x20date\x20found\x20on\x20npm.','Packages\x20with\x20check\x20errors:\x20','format','CTGhW',')...','nadNZ','\x20(GitHub\x20API\x20rate\x20limit\x20hit.\x20Consider\x20providing\x20a\x20GitHub\x20token\x20with\x20--github-token)','159HHKWFw','url','yellow','hIavJ','aUkDi','hbiIk','KfLTk','github.com','length','push','localeCompare','lastPublish','kdTcA','lastCommit','bYrTy','1624190FXBJQH','data','status','lastCommitDate','STALE','zCnxP','\x20\x20Last\x20Publish:\x20','latest','Could\x20not\x20parse\x20GitHub\x20repository\x20URL.','zgIKz','72wcYLhh','\x20days\x20(threshold:\x20','log','Failed\x20to\x20fetch\x20GitHub\x20activity\x20for\x20','\x20\x20Last\x20Commit\x20:\x20','9VRpAfj','KWMVI','message','No\x20GitHub\x20repo','UEswV','No\x20commits\x20found\x20on\x20GitHub.','\x20\x20\x20You\x20can\x20generate\x20a\x20token\x20at\x20https://github.com/settings/tokens\x20(no\x20special\x20permissions\x20needed\x20for\x20public\x20repos).','parse','ZQUFs','RBaQz','2twgtmX','--threshold'];a0_0x4b7d=function(){return _0x2e4b6c;};return a0_0x4b7d();}async function getPackageJsonDependencies(){const _0x3e9863=a0_0x389e,_0x2ac02b={'IhVKb':'package.json','nadNZ':_0x3e9863(0x1ed),'qXWHC':_0x3e9863(0x160)},_0x1073dd=a0_0x4ebf43[_0x3e9863(0x18f)](process[_0x3e9863(0x182)](),_0x2ac02b[_0x3e9863(0x1e5)]);if(!a0_0x25bdb6['existsSync'](_0x1073dd))throw new Error(_0x2ac02b[_0x3e9863(0x1b2)]);try{const _0x38fd2b=JSON[_0x3e9863(0x1d9)](a0_0x25bdb6[_0x3e9863(0x168)](_0x1073dd,_0x2ac02b[_0x3e9863(0x16a)])),_0x1f930d=_0x38fd2b[_0x3e9863(0x166)]||{},_0x40719e=_0x38fd2b['devDependencies']||{};return{'dependencies':_0x1f930d,'devDependencies':_0x40719e};}catch(_0x3bb626){throw new Error(_0x3e9863(0x196)+_0x3bb626[_0x3e9863(0x1d4)]);}}async function getNpmPackageInfo(_0x461098){const _0x422546=a0_0x389e,_0x4949c1={'tyoFu':_0x422546(0x161),'oFPZd':function(_0x3c9ee9,_0x51812d){return _0x3c9ee9(_0x51812d);},'ZucYh':function(_0x69f1a1,_0x17c8fd){return _0x69f1a1===_0x17c8fd;},'Ordyx':_0x422546(0x193)};try{const _0x5efa2d=await a0_0x1005f1[_0x422546(0x15e)](_0x422546(0x1e7)+_0x461098),_0x307496=_0x5efa2d['data'];let _0x38e713=_0x307496[_0x422546(0x1ee)]&&_0x307496[_0x422546(0x1ee)][_0x422546(0x1b5)];_0x38e713&&(_0x38e713=_0x38e713['replace'](/^git\+/,''),_0x38e713=_0x38e713[_0x422546(0x197)](/\.git$/,''));const _0x1536de=_0x307496[_0x4949c1[_0x422546(0x187)]]&&_0x307496[_0x4949c1['tyoFu']][_0x422546(0x1ca)];let _0x38e50f=null;if(_0x1536de&&_0x307496[_0x422546(0x17b)]&&_0x307496[_0x422546(0x17b)][_0x1536de])_0x38e50f=_0x4949c1['oFPZd'](a0_0x508da8,_0x307496[_0x422546(0x17b)][_0x1536de]);else _0x307496[_0x422546(0x17b)]&&_0x307496['time'][_0x422546(0x184)]&&(_0x38e50f=_0x4949c1[_0x422546(0x162)](a0_0x508da8,_0x307496[_0x422546(0x17b)][_0x422546(0x184)]));return{'repoUrl':_0x38e713,'lastPublishDate':_0x38e50f};}catch(_0x398998){if(_0x398998[_0x422546(0x165)]&&_0x4949c1[_0x422546(0x1a2)](_0x398998['response'][_0x422546(0x1c5)],0x194))return{'repoUrl':null,'lastPublishDate':null,'error':_0x4949c1[_0x422546(0x179)]};return{'repoUrl':null,'lastPublishDate':null,'error':'Failed\x20to\x20fetch\x20npm\x20info:\x20'+_0x398998[_0x422546(0x1d4)]};}}async function getGitHubActivity(_0x5265b9,_0x25e765=null){const _0x412843=a0_0x389e,_0xef4d13={'CaZhn':_0x412843(0x1bb),'OhDnS':_0x412843(0x1e6),'hbiIk':'neko-cli-stale-checker','UEswV':_0x412843(0x1d7),'BmAHA':_0x412843(0x1b3)};if(!_0x5265b9||!_0x5265b9[_0x412843(0x170)](_0xef4d13[_0x412843(0x189)]))return{'lastCommitDate':null,'error':_0xef4d13[_0x412843(0x1ef)]};const _0x41dd1b=_0x5265b9[_0x412843(0x18c)](/github\.com\/([^\/]+)\/([^\/]+)/);if(!_0x41dd1b)return{'lastCommitDate':null,'error':_0x412843(0x1cb)};const [,_0x4485a4,_0x5349e4]=_0x41dd1b;try{const _0x2365d7=_0x25e765?{'Authorization':_0x412843(0x199)+_0x25e765}:{'User-Agent':_0xef4d13[_0x412843(0x1b9)]},_0x20de99=await a0_0x1005f1[_0x412843(0x15e)](_0x412843(0x16e)+_0x4485a4+'/'+_0x5349e4+'/commits?per_page=1',{'headers':_0x2365d7});if(_0x20de99[_0x412843(0x1c4)]&&_0x20de99[_0x412843(0x1c4)][_0x412843(0x1bc)]>0x0){const _0x2a821a=a0_0x508da8(_0x20de99['data'][0x0][_0x412843(0x1a9)][_0x412843(0x17e)][_0x412843(0x183)]);return{'lastCommitDate':_0x2a821a};}return{'lastCommitDate':null,'error':_0xef4d13[_0x412843(0x1d6)]};}catch(_0x1f8d57){let _0x59f171=_0x412843(0x1d0)+_0x4485a4+'/'+_0x5349e4+':\x20'+_0x1f8d57[_0x412843(0x1d4)];return _0x1f8d57['response']&&_0x1f8d57[_0x412843(0x165)][_0x412843(0x1c5)]===0x193&&(_0x59f171+=_0xef4d13[_0x412843(0x1a4)]),{'lastCommitDate':null,'error':_0x59f171};}}export const handleStaleCommand=async _0x18ac31=>{const _0x11c57e=a0_0x389e,_0x3524fc={'caDTc':'ERROR','gQTjR':_0x11c57e(0x1c7),'iOiER':_0x11c57e(0x177),'EzQKJ':function(_0x1e694b,_0xa5bfb9){return _0x1e694b(_0xa5bfb9);},'zCnxP':_0x11c57e(0x1e9),'fVAfK':function(_0x32ad2c,_0x403f75){return _0x32ad2c<_0x403f75;},'RYclj':function(_0x49ff5f,_0x2a0fab){return _0x49ff5f===_0x2a0fab;},'RrXfK':_0x11c57e(0x1dd),'CTGhW':function(_0x4ca30c,_0x2eac86){return _0x4ca30c+_0x2eac86;},'KfLTk':function(_0x1faf95,_0x4f191a){return _0x1faf95>_0x4f191a;},'gHzSH':function(_0x27545c,_0x1a4ba2){return _0x27545c+_0x1a4ba2;},'uiDXH':function(_0x42c6a4,_0x1f8c8b){return _0x42c6a4===_0x1f8c8b;},'aUkDi':_0x11c57e(0x15c),'VNiHO':function(_0x3e7fb3,_0x2b6b4f){return _0x3e7fb3+_0x2b6b4f;},'ZQUFs':function(_0x538604){return _0x538604();},'KWMVI':function(_0x2c504c){return _0x2c504c();},'mYZri':'🐈\x20No\x20dependencies\x20found\x20in\x20package.json.','fxjCp':_0x11c57e(0x173),'StTwi':'DevDependency','bYrTy':'N/A','kdTcA':_0x11c57e(0x1bb),'RBaQz':function(_0x13813c,_0x1c1c0e,_0x18e883){return _0x13813c(_0x1c1c0e,_0x18e883);},'HWrRE':_0x11c57e(0x194),'VxGIA':_0x11c57e(0x1ad),'wjCfH':_0x11c57e(0x167),'NfuQd':_0x11c57e(0x1d5),'lFcwD':function(_0x132c94,_0x4230ec){return _0x132c94!==_0x4230ec;},'XZaOd':_0x11c57e(0x1d7),'aVWQn':'Repository\x20found,\x20but\x20no\x20commits\x20detected\x20on\x20GitHub.','zgIKz':_0x11c57e(0x1a5),'AxYAp':_0x11c57e(0x18b),'RUFNr':_0x11c57e(0x19d),'FYVma':'\x0a---\x20Neko\x20Stale\x20Report\x20---','nYSxe':_0x11c57e(0x1ea),'TinAM':'\x0aTip:\x20For\x20more\x20reliable\x20GitHub\x20checks\x20on\x20larger\x20projects,\x20provide\x20a\x20GitHub\x20Personal\x20Access\x20Token\x20using\x20`--github-token\x20<YOUR_TOKEN>`\x20to\x20avoid\x20API\x20rate\x20limits.','hIavJ':_0x11c57e(0x1d8)},_0x5e7149=_0x3524fc[_0x11c57e(0x180)](a0_0x2fe4b2,a0_0x5c43f8[_0x11c57e(0x1eb)](_0x3524fc[_0x11c57e(0x1c8)]))['start']();let _0x52e7a0=DEFAULT_STALE_THRESHOLD_DAYS,_0x1634f6=null;for(let _0x28c345=0x0;_0x3524fc[_0x11c57e(0x1e1)](_0x28c345,_0x18ac31[_0x11c57e(0x1bc)]);_0x28c345++){if(_0x3524fc['RYclj'](_0x18ac31[_0x28c345],_0x3524fc[_0x11c57e(0x19e)])&&_0x18ac31[_0x28c345+0x1]){const _0x50317a=parseInt(_0x18ac31[_0x3524fc[_0x11c57e(0x1b0)](_0x28c345,0x1)],0xa);!_0x3524fc['EzQKJ'](isNaN,_0x50317a)&&_0x3524fc[_0x11c57e(0x1ba)](_0x50317a,0x0)?(_0x52e7a0=_0x50317a,_0x28c345++):(_0x5e7149[_0x11c57e(0x1a3)](a0_0x5c43f8['yellow']('Invalid\x20value\x20for\x20--threshold:\x20\x22'+_0x18ac31[_0x3524fc[_0x11c57e(0x18a)](_0x28c345,0x1)]+_0x11c57e(0x185)+DEFAULT_STALE_THRESHOLD_DAYS+'\x20days.')),_0x28c345++);}else _0x3524fc['uiDXH'](_0x18ac31[_0x28c345],_0x3524fc[_0x11c57e(0x1b8)])&&_0x18ac31[_0x28c345+0x1]&&(_0x1634f6=_0x18ac31[_0x3524fc[_0x11c57e(0x190)](_0x28c345,0x1)],_0x28c345++);}try{const {dependencies:_0x4dc40d,devDependencies:_0x1be2f6}=await _0x3524fc[_0x11c57e(0x1da)](getPackageJsonDependencies),_0x4700b1={..._0x4dc40d,..._0x1be2f6},_0x2da1b6=[],_0x313084=_0x3524fc[_0x11c57e(0x1d3)](a0_0x508da8);if(Object[_0x11c57e(0x1a1)](_0x4700b1)[_0x11c57e(0x1bc)]===0x0){_0x5e7149[_0x11c57e(0x186)](a0_0x5c43f8['cyan'](_0x3524fc[_0x11c57e(0x1aa)])),_0x5e7149[_0x11c57e(0x18e)]();return;}const _0x1ae174=Object['keys'](_0x4700b1)[_0x11c57e(0x1bc)];let _0x32ab00=0x0;for(const _0x81da7b of Object['keys'](_0x4700b1)){_0x5e7149[_0x11c57e(0x19b)]=a0_0x5c43f8[_0x11c57e(0x1eb)](_0x11c57e(0x19c)+_0x81da7b+'\x20('+ ++_0x32ab00+'/'+_0x1ae174+_0x11c57e(0x1b1));const _0x1a064a=await _0x3524fc[_0x11c57e(0x180)](getNpmPackageInfo,_0x81da7b);if(_0x1a064a[_0x11c57e(0x1ec)]){_0x2da1b6[_0x11c57e(0x1bd)]({'name':_0x81da7b,'version':_0x4700b1[_0x81da7b],'type':_0x3524fc['RYclj'](_0x4700b1[_0x81da7b],_0x4dc40d[_0x81da7b])?_0x3524fc[_0x11c57e(0x1de)]:_0x3524fc[_0x11c57e(0x19a)],'status':a0_0x5c43f8[_0x11c57e(0x192)](_0x3524fc[_0x11c57e(0x17d)]),'reasons':_0x1a064a[_0x11c57e(0x1ec)],'lastPublish':_0x3524fc[_0x11c57e(0x1c2)],'lastCommit':_0x11c57e(0x1e2),'repo':_0x3524fc[_0x11c57e(0x1c2)]}),await new Promise(_0x345454=>setTimeout(_0x345454,0x32));continue;}const {repoUrl:_0x228b02,lastPublishDate:_0x17fb9d}=_0x1a064a;let _0x233cf0=null,_0x4bb092=null;if(_0x228b02&&_0x228b02['includes'](_0x3524fc[_0x11c57e(0x1c0)])){const _0x4554bc=await _0x3524fc[_0x11c57e(0x1db)](getGitHubActivity,_0x228b02,_0x1634f6);_0x233cf0=_0x4554bc[_0x11c57e(0x1c6)],_0x4bb092=_0x4554bc[_0x11c57e(0x1ec)];}else _0x4bb092=_0x3524fc[_0x11c57e(0x1ab)];let _0x50852e=![];const _0x32fc8d=[];if(_0x17fb9d){const _0x9f514a=_0x313084[_0x11c57e(0x195)](_0x17fb9d,_0x11c57e(0x167));_0x3524fc[_0x11c57e(0x1ba)](_0x9f514a,_0x52e7a0)&&(_0x50852e=!![],_0x32fc8d[_0x11c57e(0x1bd)](_0x11c57e(0x17c)+_0x9f514a+_0x11c57e(0x1ce)+_0x52e7a0+'d)'));}else _0x32fc8d['push'](_0x3524fc['VxGIA']);if(_0x233cf0){const _0x34f30a=_0x313084['diff'](_0x233cf0,_0x3524fc[_0x11c57e(0x171)]);_0x34f30a>_0x52e7a0&&(_0x50852e=!![],_0x32fc8d[_0x11c57e(0x1bd)](_0x11c57e(0x172)+_0x34f30a+_0x11c57e(0x1ce)+_0x52e7a0+'d)'));}else{if(!_0x4bb092[_0x11c57e(0x170)](_0x3524fc[_0x11c57e(0x1ac)])&&_0x3524fc[_0x11c57e(0x17f)](_0x4bb092,_0x3524fc['XZaOd']))_0x32fc8d['push'](_0x11c57e(0x169)+_0x4bb092);else _0x3524fc[_0x11c57e(0x1e4)](_0x4bb092,_0x11c57e(0x1d7))?_0x32fc8d[_0x11c57e(0x1bd)](_0x3524fc[_0x11c57e(0x198)]):_0x32fc8d[_0x11c57e(0x1bd)](_0x4bb092);}_0x2da1b6[_0x11c57e(0x1bd)]({'name':_0x81da7b,'version':_0x4700b1[_0x81da7b],'type':_0x4700b1[_0x81da7b]===_0x4dc40d[_0x81da7b]?_0x3524fc[_0x11c57e(0x1de)]:_0x3524fc[_0x11c57e(0x19a)],'status':_0x50852e?a0_0x5c43f8[_0x11c57e(0x1b6)](_0x3524fc[_0x11c57e(0x15f)]):a0_0x5c43f8['cyan'](_0x3524fc[_0x11c57e(0x1cc)]),'lastPublish':_0x17fb9d?_0x17fb9d['format'](_0x3524fc[_0x11c57e(0x16c)]):_0x3524fc[_0x11c57e(0x1c2)],'lastCommit':_0x233cf0?_0x233cf0[_0x11c57e(0x1af)](_0x3524fc[_0x11c57e(0x16c)]):_0x3524fc[_0x11c57e(0x1c2)],'reasons':_0x32fc8d[_0x11c57e(0x18f)](';\x20')||_0x3524fc['RUFNr'],'repo':_0x228b02||_0x3524fc[_0x11c57e(0x1c2)]}),await new Promise(_0x287e9f=>setTimeout(_0x287e9f,0xc8));}_0x5e7149['succeed'](a0_0x5c43f8[_0x11c57e(0x1eb)]('Dependency\x20staleness\x20analysis\x20complete!\x20✨')),console[_0x11c57e(0x1cf)](_0x3524fc['FYVma']);let _0xf137b8=0x0,_0x34d0b4=0x0,_0x43bb9b=0x0;_0x2da1b6[_0x11c57e(0x176)]((_0x35314c,_0x408c0e)=>{const _0x2ca28c=_0x11c57e;if(_0x35314c[_0x2ca28c(0x1c5)]['includes'](_0x2ca28c(0x17a)))return-0x1;if(_0x408c0e[_0x2ca28c(0x1c5)][_0x2ca28c(0x170)](_0x3524fc['caDTc']))return 0x1;if(_0x35314c[_0x2ca28c(0x1c5)][_0x2ca28c(0x170)](_0x2ca28c(0x1c7))&&!_0x408c0e[_0x2ca28c(0x1c5)][_0x2ca28c(0x170)](_0x3524fc['gQTjR']))return-0x1;if(!_0x35314c[_0x2ca28c(0x1c5)]['includes'](_0x3524fc[_0x2ca28c(0x15f)])&&_0x408c0e[_0x2ca28c(0x1c5)][_0x2ca28c(0x170)](_0x3524fc[_0x2ca28c(0x15f)]))return 0x1;return _0x35314c[_0x2ca28c(0x163)][_0x2ca28c(0x1be)](_0x408c0e[_0x2ca28c(0x163)]);}),_0x2da1b6[_0x11c57e(0x1df)](_0x5544e4=>{const _0x1e782d=_0x11c57e;if(_0x5544e4[_0x1e782d(0x1c5)][_0x1e782d(0x170)](_0x3524fc['gQTjR'])){const _0x41cc22=_0x3524fc[_0x1e782d(0x181)][_0x1e782d(0x15d)]('|');let _0x36acd8=0x0;while(!![]){switch(_0x41cc22[_0x36acd8++]){case'0':_0xf137b8++;continue;case'1':console[_0x1e782d(0x1cf)]('\x0a'+_0x5544e4[_0x1e782d(0x1c5)]+'\x20'+a0_0x5c43f8[_0x1e782d(0x16b)](_0x5544e4[_0x1e782d(0x163)])+'\x20('+_0x5544e4[_0x1e782d(0x18d)]+_0x1e782d(0x16d)+_0x5544e4[_0x1e782d(0x178)]+']');continue;case'2':console[_0x1e782d(0x1cf)](a0_0x5c43f8[_0x1e782d(0x1a8)]('\x20\x20Repo\x20\x20\x20\x20\x20\x20\x20\x20:\x20'+_0x5544e4['repo']));continue;case'3':console[_0x1e782d(0x1cf)](a0_0x5c43f8[_0x1e782d(0x1a8)](_0x1e782d(0x1d1)+_0x5544e4[_0x1e782d(0x1c1)]));continue;case'4':console['log'](a0_0x5c43f8[_0x1e782d(0x192)]('\x20\x20Reason(s)\x20\x20\x20:\x20'+_0x5544e4[_0x1e782d(0x191)]));continue;case'5':console[_0x1e782d(0x1cf)](a0_0x5c43f8[_0x1e782d(0x1a8)](_0x1e782d(0x1c9)+_0x5544e4[_0x1e782d(0x1bf)]));continue;}break;}}else _0x5544e4[_0x1e782d(0x1c5)]['includes'](_0x3524fc['caDTc'])?(_0x34d0b4++,console[_0x1e782d(0x1cf)]('\x0a'+_0x5544e4[_0x1e782d(0x1c5)]+'\x20'+a0_0x5c43f8['white'](_0x5544e4[_0x1e782d(0x163)])+'\x20('+_0x5544e4[_0x1e782d(0x18d)]+_0x1e782d(0x16d)+_0x5544e4[_0x1e782d(0x178)]+']'),console[_0x1e782d(0x1cf)](a0_0x5c43f8['red']('\x20\x20Error\x20\x20\x20\x20\x20\x20\x20:\x20'+_0x5544e4['reasons']))):_0x43bb9b++;}),console[_0x11c57e(0x1cf)](_0x3524fc['nYSxe']),console[_0x11c57e(0x1cf)]('Total\x20dependencies\x20checked:\x20'+_0x1ae174),console[_0x11c57e(0x1cf)](_0x11c57e(0x16f)+_0x43bb9b),console[_0x11c57e(0x1cf)](a0_0x5c43f8[_0x11c57e(0x1b6)](_0x11c57e(0x188)+_0xf137b8)),console[_0x11c57e(0x1cf)](a0_0x5c43f8['red'](_0x11c57e(0x1ae)+_0x34d0b4)),_0x3524fc['RYclj'](_0x1634f6,null)&&(console['log'](a0_0x5c43f8[_0x11c57e(0x1eb)](_0x3524fc[_0x11c57e(0x175)])),console[_0x11c57e(0x1cf)](a0_0x5c43f8[_0x11c57e(0x1eb)](_0x3524fc[_0x11c57e(0x1b7)])));}catch(_0x270a30){_0x5e7149['fail'](a0_0x5c43f8[_0x11c57e(0x192)]('An\x20unexpected\x20error\x20occurred\x20during\x20staleness\x20check:\x20'+_0x270a30[_0x11c57e(0x1d4)])),console['error'](a0_0x5c43f8[_0x11c57e(0x192)](_0x270a30['stack']));}};
+import chalk from "chalk";
+import ora from "ora";
+import fs from "fs";
+import path from "path";
+import axios from "axios";
+import moment from "moment";
+const DEFAULT_STALE_THRESHOLD_DAYS = 180;
+async function getPackageJsonDependencies() {
+    const packageJsonPath = path.join(process.cwd(), 'package.json');
+    if (!fs.existsSync(packageJsonPath)) {
+        throw new Error("package.json not found in the current directory.");
+    }
+    try {
+        const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8'));
+        const dependencies = packageJson.dependencies || {};
+        const devDependencies = packageJson.devDependencies || {};
+        return { dependencies, devDependencies };
+    } catch (error) {
+        throw new Error(`Error reading or parsing package.json: ${error.message}`);
+    }
+}
+async function getNpmPackageInfo(packageName) {
+    try {
+        const response = await axios.get(`https://registry.npmjs.org/${packageName}`);
+        const data = response.data;
+        let repoUrl = data.repository && data.repository.url;
+        if (repoUrl) {
+            repoUrl = repoUrl.replace(/^git\+/, '');
+            repoUrl = repoUrl.replace(/\.git$/, '');
+        }
+        const latestVersion = data['dist-tags'] && data['dist-tags'].latest;
+        let lastPublishDate = null;
+        if (latestVersion && data.time && data.time[latestVersion]) {
+            lastPublishDate = moment(data.time[latestVersion]);
+        } else if (data.time && data.time.modified) {
+            lastPublishDate = moment(data.time.modified);
+        }
+        return { repoUrl, lastPublishDate };
+    } catch (error) {
+        if (error.response && error.response.status === 404) {
+            return { repoUrl: null, lastPublishDate: null, error: "Package not found on npm." };
+        }
+        return { repoUrl: null, lastPublishDate: null, error: `Failed to fetch npm info: ${error.message}` };
+    }
+}
+async function getGitHubActivity(repoUrl, githubToken = null) {
+    if (!repoUrl || !repoUrl.includes('github.com')) {
+        return { lastCommitDate: null, error: "Not a GitHub repository or unsupported." };
+    }
+    const match = repoUrl.match(/github\.com\/([^\/]+)\/([^\/]+)/);
+    if (!match) {
+        return { lastCommitDate: null, error: "Could not parse GitHub repository URL." };
+    }
+    const [, owner, repo] = match;
+    try {
+        const headers = githubToken ? { 'Authorization': `token ${githubToken}` } : { 'User-Agent': 'neko-cli-stale-checker' };
+        const response = await axios.get(
+            `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`,
+            { headers }
+        );
+        if (response.data && response.data.length > 0) {
+            const lastCommitDate = moment(response.data[0].commit.author.date);
+            return { lastCommitDate };
+        }
+        return { lastCommitDate: null, error: "No commits found on GitHub." };
+    } catch (error) {
+        let errorMessage = `Failed to fetch GitHub activity for ${owner}/${repo}: ${error.message}`;
+        if (error.response && error.response.status === 403) {
+            errorMessage += " (GitHub API rate limit hit. Consider providing a GitHub token with --github-token)";
+        }
+        return { lastCommitDate: null, error: errorMessage };
+    }
+}
+export const handleStaleCommand = async (args) => {
+    const spinner = ora(chalk.cyan("🐾 Neko is sniffing out stale dependencies...")).start();
+    let staleThresholdDays = DEFAULT_STALE_THRESHOLD_DAYS;
+    let githubToken = null;
+    for (let i = 0; i < args.length; i++) {
+        if (args[i] === '--threshold' && args[i + 1]) {
+            const threshold = parseInt(args[i + 1], 10);
+            if (!isNaN(threshold) && threshold > 0) {
+                staleThresholdDays = threshold;
+                i++;
+            } else {
+                spinner.warn(chalk.yellow(`Invalid value for --threshold: "${args[i+1]}". Using default ${DEFAULT_STALE_THRESHOLD_DAYS} days.`));
+                i++;
+            }
+        } else if (args[i] === '--github-token' && args[i + 1]) {
+            githubToken = args[i + 1];
+            i++;
+        }
+    }
+    try {
+        const { dependencies, devDependencies } = await getPackageJsonDependencies();
+        const allDependencies = { ...dependencies, ...devDependencies };
+        const results = [];
+        const today = moment();
+        if (Object.keys(allDependencies).length === 0) {
+            spinner.info(chalk.cyan("🐈 No dependencies found in package.json."));
+            spinner.stop();
+            return;
+        }
+        const totalDependencies = Object.keys(allDependencies).length;
+        let processedCount = 0;
+        for (const packageName of Object.keys(allDependencies)) {
+            spinner.text = chalk.cyan(`🐾 Analyzing ${packageName} (${++processedCount}/${totalDependencies})...`);
+            const npmInfo = await getNpmPackageInfo(packageName);
+            if (npmInfo.error) {
+                results.push({
+                    name: packageName,
+                    version: allDependencies[packageName],
+                    type: allDependencies[packageName] === dependencies[packageName] ? "Dependency" : "DevDependency",
+                    status: chalk.red("ERROR"),
+                    reasons: npmInfo.error,
+                    lastPublish: "N/A",
+                    lastCommit: "N/A",
+                    repo: "N/A"
+                });
+                await new Promise(resolve => setTimeout(resolve, 50));
+                continue;
+            }
+            const { repoUrl, lastPublishDate } = npmInfo;
+            let lastCommitDate = null;
+            let githubError = null;
+            if (repoUrl && repoUrl.includes('github.com')) {
+                const githubActivity = await getGitHubActivity(repoUrl, githubToken);
+                lastCommitDate = githubActivity.lastCommitDate;
+                githubError = githubActivity.error;
+            } else {
+                githubError = "No GitHub repo found or supported.";
+            }
+            let isStale = false;
+            const reasons = [];
+            if (lastPublishDate) {
+                const daysSincePublish = today.diff(lastPublishDate, 'days');
+                if (daysSincePublish > staleThresholdDays) {
+                    isStale = true;
+                    reasons.push(`No npm publish in ${daysSincePublish} days (threshold: ${staleThresholdDays}d)`);
+                }
+            } else {
+                reasons.push("No publish date found on npm.");
+            }
+            if (lastCommitDate) {
+                const daysSinceCommit = today.diff(lastCommitDate, 'days');
+                if (daysSinceCommit > staleThresholdDays) {
+                    isStale = true;
+                    reasons.push(`No repo commit in ${daysSinceCommit} days (threshold: ${staleThresholdDays}d)`);
+                }
+            } else if (!githubError.includes("No GitHub repo") && githubError !== "No commits found on GitHub.") {
+                reasons.push(`GitHub activity check issue: ${githubError}`);
+            } else if (githubError === "No commits found on GitHub.") {
+                reasons.push("Repository found, but no commits detected on GitHub.");
+            } else {
+                reasons.push(githubError);
+            }
+            results.push({
+                name: packageName,
+                version: allDependencies[packageName],
+                type: allDependencies[packageName] === dependencies[packageName] ? "Dependency" : "DevDependency",
+                status: isStale ? chalk.yellow("STALE") : chalk.cyan("ACTIVE"),
+                lastPublish: lastPublishDate ? lastPublishDate.format('YYYY-MM-DD') : "N/A",
+                lastCommit: lastCommitDate ? lastCommitDate.format('YYYY-MM-DD') : "N/A",
+                reasons: reasons.join('; ') || "Seems actively maintained within the threshold.",
+                repo: repoUrl || "N/A"
+            });
+            await new Promise(resolve => setTimeout(resolve, 200));
+        }
+        spinner.succeed(chalk.cyan("Dependency staleness analysis complete! ✨"));
+        console.log("\n--- Neko Stale Report ---");
+        let staleCount = 0;
+        let errorCount = 0;
+        let activeCount = 0;
+        results.sort((a, b) => {
+            if (a.status.includes("ERROR")) return -1;
+            if (b.status.includes("ERROR")) return 1;
+            if (a.status.includes("STALE") && !b.status.includes("STALE")) return -1;
+            if (!a.status.includes("STALE") && b.status.includes("STALE")) return 1;
+            return a.name.localeCompare(b.name);
+        });
+        results.forEach(pkg => {
+            if (pkg.status.includes("STALE")) {
+                staleCount++;
+                console.log(`\n${pkg.status} ${chalk.white(pkg.name)} (${pkg.version}) [${pkg.type}]`);
+                console.log(chalk.gray(`  Last Publish: ${pkg.lastPublish}`));
+                console.log(chalk.gray(`  Last Commit : ${pkg.lastCommit}`));
+                console.log(chalk.red(`  Reason(s)   : ${pkg.reasons}`));
+                console.log(chalk.gray(`  Repo        : ${pkg.repo}`));
+            } else if (pkg.status.includes("ERROR")) {
+                errorCount++;
+                console.log(`\n${pkg.status} ${chalk.white(pkg.name)} (${pkg.version}) [${pkg.type}]`);
+                console.log(chalk.red(`  Error       : ${pkg.reasons}`));
+            } else {
+                activeCount++;
+            }
+        });
+        console.log("\n--- Summary ---");
+        console.log(`Total dependencies checked: ${totalDependencies}`);
+        console.log(`Active packages: ${activeCount}`);
+        console.log(chalk.yellow(`Potentially stale packages: ${staleCount}`));
+        console.log(chalk.red(`Packages with check errors: ${errorCount}`));
+        if (githubToken === null) {
+            console.log(chalk.cyan("\nTip: For more reliable GitHub checks on larger projects, provide a GitHub Personal Access Token using `--github-token <YOUR_TOKEN>` to avoid API rate limits."));
+            console.log(chalk.cyan("   You can generate a token at https://github.com/settings/tokens (no special permissions needed for public repos)."));
+        }
+    } catch (error) {
+        spinner.fail(chalk.red(`An unexpected error occurred during staleness check: ${error.message}`));
+        console.error(chalk.red(error.stack));
+    }
+};

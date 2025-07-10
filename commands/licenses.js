@@ -1,1 +1,147 @@
-(function(_0x876dcf,_0x32b334){const _0x488e53=a0_0x3c18,_0xc9b8f8=_0x876dcf();while(!![]){try{const _0x2231ab=-parseInt(_0x488e53(0xf7))/0x1+-parseInt(_0x488e53(0xc5))/0x2+-parseInt(_0x488e53(0xcf))/0x3*(parseInt(_0x488e53(0xcb))/0x4)+-parseInt(_0x488e53(0xc6))/0x5+parseInt(_0x488e53(0xca))/0x6*(parseInt(_0x488e53(0xb7))/0x7)+parseInt(_0x488e53(0xf8))/0x8*(-parseInt(_0x488e53(0xc3))/0x9)+parseInt(_0x488e53(0xe2))/0xa*(parseInt(_0x488e53(0xf6))/0xb);if(_0x2231ab===_0x32b334)break;else _0xc9b8f8['push'](_0xc9b8f8['shift']());}catch(_0x23df14){_0xc9b8f8['push'](_0xc9b8f8['shift']());}}}(a0_0x1688,0xf0cd8));function a0_0x1688(){const _0x4723a4=['push','351867NMZJnm','dependencies','\x20(v','existsSync','No\x20license\x20found','version','search','toString','⚠️\x20No\x20licenses\x20found\x20for\x20optionalDependencies.','kRLQU','PrSrk','./node_modules','OLMft','name','voumt','SaNgp','log','🔍\x20Parsing\x20package-lock.json\x20for\x20licenses...','join','25332920ZGHXgW','type','yellow','cyan','forEach','constructor','wdHIH','license','weRyV','iuntR','readFile','🔍\x20Parsing\x20yarn.lock\x20for\x20licenses...','promises','message','optionalDependencies','SUygC','faSJx','⚠️\x20Failed\x20to\x20read\x20','qnjBu','ZarTZ','11YsJbGG','318346mxOSEW','8YoAPyC','⚠️\x20No\x20licenses\x20found\x20for\x20devDependencies.','devDependencies','object','✔️\x20Found\x20licenses\x20for\x20the\x20following\x20dependencies:','6458172qYaPkZ','parse','TMglM','GBKXj','QtvSi','JaIJd','BeQcc','(((.+)+)+)+$','package.json','./package.json','apply','✔️\x20Found\x20licenses\x20for\x20the\x20following\x20devDependencies:','4769235AtBLCT','⚠️\x20No\x20licenses\x20found\x20for\x20dependencies.','1534548jlhIAV','1924345CxWdFE','utf8','hhuma','./yarn.lock','6ybRuGf','16rXIuBo','error','length'];a0_0x1688=function(){return _0x4723a4;};return a0_0x1688();}const a0_0xffc36c=(function(){let _0x30c79c=!![];return function(_0x3b1bcd,_0x4afd28){const _0x2d3f71=_0x30c79c?function(){const _0x4927ca=a0_0x3c18;if(_0x4afd28){const _0x2f6373=_0x4afd28[_0x4927ca(0xc1)](_0x3b1bcd,arguments);return _0x4afd28=null,_0x2f6373;}}:function(){};return _0x30c79c=![],_0x2d3f71;};}()),a0_0x44016e=a0_0xffc36c(this,function(){const _0x363afc=a0_0x3c18,_0x41de43={'weRyV':'(((.+)+)+)+$'};return a0_0x44016e[_0x363afc(0xd6)]()[_0x363afc(0xd5)](_0x363afc(0xbe))[_0x363afc(0xd6)]()[_0x363afc(0xe7)](a0_0x44016e)[_0x363afc(0xd5)](_0x41de43[_0x363afc(0xea)]);});a0_0x44016e();function a0_0x3c18(_0x368bcd,_0x190071){const _0x2ed777=a0_0x1688();return a0_0x3c18=function(_0x44016e,_0xffc36c){_0x44016e=_0x44016e-0xb3;let _0x1688c1=_0x2ed777[_0x44016e];return _0x1688c1;},a0_0x3c18(_0x368bcd,_0x190071);}import a0_0x946ca1 from'chalk';import a0_0x437894 from'path';import a0_0x1fe086 from'fs';export const handleLicensesCommand=async()=>{const _0x1acf81=a0_0x3c18,_0x4f8447={'SaNgp':_0x1acf81(0xbf),'GBKXj':_0x1acf81(0xd3),'grAOV':function(_0x2d7ea3,_0x9da0af){return _0x2d7ea3===_0x9da0af;},'OLMft':_0x1acf81(0xb5),'wdHIH':_0x1acf81(0xd0),'QtvSi':function(_0xed1677,_0x2652ec){return _0xed1677===_0x2652ec;},'PrSrk':'optionalDependencies','ONIrW':_0x1acf81(0xc9),'xvMDe':_0x1acf81(0xc0),'pFLMs':_0x1acf81(0xda),'JaIJd':_0x1acf81(0xed),'hhuma':_0x1acf81(0xc7),'EyxUm':function(_0x8585e5,_0x45aebc){return _0x8585e5===_0x45aebc;},'voumt':_0x1acf81(0xe0),'faSJx':function(_0x34b400,_0x31e66a,_0x264a0d){return _0x34b400(_0x31e66a,_0x264a0d);},'kRLQU':_0x1acf81(0xb4),'BeQcc':function(_0x218be5,_0x1f19f0){return _0x218be5>_0x1f19f0;},'uwlKY':_0x1acf81(0xb6),'TMglM':_0x1acf81(0xc4),'iuntR':_0x1acf81(0xc2),'qnjBu':_0x1acf81(0xb3),'ZarTZ':'✔️\x20Found\x20licenses\x20for\x20the\x20following\x20optionalDependencies:','SUygC':_0x1acf81(0xd7)},_0x17fdfc=_0x4f8447['ONIrW'],_0x389aa0=_0x4f8447['xvMDe'],_0x199371=_0x4f8447['pFLMs'];let _0x1245a1=[],_0x364b69=[],_0x25d440=[];if(a0_0x1fe086[_0x1acf81(0xd2)](_0x17fdfc)){console[_0x1acf81(0xdf)](a0_0x946ca1[_0x1acf81(0xe5)](_0x4f8447[_0x1acf81(0xbc)]));const _0x3ac127=await a0_0x1fe086[_0x1acf81(0xee)]['readFile'](_0x17fdfc,_0x1acf81(0xc7)),_0x21586e=yarnLockfile[_0x1acf81(0xb8)](_0x3ac127);for(const [_0x237df3,_0xc1c4a]of Object['entries'](_0x21586e[_0x1acf81(0xb5)])){const _0x3162d6=_0xc1c4a[_0x1acf81(0xd4)],_0x32576f=a0_0x437894[_0x1acf81(0xe1)](_0x199371,_0x237df3,_0x4f8447[_0x1acf81(0xde)]);if(a0_0x1fe086[_0x1acf81(0xd2)](_0x32576f))try{const _0x272057=await a0_0x1fe086[_0x1acf81(0xee)][_0x1acf81(0xec)](_0x32576f,_0x4f8447[_0x1acf81(0xc8)]),_0x391ad9=JSON['parse'](_0x272057);let _0x443cb0=_0x391ad9[_0x1acf81(0xe9)]||_0x4f8447[_0x1acf81(0xba)];_0x4f8447['EyxUm'](typeof _0x443cb0,_0x4f8447[_0x1acf81(0xdb)])&&_0x443cb0['type']&&(_0x443cb0=_0x443cb0[_0x1acf81(0xe3)]),_0x1245a1['push']({'name':_0x237df3,'version':_0x3162d6,'license':_0x443cb0});}catch(_0xf369ad){console[_0x1acf81(0xcc)](a0_0x946ca1[_0x1acf81(0xe4)](_0x1acf81(0xf3)+_0x237df3+':\x20'+_0xf369ad[_0x1acf81(0xef)]));}}}if(a0_0x1fe086[_0x1acf81(0xd2)](_0x389aa0)){console[_0x1acf81(0xdf)](a0_0x946ca1[_0x1acf81(0xe5)](_0x4f8447[_0x1acf81(0xdd)]));const _0x3f9650=await a0_0x1fe086['promises'][_0x1acf81(0xec)](_0x389aa0,_0x4f8447['hhuma']),_0x2cfdc9=JSON[_0x1acf81(0xb8)](_0x3f9650),_0x5b98cc=async(_0x272259,_0x404610)=>{const _0x5bf6ca=_0x1acf81;for(const _0x4634d3 in _0x272259){const _0x2ed7d2=_0x272259[_0x4634d3],_0x256e18=_0x2ed7d2['version'],_0x494acc=a0_0x437894[_0x5bf6ca(0xe1)](_0x199371,_0x4634d3,_0x4f8447[_0x5bf6ca(0xde)]);if(a0_0x1fe086[_0x5bf6ca(0xd2)](_0x494acc))try{const _0x502dab=await a0_0x1fe086[_0x5bf6ca(0xee)]['readFile'](_0x494acc,_0x5bf6ca(0xc7)),_0x48e027=JSON[_0x5bf6ca(0xb8)](_0x502dab);let _0x504696=_0x48e027['license']||_0x4f8447['GBKXj'];_0x4f8447['grAOV'](typeof _0x504696,_0x4f8447['OLMft'])&&_0x504696[_0x5bf6ca(0xe3)]&&(_0x504696=_0x504696[_0x5bf6ca(0xe3)]);if(_0x404610===_0x4f8447['wdHIH'])_0x1245a1[_0x5bf6ca(0xce)]({'name':_0x4634d3,'version':_0x256e18,'license':_0x504696});else{if(_0x404610===_0x5bf6ca(0xb4))_0x364b69['push']({'name':_0x4634d3,'version':_0x256e18,'license':_0x504696});else _0x4f8447[_0x5bf6ca(0xbb)](_0x404610,_0x4f8447[_0x5bf6ca(0xd9)])&&_0x25d440['push']({'name':_0x4634d3,'version':_0x256e18,'license':_0x504696});}}catch(_0x29982b){console[_0x5bf6ca(0xcc)](a0_0x946ca1[_0x5bf6ca(0xe4)]('⚠️\x20Failed\x20to\x20read\x20'+_0x4634d3+':\x20'+_0x29982b[_0x5bf6ca(0xef)]));}}};await _0x4f8447['faSJx'](_0x5b98cc,_0x2cfdc9[_0x1acf81(0xd0)],_0x4f8447[_0x1acf81(0xe8)]),await _0x5b98cc(_0x2cfdc9[_0x1acf81(0xb4)],_0x4f8447[_0x1acf81(0xd8)]),await _0x4f8447[_0x1acf81(0xf2)](_0x5b98cc,_0x2cfdc9[_0x1acf81(0xf0)],_0x4f8447[_0x1acf81(0xd9)]);}_0x4f8447[_0x1acf81(0xbd)](_0x1245a1[_0x1acf81(0xcd)],0x0)?(console[_0x1acf81(0xdf)](a0_0x946ca1['cyan'](_0x4f8447['uwlKY'])),_0x1245a1[_0x1acf81(0xe6)](_0x37c475=>{const _0x53549b=_0x1acf81;console[_0x53549b(0xdf)](a0_0x946ca1[_0x53549b(0xe5)]('-\x20'+_0x37c475[_0x53549b(0xdc)]+':\x20'+_0x37c475[_0x53549b(0xe9)]+_0x53549b(0xd1)+_0x37c475[_0x53549b(0xd4)]+')'));})):console[_0x1acf81(0xdf)](a0_0x946ca1[_0x1acf81(0xe4)](_0x4f8447[_0x1acf81(0xb9)])),_0x364b69[_0x1acf81(0xcd)]>0x0?(console[_0x1acf81(0xdf)](a0_0x946ca1[_0x1acf81(0xe5)](_0x4f8447[_0x1acf81(0xeb)])),_0x364b69[_0x1acf81(0xe6)](_0x12a8bc=>{const _0x4f0ed6=_0x1acf81;console[_0x4f0ed6(0xdf)](a0_0x946ca1[_0x4f0ed6(0xe5)]('-\x20'+_0x12a8bc[_0x4f0ed6(0xdc)]+':\x20'+_0x12a8bc['license']+_0x4f0ed6(0xd1)+_0x12a8bc['version']+')'));})):console['log'](a0_0x946ca1[_0x1acf81(0xe4)](_0x4f8447[_0x1acf81(0xf4)])),_0x25d440[_0x1acf81(0xcd)]>0x0?(console[_0x1acf81(0xdf)](a0_0x946ca1[_0x1acf81(0xe5)](_0x4f8447[_0x1acf81(0xf5)])),_0x25d440[_0x1acf81(0xe6)](_0x47f9ce=>{const _0x22455c=_0x1acf81;console['log'](a0_0x946ca1['cyan']('-\x20'+_0x47f9ce[_0x22455c(0xdc)]+':\x20'+_0x47f9ce[_0x22455c(0xe9)]+_0x22455c(0xd1)+_0x47f9ce['version']+')'));})):console[_0x1acf81(0xdf)](a0_0x946ca1[_0x1acf81(0xe4)](_0x4f8447[_0x1acf81(0xf1)]));};
+import chalk from "chalk";
+import path from "path";
+import fs from "fs";
+
+export const handleLicensesCommand = async () => {
+  const yarnLockPath = "./yarn.lock";
+  const packageLockPath = "./package.json";
+  const nodeModulesPath = "./node_modules";
+
+  let dependencies = [];
+  let devDependencies = [];
+  let optionalDependencies = [];
+
+  if (fs.existsSync(yarnLockPath)) {
+    console.log(chalk.cyan("🔍 Parsing yarn.lock for licenses..."));
+
+    const yarnLockContent = await fs.promises.readFile(yarnLockPath, "utf8");
+    const parsedLockfile = yarnLockfile.parse(yarnLockContent);
+
+    for (const [depName, depData] of Object.entries(parsedLockfile.object)) {
+      const depVersion = depData.version;
+      const depPath = path.join(nodeModulesPath, depName, "package.json");
+
+      if (fs.existsSync(depPath)) {
+        try {
+          const depPkg = await fs.promises.readFile(depPath, "utf8");
+          const depPkgJson = JSON.parse(depPkg);
+          let license = depPkgJson.license || "No license found";
+
+          if (typeof license === "object" && license.type) {
+            license = license.type;
+          }
+
+          dependencies.push({
+            name: depName,
+            version: depVersion,
+            license: license,
+          });
+        } catch (error) {
+          console.error(
+            chalk.yellow(`⚠️ Failed to read ${depName}: ${error.message}`)
+          );
+        }
+      }
+    }
+  }
+
+  if (fs.existsSync(packageLockPath)) {
+    console.log(chalk.cyan("🔍 Parsing package-lock.json for licenses..."));
+
+    const packageLockContent = await fs.promises.readFile(
+      packageLockPath,
+      "utf8"
+    );
+    const packageLockJson = JSON.parse(packageLockContent);
+
+    const addDependencies = async (deps, type) => {
+      for (const depName in deps) {
+        const depData = deps[depName];
+        const depVersion = depData.version;
+        const depPath = path.join(nodeModulesPath, depName, "package.json");
+
+        if (fs.existsSync(depPath)) {
+          try {
+            const depPkg = await fs.promises.readFile(depPath, "utf8");
+            const depPkgJson = JSON.parse(depPkg);
+            let license = depPkgJson.license || "No license found";
+
+            if (typeof license === "object" && license.type) {
+              license = license.type;
+            }
+
+            if (type === "dependencies") {
+              dependencies.push({
+                name: depName,
+                version: depVersion,
+                license,
+              });
+            } else if (type === "devDependencies") {
+              devDependencies.push({
+                name: depName,
+                version: depVersion,
+                license,
+              });
+            } else if (type === "optionalDependencies") {
+              optionalDependencies.push({
+                name: depName,
+                version: depVersion,
+                license,
+              });
+            }
+          } catch (error) {
+            console.error(
+              chalk.yellow(`⚠️ Failed to read ${depName}: ${error.message}`)
+            );
+          }
+        }
+      }
+    };
+
+    await addDependencies(packageLockJson.dependencies, "dependencies");
+    await addDependencies(packageLockJson.devDependencies, "devDependencies");
+    await addDependencies(
+      packageLockJson.optionalDependencies,
+      "optionalDependencies"
+    );
+  }
+
+  if (dependencies.length > 0) {
+    console.log(
+      chalk.cyan("✔️ Found licenses for the following dependencies:")
+    );
+    dependencies.forEach((pkg) => {
+      console.log(
+        chalk.cyan(`- ${pkg.name}: ${pkg.license} (v${pkg.version})`)
+      );
+    });
+  } else {
+    console.log(chalk.yellow("⚠️ No licenses found for dependencies."));
+  }
+
+  if (devDependencies.length > 0) {
+    console.log(
+      chalk.cyan("✔️ Found licenses for the following devDependencies:")
+    );
+    devDependencies.forEach((pkg) => {
+      console.log(
+        chalk.cyan(`- ${pkg.name}: ${pkg.license} (v${pkg.version})`)
+      );
+    });
+  } else {
+    console.log(chalk.yellow("⚠️ No licenses found for devDependencies."));
+  }
+
+  if (optionalDependencies.length > 0) {
+    console.log(
+      chalk.cyan("✔️ Found licenses for the following optionalDependencies:")
+    );
+    optionalDependencies.forEach((pkg) => {
+      console.log(
+        chalk.cyan(`- ${pkg.name}: ${pkg.license} (v${pkg.version})`)
+      );
+    });
+  } else {
+    console.log(chalk.yellow("⚠️ No licenses found for optionalDependencies."));
+  }
+};

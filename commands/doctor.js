@@ -1,1 +1,147 @@
-(function(_0x104e2f,_0xd46dff){const _0x2636ae=a0_0x5ed8,_0x4866e1=_0x104e2f();while(!![]){try{const _0x12ffb4=parseInt(_0x2636ae(0x168))/0x1+-parseInt(_0x2636ae(0x160))/0x2+-parseInt(_0x2636ae(0x151))/0x3*(parseInt(_0x2636ae(0x150))/0x4)+parseInt(_0x2636ae(0x16b))/0x5+parseInt(_0x2636ae(0x142))/0x6*(parseInt(_0x2636ae(0x133))/0x7)+-parseInt(_0x2636ae(0x146))/0x8*(-parseInt(_0x2636ae(0x16f))/0x9)+-parseInt(_0x2636ae(0x15d))/0xa;if(_0x12ffb4===_0xd46dff)break;else _0x4866e1['push'](_0x4866e1['shift']());}catch(_0x7178b9){_0x4866e1['push'](_0x4866e1['shift']());}}}(a0_0x234d,0x34307));const a0_0x1f0dd6=(function(){let _0x3dd7cf=!![];return function(_0x3f774b,_0x278bdb){const _0x8f23c2=_0x3dd7cf?function(){const _0x480bfe=a0_0x5ed8;if(_0x278bdb){const _0x3bdc40=_0x278bdb[_0x480bfe(0x141)](_0x3f774b,arguments);return _0x278bdb=null,_0x3bdc40;}}:function(){};return _0x3dd7cf=![],_0x8f23c2;};}()),a0_0x2b00a3=a0_0x1f0dd6(this,function(){const _0x655716=a0_0x5ed8,_0x13c036={'EoQOd':_0x655716(0x15a)};return a0_0x2b00a3['toString']()[_0x655716(0x169)]('(((.+)+)+)+$')[_0x655716(0x152)]()[_0x655716(0x15e)](a0_0x2b00a3)['search'](_0x13c036[_0x655716(0x15f)]);});a0_0x2b00a3();import a0_0x51d2b3 from'chalk';function a0_0x234d(){const _0x2af39b=['apply','6822idNBUp','linux','fglAI','vqJjg','42424KocUoF','❌\x20Missing\x20package.json!\x20Please\x20ensure\x20your\x20project\x20has\x20a\x20package.json.','error','rZOUg','qrQWG','message','xcKNs','✔️\x20Doctor\x20check\x20completed\x20successfully!\x20No\x20issues\x20detected.','❌\x20Permission\x20issues\x20detected\x20on\x20Linux/macOS!\x20Please\x20check\x20your\x20system\x20permissions.','yellow','92632SfLAHC','3BCPimg','toString','🩺\x20Running\x20Doctor\x20Check\x20for\x20neko-cli...','TFtXP','warn','❌\x20Permission\x20issues\x20detected\x20on\x20Windows!\x20Please\x20check\x20your\x20system\x20permissions.','bVTgs','⚠️\x20No\x20lock\x20file\x20found.\x20Install\x20dependencies\x20to\x20ensure\x20consistency.','❌\x20Error\x20while\x20checking\x20for\x20outdated\x20dependencies.','(((.+)+)+)+$','BKLXb','DZtfM','7786340eEBnsP','constructor','EoQOd','376084lvuObS','title','npm\x20outdated','📦\x20Outdated\x20dependencies:','platform','ErxvO','./yarn.lock','❌\x20Error\x20during\x20doctor\x20check:\x20','319335NBUZyt','search','KebKE','719385hqHinH','https://api.github.com/repos/Neko-CLI/Neko-CLI/issues','ParTr','Rcahx','531TEIApj','ls\x20/usr/bin','fZBCZ','⚠️\x20neko-cli\x20is\x20not\x20installed\x20globally.','data','win32','BySpP','2632zJFagA','./package-lock.json','existsSync','UUaWI','✔️\x20No\x20open\x20issues\x20found\x20on\x20GitHub.','✔️\x20No\x20outdated\x20dependencies.','TLXVy','RvBOh','QeHty','⚠️\x20node_modules\x20is\x20missing.\x20Run\x20`npm\x20install`\x20or\x20`yarn\x20install`\x20to\x20install\x20dependencies.','cFNCR','log','get','cyan'];a0_0x234d=function(){return _0x2af39b;};return a0_0x234d();}import a0_0x4ce939 from'fs-extra';import a0_0x59f21b from'os';function a0_0x5ed8(_0x4409d9,_0x37be6e){const _0x2ba40e=a0_0x234d();return a0_0x5ed8=function(_0x2b00a3,_0x1f0dd6){_0x2b00a3=_0x2b00a3-0x132;let _0x234d24=_0x2ba40e[_0x2b00a3];return _0x234d24;},a0_0x5ed8(_0x4409d9,_0x37be6e);}import{exec}from'child_process';import a0_0x242d73 from'axios';export const handleDoctorCommand=async()=>{const _0x59c4b4=a0_0x5ed8,_0x2a7bc4={'fZBCZ':_0x59c4b4(0x172),'bVTgs':_0x59c4b4(0x159),'Rcahx':_0x59c4b4(0x163),'cFNCR':_0x59c4b4(0x138),'DZtfM':function(_0xec3249,_0x4bf886){return _0xec3249||_0x4bf886;},'eljeC':_0x59c4b4(0x156),'fglAI':'✔️\x20Permissions\x20are\x20correctly\x20set\x20(Windows).','gBegL':_0x59c4b4(0x14e),'ojNml':'✔️\x20Permissions\x20are\x20correctly\x20set\x20(Linux/macOS).','rZOUg':'./package.json','ErxvO':'✔️\x20package.json\x20found.','vqJjg':_0x59c4b4(0x166),'BKLXb':_0x59c4b4(0x134),'rvJLP':_0x59c4b4(0x13c),'xcKNs':'✔️\x20node_modules\x20folder\x20exists.','qrQWG':function(_0x37b56d,_0x572887,_0x1f6af1){return _0x37b56d(_0x572887,_0x1f6af1);},'KebKE':function(_0x3038cb,_0x1e50ce,_0x4c9829){return _0x3038cb(_0x1e50ce,_0x4c9829);},'TFtXP':_0x59c4b4(0x162),'BySpP':function(_0x18ab02,_0x275767,_0xb7fb39){return _0x18ab02(_0x275767,_0xb7fb39);},'RvBOh':'dir\x20C:\x5c','ParTr':_0x59c4b4(0x143),'nTobR':function(_0x1784c7,_0x109d36){return _0x1784c7===_0x109d36;},'Ccqur':'darwin','TLXVy':_0x59c4b4(0x170),'mTstv':_0x59c4b4(0x16c),'UUaWI':function(_0x47f8c8,_0x94665f){return _0x47f8c8>_0x94665f;},'QeHty':_0x59c4b4(0x14d)};console['log'](a0_0x51d2b3[_0x59c4b4(0x140)](_0x59c4b4(0x153)));try{let _0x3b078b=![];const _0x862580=_0x2a7bc4[_0x59c4b4(0x149)];!a0_0x4ce939[_0x59c4b4(0x135)](_0x862580)?(console[_0x59c4b4(0x148)](a0_0x51d2b3[_0x59c4b4(0x14f)](_0x59c4b4(0x147))),_0x3b078b=!![]):console[_0x59c4b4(0x13e)](a0_0x51d2b3[_0x59c4b4(0x140)](_0x2a7bc4[_0x59c4b4(0x165)]));const _0x2a8a55=_0x2a7bc4[_0x59c4b4(0x145)],_0xce7a1c=_0x2a7bc4[_0x59c4b4(0x15b)];!a0_0x4ce939[_0x59c4b4(0x135)](_0x2a8a55)&&!a0_0x4ce939[_0x59c4b4(0x135)](_0xce7a1c)?(console['warn'](a0_0x51d2b3[_0x59c4b4(0x14f)](_0x59c4b4(0x158))),_0x3b078b=!![]):console[_0x59c4b4(0x13e)](a0_0x51d2b3['cyan']('✔️\x20Lock\x20file\x20found.'));const _0x369635='./node_modules';!a0_0x4ce939[_0x59c4b4(0x135)](_0x369635)?(console[_0x59c4b4(0x155)](a0_0x51d2b3[_0x59c4b4(0x14f)](_0x2a7bc4['rvJLP'])),_0x3b078b=!![]):console['log'](a0_0x51d2b3[_0x59c4b4(0x140)](_0x2a7bc4[_0x59c4b4(0x14c)]));_0x2a7bc4[_0x59c4b4(0x14a)](exec,'npm\x20list\x20-g\x20neko-cli',(_0x1b90ab,_0x402fdc,_0x25750d)=>{const _0x37f281=_0x59c4b4;_0x1b90ab?(console[_0x37f281(0x155)](a0_0x51d2b3['yellow'](_0x2a7bc4[_0x37f281(0x171)])),_0x3b078b=!![]):console[_0x37f281(0x13e)](a0_0x51d2b3[_0x37f281(0x140)]('✔️\x20neko-cli\x20is\x20installed\x20globally.'));}),_0x2a7bc4[_0x59c4b4(0x16a)](exec,_0x2a7bc4[_0x59c4b4(0x154)],(_0x2b7e2c,_0x5d8332,_0xb9e4aa)=>{const _0x23632e=_0x59c4b4;_0x2b7e2c&&(console['error'](a0_0x51d2b3[_0x23632e(0x14f)](_0x2a7bc4[_0x23632e(0x157)])),_0x3b078b=!![]),_0x5d8332?(console[_0x23632e(0x13e)](a0_0x51d2b3['cyan'](_0x2a7bc4[_0x23632e(0x16e)])),console[_0x23632e(0x13e)](_0x5d8332)):console['log'](a0_0x51d2b3[_0x23632e(0x140)](_0x2a7bc4[_0x23632e(0x13d)]));});const _0x66ede2=a0_0x59f21b[_0x59c4b4(0x164)]();if(_0x66ede2===_0x59c4b4(0x174))_0x2a7bc4[_0x59c4b4(0x132)](exec,_0x2a7bc4[_0x59c4b4(0x13a)],(_0x7d06b0,_0x5b4c06,_0x322d9e)=>{const _0x52996f=_0x59c4b4;_0x2a7bc4[_0x52996f(0x15c)](_0x7d06b0,_0x322d9e)?(console[_0x52996f(0x148)](a0_0x51d2b3['yellow'](_0x2a7bc4['eljeC'])),_0x3b078b=!![]):console[_0x52996f(0x13e)](a0_0x51d2b3['cyan'](_0x2a7bc4[_0x52996f(0x144)]));});else(_0x66ede2===_0x2a7bc4[_0x59c4b4(0x16d)]||_0x2a7bc4['nTobR'](_0x66ede2,_0x2a7bc4['Ccqur']))&&_0x2a7bc4[_0x59c4b4(0x14a)](exec,_0x2a7bc4[_0x59c4b4(0x139)],(_0x4e548b,_0x1eb50c,_0x597903)=>{const _0x7134d2=_0x59c4b4;_0x4e548b||_0x597903?(console['error'](a0_0x51d2b3[_0x7134d2(0x14f)](_0x2a7bc4['gBegL'])),_0x3b078b=!![]):console[_0x7134d2(0x13e)](a0_0x51d2b3['cyan'](_0x2a7bc4['ojNml']));});try{const _0xe59c8b=await a0_0x242d73[_0x59c4b4(0x13f)](_0x2a7bc4['mTstv']),_0x9c252c=_0xe59c8b[_0x59c4b4(0x173)];_0x2a7bc4[_0x59c4b4(0x136)](_0x9c252c['length'],0x0)?(console[_0x59c4b4(0x13e)](a0_0x51d2b3[_0x59c4b4(0x140)]('🔧\x20Open\x20issues\x20on\x20GitHub:')),_0x9c252c['forEach'](_0x26ccc5=>{const _0x424fa9=_0x59c4b4;console[_0x424fa9(0x13e)](a0_0x51d2b3[_0x424fa9(0x14f)]('-\x20'+_0x26ccc5[_0x424fa9(0x161)]+':\x20'+_0x26ccc5['html_url']));}),_0x3b078b=!![]):console[_0x59c4b4(0x13e)](a0_0x51d2b3[_0x59c4b4(0x140)](_0x59c4b4(0x137)));}catch(_0x2980b5){console[_0x59c4b4(0x148)](a0_0x51d2b3[_0x59c4b4(0x14f)]('❌\x20Error\x20fetching\x20GitHub\x20issues:\x20'+_0x2980b5['message'])),_0x3b078b=!![];}_0x3b078b?console[_0x59c4b4(0x13e)](a0_0x51d2b3['yellow']('🛑\x20Doctor\x20check\x20completed\x20with\x20issues.')):console[_0x59c4b4(0x13e)](a0_0x51d2b3[_0x59c4b4(0x140)](_0x2a7bc4[_0x59c4b4(0x13b)]));}catch(_0x1bd337){console[_0x59c4b4(0x148)](a0_0x51d2b3[_0x59c4b4(0x14f)](_0x59c4b4(0x167)+_0x1bd337[_0x59c4b4(0x14b)]));}};
+import chalk from "chalk";
+import fsExtra from "fs-extra";
+import os from "os";
+import { exec } from "child_process";
+import axios from "axios";
+
+export const handleDoctorCommand = async () => {
+    console.log(chalk.cyan("🩺 Running Doctor Check for neko-cli..."));
+
+  try {
+    let hasIssues = false;
+
+    const packagePath = "./package.json";
+    if (!fsExtra.existsSync(packagePath)) {
+      console.error(
+        chalk.yellow(
+          "❌ Missing package.json! Please ensure your project has a package.json."
+        )
+      );
+      hasIssues = true;
+    } else {
+      console.log(chalk.cyan("✔️ package.json found."));
+    }
+
+    const yarnLockPath = "./yarn.lock";
+    const packageLockPath = "./package-lock.json";
+    if (
+      !fsExtra.existsSync(yarnLockPath) &&
+      !fsExtra.existsSync(packageLockPath)
+    ) {
+      console.warn(
+        chalk.yellow(
+          "⚠️ No lock file found. Install dependencies to ensure consistency."
+        )
+      );
+      hasIssues = true;
+    } else {
+      console.log(chalk.cyan("✔️ Lock file found."));
+    }
+
+    const nodeModulesPath = "./node_modules";
+    if (!fsExtra.existsSync(nodeModulesPath)) {
+      console.warn(
+        chalk.yellow(
+          "⚠️ node_modules is missing. Run `npm install` or `yarn install` to install dependencies."
+        )
+      );
+      hasIssues = true;
+    } else {
+      console.log(chalk.cyan("✔️ node_modules folder exists."));
+    }
+
+    exec("npm list -g neko-cli", (err, stdout, stderr) => {
+      if (err) {
+        console.warn(chalk.yellow("⚠️ neko-cli is not installed globally."));
+        hasIssues = true;
+      } else {
+        console.log(chalk.cyan("✔️ neko-cli is installed globally."));
+      }
+    });
+
+    exec("npm outdated", (err, stdout, stderr) => {
+      if (err) {
+        console.error(
+          chalk.yellow("❌ Error while checking for outdated dependencies.")
+        );
+        hasIssues = true;
+      }
+      if (stdout) {
+        console.log(chalk.cyan("📦 Outdated dependencies:"));
+        console.log(stdout);
+      } else {
+        console.log(chalk.cyan("✔️ No outdated dependencies."));
+      }
+    });
+
+    const platform = os.platform();
+
+    if (platform === "win32") {
+      exec("dir C:\\", (err, stdout, stderr) => {
+        if (err || stderr) {
+          console.error(
+            chalk.yellow(
+              "❌ Permission issues detected on Windows! Please check your system permissions."
+            )
+          );
+          hasIssues = true;
+        } else {
+          console.log(
+            chalk.cyan("✔️ Permissions are correctly set (Windows).")
+          );
+        }
+      });
+    } else if (platform === "linux" || platform === "darwin") {
+      exec("ls /usr/bin", (err, stdout, stderr) => {
+        if (err || stderr) {
+          console.error(
+            chalk.yellow(
+              "❌ Permission issues detected on Linux/macOS! Please check your system permissions."
+            )
+          );
+          hasIssues = true;
+        } else {
+          console.log(
+            chalk.cyan("✔️ Permissions are correctly set (Linux/macOS).")
+          );
+        }
+      });
+    }
+
+    try {
+      const response = await axios.get(
+        "https://api.github.com/repos/Neko-CLI/Neko-CLI/issues"
+      );
+      const openIssues = response.data;
+
+      if (openIssues.length > 0) {
+        console.log(chalk.cyan("🔧 Open issues on GitHub:"));
+        openIssues.forEach((issue) => {
+          console.log(chalk.yellow(`- ${issue.title}: ${issue.html_url}`));
+        });
+        hasIssues = true;
+      } else {
+        console.log(chalk.cyan("✔️ No open issues found on GitHub."));
+      }
+    } catch (error) {
+      console.error(
+        chalk.yellow(`❌ Error fetching GitHub issues: ${error.message}`)
+      );
+      hasIssues = true;
+    }
+
+    if (hasIssues) {
+      console.log(chalk.yellow("🛑 Doctor check completed with issues."));
+    } else {
+      console.log(
+        chalk.cyan(
+          "✔️ Doctor check completed successfully! No issues detected."
+        )
+      );
+    }
+  } catch (error) {
+    console.error(
+      chalk.yellow(`❌ Error during doctor check: ${error.message}`)
+    );
+  }
+};

@@ -1,1 +1,130 @@
-(function(_0x1851f4,_0x492111){const _0xc00536=a0_0x53eb,_0x518383=_0x1851f4();while(!![]){try{const _0x5a896e=-parseInt(_0xc00536(0x209))/0x1+-parseInt(_0xc00536(0x202))/0x2+parseInt(_0xc00536(0x217))/0x3+-parseInt(_0xc00536(0x1ef))/0x4+parseInt(_0xc00536(0x1f2))/0x5+parseInt(_0xc00536(0x1fb))/0x6+-parseInt(_0xc00536(0x1e5))/0x7*(-parseInt(_0xc00536(0x1f3))/0x8);if(_0x5a896e===_0x492111)break;else _0x518383['push'](_0x518383['shift']());}catch(_0x1a8203){_0x518383['push'](_0x518383['shift']());}}}(a0_0x13df,0xe9389));const a0_0x3deb4d=(function(){let _0x10a232=!![];return function(_0xd2aa9f,_0x4b2716){const _0x3a251f=_0x10a232?function(){const _0x1ffb19=a0_0x53eb;if(_0x4b2716){const _0x213f43=_0x4b2716[_0x1ffb19(0x20a)](_0xd2aa9f,arguments);return _0x4b2716=null,_0x213f43;}}:function(){};return _0x10a232=![],_0x3a251f;};}()),a0_0x45421e=a0_0x3deb4d(this,function(){const _0x2d609c=a0_0x53eb,_0x5b43e3={'hNRve':_0x2d609c(0x1e9)};return a0_0x45421e[_0x2d609c(0x1e8)]()['search'](_0x5b43e3[_0x2d609c(0x207)])['toString']()[_0x2d609c(0x1ee)](a0_0x45421e)[_0x2d609c(0x218)](_0x5b43e3[_0x2d609c(0x207)]);});function a0_0x53eb(_0x1c93f3,_0x446668){const _0x59dcc2=a0_0x13df();return a0_0x53eb=function(_0x45421e,_0x3deb4d){_0x45421e=_0x45421e-0x1e4;let _0x13dfff=_0x59dcc2[_0x45421e];return _0x13dfff;},a0_0x53eb(_0x1c93f3,_0x446668);}a0_0x45421e();import a0_0xa8d8cb from'chalk';import a0_0x516249 from'path';import a0_0x462d8a from'semver';import*as a0_0x2a632e from'fs/promises';function a0_0x13df(){const _0x4da124=['parse','catch','❌\x20Neither\x20package.json\x20nor\x20yarn.lock\x20found\x20in\x20the\x20current\x20directory.','scqkw','yarn.lock','ZBEvC','fhvla','1295707yWvVtb','log','❌\x20The\x20current\x20Node.js\x20version\x20(','toString','(((.+)+)+)+$','version','FGbhh','ZSdPH','node','constructor','2868088ZKFnkL','❌\x20An\x20error\x20occurred\x20while\x20checking\x20compatibility:','yellow','7762955KVSjIH','40SaVeRB','IxOtB','\x20satisfies\x20the\x20\x22engines\x22\x20requirement\x20(','keys','⚠️\x20No\x20\x22engines\x22\x20field\x20found\x20in\x20package.json.','\x20requires\x20Node.js\x20','...','satisfies','9729474muVxCR',',\x20but\x20the\x20current\x20version\x20is\x20','✅\x20All\x20dependencies\x20are\x20compatible\x20with\x20Node.js.','cyan','engines','readFile','access','3359606oQiEWP','SVSPp','❌\x20Some\x20dependencies\x20are\x20not\x20compatible\x20with\x20Node.js.','Cxbqv','length','hNRve','cwd','1519882BucJwq','apply','🔍\x20Checking\x20dependency\x20compatibility...','✅\x20The\x20yarn.lock\x20file\x20indicates\x20the\x20project\x20is\x20configured\x20for\x20Yarn.','error','🔍\x20Found\x20package.json.\x20Checking\x20compatibility\x20with\x20Node.js\x20','devDependencies','\x20is\x20compatible\x20with\x20Node.js\x20','🔍\x20Found\x20yarn.lock.\x20Checking\x20compatibility\x20with\x20Yarn...','join','message','WoZWN','entries','utf-8','2316915SIclDt','search'];a0_0x13df=function(){return _0x4da124;};return a0_0x13df();}export const handleCompatibilityCommand=async()=>{const _0x41f91b=a0_0x53eb,_0x2694fc={'WJclR':_0x41f91b(0x21d),'FGbhh':_0x41f91b(0x21b),'IxOtB':_0x41f91b(0x216),'fhvla':_0x41f91b(0x1f7),'WoZWN':function(_0x57a7c6,_0x4dba35){return _0x57a7c6===_0x4dba35;},'SVSPp':_0x41f91b(0x20b),'KdBHJ':_0x41f91b(0x1fd),'Cxbqv':_0x41f91b(0x204),'ZSdPH':_0x41f91b(0x211),'scqkw':'⚠️\x20Specific\x20version\x20checks\x20for\x20yarn.lock\x20are\x20not\x20implemented\x20in\x20this\x20version.','ZBEvC':_0x41f91b(0x20c),'BYksS':_0x41f91b(0x1f0)};try{const _0x510c38=process[_0x41f91b(0x208)](),_0x4f13f1=a0_0x516249[_0x41f91b(0x212)](_0x510c38,'package.json'),_0x46bae7=a0_0x516249[_0x41f91b(0x212)](_0x510c38,_0x2694fc['WJclR']),_0x165280=await a0_0x2a632e[_0x41f91b(0x201)](_0x4f13f1)['then'](()=>!![])[_0x41f91b(0x21a)](()=>![]),_0x44897e=await a0_0x2a632e[_0x41f91b(0x201)](_0x46bae7)['then'](()=>!![])[_0x41f91b(0x21a)](()=>![]);if(!_0x165280&&!_0x44897e){console['log'](a0_0xa8d8cb[_0x41f91b(0x1f1)](_0x2694fc[_0x41f91b(0x1eb)]));return;}const _0x48d019=process[_0x41f91b(0x1ea)];if(_0x165280){console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1fe)](_0x41f91b(0x20e)+_0x48d019+_0x41f91b(0x1f9)));const _0x790ddd=JSON[_0x41f91b(0x219)](await a0_0x2a632e[_0x41f91b(0x200)](_0x4f13f1,_0x2694fc[_0x41f91b(0x1f4)]));if(_0x790ddd[_0x41f91b(0x1ff)]&&_0x790ddd[_0x41f91b(0x1ff)][_0x41f91b(0x1ed)]){if(!a0_0x462d8a['satisfies'](_0x48d019,_0x790ddd[_0x41f91b(0x1ff)]['node'])){console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1f1)](_0x41f91b(0x1e7)+_0x48d019+')\x20is\x20not\x20compatible\x20with\x20'+_0x790ddd[_0x41f91b(0x1ff)][_0x41f91b(0x1ed)]+'.'));return;}console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1fe)]('✅\x20Node.js\x20'+_0x48d019+_0x41f91b(0x1f5)+_0x790ddd[_0x41f91b(0x1ff)]['node']+').'));}else console[_0x41f91b(0x1e6)](a0_0xa8d8cb['yellow'](_0x2694fc[_0x41f91b(0x1e4)]));const _0x40d1a6={..._0x790ddd['dependencies'],..._0x790ddd[_0x41f91b(0x20f)]};if(_0x2694fc[_0x41f91b(0x214)](Object[_0x41f91b(0x1f6)](_0x40d1a6)[_0x41f91b(0x206)],0x0)){console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1fe)]('✅\x20No\x20dependencies\x20found\x20in\x20package.json.'));return;}console['log'](a0_0xa8d8cb[_0x41f91b(0x1fe)](_0x2694fc[_0x41f91b(0x203)]));let _0x4f729f=!![];for(const [_0x5ddd03,_0x5cef35]of Object[_0x41f91b(0x215)](_0x40d1a6)){a0_0x462d8a['validRange'](_0x5cef35)?!a0_0x462d8a[_0x41f91b(0x1fa)](_0x48d019,_0x5cef35)?(_0x4f729f=![],console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1f1)]('❌\x20'+_0x5ddd03+_0x41f91b(0x1f8)+_0x5cef35+_0x41f91b(0x1fc)+_0x48d019+'.'))):console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1fe)]('✅\x20'+_0x5ddd03+_0x41f91b(0x210)+_0x48d019+'.')):console[_0x41f91b(0x1e6)](a0_0xa8d8cb['yellow']('⚠️\x20'+_0x5ddd03+'\x20has\x20an\x20invalid\x20version:\x20'+_0x5cef35+'.'));}_0x4f729f?console[_0x41f91b(0x1e6)](a0_0xa8d8cb['cyan'](_0x2694fc['KdBHJ'])):console[_0x41f91b(0x1e6)](a0_0xa8d8cb['yellow'](_0x2694fc[_0x41f91b(0x205)]));}_0x44897e&&(console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1fe)](_0x2694fc[_0x41f91b(0x1ec)])),console['log'](a0_0xa8d8cb[_0x41f91b(0x1f1)](_0x2694fc[_0x41f91b(0x21c)])),console[_0x41f91b(0x1e6)](a0_0xa8d8cb[_0x41f91b(0x1fe)](_0x2694fc[_0x41f91b(0x21e)])));}catch(_0x5956f0){console[_0x41f91b(0x20d)](a0_0xa8d8cb[_0x41f91b(0x1f1)](_0x2694fc['BYksS']),_0x5956f0[_0x41f91b(0x213)]);}};
+import chalk from "chalk";
+import path from "path";
+import semver from "semver";
+import * as fsp from "fs/promises";
+
+export const handleCompatibilityCommand = async () => {
+      try {
+    const projectDir = process.cwd();
+    const packageJsonPath = path.join(projectDir, "package.json");
+    const yarnLockPath = path.join(projectDir, "yarn.lock");
+
+    const hasPackageJson = await fsp
+      .access(packageJsonPath)
+      .then(() => true)
+      .catch(() => false);
+    const hasYarnLock = await fsp
+      .access(yarnLockPath)
+      .then(() => true)
+      .catch(() => false);
+
+    if (!hasPackageJson && !hasYarnLock) {
+      console.log(
+        chalk.yellow(
+          "❌ Neither package.json nor yarn.lock found in the current directory."
+        )
+      );
+      return;
+    }
+
+    const nodeVersion = process.version;
+
+    if (hasPackageJson) {
+      console.log(
+        chalk.cyan(
+          `🔍 Found package.json. Checking compatibility with Node.js ${nodeVersion}...`
+        )
+      );
+      const packageJson = JSON.parse(
+        await fsp.readFile(packageJsonPath, "utf-8")
+      );
+
+      if (packageJson.engines && packageJson.engines.node) {
+        if (!semver.satisfies(nodeVersion, packageJson.engines.node)) {
+          console.log(
+            chalk.yellow(
+              `❌ The current Node.js version (${nodeVersion}) is not compatible with ${packageJson.engines.node}.`
+            )
+          );
+          return;
+        }
+        console.log(
+          chalk.cyan(
+            `✅ Node.js ${nodeVersion} satisfies the "engines" requirement (${packageJson.engines.node}).`
+          )
+        );
+      } else {
+        console.log(
+          chalk.yellow('⚠️ No "engines" field found in package.json.')
+        );
+      }
+
+      const dependencies = {
+        ...packageJson.dependencies,
+        ...packageJson.devDependencies,
+      };
+
+      if (Object.keys(dependencies).length === 0) {
+        console.log(chalk.cyan("✅ No dependencies found in package.json."));
+        return;
+      }
+
+      console.log(chalk.cyan("🔍 Checking dependency compatibility..."));
+      let allCompatible = true;
+
+      for (const [dep, requiredVersion] of Object.entries(dependencies)) {
+        if (semver.validRange(requiredVersion)) {
+          if (!semver.satisfies(nodeVersion, requiredVersion)) {
+            allCompatible = false;
+            console.log(
+              chalk.yellow(
+                `❌ ${dep} requires Node.js ${requiredVersion}, but the current version is ${nodeVersion}.`
+              )
+            );
+          } else {
+            console.log(
+              chalk.cyan(`✅ ${dep} is compatible with Node.js ${nodeVersion}.`)
+            );
+          }
+        } else {
+          console.log(
+            chalk.yellow(
+              `⚠️ ${dep} has an invalid version: ${requiredVersion}.`
+            )
+          );
+        }
+      }
+
+      if (allCompatible) {
+        console.log(
+          chalk.cyan("✅ All dependencies are compatible with Node.js.")
+        );
+      } else {
+        console.log(
+          chalk.yellow("❌ Some dependencies are not compatible with Node.js.")
+        );
+      }
+    }
+
+    if (hasYarnLock) {
+      console.log(
+        chalk.cyan("🔍 Found yarn.lock. Checking compatibility with Yarn...")
+      );
+      console.log(
+        chalk.yellow(
+          "⚠️ Specific version checks for yarn.lock are not implemented in this version."
+        )
+      );
+      console.log(
+        chalk.cyan(
+          "✅ The yarn.lock file indicates the project is configured for Yarn."
+        )
+      );
+    }
+  } catch (error) {
+    console.error(
+      chalk.yellow("❌ An error occurred while checking compatibility:"),
+      error.message
+    );
+  }
+};

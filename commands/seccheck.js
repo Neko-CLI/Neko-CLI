@@ -1,1 +1,31 @@
-(function(_0x396b04,_0x1ea2f0){const _0xe7b859=a0_0x4f43,_0x5a2998=_0x396b04();while(!![]){try{const _0x21ec71=parseInt(_0xe7b859(0xba))/0x1*(-parseInt(_0xe7b859(0xbc))/0x2)+parseInt(_0xe7b859(0xc0))/0x3*(-parseInt(_0xe7b859(0xb8))/0x4)+-parseInt(_0xe7b859(0xa7))/0x5*(-parseInt(_0xe7b859(0xb5))/0x6)+parseInt(_0xe7b859(0xb9))/0x7+parseInt(_0xe7b859(0xaf))/0x8+parseInt(_0xe7b859(0xb1))/0x9*(parseInt(_0xe7b859(0xb4))/0xa)+-parseInt(_0xe7b859(0xad))/0xb*(parseInt(_0xe7b859(0xb7))/0xc);if(_0x21ec71===_0x1ea2f0)break;else _0x5a2998['push'](_0x5a2998['shift']());}catch(_0x237f2e){_0x5a2998['push'](_0x5a2998['shift']());}}}(a0_0x1d21,0xa747a));const a0_0x457e5b=(function(){let _0x1495fb=!![];return function(_0x461c54,_0x599f5b){const _0x369753=_0x1495fb?function(){const _0x4ea84f=a0_0x4f43;if(_0x599f5b){const _0x4fd9a2=_0x599f5b[_0x4ea84f(0xb6)](_0x461c54,arguments);return _0x599f5b=null,_0x4fd9a2;}}:function(){};return _0x1495fb=![],_0x369753;};}()),a0_0x7a5acc=a0_0x457e5b(this,function(){const _0x517610=a0_0x4f43,_0x3a76db={'gDJfi':_0x517610(0xbb)};return a0_0x7a5acc[_0x517610(0xa4)]()['search']('(((.+)+)+)+$')[_0x517610(0xa4)]()['constructor'](a0_0x7a5acc)['search'](_0x3a76db['gDJfi']);});a0_0x7a5acc();import a0_0x513a89 from'chalk';import a0_0x200f02 from'fs-extra';import{exec}from'child_process';function a0_0x1d21(){const _0x12c2eb=['yellow','🔍\x20Starting\x20security\x20check...','9DajYhT','toString','message','YRCbj','1823035SrCXyT','exit','❌\x20Error\x20during\x20security\x20analysis:','retire\x20--path\x20.','error','cyan','39842emISRB','./package.json','2388920OmWMor','dlgta','1332153UtWcpW','🎉\x20No\x20vulnerabilities\x20found.','XjXiv','90NAROPQ','18giVNWa','apply','4524gDnDQK','1502908enjbrx','3463803QlGTld','8313ZuDqQG','(((.+)+)+)+$','10PRwWxc','log'];a0_0x1d21=function(){return _0x12c2eb;};return a0_0x1d21();}function a0_0x4f43(_0x229162,_0x47d1f4){const _0x1e4fb7=a0_0x1d21();return a0_0x4f43=function(_0x7a5acc,_0x457e5b){_0x7a5acc=_0x7a5acc-0xa4;let _0x1d21df=_0x1e4fb7[_0x7a5acc];return _0x1d21df;},a0_0x4f43(_0x229162,_0x47d1f4);}export const handleSeccheckCommand=async()=>{const _0x199647=a0_0x4f43,_0x112154={'uCWPu':_0x199647(0xa9),'XjXiv':'Vulnerable\x20modules\x20found','ezLsu':'❌\x20Vulnerabilities\x20found\x20in\x20your\x20project!','dlgta':_0x199647(0xb2),'ZcFRO':_0x199647(0xae),'YRCbj':'❌\x20Error:\x20No\x20package.json\x20found.\x20Ensure\x20the\x20project\x20has\x20dependencies.','ezuKA':function(_0x191108,_0x20d56a,_0x1f476f){return _0x191108(_0x20d56a,_0x1f476f);}};console[_0x199647(0xbd)](a0_0x513a89[_0x199647(0xac)](_0x199647(0xbf))),!a0_0x200f02['existsSync'](_0x112154['ZcFRO'])&&(console[_0x199647(0xab)](a0_0x513a89[_0x199647(0xbe)](_0x112154[_0x199647(0xa6)])),process['exit'](0x1)),_0x112154['ezuKA'](exec,_0x199647(0xaa),(_0x387287,_0x51587e,_0x4f62e7)=>{const _0x90a0a9=_0x199647;_0x387287&&(console[_0x90a0a9(0xab)](a0_0x513a89['yellow'](_0x112154['uCWPu'])),console['error'](a0_0x513a89[_0x90a0a9(0xbe)](_0x4f62e7||_0x387287[_0x90a0a9(0xa5)])),process[_0x90a0a9(0xa8)](0x1)),_0x51587e['includes'](_0x112154[_0x90a0a9(0xb3)])?(console[_0x90a0a9(0xbd)](a0_0x513a89[_0x90a0a9(0xbe)](_0x112154['ezLsu'])),console['log'](a0_0x513a89['yellow'](_0x51587e))):console[_0x90a0a9(0xbd)](a0_0x513a89[_0x90a0a9(0xac)](_0x112154[_0x90a0a9(0xb0)]));});};
+import chalk from "chalk";
+import fsExtra from "fs-extra";
+import { exec } from "child_process";
+
+export const handleSeccheckCommand = async () => {
+ console.log(chalk.cyan("🔍 Starting security check..."));
+
+  if (!fsExtra.existsSync("./package.json")) {
+    console.error(
+      chalk.yellow(
+        "❌ Error: No package.json found. Ensure the project has dependencies."
+      )
+    );
+    process.exit(1);
+  }
+
+  exec("retire --path .", (error, stdout, stderr) => {
+    if (error) {
+      console.error(chalk.yellow("❌ Error during security analysis:"));
+      console.error(chalk.yellow(stderr || error.message));
+      process.exit(1);
+    }
+
+    if (stdout.includes("Vulnerable modules found")) {
+      console.log(chalk.yellow("❌ Vulnerabilities found in your project!"));
+      console.log(chalk.yellow(stdout));
+    } else {
+      console.log(chalk.cyan("🎉 No vulnerabilities found."));
+    }
+  });
+};

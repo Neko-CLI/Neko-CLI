@@ -1,1 +1,14 @@
-function a0_0x469b(){const _0x2035f8=['(((.+)+)+)+$','284685puHTPE','OPDRq','includes','toString','4217121QWCNui','12VDLQXx','2VzcoVJ','constructor','npm\x20list\x20','7652687YmGxua','search','40rHwwRH','90796vLqXSH','npm\x20list\x20-g\x20','360845aQcSnH','5811840qhBLCT','vuEwC','apply','3322320BfsikR'];a0_0x469b=function(){return _0x2035f8;};return a0_0x469b();}(function(_0x4572e2,_0x3d312a){const _0x2b5815=a0_0x5ad2,_0x8b6b2c=_0x4572e2();while(!![]){try{const _0x506119=-parseInt(_0x2b5815(0x118))/0x1+-parseInt(_0x2b5815(0x112))/0x2*(parseInt(_0x2b5815(0x10c))/0x3)+-parseInt(_0x2b5815(0x10a))/0x4+parseInt(_0x2b5815(0x106))/0x5*(parseInt(_0x2b5815(0x111))/0x6)+-parseInt(_0x2b5815(0x115))/0x7+parseInt(_0x2b5815(0x107))/0x8+-parseInt(_0x2b5815(0x110))/0x9*(-parseInt(_0x2b5815(0x117))/0xa);if(_0x506119===_0x3d312a)break;else _0x8b6b2c['push'](_0x8b6b2c['shift']());}catch(_0x130ca5){_0x8b6b2c['push'](_0x8b6b2c['shift']());}}}(a0_0x469b,0x9b2be));const a0_0x41cae8=(function(){let _0x5c27e3=!![];return function(_0x2e42ae,_0xff50dd){const _0x9cc520=_0x5c27e3?function(){const _0x2eba8a=a0_0x5ad2;if(_0xff50dd){const _0x44a828=_0xff50dd[_0x2eba8a(0x109)](_0x2e42ae,arguments);return _0xff50dd=null,_0x44a828;}}:function(){};return _0x5c27e3=![],_0x9cc520;};}()),a0_0x44b6a1=a0_0x41cae8(this,function(){const _0x2f5855=a0_0x5ad2,_0x3d0b80={'vuEwC':'(((.+)+)+)+$'};return a0_0x44b6a1[_0x2f5855(0x10f)]()[_0x2f5855(0x116)](_0x3d0b80[_0x2f5855(0x108)])['toString']()[_0x2f5855(0x113)](a0_0x44b6a1)[_0x2f5855(0x116)](_0x2f5855(0x10b));});a0_0x44b6a1();import{exec}from'child_process';function a0_0x5ad2(_0x9ab52e,_0x41bc05){const _0x3a92f3=a0_0x469b();return a0_0x5ad2=function(_0x44b6a1,_0x41cae8){_0x44b6a1=_0x44b6a1-0x106;let _0x469b66=_0x3a92f3[_0x44b6a1];return _0x469b66;},a0_0x5ad2(_0x9ab52e,_0x41bc05);}import{promisify}from'util';export const execAsync=promisify(exec);export const checkIfPackageIsInstalled=async(_0x4dffae,_0xc9de67)=>{const _0x3c9090=a0_0x5ad2,_0x3a2cc9={'OPDRq':function(_0x75ebcf,_0x515025,_0x15d5f4){return _0x75ebcf(_0x515025,_0x15d5f4);}};try{const _0x3d178b=_0xc9de67?_0x3c9090(0x119)+_0x4dffae:_0x3c9090(0x114)+_0x4dffae,{stdout:_0xd956ec}=await _0x3a2cc9[_0x3c9090(0x10d)](execAsync,_0x3d178b,{'silent':!![]});return _0xd956ec[_0x3c9090(0x10e)](_0x4dffae);}catch(_0x2a9af4){return![];}};
+import { exec } from "child_process";
+import { promisify } from "util";
+
+export const execAsync = promisify(exec);
+
+export const checkIfPackageIsInstalled = async (packageName, isGlobal) => {
+  try {
+    const command = isGlobal ? `npm list -g ${packageName}` : `npm list ${packageName}`;
+    const { stdout } = await execAsync(command, { silent: true });
+    return stdout.includes(packageName);
+  } catch (error) {
+    return false;
+  }
+};

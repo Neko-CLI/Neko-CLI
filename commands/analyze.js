@@ -1,1 +1,149 @@
-(function(_0x26fb7f,_0x4fe0e9){const _0x459577=a0_0x16f5,_0x3d274a=_0x26fb7f();while(!![]){try{const _0x1e97bd=parseInt(_0x459577(0x105))/0x1+parseInt(_0x459577(0xf2))/0x2*(-parseInt(_0x459577(0x103))/0x3)+-parseInt(_0x459577(0xf0))/0x4+parseInt(_0x459577(0xe7))/0x5*(-parseInt(_0x459577(0x11c))/0x6)+-parseInt(_0x459577(0x104))/0x7+parseInt(_0x459577(0x11e))/0x8*(parseInt(_0x459577(0x10a))/0x9)+parseInt(_0x459577(0x11b))/0xa;if(_0x1e97bd===_0x4fe0e9)break;else _0x3d274a['push'](_0x3d274a['shift']());}catch(_0x2ab75a){_0x3d274a['push'](_0x3d274a['shift']());}}}(a0_0x56e0,0xe022f));function a0_0x16f5(_0x218aea,_0x47399d){const _0x837a90=a0_0x56e0();return a0_0x16f5=function(_0x25f4dd,_0x592f25){_0x25f4dd=_0x25f4dd-0xe4;let _0x56e0c6=_0x837a90[_0x25f4dd];return _0x56e0c6;},a0_0x16f5(_0x218aea,_0x47399d);}const a0_0x592f25=(function(){let _0x4d6c53=!![];return function(_0x87eb78,_0x48bf63){const _0x33dc0f=_0x4d6c53?function(){const _0x35ce0c=a0_0x16f5;if(_0x48bf63){const _0x5922eb=_0x48bf63[_0x35ce0c(0x101)](_0x87eb78,arguments);return _0x48bf63=null,_0x5922eb;}}:function(){};return _0x4d6c53=![],_0x33dc0f;};}()),a0_0x25f4dd=a0_0x592f25(this,function(){const _0x418a2a=a0_0x16f5,_0x66eca={'YZFEt':_0x418a2a(0xe5)};return a0_0x25f4dd[_0x418a2a(0xec)]()['search'](_0x66eca[_0x418a2a(0x100)])[_0x418a2a(0xec)]()[_0x418a2a(0x106)](a0_0x25f4dd)[_0x418a2a(0x129)](_0x66eca[_0x418a2a(0x100)]);});function a0_0x56e0(){const _0x4f7255=['\x0aconsole.log(\x22Neko-CLI\x20analysis\x20entry\x20point\x20placeholder.\x22);\x0a','cwd','toString','qWPhy','ZdIBS','webpack.config.mjs','705612zATPHF','red','58VUqczV','DaqWk','meow-analyzer.js','ydPDU','---\x20Webpack\x20stderr\x20---\x0a','yellow','FoVyN','✅\x20Dependencies\x20installed\x20successfully.','LROrw','---\x20stderr\x20---\x0a','460.meow-analyzer.js','---\x20stdout\x20---\x0a','ygcTC','❌\x20An\x20unexpected\x20error\x20occurred\x20while\x20analyzing\x20dependencies:','YZFEt','apply','📦\x20Running\x20Meowpack\x20to\x20analyze\x20dependencies\x20and\x20generate\x20the\x20report...','73602EJDFcq','12737207dZSckr','645619tZfNQE','constructor','WBhLI','✔️\x20Found\x20entry\x20file:\x20','fLEly','1683uIESbM','EjNZT','FCjxi','\x20\x20(Neko-CLI\x20created\x20a\x20placeholder\x20\x27index.js\x27\x20to\x20proceed\x20with\x20analysis.)','NdmaU','✨\x20Created\x20missing\x20entry\x20file:\x20','❌\x20Dependency\x20installation\x20failed:','writeFileSync','bundle-report.html','QPYMv','You\x20can\x20view\x20the\x20report\x20in\x20the\x20file:\x20file://','log','error','meow-analyzer.js.LICENSE.txt','\x0aexport\x20default\x20{\x0a\x20\x20presets:\x20[\x27@babel/preset-env\x27],\x0a};\x0a','✔️\x20Created\x20webpack.config.mjs','❌\x20Meowpack\x20compilation\x20failed.\x20See\x20details\x20below:','21167130KnNIoi','24636lEqYcI','ebwHu','41672VNRWee','uXXjj','index.js','📊\x20Open\x20the\x20bundle\x20report...','JnULE','npx\x20webpack\x20--config\x20webpack.config.mjs','cyan','dist','join','\x0aimport\x20path\x20from\x20\x27path\x27;\x0aimport\x20{\x20BundleAnalyzerPlugin\x20}\x20from\x20\x27webpack-bundle-analyzer\x27;\x0aexport\x20default\x20{\x0a\x20\x20entry:\x20\x27./index.js\x27,\x0a\x20\x20output:\x20{\x0a\x20\x20\x20\x20path:\x20path.resolve(\x27dist\x27),\x0a\x20\x20\x20\x20filename:\x20\x27meow-analyzer.js\x27,\x0a\x20\x20\x20\x20clean:\x20true,\x0a\x20\x20},\x0a\x20\x20mode:\x20\x27production\x27,\x0a\x20\x20target:\x20\x27node\x27,\x0a\x20\x20module:\x20{\x0a\x20\x20\x20\x20rules:\x20[\x0a\x20\x20\x20\x20\x20\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20test:\x20/.js$/,\x0a\x20\x20\x20\x20\x20\x20\x20\x20exclude:\x20/node_modules/,\x0a\x20\x20\x20\x20\x20\x20\x20\x20use:\x20\x27babel-loader\x27,\x0a\x20\x20\x20\x20\x20\x20},\x0a\x20\x20\x20\x20],\x0a\x20\x20},\x0a\x20\x20plugins:\x20[\x0a\x20\x20\x20\x20new\x20BundleAnalyzerPlugin({\x0a\x20\x20\x20\x20\x20\x20analyzerMode:\x20\x27static\x27,\x0a\x20\x20\x20\x20\x20\x20reportFilename:\x20\x27bundle-report.html\x27,\x0a\x20\x20\x20\x20\x20\x20openAnalyzer:\x20true,\x0a\x20\x20\x20\x20\x20\x20theme:\x20\x27dark\x27,\x0a\x20\x20\x20\x20}),\x0a\x20\x20],\x0a\x20\x20resolve:\x20{\x0a\x20\x20\x20\x20extensions:\x20[\x27.js\x27,\x20\x27.mjs\x27],\x0a\x20\x20},\x0a};\x0a','✅\x20Meowpack\x20compilation\x20completed\x20successfully.','search','🗑️\x20Deleted\x20old\x20file:\x20','xMwMp','babel.config.js','gray','npm\x20install\x20--silent\x20webpack\x20webpack-cli\x20babel-loader\x20@babel/preset-env\x20webpack-bundle-analyzer','❌\x20package.json\x20not\x20found\x20in\x20the\x20current\x20directory.\x20A\x20\x27package.json\x27\x20file\x20is\x20required\x20to\x20analyze\x20dependencies.','(((.+)+)+)+$','---\x20Webpack\x20stdout\x20---\x0a','135srLubE','existsSync','trim'];a0_0x56e0=function(){return _0x4f7255;};return a0_0x56e0();}a0_0x25f4dd();import a0_0x60aa70 from'chalk';import a0_0x1fe4f2 from'path';import a0_0xb5bd79 from'fs';import{exec}from'child_process';export const handleAnalyzeCommand=async()=>{const _0x24f025=a0_0x16f5,_0x4083ab={'srqXF':_0x24f025(0x11a),'JnULE':function(_0x4effcd,_0x80ed4b){return _0x4effcd+_0x80ed4b;},'EjNZT':_0x24f025(0xe6),'qWPhy':function(_0x58cd0f,_0x4601c6){return _0x58cd0f+_0x4601c6;},'eajWP':_0x24f025(0x128),'ygcTC':_0x24f025(0x112),'xMwMp':_0x24f025(0x110),'ZlKPw':function(_0x86a35c,_0x163e2b){return _0x86a35c+_0x163e2b;},'NdmaU':function(_0x8af035,_0x6f57fa){return _0x8af035+_0x6f57fa;},'ydPDU':_0x24f025(0xfb),'DaqWk':_0x24f025(0xf9),'ZdIBS':function(_0x13179e,_0x36aad1,_0x2dc33e){return _0x13179e(_0x36aad1,_0x2dc33e);},'ZAGmk':_0x24f025(0x123),'LROrw':_0x24f025(0x125),'fLEly':_0x24f025(0xfc),'WBhLI':_0x24f025(0xf4),'FoVyN':'package.json','FCjxi':_0x24f025(0x120),'BDAqS':_0x24f025(0x102),'QPYMv':'✔️\x20Created\x20babel.config.js','ebwHu':'📦\x20Installing\x20dependencies...','uXXjj':_0x24f025(0xff)};try{const _0x4ff340=process[_0x24f025(0xeb)](),_0x216044=a0_0x1fe4f2[_0x24f025(0x126)](_0x4ff340,_0x4083ab[_0x24f025(0xfa)]),_0x4fcefc=[_0x4083ab[_0x24f025(0x109)],_0x4083ab[_0x24f025(0xfe)],_0x4083ab[_0x24f025(0x107)],_0x24f025(0x117)];_0x4fcefc['forEach'](_0xf341e9=>{const _0x39ea57=_0x24f025,_0x2d7b47=a0_0x1fe4f2[_0x39ea57(0x126)](_0x216044,_0xf341e9);a0_0xb5bd79[_0x39ea57(0xe8)](_0x2d7b47)&&(a0_0xb5bd79['unlinkSync'](_0x2d7b47),console[_0x39ea57(0x115)](a0_0x60aa70[_0x39ea57(0xf7)](_0x39ea57(0x12a)+_0x2d7b47)));});const _0x32491a=a0_0x1fe4f2[_0x24f025(0x126)](_0x4ff340,_0x4083ab[_0x24f025(0xf8)]);if(!a0_0xb5bd79[_0x24f025(0xe8)](_0x32491a)){console['log'](a0_0x60aa70[_0x24f025(0xf7)](_0x24f025(0xe4)));return;}const _0x1e0972=a0_0x1fe4f2[_0x24f025(0x126)](_0x4ff340,_0x4083ab['FCjxi']);if(!a0_0xb5bd79['existsSync'](_0x1e0972)){const _0x2e7d33=_0x24f025(0xea);a0_0xb5bd79[_0x24f025(0x111)](_0x1e0972,_0x2e7d33[_0x24f025(0xe9)]()),console[_0x24f025(0x115)](a0_0x60aa70[_0x24f025(0x124)](_0x24f025(0x10f)+a0_0x60aa70[_0x24f025(0x124)](_0x4083ab[_0x24f025(0x10c)]))),console[_0x24f025(0x115)](a0_0x60aa70[_0x24f025(0x12d)](_0x24f025(0x10d)));}else console[_0x24f025(0x115)](a0_0x60aa70[_0x24f025(0x124)](_0x24f025(0x108)+a0_0x60aa70[_0x24f025(0x124)](_0x4083ab[_0x24f025(0x10c)])));console[_0x24f025(0x115)](a0_0x60aa70[_0x24f025(0x124)](_0x4083ab['BDAqS']));const _0x208654=_0x24f025(0x127),_0x19749a=_0x24f025(0x118);a0_0xb5bd79[_0x24f025(0x111)](a0_0x1fe4f2[_0x24f025(0x126)](_0x4ff340,_0x24f025(0xef)),_0x208654),console[_0x24f025(0x115)](a0_0x60aa70[_0x24f025(0x124)](_0x24f025(0x119))),a0_0xb5bd79[_0x24f025(0x111)](a0_0x1fe4f2[_0x24f025(0x126)](_0x4ff340,_0x24f025(0x12c)),_0x19749a),console[_0x24f025(0x115)](a0_0x60aa70['cyan'](_0x4083ab[_0x24f025(0x113)])),console['log'](a0_0x60aa70[_0x24f025(0x124)](_0x4083ab[_0x24f025(0x11d)])),exec(_0x24f025(0x12e),(_0x163e3e,_0x5610d2,_0x8792c)=>{const _0x247bb7=_0x24f025;if(_0x163e3e){console[_0x247bb7(0x116)](a0_0x60aa70[_0x247bb7(0xf7)](_0x4083ab[_0x247bb7(0x12b)]));if(_0x5610d2)console[_0x247bb7(0x116)](a0_0x60aa70[_0x247bb7(0x12d)](_0x4083ab['ZlKPw'](_0x247bb7(0xfd),_0x5610d2)));if(_0x8792c)console['error'](a0_0x60aa70[_0x247bb7(0xf1)](_0x4083ab[_0x247bb7(0x10e)](_0x4083ab[_0x247bb7(0xf5)],_0x8792c)));return;}console['log'](a0_0x60aa70['cyan'](_0x4083ab[_0x247bb7(0xf3)])),_0x4083ab[_0x247bb7(0xee)](exec,_0x4083ab['ZAGmk'],(_0x8e4010,_0x5f4e8c,_0x54fbae)=>{const _0x1137ea=_0x247bb7;if(_0x8e4010){console[_0x1137ea(0x116)](a0_0x60aa70[_0x1137ea(0xf1)](_0x4083ab['srqXF']));if(_0x5f4e8c)console[_0x1137ea(0x116)](a0_0x60aa70[_0x1137ea(0x12d)](_0x4083ab[_0x1137ea(0x122)](_0x4083ab[_0x1137ea(0x10b)],_0x5f4e8c)));if(_0x54fbae)console['error'](a0_0x60aa70['red'](_0x4083ab[_0x1137ea(0xed)](_0x1137ea(0xf6),_0x54fbae)));return;}console[_0x1137ea(0x115)](a0_0x60aa70[_0x1137ea(0x124)](_0x4083ab['eajWP'])),console[_0x1137ea(0x115)](a0_0x60aa70[_0x1137ea(0x124)](_0x1137ea(0x121))),console[_0x1137ea(0x115)](a0_0x60aa70[_0x1137ea(0x124)](_0x1137ea(0x114)+a0_0x1fe4f2['join'](_0x216044,_0x4083ab[_0x1137ea(0xfe)])));});});}catch(_0x8be336){console['error'](a0_0x60aa70[_0x24f025(0xf7)](_0x4083ab[_0x24f025(0x11f)]),_0x8be336);}};
+import chalk from "chalk";
+import path from "path";
+import fs from "fs";
+import { exec } from "child_process";
+export const handleAnalyzeCommand = async () => {
+  try {
+    const projectDir = process.cwd();
+    const distDir = path.join(projectDir, "dist");
+    const filesToDelete = [
+      "460.meow-analyzer.js",
+      "bundle-report.html",
+      "meow-analyzer.js",
+      "meow-analyzer.js.LICENSE.txt",
+    ];
+    filesToDelete.forEach((file) => {
+      const filePath = path.join(distDir, file);
+      if (fs.existsSync(filePath)) {
+        fs.unlinkSync(filePath);
+        console.log(chalk.yellow(`🗑️ Deleted old file: ${filePath}`));
+      }
+    });
+    const packageJsonPath = path.join(projectDir, "package.json");
+    if (!fs.existsSync(packageJsonPath)) {
+      console.log(
+        chalk.yellow(
+          "❌ package.json not found in the current directory. A 'package.json' file is required to analyze dependencies."
+        )
+      );
+      return;
+    }
+    const entryFilePath = path.join(projectDir, "index.js");
+    if (!fs.existsSync(entryFilePath)) {
+      const placeholderContent = `
+console.log("Neko-CLI analysis entry point placeholder.");
+`;
+      fs.writeFileSync(entryFilePath, placeholderContent.trim());
+      console.log(
+        chalk.cyan(`✨ Created missing entry file: ${chalk.cyan("index.js")}`)
+      );
+      console.log(
+        chalk.gray(
+          `  (Neko-CLI created a placeholder 'index.js' to proceed with analysis.)`
+        )
+      );
+    } else {
+      console.log(
+        chalk.cyan(`✔️ Found entry file: ${chalk.cyan("index.js")}`)
+      );
+    }
+    console.log(
+      chalk.cyan(
+        "📦 Running Meowpack to analyze dependencies and generate the report..."
+      )
+    );
+    const webpackConfig = `
+import path from 'path';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
+export default {
+  entry: './index.js',
+  output: {
+    path: path.resolve('dist'),
+    filename: 'meow-analyzer.js',
+    clean: true,
+  },
+  mode: 'production',
+  target: 'node',
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader',
+      },
+    ],
+  },
+  plugins: [
+    new BundleAnalyzerPlugin({
+      analyzerMode: 'static',
+      reportFilename: 'bundle-report.html',
+      openAnalyzer: true,
+      theme: 'dark',
+    }),
+  ],
+  resolve: {
+    extensions: ['.js', '.mjs'],
+  },
+};
+`;
+    const babelConfig = `
+export default {
+  presets: ['@babel/preset-env'],
+};
+`;
+    fs.writeFileSync(
+      path.join(projectDir, "webpack.config.mjs"),
+      webpackConfig
+    );
+    console.log(chalk.cyan("✔️ Created webpack.config.mjs"));
+    fs.writeFileSync(path.join(projectDir, "babel.config.js"), babelConfig);
+    console.log(chalk.cyan("✔️ Created babel.config.js"));
+    console.log(chalk.cyan("📦 Installing dependencies..."));
+    exec(
+      "npm install --silent webpack webpack-cli babel-loader @babel/preset-env webpack-bundle-analyzer",
+      (err, stdout, stderr) => {
+        if (err) {
+          console.error(chalk.yellow("❌ Dependency installation failed:"));
+          if (stdout) console.error(chalk.gray("--- stdout ---\n" + stdout));
+          if (stderr) console.error(chalk.red("--- stderr ---\n" + stderr));
+          return;
+        }
+        console.log(chalk.cyan("✅ Dependencies installed successfully."));
+        exec(
+          "npx webpack --config webpack.config.mjs",
+          (err, stdout, stderr) => {
+            if (err) {
+              console.error(
+                chalk.red("❌ Meowpack compilation failed. See details below:")
+              );
+              if (stdout)
+                console.error(chalk.gray("--- Webpack stdout ---\n" + stdout));
+              if (stderr)
+                console.error(chalk.red("--- Webpack stderr ---\n" + stderr));
+              return;
+            }
+            console.log(
+              chalk.cyan("✅ Meowpack compilation completed successfully.")
+            );
+            console.log(chalk.cyan("📊 Open the bundle report..."));
+            console.log(
+              chalk.cyan(
+                `You can view the report in the file: file://${path.join(
+                  distDir,
+                  "bundle-report.html"
+                )}`
+              )
+            );
+          }
+        );
+      }
+    );
+  } catch (error) {
+    console.error(
+      chalk.yellow(
+        "❌ An unexpected error occurred while analyzing dependencies:"
+      ),
+      error
+    );
+  }
+};
