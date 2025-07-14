@@ -18,5 +18,5 @@ By using or distributing this software, you agree to the following **terms**:
 
 For commercial use or licensing inquiries, please contact the author at:  
 <a href="mailto:support@neko-cli.com">support@neko-cli.com</a>
-
+ 
 👩‍⚖️ By using this software, you hereby acknowledge and accept the terms of this license. Justice is served! ⚖️
