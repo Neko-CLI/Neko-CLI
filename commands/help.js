@@ -40,12 +40,8 @@ export const handleHelpCommand = async () => {
   - ${chalk.cyan("meow seccheck")}                : Scan for known vulnerabilities. 🔒
   - ${chalk.cyan("meow doctor")}                  : Check for common project issues. 🩺
   - ${chalk.cyan("meow compatibility")}           : Check dependency compatibility with Node.js. 🧑‍💻
-  - ${chalk.cyan(
-    `${newChip} meow stale`
-  )}             : Check for unmaintained/inactive dependencies. ⏳
-  - ${chalk.cyan(
-    `${newChip} meow sandbox`
-  )}           : Enter an isolated, temporary project environment. 📦
+  - ${chalk.cyan("meow stale")}                   : Check for unmaintained/inactive dependencies. ⏳
+  - ${chalk.cyan("meow sandbox")}                 : Enter an isolated, temporary project environment. 📦
 🗄️ Utilities & Maintenance:
   - ${chalk.cyan("meow struct")}                  : Save code structure to meow-structure.yml. 🗂️
   - ${chalk.cyan("meow backup")}                  : Create project backup. 💾

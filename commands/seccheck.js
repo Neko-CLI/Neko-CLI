@@ -19,11 +19,9 @@ export const handleSeccheckCommand = async () => {
       console.log(chalk.blue("ℹ️  'retire' command not found. Installing globally..."));
       exec("npm install -g retire --silent", (installError, installStdout, installStderr) => {
         if (installError) {
-          console.error(chalk.red("❌ Failed to install Retire.js:"));
           console.error(chalk.red(installStderr || installError.message));
           process.exit(1);
         }
-        console.log(chalk.green("✅ Retire.js installed successfully."));
         runRetireCheck();
       });
     } else {

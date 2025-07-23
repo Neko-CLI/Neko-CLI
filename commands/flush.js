@@ -4,6 +4,7 @@ import ora from "ora";
 import chokidar from "chokidar";
 import path from "path";
 import fs from "fs";
+
 function formatTimestamp() {
     const now = new Date();
     const hours = String(now.getHours()).padStart(2, "0");
@@ -13,15 +14,18 @@ function formatTimestamp() {
         ` ${hours}:${minutes}:${seconds}`
     )}${chalk.cyan("]")}`;
 }
+
 let childProcess = null;
 let watcher = null;
-let isRestarting = false;
 let spinnerInstance = null;
+let restartDebounceTimeout = null;
+
 const runScriptWithCatsFramework = async (scriptName) => {
     if (!scriptName || typeof scriptName !== 'string' || scriptName.trim() === '') {
         console.error(chalk.yellow("❌ Invalid or missing script name. Please provide a valid script to run."));
         return;
     }
+
     const projectRoot = process.cwd();
     const packageJsonPath = path.join(projectRoot, 'package.json');
     let watchPaths = [path.join(projectRoot, '**/*.js'), path.join(projectRoot, '**/*.mjs')];
@@ -31,11 +35,13 @@ const runScriptWithCatsFramework = async (scriptName) => {
         path.join(projectRoot, 'dist'),
         path.join(projectRoot, 'build')
     ];
+
     spinnerInstance = ora({
         text: chalk.cyan("Initializing Neko-CLI for 'dev' mode..."),
         spinner: "dots",
         color: "cyan",
     }).start();
+
     if (fs.existsSync(packageJsonPath)) {
         try {
             const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
@@ -54,16 +60,17 @@ const runScriptWithCatsFramework = async (scriptName) => {
             spinnerInstance.warn(chalk.yellow(`⚠️ Warning: Could not parse 'nekoCLI.flush' config in package.json: ${error.message}`));
         }
     }
+
     const stopPreviousScript = async () => {
         if (childProcess) {
             spinnerInstance.info(`${formatTimestamp()} ${chalk.cyan("Stopping previous process...")}`);
             childProcess.kill("SIGTERM");
-            await new Promise(resolve => {
+            return new Promise(resolve => {
                 const timeout = setTimeout(() => {
                     spinnerInstance.warn(chalk.red(`⚠️ Previous process did not close in time. Forcing termination.`));
                     if (childProcess) childProcess.kill("SIGKILL");
                     resolve();
-                }, 3000);
+                }, 5000);
                 childProcess.on("close", (code) => {
                     clearTimeout(timeout);
                     resolve();
@@ -73,21 +80,26 @@ const runScriptWithCatsFramework = async (scriptName) => {
                     spinnerInstance.error(chalk.red(`Error stopping process: ${error.message}`));
                     resolve();
                 });
+            }).finally(() => {
+                childProcess = null;
             });
-            childProcess = null;
         }
+        return Promise.resolve();
     };
+
     const startScript = async () => {
         await stopPreviousScript();
         spinnerInstance.text = chalk.hex('#FFD700')(`▶️ Starting script "${chalk.hex('#FFD700').bold(scriptName)}"...`);
         spinnerInstance.color = "yellow";
+
         childProcess = spawn("npm", ["run", scriptName], {
             stdio: "inherit",
             shell: true,
             cwd: projectRoot,
         });
+
         childProcess.on("close", (code) => {
-            if (!isRestarting) {
+            if (!restartDebounceTimeout) {
                 if (code === 0) {
                     spinnerInstance.succeed(chalk.green(`✅ Script "${chalk.green.bold(scriptName)}" exited successfully (code ${code}).`));
                 } else {
@@ -96,37 +108,40 @@ const runScriptWithCatsFramework = async (scriptName) => {
                 spinnerInstance.start(chalk.cyan("Waiting for changes..."));
                 spinnerInstance.color = "cyan";
             } else {
-                spinnerInstance.text = chalk.cyan("Restart complete. Waiting for changes...");
-                spinnerInstance.color = "cyan";
+                 spinnerInstance.info(chalk.cyan("Script exited. Preparing for next restart..."));
             }
             childProcess = null;
         });
+
         childProcess.on("error", (error) => {
             spinnerInstance.fail(chalk.red(`💥 Failed to start script "${scriptName}": ${error.message}`));
             childProcess = null;
-            spinnerInstance.start(chalk.cyan("Waiting for changes..."));
-            spinnerInstance.color = "cyan";
-        });
-    };
-    const restartScript = async (event, filePath) => {
-        if (isRestarting) return;
-        isRestarting = true;
-        spinnerInstance.stopAndPersist({
-            symbol: chalk.hex('#FFA500')("🚀"),
-            text: chalk.hex('#FFA500')(`File modified: ${chalk.hex('#FFA500').bold(path.relative(projectRoot, filePath))} (${event}) - Restarting...`)
-        });
-        await new Promise(resolve => setTimeout(resolve, 100));
-        await startScript();
-        setTimeout(() => {
-            isRestarting = false;
-            if (!spinnerInstance.isSpinning) {
+            if (!restartDebounceTimeout) {
                 spinnerInstance.start(chalk.cyan("Waiting for changes..."));
                 spinnerInstance.color = "cyan";
             }
+        });
+    };
+
+    const scheduleRestart = (event, filePath) => {
+        if (restartDebounceTimeout) {
+            clearTimeout(restartDebounceTimeout);
+        }
+
+        spinnerInstance.stopAndPersist({
+            symbol: chalk.hex('#FFA500')("🚀"),
+            text: chalk.hex('#FFA500')(`File modified: ${chalk.hex('#FFA500').bold(path.relative(projectRoot, filePath))} (${event}) - Scheduling restart...`)
+        });
+
+        restartDebounceTimeout = setTimeout(async () => {
+            restartDebounceTimeout = null;
+            await startScript();
         }, 500);
     };
+
     spinnerInstance.text = chalk.cyan("Setting up file watcher...");
     spinnerInstance.color = "cyan";
+
     watcher = chokidar.watch(watchPaths, {
         ignored: ignoredPaths,
         persistent: true,
@@ -136,43 +151,37 @@ const runScriptWithCatsFramework = async (scriptName) => {
             pollInterval: 50
         }
     });
+
     watcher
-        .on('add', (path) => restartScript('added', path))
-        .on('change', (path) => restartScript('changed', path))
-        .on('unlink', (path) => restartScript('deleted', path))
+        .on('add', (path) => scheduleRestart('added', path))
+        .on('change', (path) => scheduleRestart('changed', path))
+        .on('unlink', (path) => scheduleRestart('deleted', path))
         .on('error', (error) => spinnerInstance.fail(chalk.red(`Watcher error: ${error}`)))
         .on('ready', () => {
             spinnerInstance.succeed(chalk.green(`√ Watcher ready! Monitoring: ${chalk.bold(watchPaths.map(p => path.relative(projectRoot, p)).join(', '))}`));
             console.log(chalk.gray(`(Ignoring: ${ignoredPaths.map(p => path.relative(projectRoot, p)).join(', ')})`));
             startScript();
         });
-    process.on('SIGINT', () => {
-        spinnerInstance.info(`\n${formatTimestamp()} ${chalk.yellow("👋 Detected Ctrl+C. Shutting down Neko-CLI 'dev'...")}`);
-        if (childProcess) {
-            childProcess.kill("SIGTERM");
+
+    const handleExit = async (signal) => {
+        spinnerInstance.info(`\n${formatTimestamp()} ${chalk.yellow(`👋 Detected ${signal}. Shutting down Neko-CLI 'dev'...\n`)}`);
+        if (restartDebounceTimeout) {
+            clearTimeout(restartDebounceTimeout);
         }
+        await stopPreviousScript();
         if (watcher) {
-            watcher.close();
+            await watcher.close();
         }
         if (spinnerInstance) {
             spinnerInstance.stop();
         }
         process.exit(0);
-    });
-    process.on('SIGTERM', () => {
-        spinnerInstance.info(`\n${formatTimestamp()} ${chalk.yellow("👋 Detected SIGTERM. Shutting down Neko-CLI 'dev'...")}`);
-        if (childProcess) {
-            childProcess.kill("SIGTERM");
-        }
-        if (watcher) {
-            watcher.close();
-        }
-        if (spinnerInstance) {
-            spinnerInstance.stop();
-        }
-        process.exit(0);
-    });
+    };
+
+    process.on('SIGINT', () => handleExit('Ctrl+C'));
+    process.on('SIGTERM', () => handleExit('SIGTERM'));
 };
+
 export const handleFlushCommand = async (args) => {
     const scriptName = args[1];
     if (!scriptName) {

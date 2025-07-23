@@ -1,7 +1,7 @@
 {
   "name": "neko-cli",
-  "version": "2.4.6",
-  "description": "Neko-CLI is a fast and powerful tool for managing packages with a fun, neko-themed twist! With sleek animations and progress bars, it allows you to easily add, remove, and publish packages. The CLI is designed to be quick, ensuring smooth performance every time. It intelligently handles package installations and dependencies, optimizing for the best performance. Whether you're a developer or just starting, Neko-CLI provides a user-friendly and efficient environment, making package management more enjoyable. It always strives to install the necessary packages for optimal performance, making your workflow more productive and less stressful!",
+  "version": "2.4.7",
+  "description": "Neko-CLI is an innovative Node.js package manager offering advanced installation (add, all), publishing (publish to custom registries), a development server with hot-reloading (flush), and enhanced dependency management via a custom lockfile (deps.neko), distinguishing itself by integrating AI-powered tools like ai-code-review-dep for intelligent code analysis focusing on dependency usage, aiming to optimize code and improve project maintainability.",
   "main": "meow.js",
   "type": "module",
   "scripts": {
