@@ -34,8 +34,24 @@ import { handleHelpCommand } from "./commands/help.js";
 import { handleVersionCommand } from "./commands/version.js";
 import { handleStaleCommand } from './commands/stale.js';
 import { handleSandboxCommand } from './commands/sandbox.js';
+import { handleWhyCommand } from './commands/why.js';
+import { handleCiCommand } from './commands/ci.js';
+import { handleVerifyCommand } from './commands/verify.js';
 
 const args = process.argv.slice(2);
+const REQUIRED_NODE_MAJOR = 20;
+const currentNodeMajor = parseInt(process.versions.node.split(".")[0], 10);
+if (currentNodeMajor < REQUIRED_NODE_MAJOR) {
+  console.log(chalk.red(`\n❌ neko-cli requires Node.js >= ${REQUIRED_NODE_MAJOR}.0.0`));
+  console.log(chalk.yellow(`   You are running Node.js ${process.versions.node}.\n`));
+  console.log(chalk.cyan(`🔧 How to fix it:`));
+  console.log(`   ${chalk.white("Option A — update Node.js directly:")} ${chalk.underline.cyan("https://nodejs.org/")}`);
+  console.log(`   ${chalk.white("Option B — use nvm to switch versions:")}`);
+  console.log(`     ${chalk.cyan(`nvm install ${REQUIRED_NODE_MAJOR}`)}`);
+  console.log(`     ${chalk.cyan(`nvm use ${REQUIRED_NODE_MAJOR}`)}`);
+  console.log(`   ${chalk.white("Don't have nvm?")} ${chalk.underline.cyan("https://github.com/nvm-sh/nvm")}\n`);
+  process.exit(1);
+}
 const command = args[0];
 let subCommand = null;
 const packageNames = [];
@@ -308,6 +324,18 @@ const runCommand = async () => {
     case "sandbox":
       nekoCLIOutdatedVersion();
       await handleSandboxCommand(args.slice(1));
+      break;
+    case "why":
+      nekoCLIOutdatedVersion();
+      await handleWhyCommand(packageNames[0]);
+      break;
+    case "ci":
+      nekoCLIOutdatedVersion();
+      await handleCiCommand();
+      break;
+    case "verify":
+      nekoCLIOutdatedVersion();
+      await handleVerifyCommand();
       break;
     default:
       nekoCLIOutdatedVersion();

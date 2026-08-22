@@ -1,6 +1,6 @@
 {
   "name": "neko-cli",
-  "version": "2.4.7",
+  "version": "2.4.8",
   "description": "Neko-CLI is an innovative Node.js package manager offering advanced installation (add, all), publishing (publish to custom registries), a development server with hot-reloading (flush), and enhanced dependency management via a custom lockfile (deps.neko), distinguishing itself by integrating AI-powered tools like ai-code-review-dep for intelligent code analysis focusing on dependency usage, aiming to optimize code and improve project maintainability.",
   "main": "meow.js",
   "type": "module",
@@ -28,52 +28,44 @@
     "automation",
     "cat-themed"
   ],
-  "author": "Thomas Garau",
+  "author": "Kael Garau",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Neko-CLI/Neko-CLI.git"
   },
-  "homepage": "https://neko-cli.com/",
+  "homepage": "https://neko-cli.duckdns.org/",
   "bugs": {
     "url": "https://github.com/Neko-CLI/Neko-CLI.git",
-    "email": "support@neko-cli.com"
+    "email": "nekoclisupp@gmail.com"
   },
   "funding": {
     "type": "paypal",
     "url": "https://paypal.me/UnStackss?country.x=IT&locale.x=en_US"
   },
   "dependencies": {
-    "@babel/preset-env": "^7.27.2",
     "archiver": "^7.0.1",
     "axios": "^1.9.0",
-    "babel-loader": "^10.0.0",
     "chalk": "^5.4.1",
     "chalk-animation": "^2.0.3",
     "chokidar": "^4.0.3",
-    "crypto": "^1.0.1",
     "detect-package-manager": "^3.0.2",
     "file-type": "^21.0.0",
     "fs-extra": "^11.3.0",
-    "glob": "^11.0.2",
-    "https": "^1.0.0",
+    "glob": "^13.0.6",
     "js-yaml": "^4.1.0",
     "mime": "^4.0.7",
     "moment": "^2.30.1",
     "moment-timezone": "^0.6.0",
-    "node-fetch": "^3.3.2",
     "open": "^10.1.2",
     "ora": "^8.2.0",
-    "path": "^0.12.7",
-    "promises": "^0.2.5",
     "read-pkg": "^9.0.1",
-    "readline": "^1.3.0",
-    "readline-sync": "^1.4.10",
-    "semver": "^7.7.2",
-    "util": "^0.12.5",
-    "webpack": "^5.99.9",
-    "webpack-bundle-analyzer": "^4.10.2",
-    "webpack-cli": "^6.0.1",
-    "yarn-lockfile": "^1.1.1"
+    "semver": "^7.7.2"
+  },
+  "overrides": {
+    "glob": "^13.0.6"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }

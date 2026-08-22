@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import path from "path";
 import fs from "fs";
-import { sync as globSync } from "glob";
+import { globSync } from "glob";
 
 export const handleCleanCommand = async () => {
   try {

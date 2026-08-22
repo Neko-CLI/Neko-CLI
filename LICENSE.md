@@ -17,6 +17,6 @@ By using or distributing this software, you agree to the following **terms**:
 5. **🚪 Termination**: If you violate any of the conditions outlined above, your rights to use, modify, or distribute the software will be immediately revoked.
 
 For commercial use or licensing inquiries, please contact the author at:  
-<a href="mailto:support@neko-cli.com">support@neko-cli.com</a>
+<a href="mailto:nekoclisupp@gmail.com">nekoclisupp@gmail.com</a>
 
 👩‍⚖️ By using this software, you hereby acknowledge and accept the terms of this license. Justice is served! ⚖️

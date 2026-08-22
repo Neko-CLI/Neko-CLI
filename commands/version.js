@@ -17,8 +17,8 @@ export const handleVersionCommand = async () => {
   try {
     const version = await getPackageVersion();
     console.log(chalk.cyan("Current CLI version: " + version));
-    console.log(chalk.cyan("Author: Thomas Garau"));
-    console.log(chalk.cyan("Official website: https://neko-cli.com"));
+    console.log(chalk.cyan("Author: Kael Garau"));
+    console.log(chalk.cyan("Official website: https://neko-cli.duckdns.org"));
     console.log(chalk.cyan("My GitHub: https://github.com/StrayVibes"));
   } catch (error) {
     console.error(

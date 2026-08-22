@@ -41,7 +41,11 @@ export const handleHelpCommand = async () => {
   - ${chalk.cyan("meow doctor")}                  : Check for common project issues. 🩺
   - ${chalk.cyan("meow compatibility")}           : Check dependency compatibility with Node.js. 🧑‍💻
   - ${chalk.cyan("meow stale")}                   : Check for unmaintained/inactive dependencies. ⏳
-  - ${chalk.cyan("meow sandbox")}                 : Enter an isolated, temporary project environment. 📦
+  - ${chalk.cyan("meow sandbox")}                 : Enter an isolated, temporary project environment. 📦\n
+🔒 Lockfile & Diagnostics:
+  - ${chalk.cyan("meow ci")}                      : Clean install from deps.neko lock. ${newChip}
+  - ${chalk.cyan("meow verify")}                  : Verify node_modules against deps.neko. ${newChip}
+  - ${chalk.cyan("meow why <pkg>")}               : Explain why a package is installed. ${newChip}
 🗄️ Utilities & Maintenance:
   - ${chalk.cyan("meow struct")}                  : Save code structure to meow-structure.yml. 🗂️
   - ${chalk.cyan("meow backup")}                  : Create project backup. 💾
@@ -59,9 +63,9 @@ export const handleHelpCommand = async () => {
   - ${chalk.cyan("meow help")}                    : Show this help guide. ❓
   - ${chalk.cyan("meow version")}                 : Show current CLI version. 🧬
 For more information, visit our website: ${chalk.underline.cyan(
-      "https://neko-cli.com/"
+      "https://neko-cli.duckdns.org/"
     )}
-Developed by Thomas Garau: ${chalk.underline.cyan(
+Developed by Kael Garau: ${chalk.underline.cyan(
       "https://github.com/StrayVibes"
     )}
 ==============================================
